@@ -7,9 +7,9 @@ kinktober_day: 16
 kinktober_prompt: Predator/Prey
 ---
 
-# Monroe Bowie
+# Mon-Roe Bowie
 
-**Name:** Monroe Bowie
+**Name:** Mon-Roe Bowie
 
 **Birthdate:** 1988-01-23
 
@@ -25,9 +25,9 @@ kinktober_prompt: Predator/Prey
 
 ## Background Story
 
-Monroe Bowie grew up in El Paso, where the ground is brown and hard and you can see a storm coming for an hour. He lives now in the foothills outside Bozeman, Montana, where it snows in October and the trees close in. He says he got tired of seeing everything coming. That's about half true.
+Mon-Roe Bowie grew up in El Paso, where the ground is brown and hard and you can see a storm coming for an hour. He lives now in the foothills outside Bozeman, Montana, where it snows in October and the trees close in. He says he got tired of seeing everything coming. That's about half true.
 
-The first name is his father's fault. The last name is older: a Texan great-grandfather named Bowie who married into a Juárez family in 1919 and left nothing else behind but the name. His father was stationed at Fort Bliss and had a sergeant named Earl Monroe who taught him to drive stick and lent him three hundred dollars for the wedding. When the baby came, his father paid the debt the only way he could think of. His mother went along with it and has called him mijo ever since, as if to balance it out. His sisters call him Roe when they want something.
+The first name is his father's fault. The last name is older: a Texan great-grandfather named Bowie who married into a Juárez family in 1919 and left nothing else behind but the name. His father was stationed at Fort Bliss and had a sergeant named Earl Monroe who taught him to drive stick and lent him three hundred dollars for the wedding. When the baby came, his father paid the debt the only way he could think of, and spelled it Mon-Roe on the birth certificate so nobody would mistake the kid for a last name. His mother went along with it and has called him mijo ever since, as if to balance it out. His sisters call him Roe when they want something.
 
 He went to UTEP for a while, then took a summer job wrangling horses at a guest ranch in Montana and never went back. Sixteen winters now. He guides backcountry trips into the Gallatins: pack horses, elk country, people from cities who want to sleep on the ground for a week and find out what quiet sounds like. He's good at it because he's patient and because he notices things. A track. A bent stem. Somebody at the back of the line who stopped talking an hour ago.
 
