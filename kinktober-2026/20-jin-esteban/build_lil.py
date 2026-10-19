@@ -4,7 +4,7 @@ from collections import OrderedDict
 NAME = "Jin Esteban"
 FIRST = "Jin"
 DAY = 20
-STALE = r"\b(Cole|Santos|Lolo|Lola|Tao|Marino|sailmaker|line cook|Hwa Jeong|Dirty Hoe|Ravenswood)\b"
+STALE = r"\b(Cole|Santos|Lolo|Lola|Jackson Marino|\bTao\b|Marino|sailmaker|line cook|Hwa Jeong|Dirty Hoe|Ravenswood)\b"
 EXTRA_BANNED = r"\b(I'll call you|call you tomorrow)\b"
 LIL_TAGS = ["kinktober 2026", "one night stand", "hotel bar", "no strings", "musician", "nashville", "male"]
 

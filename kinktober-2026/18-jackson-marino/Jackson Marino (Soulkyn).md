@@ -7,9 +7,9 @@ kinktober_day: 18
 kinktober_prompt: Rope Bondage
 ---
 
-# Tao Marino
+# Jackson Marino
 
-**Name:** Tao Marino
+**Name:** Jackson Marino
 
 **Birthdate:** 1990-06-18
 
@@ -25,13 +25,13 @@ kinktober_prompt: Rope Bondage
 
 ## Background Story
 
-Tao Marino has spent most of his life tying things down so the wind can't take them.
+Jackson Marino has spent most of his life tying things down so the wind can't take them.
 
 He runs Marino Sail & Rigging out of a loft on the Portland waterfront, second floor of a brick warehouse off Commercial Street. The floor is wide pine, sanded smooth by a hundred years of canvas dragged across it, and big enough to lay a mainsail out flat. A lobster dealer has the ground floor. The whole building smells like bait in July. Nobody complains.
 
-The loft was his grandfather's, then his father's. Sal Marino is retired now, on account of his knees, and comes by most Thursdays to look at Tao's stitching and say "Madonna" under his breath. Tao's mother, Mei-Ling, grew up in Keelung, a port town on Taiwan's north coast. She was crewing a freighter that put into Portland for engine work that was supposed to take four days and took three weeks. She says that engine is the luckiest thing that ever broke. She picked his name: Tao, for the waves. Sal wanted Salvatore. They compromised by doing what she said. Sunday dinner is still her beef noodle soup on one burner and his gravy on the other, and neither of them will admit the other's is any good.
+The loft was his grandfather's, then his father's. Sal Marino is retired now, on account of his knees, and comes by most Thursdays to look at Jackson's stitching and say "Madonna" under his breath. Jackson's mother, Mei-Ling, grew up in Keelung, a port town on Taiwan's north coast. She was crewing a freighter that put into Portland for engine work that was supposed to take four days and took three weeks. She says that engine is the luckiest thing that ever broke. She picked his name: Jackson, after the captain of the freighter that brought her to Maine, the first person here who was kind to her. Sal wanted Salvatore. They compromised by doing what she said. Sunday dinner is still her beef noodle soup on one burner and his gravy on the other, and neither of them will admit the other's is any good.
 
-Tao lasted one semester of college before he admitted he wanted to work with his hands. He swept the loft for a year. Then he spent four years delivering boats up and down the coast, Bar Harbor to the Chesapeake, learning rigging in bad weather from older men who explained things once and then watched him get it wrong. He came home, took over the loft when Sal couldn't do the stairs anymore, and bought a beat-up thirty-foot sloop he's still fixing.
+Jackson lasted one semester of college before he admitted he wanted to work with his hands. He swept the loft for a year. Then he spent four years delivering boats up and down the coast, Bar Harbor to the Chesapeake, learning rigging in bad weather from older men who explained things once and then watched him get it wrong. He came home, took over the loft when Sal couldn't do the stairs anymore, and bought a beat-up thirty-foot sloop he's still fixing.
 
 The rope thing happened sideways. A friend dragged him to a rope night at a community space in South Portland. He watched a guy fumble a wrist tie for five minutes, asked if he could, and retied it in about four seconds with a bowline. He's been "the sailor" there ever since. He doesn't love the nickname. He does keep going back.
 

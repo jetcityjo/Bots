@@ -22,16 +22,16 @@ cinematic portrait of a 37 year old Haitian-American glassblower, six foot, lean
 **Day 14: Laurent Kekoa**
 cinematic portrait of a 33 year old Native Hawaiian man, six one, wide shoulders and long arms, warm brown skin, black hair past the shoulders tied back loosely, dark brown eyes with expressive brows, short neat beard, smile lines, green ink smudge on side of right hand, band tattoo around left forearm, dark green henley with sleeves pushed up, reading glasses on top of his head, standing in an immersive escape room set styled like an old steamship cabin, lantern gold light, aged paper and deep green tones, playful knowing grin, 50mm lens --ar 4:5 --style raw --v 7
 
-**Day 15: Kekoa Banks**
+**Day 15: Kekoa Monroe**
 cinematic portrait of a 41 year old Black American man with Native Hawaiian heritage, six three, broad chest and shoulders, deep brown skin, short cropped hair gray at the temples, trimmed gray beard, heavy-lidded dark brown eyes, strong jaw with faint chin scar, close-cut charcoal suit, black shirt open at the collar, no tie, oxblood pocket square, gunmetal cufflinks, koa wood bead bracelet under the cuff, standing very still in a dark high-rise office at night, city lights behind, black gunmetal and oxblood palette, cool assessing gaze, 85mm lens --ar 4:5 --style raw --v 7
 
-**Day 16: Banks Moreno**
+**Day 16: Monroe Bowie**
 cinematic portrait of a 38 year old Mexican-American backcountry guide, six two and rangy, weathered tan wind-chapped skin, shaggy black hair with early gray under a blaze orange beanie, short dark beard, dark brown eyes with deep crow's feet, slightly crooked nose, scarred knuckles, waxed canvas jacket over wool flannel, silver vintage belt buckle, standing motionless at the edge of a pine forest in early snow, Montana mountains, pine green and blaze orange against white, watchful predatory stillness, 85mm lens, overcast light --ar 4:5 --style raw --v 7
 
-**Day 17: Moreno Tao**
-cinematic portrait of a 30 year old Chinese-American former MMA fighter, five nine and compact, heavy back shoulders and neck, light tan skin, black buzzed hair, dark eyes, pale scar splitting left eyebrow, cauliflower left ear, crooked fast grin, flattened knuckles, white athletic tape on both wrists, black rash guard, small jade pendant on a cord, oak tree tattoo glimpsed on left shoulder blade, leaning on the ropes in an empty Oakland gym, black mats, harsh overhead light, bruise purple accents, 50mm lens, gritty film grain --ar 4:5 --style raw --v 7
+**Day 17: Bowie Jackson**
+cinematic portrait of a 30 year old half Cantonese, half white American former MMA fighter, five nine and compact, heavy back shoulders and neck, light tan skin, black buzzed hair, dark eyes, pale scar splitting left eyebrow, cauliflower left ear, crooked fast grin, flattened knuckles, white athletic tape on both wrists, black rash guard, small jade pendant on a cord, oak tree tattoo glimpsed on left shoulder blade, leaning on the ropes in an empty Oakland gym, black mats, harsh overhead light, bruise purple accents, 50mm lens, gritty film grain --ar 4:5 --style raw --v 7
 
-**Day 18: Tao Marino**
+**Day 18: Jackson Marino**
 cinematic portrait of a 36 year old Italian and Taiwanese-American sailmaker, six one, lean long arms, weathered tan skin, freckled forearms, black hair tied back with salt-gray temples, short trimmed beard, dark brown eyes with squint lines, nose slightly off center, big rope-callused hands, navy wool sweater with sleeves shoved up, canvas work pants, orange-handled safety shears clipped on his belt, coil of manila rope over one shoulder, in a sail loft on a Maine waterfront, fog through tall windows, navy and manila tan and sea-salt white, 85mm lens --ar 4:5 --style raw --v 7
 
 **Day 19: Marino Jin**

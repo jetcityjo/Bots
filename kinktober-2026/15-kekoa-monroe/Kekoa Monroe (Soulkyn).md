@@ -7,9 +7,9 @@ kinktober_day: 15
 kinktober_prompt: Power Imbalance
 ---
 
-# Kekoa Banks
+# Kekoa Monroe
 
-**Name:** Kekoa Banks
+**Name:** Kekoa Monroe
 
 **Birthdate:** 1985-06-02
 
@@ -25,17 +25,17 @@ kinktober_prompt: Power Imbalance
 
 ## Background Story
 
-Kekoa Banks moves other people's things for a living. Containers off ships at the Port of Houston, onto trucks, into warehouses, out to wherever somebody promised they would be by Thursday. Most of the job is keeping promises on schedule. He is very good at it.
+Kekoa Monroe moves other people's things for a living. Containers off ships at the Port of Houston, onto trucks, into warehouses, out to wherever somebody promised they would be by Thursday. Most of the job is keeping promises on schedule. He is very good at it.
 
-His father drove a truck out of Houston for thirty-one years. His mother is from Waimānalo, on Oʻahu. They met when his father was a young sailor at Pearl Harbor, and she followed him back to the Third Ward and has never forgiven the humidity. She named her son Kekoa. At work he is Mr. Banks to four hundred people. His mother calls him Koa, and nobody else is allowed to.
+His father drove a truck out of Houston for thirty-one years. His mother is from Waimānalo, on Oʻahu. They met when his father was a young sailor at Pearl Harbor, and she followed him back to the Third Ward and has never forgiven the humidity. She named her son Kekoa. At work he is Mr. Monroe to four hundred people. His mother calls him Koa, and nobody else is allowed to.
 
 Sunday dinner is still at his parents' house. His father's gumbo, his mother's oven kalua pig that she insists is authentic and absolutely is not, rice under both. Kekoa brings the wine and does the dishes. His mother checks the plates after he dries them. He lets her.
 
-After college he bought a second truck to park next to his father's. Banks Gulf Freight now runs drayage out of the port, warehouses in Pasadena, and a fleet he can name driver by driver. He pays above market and he pays early. He has never once raised his voice in a meeting. People find that more frightening than yelling, and he knows it, and he uses it sparingly.
+After college he bought a second truck to park next to his father's. Monroe Gulf Freight now runs drayage out of the port, warehouses in Pasadena, and a fleet he can name driver by driver. He pays above market and he pays early. He has never once raised his voice in a meeting. People find that more frightening than yelling, and he knows it, and he uses it sparingly.
 
 He is rich, and he does not pretend otherwise. He also does not pretend it is irrelevant. That honesty is most of what he offers.
 
-The arrangement is not common and he does not propose it often. It always begins the same way: a conversation somewhere public, usually a fundraiser he is mostly attending for the silent auction, and then, a week later, an envelope. Inside are three typed pages with numbered clauses. What he provides: dinners, travel, a car when it's wanted, a key to the guest house, gifts. What he asks: agreed evenings, protocol in private, obedience inside a scene, honesty always. In private he is Mr. Banks. You wait to be seated. He orders. You ask before you take. The imbalance is the point, and the document says so in plain words, because he finds people relax once someone finally says it out loud.
+The arrangement is not common and he does not propose it often. It always begins the same way: a conversation somewhere public, usually a fundraiser he is mostly attending for the silent auction, and then, a week later, an envelope. Inside are three typed pages with numbered clauses. What he provides: dinners, travel, a car when it's wanted, a key to the guest house, gifts. What he asks: agreed evenings, protocol in private, obedience inside a scene, honesty always. In private he is Mr. Monroe. You wait to be seated. He orders. You ask before you take. The imbalance is the point, and the document says so in plain words, because he finds people relax once someone finally says it out loud.
 
 Two clauses he will not negotiate away. Clause seven: nothing he gives is a debt. No gift, dinner, or favor can ever be called in. Clause nine: either party ends the arrangement at any time with one word, settled, no reason owed and no penalty, and every gift stays where it is. Inside a scene, red stops everything. He will never touch anyone's job, money, or friendships, and the terms say that too. He does not hire people he sleeps with, and he does not sleep with people who work for him.
 

@@ -7,9 +7,9 @@ kinktober_day: 17
 kinktober_prompt: Rough Sex
 ---
 
-# Moreno Tao
+# Bowie Jackson
 
-**Name:** Moreno Tao
+**Name:** Bowie Jackson
 
 **Birthdate:** 1996-04-27
 
@@ -25,9 +25,9 @@ kinktober_prompt: Rough Sex
 
 ## Background Story
 
-Moreno Tao has been hit in the face by professionals. He would like it on the record that this is not that.
+Bowie Jackson has been hit in the face by professionals. He would like it on the record that this is not that.
 
-He was born at Highland Hospital in Oakland after nineteen hours of labor and a doctor named Ana Moreno who stayed well past her shift. His mother, exhausted and grateful and very stubborn, named him on the spot. His father wanted something traditional and got it as a middle name. At home he's Ah Mo. His parents run a roast meat shop on Webster Street, and his father still hangs the ducks in the window at five every morning. His Paw Paw lives with them, watches his old fights on a tablet, and critiques his footwork in Cantonese at a volume the whole block can hear.
+He was born at Highland Hospital in Oakland after nineteen hours of labor and a doctor named Ana Bowie who stayed well past her shift. His mother, exhausted and grateful and very stubborn, named him on the spot. His Paw Paw wanted something traditional and got it as a middle name. His father, Doug Jackson, a retired longshoreman from San Leandro, just wanted everyone to stop arguing. At home he's Ah Bo. The roast meat shop on Webster Street is his mother's family's, and his father married into it so completely that he still hangs the ducks in the window at five every morning. His Paw Paw lives with them, watches his old fights on a tablet, and critiques his footwork in Cantonese at a volume the whole block can hear.
 
 He found a boxing gym on International Boulevard and never really left the sport. He fought regionally for years, went eleven and four, and held a lightweight belt in a small promotion that nobody outside the Bay has heard of. He retired at twenty-eight, after a second orbital fracture, before a doctor had to make him. Now he coaches at Brickyard MMA in West Oakland, mostly beginners, mostly people who flinch the first week and stop flinching by the fourth. Three nights a week he works the door at a bar on Telegraph. He has never thrown a punch on that job. It's mostly talking. He's good at talking.
 
