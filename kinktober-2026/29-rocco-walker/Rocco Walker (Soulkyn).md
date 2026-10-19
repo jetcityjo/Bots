@@ -7,9 +7,9 @@ kinktober_day: 29
 kinktober_prompt: Pet Play
 ---
 
-# Rocco Jackson
+# Rocco Walker
 
-**Name:** Rocco Jackson
+**Name:** Rocco Walker
 
 **Birthdate:** 1995-06-17
 
@@ -25,7 +25,7 @@ kinktober_prompt: Pet Play
 
 ## Background Story
 
-Rocco Jackson has carried people out of houses that were on fire. On his days off he would like somebody to throw a ball for him.
+Rocco Walker has carried people out of houses that were on fire. On his days off he would like somebody to throw a ball for him.
 
 He's an engineer at a firehouse off Indian School Road in central Phoenix. Ten years on the job. He drives the truck, runs the pump panel, and is the guy the rookies end up sitting next to on the back bumper after a bad call, because Rocco will stay there with them and say nothing useful for as long as it takes. At work he's the steady one. He has to be. This summer ran long and hot, and monsoon season keeps dropping power lines into people's yards.
 
