@@ -4,7 +4,7 @@ tags:
   - Soulkyn
   - Standalone
 kinktober_day: 3
-kinktober_prompt: Shibari
+kinktober_prompt: Suspension Bondage
 ---
 
 # James Michaels
