@@ -14,7 +14,7 @@ def starter(text, c=JUTE):
                         </div>'''
 
 def james(line):
-    return f'<div style="color: {INK}; line-height: 1.6;"><strong style="color: #7A5C3A;">James:</strong> “{esc(line)}”</div>'
+    return f'<div style="color: {INK}; line-height: 1.6;"><strong style="color: #7A5C3A;">James:</strong>&nbsp;“{esc(line)}”</div>'
 
 def step(num, title, sub, body, opn=False):
     o = " open" if opn else ""
@@ -83,7 +83,7 @@ page = f'''<!DOCTYPE html>
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
                 <img src="{BANNER}" alt="James Michaels" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #2E2B27; filter: brightness(0.9);">
-                <img src="{WATERMARK}" alt="Kinktober" style="position: absolute; right: 12px; bottom: 12px; width: 28%; max-width: 180px; height: auto; pointer-events: none; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));">
+                <img src="{WATERMARK}" alt="Kinktober" style="position: absolute; right: 12px; bottom: 12px; width: 20%; max-width: 130px; height: auto; pointer-events: none; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));">
             </div>
         </div>
 

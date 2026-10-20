@@ -14,7 +14,7 @@ def starter(text):
                         </div>'''
 
 def michael(line):
-    return f'<div style="color: {INK}; line-height: 1.6;"><strong style="color: {OX};">Michael:</strong> “{esc(line)}”</div>'
+    return f'<div style="color: {INK}; line-height: 1.6;"><strong style="color: {OX};">Michael:</strong>&nbsp;“{esc(line)}”</div>'
 
 def step(num, title, sub, body, opn=False):
     o = " open" if opn else ""
