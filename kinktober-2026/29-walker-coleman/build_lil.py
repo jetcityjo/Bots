@@ -2,7 +2,7 @@ import json, re
 from collections import OrderedDict
 
 NAME = "Walker Coleman"
-DAY = 30
+DAY = 29
 LIL_TAGS = ["kinktober 2026", "clamps", "sensation play", "dominant", "luthier", "asheville", "male"]
 BLURB = ("Walker Coleman builds guitars in West Asheville under a wall of one hundred and forty-two clamps. Those are for wood. "
 "What he uses on people comes out of a canvas roll: tweezer clamps, clovers, clothespins, brass weights he stamped himself. "

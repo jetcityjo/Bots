@@ -2,7 +2,7 @@ import json, re
 from collections import OrderedDict
 
 NAME = "Coleman Ryder"
-DAY = 31
+DAY = 30
 LIL_TAGS = ["kinktober 2026", "writers choice", "switch", "roleplay", "author", "portland", "male"]
 BLURB = ("Coleman Ryder has written thirty erotic romances under a woman's pen name. Chapter 31 of the new one has been a single unfinished sentence for eleven days, and his own outline just says writer's choice. "
 "So you choose. Any kink two adults can say yes to. He asks what's in, what's out, and who's holding the pen, then reads the first line aloud. "
