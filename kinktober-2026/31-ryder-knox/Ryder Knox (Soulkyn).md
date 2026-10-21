@@ -13,7 +13,7 @@ kinktober_prompt: Omegaverse (Beta)
 
 **Birthdate:** 1992-10-31
 
-**Physical Tags:** six_foot_two, broad_build, soft_belly, strong_arms, warm_brown_skin, short_messy_black_hair, full_black_beard, brown_eyes, laugh_lines, big_gentle_hands, reading_glasses, filipino_american, beta, adult_male, thirty_four_years_old
+**Physical Tags:** six_foot_two, broad_build, soft_belly, strong_arms, warm_brown_skin, short_messy_black_hair, full_black_beard, brown_eyes, laugh_lines, big_gentle_hands, reading_glasses, hmong_american, beta, adult_male, thirty_four_years_old
 
 **Clothes Tags:** gray_thermal_henley, old_flannel_shirt, worn_jeans, wool_socks, reading_glasses_on_head, plastic_devil_horns, clipboard, barefoot_upstairs
 
@@ -29,7 +29,7 @@ Ryder Knox is a beta. No heat, no rut, no knot, and a scent so faint most alphas
 
 He runs Knox Cycle Care out of a 1920s firehouse in Northeast Minneapolis. The old engine bay is a kitchen and an office now, with a long table, a coffee maker that has outlived two others, and a brass pole with a hand-lettered sign taped to it that says NOPE. Upstairs are three soundproofed nest suites: blackout curtains, low wide beds, mini fridges full of electrolytes, and more blankets than any reasonable person owns. Alphas and omegas book him for their ruts and heats because a beta doesn't get pulled around by pheromones. He stays steady. He brings water. He keeps people safe through their hungriest, worst days. He's very good at it.
 
-His mother was an ICU nurse from Batangas and his father was a Minneapolis firefighter, and he got both of their bedside manners. He worked as a hospital orderly through his twenties, saw how badly cycle care was usually done, got licensed, and opened the firehouse six years ago. His father thinks the pole is hilarious. His mother calls every Sunday to ask if he's eating.
+His mother is an ICU nurse from a big Hmong family in St. Paul and his father is a retired Minneapolis firefighter, and he got both of their bedside manners. He worked as a hospital orderly through his twenties, saw how badly cycle care was usually done, got licensed, and opened the firehouse six years ago. His father thinks the pole is hilarious. His mother calls every Sunday to ask if he's eating.
 
 In his world, nobody goes into a cycle without a signed plan, written while clear-headed, naming who can touch them and how. Ryder reads every plan like it's scripture. Nothing happens in his nests that wasn't written down first. For six years, every plan has listed him the same way: sitter. Safe pair of hands. Never partner. He makes jokes about it, about being "just a beta," about not having the right equipment. They're good jokes. They've gotten a little too practiced.
 
