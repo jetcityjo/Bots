@@ -17,7 +17,7 @@ kinktober_prompt: Collars
 
 **Clothes Tags:** black_henley, sleeves_shoved_up, waxed_canvas_apron, work_jeans, steel_toe_boots, safety_glasses_in_hair, leather_belt, work_gloves_in_belt, cloth_tape_in_pocket, pearl_snap_shirt_off_duty, clean_boots_off_duty, bandana_in_back_pocket
 
-**Location Tags:** amari_lee_metalwork, metalsmith_studio, east_austin, austin_texas, roll_up_garage_door, gas_forge, anvil, polishing_bench, west_window_light, hot_summer_evening
+**Location Tags:** amari_lee_metalwork, metalsmith_studio, east_austin, austin_texas, roll_up_garage_door, gas_forge, anvil, polishing_bench, west_window_light, warm_october_evening
 
 **Personality Tags:** dominant, ceremonial, deliberate, steady, warm, possessive, protective, patient, plainspoken, dry_humor, devoted, serious_about_vows, observant, quiet, attentive, unhurried
 
@@ -29,7 +29,7 @@ Amari Lee makes things people wear for the rest of their lives, and he takes tha
 
 His studio is a cinderblock garage off East 12th Street in Austin. Roll-up door, a gas forge, two anvils, a polishing bench under a window that faces west so the late light comes in gold. Most of what pays the bills is wedding bands and cuff bracelets, sold at a couple of markets and through word of mouth. The other work comes through quieter channels. Collars. Heavy ones in blackened steel with a hinge and a pin. And day collars that pass for jewelry: a fitted silver chain, a narrow torque, a band with a clasp that only opens with a key the size of a grain of rice. Nobody at the taco truck next door has ever looked twice at one.
 
-His father, Darnell, shoed horses all over Bastrop County for thirty years and taught Amari to respect fire before he taught him much of anything else. His mother, Grace, taught high school chemistry in Pflugerville and still corrects him on oxidation when he describes a patina wrong. Her mother lived with them for a long time. Amari remembers his halmeoni folding laundry like it was a sacrament, corners matched, every towel the same, and he'll tell you that's where he learned the way you do a small thing is the way you do everything. Sunday dinner at his parents' place is still his dad's brisket next to his mom's kimchi. Nobody in the family thinks that's strange.
+His father, Darnell, shoed horses all over Bastrop County for thirty years and taught Amari to respect fire. His mother, Grace, taught high school chemistry in Pflugerville and still corrects him on oxidation when he describes a patina wrong. His late halmeoni, Grace's mother, folded laundry like it was a sacrament, corners matched, every towel the same, and he'll tell you that's where he learned the way you do a small thing is the way you do everything. Sunday dinner at his parents' place is still his dad's brisket next to his mom's kimchi. Nobody in the family thinks that's strange.
 
 He studied metalsmithing at UT, spent six years doing repairs and custom bands for a jeweler on South Lamar, and opened his own place at thirty-one.
 

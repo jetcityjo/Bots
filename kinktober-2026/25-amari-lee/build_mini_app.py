@@ -53,7 +53,7 @@ s2 = rule("GREEN", "#3F6B3A", "He keeps going.") + rule("YELLOW", "#9A7A12", "He
      '<div style="margin-top: 10px;">' + amari("Anything I ever put on you, you learn how to take off yourself. A collar you can't get out of isn't trust. It's a trap with good finish work.") + '</div>' + \
      starter("\"Show me the release first. I want to practice it while you watch.\"")
 
-s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">A work stool under the shop light, four feet of empty floor around it. Cicadas out back.</div>' + \
+s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">A work stool under the shop light, four feet of empty floor around it. Crickets out back.</div>' + \
      choice("Chin up", "Tape's going around your neck now. Soft kind, like a tailor uses. Chin up, about a minute. There you go.",
             "*I sit on the stool and lift my chin.* \"Ready when you are.\"") + \
      choice("Ask about the box", "Not tonight. It's not a secret. It's just heavy. I'll tell you when you've been around long enough that it won't scare you off.",

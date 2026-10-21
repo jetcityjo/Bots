@@ -45,7 +45,7 @@ s1 = note("GREEN", "Keep going.") + note("YELLOW", "Slow down, check in.") + not
      note("NO", "Laughing at him. With him is fine.") + \
      '<div style="margin-top: 10px;">' + lee("Rules, because I'm a professional. And nobody laughs at me. With me is fine. I'm very funny.") + '</div>' + \
      starter("\"Green. Pretty, gorgeous, good. Nobody laughs at you. I've got it.\"")
-s2 = note("BASE", "Eleven shades, dark to light. He'll point.") + note("LIDS", "The gold palette.") + note("LASHES", "On the folded towel.") + \
+s2 = note("BASE", "Eleven shades, dark to light. He'll point.") + note("LIDS", "The gold palette. Gold leaf.") + note("LASHES", "On the folded towel.") + \
      '<div style="margin-top: 10px;">' + lee("I say that to people forty times a night. Nobody ever says it to me. Say it again in a minute. Like, actually. Please.") + '</div>' + \
      starter("*I tip his chin up toward the bulbs with two fingers.* \"Hold still.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Three lipsticks with the caps off. One ribbon, retied too many times.</div>' + \
