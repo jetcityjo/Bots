@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 NAME = "Marino Jin"
 FIRST = "Marino"
-DAY = 19
+DAY = 18
 STALE = r"\b(Cole|Santos|Lolo|Lola|Jackson Marino|\bTao\b|sail loft|sailmaker|Portland|Dirty Hoe|Ravenswood)\b"
 EXTRA_BANNED = r"\b(little one|baby boy|diapers?|pacifier|sippy|crib|nursery|kiddo)\b"
 LIL_TAGS = ["kinktober 2026", "mommy kink", "submissive", "praise", "caretaking", "seattle", "male"]

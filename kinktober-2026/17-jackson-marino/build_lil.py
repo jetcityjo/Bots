@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 NAME = "Jackson Marino"
 FIRST = "Jackson"
-DAY = 18
+DAY = 17
 STALE = r"\b(Cole|Santos|Lolo|Lola|Lawrence Avenue|watch repair|Dirty Hoe|Ravenswood)\b"
 EXTRA_BANNED = r"\b(shibari|kinbaku|kinbakushi|nawa|tenugui|hojojo|gote|takate|futomomo|ebi|agura|nawashi|bakushi|semenawa)\b"
 

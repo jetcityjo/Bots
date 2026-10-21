@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 NAME = "Bowie Jackson"
 FIRST = "Bowie"
-DAY = 17
+DAY = 16
 TAGS = ["kinktober 2026", "rough sex", "pinning", "hair pulling", "dominant", "oakland", "male"]
 STALE = r"\bCole\b|\bSantos\b|\bLolo\b|\bLola\b|Laurent|Lantern Room|house lights|\bKekoa\b|River Oaks|clause seven|\bBanks\b|Bozeman|whistle|blaze orange|caldillo|Dirty Hoe|Ravenswood|starting over|thinks it's five"
 BLURB = ("Bowie Jackson went eleven and four as a fighter, retired before a doctor made him, and now coaches beginners in West Oakland and works a door on Telegraph. "

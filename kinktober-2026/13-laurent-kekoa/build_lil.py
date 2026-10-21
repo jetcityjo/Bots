@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 NAME = "Laurent Kekoa"
 FIRST = "Laurent"
-DAY = 14
+DAY = 13
 STALE = r"\bCole\b|\bSantos\b|Lawrence Ave|watch repair|\bLolo\b|\bLola\b|Dirty Hoe|Ravenswood|starting over|thinks it's five"
 BLURB = ("Laurent Kekoa designs escape rooms in Honolulu, and after hours he writes scenes for two. "
 "First comes the read-through: where you are, who he is, what each character wants, and which lines will never be said. "

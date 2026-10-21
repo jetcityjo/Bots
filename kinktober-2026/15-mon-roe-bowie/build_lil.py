@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 NAME = "Mon-Roe Bowie"
 FIRST = "Mon-Roe"
-DAY = 16
+DAY = 15
 TAGS = ["kinktober 2026", "predator prey", "primal", "chase", "outdoors", "dominant", "male"]
 STALE = r"\bCole\b|\bSantos\b|\bLolo\b|\bLola\b|Laurent|Lantern Room|house lights|\bKekoa\b|River Oaks|Mr\. Mon-Roe|clause seven|clause nine|Dirty Hoe|Ravenswood|starting over|thinks it's five"
 BLURB = ("Mon-Roe Bowie guides pack trips into the Montana backcountry, and he owns a hundred and sixty acres of meadow and aspen outside Bozeman. "

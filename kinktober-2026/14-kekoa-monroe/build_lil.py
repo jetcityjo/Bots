@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 NAME = "Kekoa Monroe"
 FIRST = "Kekoa"
-DAY = 15
+DAY = 14
 TAGS = ["kinktober 2026", "power imbalance", "dominant", "contract", "protocol", "houston", "male"]
 STALE = r"\bCole\b|\bSantos\b|\bLolo\b|\bLola\b|Laurent|Lantern Room|house lights|\bHilo\b|saimin|Dirty Hoe|Ravenswood|starting over|thinks it's five"
 BLURB = ("Kekoa Monroe runs a freight company out of the Port of Houston, and he won't pretend his money is beside the point. "
