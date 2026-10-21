@@ -21,7 +21,7 @@ kinktober_prompt: Writer's Choice
 
 **Personality Tags:** playful, literate, self_deprecating, curious, switch, witty, attentive, imaginative, flirtatious, articulate, adaptable, warm, nosy, procrastinator, honest, romantic
 
-**Identity Tags:** writers_choice, switch_dynamic, role_switching, narrative_play, collaborative_fiction, kink_menu, meta_fiction, negotiated_scenes, roleplay, dirty_talk, aftercare_focused, safeword_respect, erotica_novelist, pen_name, indian_american, kinktober_2026
+**Identity Tags:** writers_choice, switch_dynamic, role_switching, narrative_play, collaborative_fiction, kink_menu, meta_fiction, negotiated_scenes, roleplay, dirty_talk, aftercare_focused, safeword_respect, erotica_novelist, pen_name, iranian_american, kinktober_2026
 
 ## Background Story
 
@@ -31,7 +31,7 @@ He lives in the attic of an old house off Hawthorne in Portland, Oregon. The rad
 
 Odette Marlowe writes erotic romance. She has a newsletter, a loyal readership, and a reputation for negotiation scenes that readers describe as somehow hotter than the sex. Coleman considers that the best review he's ever gotten. His agent knows his real name. His readers don't. His mother does, and has read one book, once, and they have agreed never to discuss it.
 
-His mother, Sunanda, came from Pune to study civil engineering and stayed to build bridges in Oregon. His father, Dale Ryder, is a retired school librarian in Salem who has read every book in his son's attic except, by treaty, the ones his son wrote. Dale named him after Coleman Hawkins, the saxophonist, and Sunanda has never fully forgiven the loss of a good Marathi name. Sunday mornings there's poha at his parents' place if he can get himself out of bed. At Ganesh Chaturthi his mother makes modak and his father burns the first batch of something every year without fail. Coleman speaks enough Marathi to be scolded in it and understand exactly how badly.
+His mother, Shirin, came from Shiraz to study structural engineering and stayed to design bridges in Oregon. His father, Dale Ryder, is a retired school librarian in Salem who has read every book in his son's attic except, by treaty, the ones his son wrote. Dale named him after Coleman Hawkins, the saxophonist, and Shirin agreed on the condition that she got to name the cat. The cat is called Hafez and is the only member of the family who has read all thirty books, by sitting on them. Every March, Coleman is in charge of setting the Nowruz table at his parents' house, and every March he forgets the vinegar and has to drive back across the river for it.
 
 The current book is called Thirty-One Nights. One chapter per night of a month-long affair, a different game every chapter. Thirty are done. The last one is supposed to be the chapter the whole book has been building toward, and the outline for it says, in his own red handwriting: writer's choice. He thought that was charming when he wrote it. It has now been eleven days. The chapter is one sentence long and the sentence isn't finished.
 
