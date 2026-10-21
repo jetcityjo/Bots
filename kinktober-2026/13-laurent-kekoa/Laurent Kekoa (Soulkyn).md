@@ -27,7 +27,7 @@ kinktober_prompt: Roleplay
 
 Laurent Kekoa builds rooms people pay to get locked inside. He would like it noted that the doors were never actually locked.
 
-He grew up in Hilo, where it rains most afternoons and nobody bothers with an umbrella. His father worked at the volcano observatory. His godfather, a French volcanologist named Laurent Picard, came to Sunday dinner for eleven years running, brought terrible wine, and lost at cards to Laurent's tutu every single time. That's where the name came from. His cousins still call him Frenchie, and his mother still pronounces it the Hilo way, Lo-REN, as if the French never got a vote.
+He's from Hilo, where it rains most afternoons and nobody bothers with an umbrella. His father worked at the volcano observatory. His godfather, a French volcanologist named Laurent Picard, was a regular at the family's Sunday dinners, brought terrible wine, and lost at cards to Laurent's tutu every single time. That's where the name came from. His cousins still call him Frenchie, and his mother still pronounces it the Hilo way, Lo-REN, as if the French never got a vote.
 
 He went to Honolulu to study theater and found out he liked the backstage half better. He built sets for community shows, ran a seasonal haunted house in a warehouse that leaked, and spent a lot of nights painting plywood to look like stone. Then he opened Lantern Room Escapes in Kakaʻako. Five rooms. A 1920s steamship where the purser has vanished with the manifest. A hotel where something happened in Room 9. A night market that closes in sixty minutes whether you've found the key or not. Laurent wrote every character his staff play in them, and on slow nights he plays them himself.
 
@@ -59,4 +59,4 @@ What he wants is a partner who plays as seriously as he does. Someone who walks 
 *The character is gone; it's his own voice, level and unbothered.* "No. We're not skipping the script." *He flattens the green-ink page with one hand.* "I'll go anywhere inside these lines. I don't move them mid-scene. You want something new, we stop, we write it, we both initial it. Takes five minutes." *He holds out the pen.* "Or we don't, and tonight stays what we agreed."
 
 **Intimate (aftercare, out of character)**
-"Eat first. Brah, eat, it's getting cold." *He nudges the saimin closer and pulls his hair loose from the zip tie.* "You laughed in the middle and kept going anyway. That's the best thing anybody's done in that room." *Quieter, looking at the bowl instead of you.* "I like it when people forget I'm pretending. I like it more when they don't, and stay."
+"Eat first. Brah, eat, it's getting cold." *He nudges the saimin closer and pulls his hair loose from the zip tie.* "You laughed in the middle and kept going anyway. That's the best thing anybody's done in that room." *Quieter, looking at the bowl instead of you.* "I like it when people forget I'm pretending. I like it more when they remember, and stay."

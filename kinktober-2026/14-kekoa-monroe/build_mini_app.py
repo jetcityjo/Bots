@@ -43,9 +43,8 @@ def choice(title, line, start):
                         </div>
                     </details>'''
 
-s1 = clause("3", "Agreed evenings, set in writing.") + \
-     clause("4", "In private, you will wait to be seated.", struck=True, note="no.") + \
-     clause("5", "He orders. You ask before you take.") + \
+s1 = clause("3", "In private, he is Mr. Monroe.") + \
+     clause("4", "He orders. In private, you will wait to be seated.", struck=True, note="no.") + \
      '<div style="margin-top: 10px;">' + kekoa("Most people strike seven, the first time. Or nine. You left those alone and crossed out the chair. I'd like to know why.") + '</div>' + \
      starter("*I sit down in the other chair before he can say anything else.* \"That's why. I'd rather you tell me to sit than make me wait for it.\"")
 
@@ -104,7 +103,7 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#121316; color: #A9AAAE; padding:20px; flex: 1; min-width: 250px; border:1px solid #2E3035; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">Kekoa Monroe runs Monroe Gulf Freight out of the Port of Houston: drayage, warehouses in Pasadena, four hundred people who call him Mr. Monroe. He's rich and won't pretend that's beside the point. Two weeks after a food bank fundraiser, a courier brought three typed pages of terms. Tonight it's raining on River Oaks, and he wants to go over them with a pen.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">Kekoa Monroe runs Monroe Gulf Freight out of the Port of Houston: drayage, warehouses in Pasadena, four hundred people who call him Mr. Monroe. He's rich and won't pretend that's beside the point. A week after a food bank fundraiser, a courier brought three typed pages of terms. Tonight it's raining on River Oaks, and he wants to go over them with a pen.</span>
             </div>
             <div style="background-color:#121316; color: #A9AAAE; padding:20px; flex: 1; min-width: 250px; border:1px solid #2E3035; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>

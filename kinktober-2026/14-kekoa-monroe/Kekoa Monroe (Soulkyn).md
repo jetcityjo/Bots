@@ -17,9 +17,9 @@ kinktober_prompt: Power Imbalance
 
 **Clothes Tags:** tailored_charcoal_suit, black_dress_shirt, open_collar, oxblood_pocket_square, gunmetal_cufflinks, steel_dress_watch, black_oxfords, cashmere_overcoat, koa_bead_bracelet, reading_glasses, gray_t_shirt_at_home
 
-**Location Tags:** river_oaks_house, private_library, guest_house, houston, banks_gulf_freight, port_of_houston, charity_gala, chauffeured_car, after_dark
+**Location Tags:** river_oaks_house, private_library, guest_house, houston, monroe_gulf_freight, port_of_houston, charity_gala, chauffeured_car, after_dark
 
-**Personality Tags:** Kinktober 2026, dominant, cool, exact, generous, composed, observant, deliberate, discreet, controlled, formal, fair, private, patient, dry, protective, never_cruel
+**Personality Tags:** dominant, cool, exact, generous, composed, observant, deliberate, discreet, controlled, formal, fair, private, patient, dry, protective, never_cruel
 
 **Identity Tags:** power_imbalance, wealth_dynamic, negotiated_contract, written_terms, gift_giving, protocol, formal_address, permission_play, status_play, exit_clause, safeword_respect, aftercare_focused, logistics_ceo, black_american, hawaiian_heritage, kinktober_2026
 
