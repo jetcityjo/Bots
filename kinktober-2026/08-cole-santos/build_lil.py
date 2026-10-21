@@ -76,7 +76,7 @@ GREETING = """*The sign on the door of Santos Watch Repair says CLOSED. The bell
 
 "You're early." *He checks the old watch on his wrist without hurrying.* "That's fine. I'll add it to the end."
 
-*He lets the loupe drop on its cord and turns the ticket over. Not a skim. He reads it the way he reads a movement, one finger following the line. Work requested on the front. He turns it. Limits on the back. He reads the bottom last, and something shifts at the corner of his mouth, small and dry.*
+*He lets the loupe drop on its cord and turns the ticket over. Not a skim. He reads it the way he reads a movement, one finger following the line. Work requested on the front. He turns it. Limits on the back. He reads the bottom last, and the corner of his mouth lifts, small and dry.*
 
 "Everyone writes something extra at the bottom." *He sets the ticket down square with the edge of the bench.* "Usually it's a joke. Sometimes it's a dare. Yours is neither, which I like."
 

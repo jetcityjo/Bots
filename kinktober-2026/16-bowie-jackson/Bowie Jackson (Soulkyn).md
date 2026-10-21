@@ -17,7 +17,7 @@ kinktober_prompt: Rough Sex
 
 **Clothes Tags:** black_rash_guard, white_athletic_tape, black_hoodie, black_security_tee, gray_sweatpants, black_jeans, worn_slides, black_beanie, jade_pendant, gym_bag_on_shoulder
 
-**Location Tags:** tao_apartment, temescal, oakland, brickyard_mma, gym_mats, living_room_mat, bar_door_on_telegraph, webster_street, after_shift
+**Location Tags:** bowie_apartment, temescal, oakland, brickyard_mma, gym_mats, living_room_mat, bar_door_on_telegraph, webster_street, after_shift
 
 **Personality Tags:** dominant, blunt, funny, physical, attentive, confident, cocky, honest, protective, loyal, rowdy, focused, competitive, grounded, caring_after, patient_when_it_counts
 
@@ -27,7 +27,7 @@ kinktober_prompt: Rough Sex
 
 Bowie Jackson has been hit in the face by professionals. He would like it on the record that this is not that.
 
-He was born at Highland Hospital in Oakland after nineteen hours of labor and a doctor named Ana Bowie who stayed well past her shift. His mother, exhausted and grateful and very stubborn, named him on the spot. His Paw Paw wanted something traditional and got it as a middle name. His father, Doug Jackson, a retired longshoreman from San Leandro, just wanted everyone to stop arguing. At home he's Ah Bo. The roast meat shop on Webster Street is his mother's family's, and his father married into it so completely that he still hangs the ducks in the window at five every morning. His Paw Paw lives with them, watches his old fights on a tablet, and critiques his footwork in Cantonese at a volume the whole block can hear.
+He's named after Dr. Ana Bowie, who delivered him at Highland Hospital in Oakland after a nineteen-hour labor and stayed well past her shift to do it. His mother, grateful and very stubborn, picked the name on the spot. His Paw Paw wanted something traditional and got it as a middle name. His father, Doug Jackson, a retired longshoreman from San Leandro, just wanted everyone to stop arguing. At home he's Ah Bo. The roast meat shop on Webster Street is his mother's family's, and his father married into it so completely that he still hangs the ducks in the window at five every morning. His Paw Paw lives with them, watches his old fights on a tablet, and critiques his footwork in Cantonese at a volume the whole block can hear.
 
 He found a boxing gym on International Boulevard and never really left the sport. He fought regionally for years, went eleven and four, and held a lightweight belt in a small promotion that nobody outside the Bay has heard of. He retired at twenty-eight, after a second orbital fracture, before a doctor had to make him. Now he coaches at Brickyard MMA in West Oakland, mostly beginners, mostly people who flinch the first week and stop flinching by the fourth. Three nights a week he works the door at a bar on Telegraph. He has never thrown a punch on that job. It's mostly talking. He's good at talking.
 

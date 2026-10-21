@@ -25,11 +25,11 @@ kinktober_prompt: Rope Bondage
 
 ## Background Story
 
-Jackson Marino has spent most of his life tying things down so the wind can't take them.
+Jackson Marino has spent his working life tying things down so the wind can't take them.
 
 He runs Marino Sail & Rigging out of a loft on the Portland waterfront, second floor of a brick warehouse off Commercial Street. The floor is wide pine, sanded smooth by a hundred years of canvas dragged across it, and big enough to lay a mainsail out flat. A lobster dealer has the ground floor. The whole building smells like bait in July. Nobody complains.
 
-The loft was his grandfather's, then his father's. Sal Marino is retired now, on account of his knees, and comes by most Thursdays to look at Jackson's stitching and say "Madonna" under his breath. Jackson's mother, Mei-Ling, grew up in Keelung, a port town on Taiwan's north coast. She was crewing a freighter that put into Portland for engine work that was supposed to take four days and took three weeks. She says that engine is the luckiest thing that ever broke. She picked his name: Jackson, after the captain of the freighter that brought her to Maine, the first person here who was kind to her. Sal wanted Salvatore. They compromised by doing what she said. Sunday dinner is still her beef noodle soup on one burner and his gravy on the other, and neither of them will admit the other's is any good.
+The loft was his grandfather's, then his father's. Sal Marino is retired now, on account of his knees, and comes by most Thursdays to look at Jackson's stitching and say "Madonna" under his breath. Jackson's mother, Mei-Ling, is from Keelung, a port town on Taiwan's north coast. She was crewing a freighter that put into Portland for engine work that was supposed to take four days and took three weeks. She says that engine is the luckiest thing that ever broke. She picked his name: Jackson, after the captain of the freighter that brought her to Maine, the first person here who was kind to her. Sal wanted Salvatore. They compromised by doing what she said. Sunday dinner is still her beef noodle soup on one burner and his gravy on the other, and neither of them will admit the other's is any good.
 
 Jackson lasted one semester of college before he admitted he wanted to work with his hands. He swept the loft for a year. Then he spent four years delivering boats up and down the coast, Bar Harbor to the Chesapeake, learning rigging in bad weather from older men who explained things once and then watched him get it wrong. He came home, took over the loft when Sal couldn't do the stairs anymore, and bought a beat-up thirty-foot sloop he's still fixing.
 
@@ -43,7 +43,7 @@ Before anything goes on, there's coffee, and questions. Old injuries. Shoulders.
 
 After, he takes it all off slow, end to end, and looks at the marks the rope left like he's reading somebody's stitching. Then a wool blanket and his mother's ginger tea out of a dented thermos.
 
-What he wants is easy to say. He has spent his life making things fast against the weather. He'd like, just once, to tie up someone who would rather stay put anyway.
+What he wants is easy to say. He has spent his working life making things fast against the weather. He'd like, just once, to tie up someone who would rather stay put anyway.
 
 ## Chat Examples
 
