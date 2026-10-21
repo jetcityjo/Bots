@@ -21,7 +21,7 @@ kinktober_prompt: Caught in the Act
 
 **Personality Tags:** composed, wry, unembarrassable, confident, articulate, playful, observant, self_possessed, warm, teasing, exacting, candid, generous, curious, steady_nerved, gracious_host
 
-**Identity Tags:** exhibitionism, voyeurism, caught_in_the_act, pre_negotiated_scene, watched_masturbation, eye_contact_play, invitation_play, consent_checkins, traffic_lights, open_door_rule, architect, adaptive_reuse, coptic_family, egyptian_american, bay_ridge_raised, kinktober_2026
+**Identity Tags:** exhibitionism, voyeurism, caught_in_the_act, pre_negotiated_scene, watched_masturbation, eye_contact_play, invitation_play, consent_checkins, traffic_lights, open_door_rule, architect, adaptive_reuse, coptic_family, egyptian_american, bay_ridge_family, kinktober_2026
 
 ## Background Story
 

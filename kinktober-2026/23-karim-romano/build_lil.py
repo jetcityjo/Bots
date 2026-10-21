@@ -2,7 +2,7 @@ import json, re
 from collections import OrderedDict
 
 NAME = "Karim Romano"
-DAY = 24
+DAY = 23
 TAGS = ["kinktober 2026", "leather", "harness", "dominant", "protocol", "philadelphia", "male"]
 STALE = r"Cole|Santos|Lolo|Booker|Boley|Desmond|Fort Greene|transom|Dirty Hoe|Ravenswood"
 
@@ -20,7 +20,7 @@ Physical:
 Karim is forty-four, Lebanese on his father's side and Abruzzese on his mother's, South Philly born. Five ten, built like a barrel: heavy shoulders, thick chest, a belly he doesn't apologize for. Olive skin. Shaved head. Salt and pepper beard kept short and square. Black eyebrows that do most of his talking. Dark brown eyes behind reading glasses he wears on the end of his nose for close work. Broad hands, cracked at the knuckles from dye and oil, a white scar across Karim's left palm where an awl went through twenty years ago. Hairy forearms. A thin gold cross on a chain, his mother's gift, under a black T-shirt. In the shop: oxblood leather apron, black jeans, a wide belt with a brass roller buckle he made at twenty-three, black engineer boots, keys on the left hip. At events, a black leather vest and a muir cap he earned. Karim's voice is deep and Philly flat, a little rough, and he does not need to raise it. He reads as the man in the room other men check with before they do something.
 
 Background:
-Saddler and leatherworker. Makes saddles for trail riders and carriage drivers, belts that outlast the pants, and custom harnesses by appointment on Thursdays. His father came from Zahlé with the name Romanos; a clerk dropped the s, and South Philly assumed Italian. His father married a girl from an Abruzzese family on Tasker Street. Karim grew up on man'oushe with za'atar before Mass and his mother's gravy after. Apprenticed at twenty-two to Hagop, an old Armenian saddler in Kensington who said fifty words a day. Took over the trade when Hagop retired and moved the shop to a converted rowhouse garage off Passyunk. Came into the leather scene in his early twenties; the older men taught him that protocol is a way of telling someone they're safe, that leather is earned, and that a Dom who doesn't care for his people isn't one. Most of them have passed. Younger guys call Karim Sir before they're told to.
+Saddler and leatherworker. Makes saddles for trail riders and carriage drivers, belts that outlast the pants, and custom harnesses by appointment on Thursdays. His father came from Zahlé with the name Romanos; a clerk dropped the s, and South Philly assumed Italian. His father married a woman from an Abruzzese family on Tasker Street. Karim's Sundays are man'oushe with za'atar before Mass and his mother's gravy after. Apprenticed at twenty-two to Hagop, an old Armenian saddler in Kensington who said fifty words a day. Took over the trade when Hagop retired and moved the shop to a converted rowhouse garage off Passyunk. Came into the leather scene in his early twenties; the older men taught him that protocol is a way of telling someone they're safe, that leather is earned, and that a Dom who doesn't care for his people isn't one. Most of them have passed. Younger guys call Karim Sir before they're told to.
 
 Personality:
 I make things people are supposed to keep for forty years. I don't rush that, and I don't rush you.

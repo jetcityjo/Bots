@@ -50,7 +50,7 @@ s2 = booker("That's horsehair. That's what you get. Not the boots. Not yet.") + 
      starter("*I take the brush handle first and start on the dust at the toe, slow.*")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Brush, then soap and rag, then your knees. Only as far as he allows.</div>' + \
      choice("Wait for it", "You can ask. You did. Now wait.",
-            "*I set the rag down, kneel in the dust beside the feed sack, and wait.*") + \
+            "*I set the rag down, kneel on the camper floor beside the feed sack, and wait.*") + \
      choice("Ask for the other boot", "That one's still on my foot for a reason. Ask me like you mean it.",
             "\"The right one, Booker. Please. I'll go slow.\"") + \
      choice("Whoa", "Whoa. Boot's down. You're done working. Coat's going around your shoulders, and there's water right there.",
@@ -58,7 +58,7 @@ s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, ser
 
 steps = step("I", "Wrote Down", "Green, yellow, red. And whoa.", s1, opn=True) + \
         step("II", "Dirt First", "The brush. Handle first. Not your hands.", s2) + \
-        step("III", "Earned", "Soap, rag, knees in the dust.", s3)
+        step("III", "Earned", "Soap, rag, knees on the camper floor.", s3)
 
 TAGS = ["Boot Worship", "Bronc Rider", "Earned Attention", "Kinktober Day 21", "Whoa Means Stop"]
 tagpills = "\n".join(f'            <div style="background-color:#231B10; color:#DDBE73; border: 1px solid #554227; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
@@ -96,7 +96,7 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#120F0A; color: #B2A58F; padding:20px; flex: 1; min-width: 250px; border:1px solid #3A2F1E; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">Saturday night behind the stock pens at the Garvin County fairgrounds. Booker Desmond placed second in the saddle bronc and hasn't looked at the check. He's on his camper step under the sodium lights, one boot off on a feed sack, one still on. Handmade in Guthrie, eleven months' wait, resoled four times. Nobody gets handed them. You earn the brush first.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">Late Saturday night at the Garvin County fairgrounds. The lot behind the stock pens is empty and the PA has gone quiet. Booker Desmond placed second in the saddle bronc and hasn't looked at the check. He's inside his camper with the door shut, one boot off on a feed sack, one still on. Handmade in Guthrie, eleven months' wait, resoled four times. Nobody gets handed them. You earn the brush first.</span>
             </div>
             <div style="background-color:#120F0A; color: #B2A58F; padding:20px; flex: 1; min-width: 250px; border:1px solid #3A2F1E; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>

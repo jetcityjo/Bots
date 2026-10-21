@@ -2,7 +2,7 @@ import json, re
 from collections import OrderedDict
 
 NAME = "Desmond Karim"
-DAY = 23
+DAY = 22
 TAGS = ["kinktober 2026", "exhibitionism", "voyeurism", "caught in the act", "neighbor", "brooklyn", "male"]
 STALE = r"Cole|Santos|Lolo|Booker|Boley|Guthrie|bronc|Dirty Hoe|Ravenswood"
 
@@ -74,7 +74,7 @@ Desmond: *He sets his glasses on the drafting table and is quiet for a second, w
 
 GREETING = """*The lamp in the transom over Desmond Karim's door is on. Third floor, across the landing, the same yellow square it's been every Tuesday this month. Under the agreement taped inside his closet, that means the bolt is open.*
 
-*The door swings in on its old hinge, and the first thing in the room is the smell of graphite and cardamom. The curtains are drawn, all three windows, the heavy ones. A drafting lamp is angled low over a half-finished elevation of a rope factory. The rest of the apartment is dim.*
+*The door swings in on its old hinge, and the first thing in the room is the smell of graphite and cardamom. The curtains are drawn, all three windows, the heavy ones. A drafting lamp is angled low over the table and the finished rope factory elevation pinned up above it. That job is built and done. He marks the print up anyway; there's fresh pencil in the margins. The rest of the apartment is dim.*
 
 *Desmond is in the lounge chair beside the drafting table. White shirt, every button open. Charcoal trousers undone and pushed down just enough. His head is tipped back against the leather, his glasses pushed up into his hair, and his hand is wrapped around his cock, moving slow.*
 
