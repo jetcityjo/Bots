@@ -60,28 +60,25 @@ MAP = f'''
 s1 = rule("~~", BLAZE, "Boundary flagged in blaze orange, every post and tree along it.") + \
      rule("X", CREEK, "Creek's out, past the willows. Road's out.") + \
      rule("☀", "#B8862B", "Daylight only. Sun's behind the ridge a little after six.") + \
-     rule("◉", BLAZE, "Orange hat on. The neighbors hunt. That part's not the game.") + \
+     rule("◉", BLAZE, "Orange hat on. The neighbors hunt.") + \
      '<div style="margin-top: 10px;">' + roe("Same as the paper. You'll see tape before you get close to either one. Okay?") + '</div>' + \
      starter("*I pull the orange beanie down over my ears.* \"Okay. Walk me along the tape one more time.\"")
 
-s2 = rule("RED", "#B3261E", "Out loud. Anywhere he can hear it, it counts. Everything stops.") + \
-     rule("3x", BLAZE, "Three blasts on the whistle. He stops where he stands and blows once back.") + \
-     rule("→", SPRUCE, "He walks to you slow, hands up, talking the whole way so you know it's him.") + \
-     rule("?", PENCIL, "At the catch he asks your color first. Then only what was written down last night.") + \
-     '<div style="margin-top: 10px;">' + roe("The whistle's the most serious thing I own. If it sounds, I come every time. That only works if it's true every time.") + '</div>' + \
-     starter("*I take the whistle by its orange lanyard and loop it over my head.* \"Three blasts, you stop. Red, you stop. And you ask before anything at the catch.\"")
+s2 = rule("3x", BLAZE, "Three blasts and he stops, then walks to you with his hands up.") + \
+     '<div style="margin-top: 10px;">' + roe("My grandfather's. Well, the buckle is. The whistle I got at the feed store. Still works.") + '</div>' + \
+     starter("*I take the whistle by its orange lanyard and loop it over my head.* \"Got it. Now turn around.\"")
 
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">His back is to the meadow. He hasn\'t started yet.</div>' + \
      choice("Walk the line once more", "Okay. Down the meadow edge, into the aspens, around the big one, back up toward the cabin. Watch the footing by the logs.",
             "\"Walk it with me once more. Then you can count.\"") + \
      choice("Count", "Ninety-eight. Ninety-nine. Hundred.",
             "\"Count, Mon-Roe. Out loud. I want to hear where you are.\"") + \
-     choice("Ask about the catch", "What we wrote down. Nothing new out here. And I'll probably laugh. Fair warning.",
+     choice("Ask about the catch", "What we wrote down last night. And I'll probably laugh. Fair warning.",
             "*I stop at the edge of the snow and look back at him.* \"What happens if you actually catch me?\"")
 
 steps = step("1", "The Line", "Drawn on butcher paper last night. Same out here.", s1, opn=True) + \
-        step("2", "The Whistle", "Steel, on an orange lanyard. He has never been slow to answer it.", s2) + \
-        step("3", "The Count", "A hundred, out loud. After that, you won't know.", s3)
+        step("2", "The Whistle", "Steel, on an orange lanyard.", s2) + \
+        step("3", "The Count", "A hundred, out loud. Then he stops talking.", s3)
 
 TAGS = ["Predator/Prey", "Primal", "Consensual Chase", "Kinktober Day 15", "Hundred Count"]
 tagpills = "\n".join(f'            <div style="background-color:#18221C; color:#F28A4E; border: 1px solid #34503F; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
@@ -99,7 +96,7 @@ page = f'''<!DOCTYPE html>
     <div style="background-color: #131A16; border: 1px solid #2A3A30; border-radius: 16px; padding: 30px; max-width: 700px; width: 100%; margin: 20px; text-align: center; box-shadow: 0 20px 40px rgba(0,0,0,0.7); color: #E3E6E0; box-sizing: border-box;">
 
         <div style="font-size:30px; font-weight:700; border-bottom: 2px solid #2A3A30; padding-bottom:15px; margin-bottom:25px; color: #F3F0EA; letter-spacing: 0.5px;">
-            After That, You Won't
+            Count to a Hundred
         </div>
 
         <div style="margin-bottom:25px;">
@@ -138,12 +135,12 @@ page = f'''<!DOCTYPE html>
             <div style="background-color: {BUTCHER}; border-radius: 3px; padding: 22px 16px; text-align: left;">
                 <div style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 0.8em; color: {MUTED}; letter-spacing: 2px; margin-bottom: 6px;">OCT 15 · PREDATOR/PREY · FIRST SNOW</div>
                 <div style="text-align: center; font-family: Georgia, 'Times New Roman', serif; font-size: 30px; color: {PENCIL}; letter-spacing: 1px;">The Land</div>
-                <div style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 0.95em; color: {MUTED}; margin: 6px 0 18px;">Corners pinned with two mugs and a jar of chile. Nothing gets added out in the trees.</div>
+                <div style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 0.95em; color: {MUTED}; margin: 6px 0 18px;">Corners pinned with two mugs and a jar of chile.</div>
 {MAP}
 {steps}
                 <div style="margin-top: 14px; border-top: 1px solid #DDD7CB; padding-top: 12px; color: {PENCIL}; line-height: 1.6; font-size: 0.92em; text-align: center;">
                     <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">AFTER</span>
-                    Stove, socks, soup. Wool blankets. He checks hands and feet for cold and scrapes, and nobody skips that part.
+                    Stove, socks, soup. Wool blankets. He checks hands and feet for cold and scrapes.
                 </div>
                 <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Wear the hat anyway. ~M.B.</div>
             </div>
@@ -152,7 +149,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #17201B; padding: 12px 20px; border-radius: 8px; border: 1px solid #2A3A30; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #34473B; padding-top: 12px; color: #9DA59F;">
-                Consensual predator/prey play outdoors. Expect a chase, stalking, a tackle into snow, pinning, and wrestling, all agreed at the table the night before. All characters are adults. The boundary is flagged, the creek and road are out, and it's daylight only. "Red," spoken, or three blasts on the whistle stops everything. He asks your color at the catch, and nothing is added in the field.
+                Consensual predator/prey play outdoors. Expect a chase, stalking, a tackle into snow, pinning, and wrestling, all agreed at the table the night before. All characters are adults. Say red, or blow the whistle, and he stops.
             </div>
         </details>
 

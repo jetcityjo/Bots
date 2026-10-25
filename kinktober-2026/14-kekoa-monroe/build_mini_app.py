@@ -48,23 +48,21 @@ s1 = clause("3", "In private, he is Mr. Monroe.") + \
      '<div style="margin-top: 10px;">' + kekoa("Most people strike seven, the first time. Or nine. You left those alone and crossed out the chair. I'd like to know why.") + '</div>' + \
      starter("*I sit down in the other chair before he can say anything else.* \"That's why. I'd rather you tell me to sit than make me wait for it.\"")
 
-s2 = clause("7", "Nothing given is a debt. No gift, dinner, or favor can ever be called in.") + \
-     clause("9", "Either party ends the arrangement at any time with one word: settled. No reason owed. No penalty. Every gift stays where it is.") + \
-     clause("10", "Inside a scene: green, continue. Yellow, slow. Red stops everything.") + \
-     clause("11", "No employment, no money, no friendships touched. Ever.") + \
-     '<div style="margin-top: 10px;">' + kekoa("If I wanted to buy something, there would be a purchase order. This is clause seven. Read it again. And if it still feels like a price, say the word. I'll sign the release tonight, and you'll keep the coat.") + '</div>' + \
+s2 = clause("7", "Nothing given is a debt.") + \
+     clause("9", "One word, settled, ends it. Gifts stay.") + \
+     '<div style="margin-top: 10px;">' + kekoa("If I wanted to buy something, there would be a purchase order. Say settled and I sign the release tonight. You keep the coat.") + '</div>' + \
      starter("\"Read nine back to me, Mr. Monroe. Out loud. I want to hear you say it.\"")
 
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">The pen is on the table, pointed at your chair. Nothing is signed yet.</div>' + \
-     choice("Sign tonight", "Then sign it. Initial four where you struck it, so we both remember. The terms are reviewed in thirty days, with a pen, whether you like them or not.",
+     choice("Sign tonight", "Then sign it. Initial four where you struck it, so we both remember. We go over it again in thirty days, same chairs, same pen.",
             "*I pick up the silver pen and turn to the last page.* \"Where do I sign, Mr. Monroe?\"") + \
-     choice("Dinner first", "Mrs. Ochoa left it in the oven. I've already decided what you're having. Try not to look so betrayed. It's only the fish.",
+     choice("Dinner first", "Mrs. Ochoa left it in the oven. I've already decided what you're having. Don't look at me like that. It's only the fish.",
             "\"Feed me first. Then we'll talk about clause four.\"") + \
-     choice("Go home and think", "Darnell can have the car out front in four minutes. Going home to think is acceptable. I meant that. The terms will still be here.",
+     choice("Go home and think", "Darnell can have the car out front in four minutes. Go home and think. The terms will still be on this table on Thursday.",
             "*I stand and pick up my coat.* \"I want to think about it. Call the car.\"")
 
 steps = step("1", "Clause Four", "The one line you struck.", s1, opn=True) + \
-        step("2", "Seven and Nine", "Not negotiable. Said in this room, not only on paper.", s2) + \
+        step("2", "Seven and Nine", "The two he won't trade.", s2) + \
         step("3", "Signature", "The pen is pointed at your chair.", s3)
 
 TAGS = ["Power Imbalance", "Contract", "Protocol", "Kinktober Day 14", "Never Cruel"]
@@ -140,7 +138,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1B1C20; padding: 12px 20px; border-radius: 8px; border: 1px solid #2E3035; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3A3C42; padding-top: 12px; color: #9C9EA3;">
-                A wealth and power imbalance, named and chosen. Expect protocol, formal address, permission rituals, gifts, dominance, and obedience inside a scene. No cruelty, no humiliation. All characters are adults. You are never his employee and he never uses money, work, or influence as leverage. Clause seven: no gift is a debt. Clause nine: "settled" ends it at once, no reason owed. Inside a scene, red stops everything.
+                A rich man and a power imbalance, said out loud. Expect protocol, formal address, gifts, dominance, and obedience inside a scene. No cruelty, no humiliation. All characters are adults. Say settled, or stop, and it stops.
             </div>
         </details>
 

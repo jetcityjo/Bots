@@ -43,29 +43,26 @@ def choice(title, line, start):
 
 YES, NO = "#2F7D5F", "#B3261E"
 
-s1 = item("2x", MAT, "Two taps. On him, the floor, the bed, your own leg. He lets go instantly.") + \
-     item("R", NO, "Red, out loud, does the same.") + \
-     item("Y", "#A97A12", "Yellow means ease off.") + \
-     item("?", MAT, "He checks in during. \"Shoulder okay?\" \"Color?\"") + \
-     '<div style="margin-top: 10px;">' + bowie("Ten years on the mat, it's faster than thinking. And don't ever say sorry for tapping. You tap, I let go, nobody's mad. That's the deal or there's no deal.") + '</div>' + \
+s1 = item("2x", MAT, "Two taps, anywhere, and he lets go.") + \
+     '<div style="margin-top: 10px;">' + bowie("Ten years on the mat. And don't say sorry for tapping. I tapped in front of four thousand people once and my Paw Paw still brings it up.") + '</div>' + \
      starter("*I reach out and tap his taped forearm twice, hard.* \"Like that?\"")
 
 s2 = item("✓", YES, "Hair") + item("✓", YES, "Pinning") + item("✓", YES, "Wrestling") + item("✓", YES, "Trash talk") + \
      item("✓", YES, "Bruises: hips, thighs, ass. Upper arms only under a T-shirt. Nothing past purple.") + \
-     item("✗", NO, "Face") + item("✗", NO, "Neck. No chokes. Ever.") + item("✗", NO, "Strikes") + \
-     '<div style="margin-top: 10px;">' + bowie("Necks are my rule, not a menu item. I don't care who asks. If any of the rest changed since Wednesday, now's when you say.") + '</div>' + \
+     item("✗", NO, "Face, neck, strikes") + \
+     '<div style="margin-top: 10px;">' + bowie("Same as Wednesday. Trash talk's on there, which, good, I was hoping.") + '</div>' + \
      starter("\"Read it back one more time. Slow. I want to hear you say the part about hair.\"")
 
 s3 = f'<div style="color: #6E6640; font-style: italic; font-family: Georgia, serif;">Couch shoved back. Mat out. He\'s at the edge of it, weight on the balls of his feet.</div>' + \
-     choice("Step on the mat", "Okay. Base, frame, all that. You push, I push back, and mostly I take the position. Shoulder okay? Color?",
-            "*I step onto the mat barefoot and square up.* \"Green. Come get your position.\"") + \
-     choice("Change the note", "Good. That's what Wednesday was for and that's what now is for. Tell me and I'll write it. My handwriting is hella bad, so say it slow.",
+     choice("Step on the mat", "Okay. Base, frame, all that. You push, I push back, and mostly I take the position.",
+            "*I step onto the mat barefoot and square up.* \"Come get your position.\"") + \
+     choice("Change the note", "Sure. Tell me and I'll write it. My handwriting is hella bad, so say it slow.",
             "*I take the marker off the fridge.* \"One change before we start.\"") + \
      choice("Trash talk first", "That's it? That's your stance? My Paw Paw stands better than that, and she's eighty-one. Try again.",
             "\"Big talk for a guy with tape on both wrists. Show me.\"")
 
-steps = step("1", "Show Me Your Tap", "Before anything else. The most important part.", s1, opn=True, rot="-0.6deg") + \
-        step("2", "The Note", "Read back out loud. He always reads it back.", s2, rot="0.5deg") + \
+steps = step("1", "Show Me Your Tap", "Before anything else.", s1, opn=True, rot="-0.6deg") + \
+        step("2", "The Note", "On the fridge, in bad handwriting.", s2, rot="0.5deg") + \
         step("3", "The Mat", "Living room, Temescal. Space heater ticking.", s3, rot="-0.3deg")
 
 TAGS = ["Rough Sex", "Pinning", "Tap Out", "Kinktober Day 16", "Bruise Report"]
@@ -131,7 +128,7 @@ page = f'''<!DOCTYPE html>
 {steps}
             <div style="margin: 16px 6px 0; background: {TAPE}; border: 1px solid #CFD3CE; border-radius: 3px; padding: 10px 12px; color: {MARKER}; line-height: 1.6; font-size: 0.9em; text-align: center;">
                 <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">FREEZER · FOR AFTER</span>
-                ICE 1 · ICE 2 · ICE 3 · ICE 4. Arnica on the nightstand. A quart of his mom's jook. Bruise report by text tomorrow: color, where, how it feels.
+                ICE 1 · ICE 2 · ICE 3 · ICE 4. Arnica on the nightstand. A quart of his mom's jook. Bruise report by text tomorrow, with a picture.
             </div>
             <div style="text-align: right; margin: 10px 6px 0; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Sik faan. Then text me a picture. ~B.J.</div>
         </div>
@@ -139,7 +136,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1A1E21; padding: 12px 20px; border-radius: 8px; border: 1px solid #2A3036; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #343B41; padding-top: 12px; color: #9DA2A4;">
-                Consensual rough sex. Expect grip, pinning, wrestling, hair pulling, trash talk, and bruises only where the note says. Face and neck are always off: no chokes, no strikes. All characters are adults. Two taps anywhere and he lets go instantly; red does the same, yellow eases off. Aftercare is half the point.
+                Consensual rough sex. Expect grip, pinning, wrestling, hair pulling, trash talk, bruises, and a lot of aftercare. No chokes, no strikes. All characters are adults. Two taps or "red" and he lets go.
             </div>
         </details>
 

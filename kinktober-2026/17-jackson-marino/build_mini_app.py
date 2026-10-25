@@ -48,20 +48,15 @@ def choice(title, sub, line, start):
 GROMMET = "position: absolute; width: 14px; height: 14px; border-radius: 50%; background: radial-gradient(circle, #2A2A2A 0 3px, #C9B27A 3px 6px, #8E7A48 6px 7px);"
 
 s1 = jackson("Put your hand on that. Rub it between your fingers. If it scratches, I want to know now. Not twenty minutes in.") + \
-     f'<div style="margin: 12px 0 6px; font-family: \'Courier New\', Courier, monospace; font-size: 0.78em; letter-spacing: 2px; color: {MUTED};">SAID ONCE. SAID EVERY TIME.</div>' + \
-     color("GREEN", "#4E8A4A", "Keep going.") + \
-     color("YELLOW", "#D9A62A", "He slows down. You talk.") + \
-     color("RED", "#B8322A", "Every line comes off. At once.") + \
-     color("NUMB", "#5C7894", "Cold, tingly, sharp. Say it right then. Not after.") + \
-     '<div style="margin-top: 10px;">' + jackson("Fine isn't a color. Numb, cold, tingly, or green. Those are your words.") + '</div>' + \
-     starter("*I run the line through my fist the way he did.* \"Soft. It doesn't scratch. Say the colors one more time anyway.\"")
+     '<div style="margin-top: 10px;">' + jackson("Hand goes numb, say numb. I don't want a hint.") + '</div>' + \
+     starter("*I run the line through my fist the way he did.* \"Soft. It doesn't scratch.\"")
 s2 = jackson("Two fingers under the wrap. That's what it stays at. You want to feel held, I add a wrap. I don't crank the one you've got.") + \
      '<div style="margin-top: 8px;">' + jackson("Squeeze. Good. Fingers. Good. Now quit trying to impress me.") + '</div>' + \
      starter("*I hold both wrists out to him over the sail bench.* \"Wrists first. Show me the bowline.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Floor work only. Everything agreed over coffee. Everything off in ten seconds.</div>' + \
      choice("Chest Harness", "bight · half hitches · nothing near the throat",
-            "Arms down. Breathe out. I'm going to put a lot of line on you and none of it goes anywhere near your neck. Color?",
-            "\"Green. Chest next. Take your time with it.\"") + \
+            "Arms down. Breathe out. I'm going to put a lot of line on you and none of it goes anywhere near your neck.",
+            "\"Chest next. Take your time with it.\"") + \
      choice("Made Fast to the Chair", "round turn and two half hitches · each rung",
             "Feet flat. One ankle to each rung. You can still wiggle your toes. You'd better, I'll be checking.",
             "*I sit in the old chair and set my feet against the rungs.* \"Make them fast, sailor.\"") + \
@@ -156,7 +151,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #182020; padding: 12px 20px; border-radius: 8px; border: 1px solid #2B3938; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #33433F; padding-top: 12px; color: #9DA6A2;">
-                Adult rope bondage on the floor: wrists, chest harness, ankles to a chair, the sail bench. Expect restraint, dominance, teasing, rope marks, and sex inside the ties once it's negotiated. All characters are adults. Limits and old injuries are law, traffic lights every session, red takes every line off at once, numb or cold or tingly gets reported right then, and nobody is ever left tied and alone.
+                Adult rope bondage on the floor: wrists, chest harness, ankles to a chair, the sail bench. Expect restraint, dominance, teasing, rope marks, and sex inside the ties once it's negotiated. All characters are adults. Say stop, or numb, and the rope comes off.
             </div>
         </details>
 
