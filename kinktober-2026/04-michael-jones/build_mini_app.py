@@ -44,8 +44,8 @@ s1 = michael("Shoulders back. Chin up. Hands at your sides, still. I'll wait.") 
      starter("*I stand in front of his desk, straighten my shoulders, and keep my eyes on him.* \"Good evening, Sir.\"")
 s2 = rule("I", "Your eyes stay on me unless I tell you otherwise.") + \
      rule("II", "You answer what I ask, fully and accurately, and nothing more.") + \
-     rule("III", "Red is never disobedience. Everything stops, and you are not punished for it. Ever.") + \
-     '<div style="margin-top: 10px;">' + michael("The third rule protects you from me. Don't forget it exists.") + '</div>' + \
+     rule("III", "Red is never disobedience.") + \
+     '<div style="margin-top: 10px;">' + michael("You'll recite them on request. I won't ask twice.") + '</div>' + \
      starter("\"One. My eyes stay on you. Two. I answer fully and accurately. Three. Red is never disobedience.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">He assigns the first task. Choose which one he gives you.</div>' + \
      task("Pour", "Two fingers of the scotch. Neat. Bring it to me with both hands and don't spill.",
@@ -59,7 +59,7 @@ steps = step("I", "Inspection", "he looks before he speaks", s1, opn=True) + \
         step("II", "The Rules", "recite them on request", s2) + \
         step("III", "Service", "the first task", s3)
 
-TAGS = ["Master/Slave", "Protocol", "Silver Fox", "Kinktober Day 4", "Red Is Never Disobedience"]
+TAGS = ["Master/Slave", "Protocol", "Silver Fox", "Kinktober Day 4", "Three Rules"]
 tagpills = "\n".join(f'            <div style="background-color:#2A1A16; color:{BRASS}; border: 1px solid #5A2E26; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -84,7 +84,7 @@ page = f'''<!DOCTYPE html>
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
                 <img src="{BANNER}" alt="Michael Jones" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #3A2620; filter: brightness(0.9);">
-                <img src="{WATERMARK}" alt="Kinktober" style="position: absolute; right: 12px; bottom: 12px; width: 28%; max-width: 180px; height: auto; pointer-events: none; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));">
+                <img src="{WATERMARK}" alt="Kinktober" style="position: absolute; right: 12px; bottom: 12px; width: 20%; max-width: 130px; height: auto; pointer-events: none; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));">
             </div>
         </div>
 
@@ -125,7 +125,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #231915; padding: 12px 20px; border-radius: 8px; border: 1px solid #3A2620; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #4A332B; padding-top: 12px; color: #A8998A;">
-                Michael is a strict Master. Expect master/slave protocol, discipline, consensual sadism inside negotiated limits, and references to a past relationship that ended badly. All characters are adults. Everything is negotiated, and red stops everything with no penalty.
+                Michael is a strict Master. Expect master/slave protocol, discipline, consensual sadism inside negotiated limits, and references to a past relationship that ended badly. All characters are adults. Say red and everything stops.
             </div>
         </details>
 

@@ -29,9 +29,6 @@ def step(num, title, sub, body, opn=False):
                 </div>
             </details>'''
 
-def ribbon(c, word, meaning):
-    return f'<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px; color: {INK};"><span style="display: inline-block; width: 26px; height: 8px; border-radius: 2px; background: {c}; border: 1px solid rgba(0,0,0,0.2);"></span><strong style="min-width: 56px;">{word}</strong><span>{esc(meaning)}</span></div>'
-
 def room(title, line, start):
     return f'''
                     <details style="margin: 10px 0 0; background: #F0EADC; border: 1px dashed #BDAF8A; border-radius: 6px; padding: 10px 12px;">
@@ -42,16 +39,16 @@ def room(title, line, start):
 
 s1 = ryder("I already know your name. Tell me your favorite vintage, and I'll make sure your glass is never empty.") + \
      starter("*I hand him my coat.* \"My favorite vintage? Guess first.\"")
-s2 = ribbon("#5E9A6B", "Green", "Open to invitations.") + ribbon("#D2A84A", "Yellow", "Watching for now. Ask before you come close.") + \
-     ribbon("#B5483E", "Red", "Not tonight.") + \
-     '<div style="margin-top: 10px;">' + ryder("You can change it whenever you like. Nobody here takes it personally. Least of all me.") + '</div>' + \
+swatch = lambda c: f'<span style="display: inline-block; width: 34px; height: 8px; border-radius: 2px; background: {c}; border: 1px solid rgba(0,0,0,0.2); margin-right: 8px;"></span>'
+s2 = '<div style="margin-bottom: 10px;">' + swatch("#5E9A6B") + swatch("#D2A84A") + swatch("#B5483E") + '</div>' + \
+     ryder("Green if you're open, yellow if you'd rather watch, red for not tonight. Swap it whenever. Nobody takes it personally. Least of all me.") + \
      starter("*I pick a ribbon from the silver bowl and hold out my wrist.* \"Tie it for me?\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">He offers you the house. Choose where the night starts.</div>' + \
-     room("The Bar", "Stay here with me. We'll watch the room together, and I'll tell you everyone's secrets. Well. Some of them.",
+     room("The Bar", "Stay here with me. We'll watch the room and I'll tell you who came with whom. Most of it, anyway.",
           "*I take the stool next to him at the bar.* \"Tell me about the couple on the chaise.\"") + \
-     room("The Lounge", "Candles, the good chaise, and a few people who've been hoping someone new would wander over. Go on. I'll be watching.",
+     room("The Lounge", "The good chaise is free, and two people down there have been waiting all night for someone new to sit on it. Go on. I'll be at the bar.",
           "*I walk down into the sunken lounge, ribbon on my wrist.*") + \
-     room("The Back Room", "Rope on the wall. Quieter in there. I only go in with people I'm sure of.",
+     room("The Back Room", "Rugs, rope on the wall, and nobody talking much. I only go in there with people I'm sure of.",
           "\"Show me the back room, Ryder.\"")
 
 steps = step("I", "Arrival", "he takes your coat", s1, opn=True) + \
@@ -94,7 +91,7 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#111613; color: #A9AEA3; padding:20px; flex: 1; min-width: 250px; border:1px solid #26332D; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">Candlelight, the right wine at the right temperature, and a room full of strangers who'll leave as something else. Ryder James hosts the party you only hear about secondhand. He remembers everyone's favorite vintage. He watches everything. He joins in only when he's sure.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">Candles, wine at the right temperature, and a room full of strangers who won't all leave alone. Ryder James hosts the party you only hear about secondhand. He remembers everyone's favorite vintage, he knows who's with whom, and he joins in only when he's sure.</span>
             </div>
             <div style="background-color:#111613; color: #A9AEA3; padding:20px; flex: 1; min-width: 250px; border:1px solid #26332D; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>
@@ -124,7 +121,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #18201C; padding: 12px 20px; border-radius: 8px; border: 1px solid #26332D; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #2F3D36; padding-top: 12px; color: #9DA297;">
-                Ryder hosts adult group gatherings. Expect group sex, voyeurism, exhibitionism, and rope. All characters are adults. Every pairing is consensual, ribbons and colors are honored by every guest, and watching is always allowed.
+                Ryder hosts adult group gatherings. Expect group sex, voyeurism, exhibitionism, and rope. All characters are adults. Say stop, or wear red, and it stops.
             </div>
         </details>
 

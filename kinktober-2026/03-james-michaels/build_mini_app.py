@@ -29,9 +29,6 @@ def step(num, title, sub, body, opn=False):
                 </div>
             </details>'''
 
-def color(c, word, meaning):
-    return f'<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 6px; color: {INK};"><span style="display: inline-block; width: 14px; height: 14px; border-radius: 999px; background: {c}; border: 1px solid rgba(0,0,0,0.2);"></span><strong style="min-width: 56px;">{word}</strong><span>{esc(meaning)}</span></div>'
-
 def tie(title, line, start):
     return f'''
                     <details style="margin: 10px 0 0; background: #F0E9DC; border: 1px dashed #B9A887; border-radius: 6px; padding: 10px 12px;">
@@ -40,25 +37,23 @@ def tie(title, line, start):
                         </div>
                     </details>'''
 
-s1 = james("Limits. Injuries, old or new. What you want from tonight. What scares you. I don't build on anything I haven't checked.") + \
-     starter("*I sit down across the low table from him.* \"Ask me whatever you need to.\"")
-s2 = color("#6E9B6A", "Green", "Keep going.") + color("#D2A84A", "Yellow", "Slow down. Something needs to change.") + \
-     color("#B5483E", "Red", "Everything stops. He cuts if he has to.") + \
-     '<div style="margin-top: 10px;">' + james("The shears stay within reach the whole time. That's not a threat. It's a promise.") + '</div>' + \
-     starter("\"Green. Yellow. Red.\" *I say them back to him, one at a time.*")
-s3 = '<div style="color: ' + MUTED + '; font-style: italic; font-family: Georgia, serif;">He takes your weight in stages. Green at every one, or you come down.</div>' + \
+s1 = james("Anything new with your shoulders, wrists, hands since last time. And what you want out of tonight. Start with the shoulders.") + \
+     starter("*I sit down across the low table from him.* \"Shoulders are fine. Ask me the rest.\"")
+s2 = james("These stay on the table, right there, the whole time. Say stop and I cut. That's all you need to remember.") + \
+     starter("*I look at the shears, then back at him.* \"Okay. I'm ready for the harness.\"")
+s3 = '<div style="color: ' + MUTED + '; font-style: italic; font-family: Georgia, serif;">He takes your weight in stages, and you can come down from any of them.</div>' + \
      tie("1. The Harness", "Arms behind you. The chest harness carries the load, so it has to be right. Breathe into it, not against it.",
          "*I turn my back to him and cross my wrists behind me.* \"Like this?\"") + \
      tie("2. Partial", "One foot stays on the mat. Let the ring take the rest. Tell me where you feel the rope pulling.",
-         "\"Green. I'm ready to let go a little more.\"") + \
-     tie("3. All the Way Up", "Both feet off. I have you. Look at me, not the floor. Hands, squeeze. Good. You're flying.",
-         "\"Green. Take me all the way up.\"")
+         "\"Under my left arm, a little. I'm ready to let go more.\"") + \
+     tie("3. All the Way Up", "Both feet off. I've got the weight. Look at me, not the floor. Squeeze my hand. Good.",
+         "\"Take me all the way up.\"")
 
 steps = step("一", "The Conversation", "before the rope comes out", s1, opn=True) + \
-        step("二", "The Colors", "say them back to him", s2) + \
+        step("二", "The Shears", "on the table the whole time", s2) + \
         step("三", "The Lift", "harness, partial, then up", s3)
 
-TAGS = ["Suspension", "Shibari", "Silent Dominant", "Kinktober Day 3", "Consent First"]
+TAGS = ["Suspension", "Shibari", "Silent Dominant", "Kinktober Day 3", "Jute"]
 tagpills = "\n".join(f'            <div style="background-color:#2A241C; color:{JUTE}; border: 1px solid #5A4A34; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -74,12 +69,12 @@ page = f'''<!DOCTYPE html>
     <div style="background-color: #1A1917; border: 1px solid #2E2B27; border-radius: 16px; padding: 30px; max-width: 700px; width: 100%; margin: 20px; text-align: center; box-shadow: 0 20px 40px rgba(0,0,0,0.7); color: #E2DDD4; box-sizing: border-box;">
 
         <div style="font-size:30px; font-weight:700; border-bottom: 2px solid #2E2B27; padding-bottom:15px; margin-bottom:25px; color: {WASHI}; letter-spacing: 0.5px;">
-            Nothing Begins Without Yes
+            Tonight You Leave the Floor
         </div>
 
         <div style="margin-bottom:25px;">
             <div style="font-style:italic; font-size:18px; margin-bottom:15px; color: #9A9184; font-family: Georgia, serif;">
-                “Stability is a choice. The foundation has to be sound first.”
+                “Rated for a lot more than either of us. I still check it every time.”
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
                 <img src="{BANNER}" alt="James Michaels" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #2E2B27; filter: brightness(0.9);">
@@ -124,7 +119,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #211F1C; padding: 12px 20px; border-radius: 8px; border: 1px solid #2E2B27; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3A3631; padding-top: 12px; color: #A39B8F;">
-                James is a silent dominant and shibari rigger. Expect suspension bondage, rope restraint, and power exchange. All characters are adults. Everything is negotiated, the safety shears stay in reach, and red means stop.
+                James is a silent dominant and shibari rigger. Expect suspension bondage, rope restraint, and power exchange. All characters are adults. Say stop and he stops.
             </div>
         </details>
 

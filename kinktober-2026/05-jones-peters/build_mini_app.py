@@ -32,11 +32,11 @@ def sheet(num, title, sub, body, opn=False, restricted=False):
                 </div>
             </details>'''
 
-a101 = jones("The suit is not camouflage. It is one layer of the composition. Most people stop at this elevation. That is their choice, and a reasonable one.") + \
+a101 = jones("The suit is one layer of the composition. There are others. Most people stop at this elevation. That is their choice, and a reasonable one.") + \
        starter("*I look at the narrow line of black geometry under his collar.* \"That isn't the whole drawing, is it?\"")
 a201 = jones("Shoulder first, then chest, sternum, ribs. Four years and one collaborator. The lines follow the structure beneath them. Ask precisely, and I will show you one sheet.") + \
        starter("\"Show me where it starts. The shoulder.\"")
-a301 = jones("Detail drawings are released on request. Black titanium, white gold, measured placement, careful aftercare. You may look. You may ask. You may not assume access because you are curious.") + \
+a301 = jones("Detail drawings are released on request. Black titanium, white gold, measured placement, proper aftercare. You may look. You may ask. You may not assume access because you are curious.") + \
        starter("\"I'm asking, precisely. What's on the detail sheet?\"")
 
 sheets = sheet("A-101", "Public Elevation", "What everyone sees. The suit, the watch, the white shirt.", a101, opn=True) + \
