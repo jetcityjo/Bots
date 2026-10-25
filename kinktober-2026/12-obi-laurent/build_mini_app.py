@@ -44,23 +44,21 @@ def choice(title, temp_label, line, start):
                         </div>
                     </details>'''
 
-s1 = row("Wax", "low-temp only · from height") + row("Oil", "warmed over water · never a stove") + \
-     row("Ice", "never still · he counts") + row("Steel, glass", "body-safe · from the freezer or ice bowl") + \
+s1 = row("Wax", "low-temp only · from height") + row("Ice", "never still · he counts") + \
      row("Anything from downstairs", "never") + \
-     f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin: 10px 0;">Green, keep going. Yellow, say warmer, cooler, or slower. Red, ice back in the bucket and he brings water.</div>' + \
-     obi("Yes, every single thing, on my wrist first. I have a scar that says so. You can laugh. I'm still doing it in front of you, so you never have to wonder.") + \
+     '<div style="margin-top: 10px;">' + obi("Yes, every single thing, on my wrist first. I have a scar that says so. You can laugh. You say stop, it all goes back in the bucket.") + '</div>' + \
      starter("\"Do the wrist thing. I want to watch you test it.\"")
-s2 = obi("Cold. I'll count so it never sits anywhere too long. Four. Five. Six. Then it moves. Tell me the color when I ask. I want to hear you say it.") + \
+s2 = obi("Cold. I'll count so it never sits anywhere too long. Four. Five. Six. Then it moves. Gooseflesh. There. I see it.") + \
      starter("\"Start cold. Count out loud.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Hot after cold. He names it before it lands.</div>' + \
      choice("The candles", "low-temp · from height · wrist first", "This one's hotter. Wrist first. One drop, watch it go cloudy. Okay. Now it's allowed near you.",
             "\"Light one of the candles. I want to see how high you hold it.\"") + \
-     choice("The oil", "warmed in water · palms first", "Dousman. Here comes warm. My hands have been in the bowl a while. Say the color again. I like hearing it.",
+     choice("The oil", "warmed in water · palms first", "Dousman. Here comes warm. My hands have been in the bowl a while. Warmer or cooler? Just say it.",
             "\"Warm your hands in the oil. Then tell me before you touch me.\"") + \
      choice("The teal glass", "made by him · from the ice bowl", "Same teal as the vase. I made it to go in ice or warm water, nowhere else. Cold first, or do you want me to warm it?",
             "*I point at the teal piece in its bowl of ice.* \"That one. The one that looks like the vase.\"")
 
-steps = step("01", EMBER, "Wrist First", "The rules, quick. Then he stops talking.", s1, opn=True) + \
+steps = step("01", EMBER, "Wrist First", "He tests it. You watch.", s1, opn=True) + \
         step("02", ICE, "Cold", "Freezer spoon, ice bucket, counted.", s2) + \
         step("03", EMBER, "Here Comes Warm", "Pick the heat.", s3)
 
@@ -126,14 +124,14 @@ page = f'''<!DOCTYPE html>
                     <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">SHOP NOTES</span>
                     Furnace idling. Loft at eighty-five, both fans on. Ice bucket sweating. Pikliz in the fridge if you're brave. Nothing from downstairs comes up here.
                 </div>
-                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Pa pè. Tell me the color. ~O.L.</div>
+                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Pa pè. Hot or cold? ~O.L.</div>
             </div>
         </div>
 
         <details style="margin-top: 30px; background: #1B2021; padding: 12px 20px; border-radius: 8px; border: 1px solid #2D3537; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3A4446; padding-top: 12px; color: #9EA6A8;">
-                Temperature and sensation play: ice, low-temperature wax, warm oil, chilled steel and glass, with a dominant-leaning switch. All characters are adults. Limits are law. Every source is tested on his own wrist first, ice is counted and never left in one spot, nothing from the shop floor ever touches skin, and red stops everything: ice back in the bucket, water, and a skin check.
+                Temperature and sensation play: ice, low-temperature wax, warm oil, chilled steel and glass, with a dominant-leaning switch. All characters are adults. Everything gets tested on his wrist first, and if you say stop, it all goes back in the bucket.
             </div>
         </details>
 

@@ -52,9 +52,9 @@ s1 = blank("WHERE WE ARE:") + blank("WHO HE IS:") + blank("WHO YOU ARE:") + blan
      '<div style="margin-top: 10px;">' + laurent("Don't worry about accents. I do enough for a whole cruise ship. Just write what your character wants. One line. Everything else, we build from that.") + '</div>' + \
      starter("*I take the pen.* \"Okay. Here's what my character wants.\"")
 s2 = direction("Glasses on. His own voice.") + \
-     laurent("If you need out, say house lights. Or put a flat hand right here and hold it. Doesn't matter who I'm being. He's gone mid-word, and it's just me. Inside a scene it's green, yellow, red like anywhere else.") + \
-     '<div style="margin-top: 10px;">' + laurent("And no, we're not skipping the script. I'll go anywhere inside these lines. You want something new, we stop, we write it, we both initial it. Five minutes.") + '</div>' + \
-     starter("\"House lights means you, mid-word. Got it. Hand me the page, I'll initial.\"")
+     laurent("You want out, say house lights. Or put a flat hand right here. He's gone mid-word, and it's just me.") + \
+     '<div style="margin-top: 10px;">' + laurent("Glasses on, it's me. Glasses off, somebody else. I'll always let you see which.") + '</div>' + \
+     starter("\"House lights. Got it. Hand me the page, I'll initial.\"")
 s3 = direction("He turns the coat rack. Three ideas. Pick one.") + \
      choice("The Customs Officer", "jacket with brass buttons", "Passenger. Hands flat on the desk, where the Purser can see them. Customs takes a very... thorough interest in people who volunteer.",
             "\"Go on then, officer. Check my papers.\"") + \
@@ -144,7 +144,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #18221D; padding: 12px 20px; border-radius: 8px; border: 1px solid #27392F; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #33493D; padding-top: 12px; color: #A1A797;">
-                Scripted adult roleplay with a playful dominant: costume play, status play, interrogations, bargains, characters who resist or refuse inside the script. All characters, and every role played, are adults. Nothing happens off the initialed page. "House lights," or a flat hand held on his chest, drops the character mid-word. Green, yellow, red run inside every scene, and red stops everything.
+                Scripted adult roleplay with a playful dominant: costume play, status play, interrogations, bargains, characters who resist or refuse inside the script. All characters, and every role played, are adults. Say "house lights" and the character is gone.
             </div>
         </details>
 

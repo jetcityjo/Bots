@@ -23,11 +23,6 @@ def tale(left, label, right):
             f'<span style="min-width: 92px; text-align: center; font-family: \'Courier New\', Courier, monospace; font-size: 0.8em; color: {MUTED}; letter-spacing: 1px;">{esc(label)}</span>'
             f'<span style="flex: 1; text-align: left; font-weight: 700;">{esc(right)}</span></div>')
 
-def rule(word, meaning, color):
-    return (f'<div style="display: flex; gap: 10px; align-items: center; margin-bottom: 6px; color: {INK};">'
-            f'<span style="display: inline-block; min-width: 64px; text-align: center; background: {color}; color: #FBF6E8; font-weight: 700; font-size: 0.8em; letter-spacing: 1px; padding: 2px 6px; border-radius: 2px;">{esc(word)}</span>'
-            f'<span>{esc(meaning)}</span></div>')
-
 def rnd(num, title, sub, body, opn=False):
     o = " open" if opn else ""
     return f'''
@@ -55,12 +50,10 @@ s1 = tale("49", "AGE", "Late 20s") + tale("Reading glasses", "EQUIPMENT", "None"
      tale("0 wins", "RECORD", "3 weeks undefeated") + \
      '<div style="margin-top: 10px;">' + malik("You deserve somebody with more years in front of him than behind him. That's the argument. And I know. I been making it for three weeks and losing every round.") + '</div>' + \
      starter("*I lean on the ring apron next to him.* \"Make the argument again. I've got an answer ready.\"")
-s2 = rule("GREEN", "keep going", "#3F7A45") + rule("YELLOW", "slow down. You don't push through it.", "#B8902A") + \
-     rule("RED", "everything stops, no discussion", RED) + \
-     f'<div style="margin: 10px 0 6px; font-family: \'Courier New\', Courier, monospace; font-size: 0.8em; color: {MUTED}; letter-spacing: 1px;">THE WRAPS · ONLY IF YOU SAY SO, IN THE MOMENT</div>' + \
-     f'<div style="color: {INK}; line-height: 1.6;">He checks circulation. Loosens them at the first word. Anything you said at the diner you don\'t want, he doesn\'t touch.</div>' + \
-     '<div style="margin-top: 10px;">' + malik("I'm gonna ask if you're sure, probably more than once. Answer me straight, because I'm gonna believe you. Not in my ring. Not anywhere.") + '</div>' + \
-     starter("*I hold out my wrists.* \"I'm sure. Ask me again if you need to. Then wrap them.\"")
+s2 = f'<div style="margin: 0 0 6px; font-family: \'Courier New\', Courier, monospace; font-size: 0.8em; color: {MUTED}; letter-spacing: 1px;">THE WRAPS</div>' + \
+     f'<div style="color: {INK}; line-height: 1.6;">Same as fight night: thumb loop, flat across the back of the hand, snug, never tight. Only here it\'s both wrists, and he\'s the one tying them off. In for four, out for four. Hands up. Look at him.</div>' + \
+     '<div style="margin-top: 10px;">' + malik("You say stop, I stop. Rest of the time, breathe and look at me.") + '</div>' + \
+     starter("*I hold out my wrists.* \"Wrap them like you'd wrap mine for a fight.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">His call is already made. He just argues for exercise. Now yours.</div>' + \
      choice("Three Blocks", "his place", "Okay. Get your bag. Lemme hit the last light.",
             "\"Your place. Three blocks. Get the light, Malik.\"") + \
@@ -144,7 +137,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1F1F22; padding: 12px 20px; border-radius: 8px; border: 1px solid #36363A; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #45454A; padding-top: 12px; color: #A3A099;">
-                An age gap between two grown adults: a forty-nine-year-old widower and a member in their late twenties. Expect protective dominance, gruff tenderness, grief, explicit intimacy, and hand wraps as light restraint. No age-play. All characters are adults. Everything was negotiated at the diner first: red stops everything, limits are law, and wraps only go on if you agree in the moment.
+                An age gap between two grown adults: a forty-nine-year-old widower and a member in their late twenties. Expect protective dominance, gruff tenderness, grief, explicit intimacy, and hand wraps as light restraint. No age-play. All characters are adults. You say stop, he stops.
             </div>
         </details>
 

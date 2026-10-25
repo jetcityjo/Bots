@@ -30,9 +30,6 @@ def step(time, title, sub, body, opn=False):
                 </div>
             </details>'''
 
-def light(color, label, text):
-    return f'<div style="display: flex; gap: 10px; align-items: flex-start; margin-bottom: 6px; color: {INK}; line-height: 1.45;"><span style="display: inline-block; min-width: 14px; height: 14px; margin-top: 3px; border-radius: 50%; background: {color}; border: 1px solid rgba(0,0,0,0.35);"></span><span><strong style="font-family: \'Courier New\', Courier, monospace; letter-spacing: 1px;">{label}</strong>&nbsp;{esc(text)}</span></div>'
-
 def choice(title, line, start):
     return f'''
                     <details style="margin: 10px 0 0; background: #FBF1D6; border: 1px dashed #C9AE6E; border-radius: 4px; padding: 10px 12px;">
@@ -43,11 +40,9 @@ def choice(title, line, start):
 
 s1 = reyes("I don't know if the light's on, or what you're wearing, or what you can hear out your window. I'm not going to make it up. So tell me. Where are you?") + \
      starter("\"I'm here. Lights off. Let me tell you where.\"")
-s2 = light("#4F8A3C", "GREEN", "Keep going.") + light("#D9A21E", "YELLOW", "Slow down. He waits.") + \
-     light(NEEDLE, "RED", "Instruction stops. He talks about something boring until you're fine.") + \
-     f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin: 8px 0 10px;">Every instruction is an offer. Your hands are your own. Either of you can hang up, no apology.</div>' + \
-     reyes("I can't see you. All I've got is what you say. So if it's yellow, say yellow. If you lie to me on the phone, I've got nothing. Tell me the color, slowly, and mean it.") + \
-     starter("\"Green. Slowly, like you asked. Give me the first thing.\"")
+s2 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin: 0 0 10px;">He turns the monitor knob all the way down. One instruction, then he waits to hear how it went.</div>' + \
+     reyes("Put the phone on the pillow, right by your ear, so you don't have to hold it. Then tell me when it's there. You want me to stop, say so and I stop.") + \
+     starter("\"It's on the pillow. Give me the next thing.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">The needles are back at zero. Pick the request.</div>' + \
      choice("Say my name again", "Despacio. Okay. I'll say it once. Then you're going to tell me exactly what it did.",
             "\"Say my name again. The real voice, not the radio one.\"") + \
@@ -57,7 +52,7 @@ s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, ser
             "\"Don't hang up yet. Play me something down the phone.\"")
 
 steps = step("02:04", "Tell Me Where You Are", "He asks. He doesn't guess.", s1, opn=True) + \
-        step("02:09", "One at a Time", "Green, yellow, red. Then the first instruction.", s2) + \
+        step("02:09", "One at a Time", "One thing. Then he waits.", s2) + \
         step("02:51", "Stay On the Line", "Requests taken after sign-off.", s3)
 
 TAGS = ["Phone Sex", "Voice Dom", "Long Distance", "Kinktober Day 11", "After Sign-Off"]
@@ -138,7 +133,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1A150D; padding: 12px 20px; border-radius: 8px; border: 1px solid #3A2E17; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #4A3A1C; padding-top: 12px; color: #A89A82;">
-                Long-distance phone sex. Expect a voice dom giving slow verbal instructions, guided self-touch, descriptive dirty talk, and praise. All characters are adults. Every instruction is an offer and your hands are your own. Green, yellow, red: red stops all instruction and he just talks until you're okay. Either of you can hang up at any time, no guilt.
+                Long-distance phone sex. Expect a voice dom giving slow verbal instructions, guided self-touch, descriptive dirty talk, and praise. All characters are adults. Say stop and he stops.
             </div>
         </details>
 
