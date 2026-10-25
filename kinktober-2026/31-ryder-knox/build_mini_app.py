@@ -43,23 +43,23 @@ def choice(title, line, start):
                         </div>
                     </details>'''
 
-s1 = box(True, "Written clear-headed, before the cycle.") + box(True, "What's in, in detail.") + box(True, "What's out. Those stay out.") + \
-     box(False, "Claiming bite. (Only if you write it here. Never mid-cycle.)") + \
-     '<div style="margin-top: 10px;">' + ryder("I read the plan. I follow the plan. Nothing happens in that nest that you didn't write down with a clear head.") + '</div>' + \
+s1 = box(False, "Sitter") + box(True, "Partner: Ryder Knox") + box(True, "What you want, and what you don't, in your handwriting.") + \
+     box(False, "Claiming bite. (Only if you asked for one here.)") + \
+     '<div style="margin-top: 10px;">' + ryder("I read it three times. Highlighter and everything. If you want me to stop at any point, say so and I stop.") + '</div>' + \
      starter("*I hand him my plan.* \"Read it again. I meant every line.\"")
 s2 = box(True, "Every blanket he owns, plus a few he bought.") + box(True, "Electrolytes in the fridge, caps loosened.") + \
      box(True, "His flannel. It smells like nothing yet. That's the point.") + box(True, "Blackout curtains. Reading lamp. A cool cloth.") + \
      '<div style="margin-top: 10px;">' + ryder("You build the nest however you want. I don't touch it unless you ask. Then I'm very good at it.") + '</div>' + \
      starter("*I start pulling blankets onto the bed.* \"Give me the flannel. And come hold this corner.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Your plan, your line. Tell him how you meant it.</div>' + \
-     choice("Partner", "You meant it? On purpose? Okay. Okay. Give me a second. Nobody's ever...okay. I'm here.",
-            "\"Partner, Ryder. On purpose. Not because you're safe. Because I want you.\"") + \
-     choice("Sitter, for now", "That's completely fine. I'm still right here, and I'm still the best there is at this. Line stays open.",
+     choice("Partner", "You meant it? Okay. Okay. Give me a second. Nobody's ever...okay. I'm here.",
+            "\"I meant it, Ryder. I wrote your name on that line because I want you.\"") + \
+     choice("Sitter, for now", "That's completely fine. I'm still right here, and I'm still the best there is at this. The other box isn't going anywhere.",
             "\"Can we start with sitter tonight? And see?\"") + \
      choice("Take care of him first", "Me? I'm working. I'm...you want to what? Okay. Nobody's ever offered that. I don't know what to do with my hands.",
             "*I take the clipboard out of his hands and set it down.* \"Sit. Tonight somebody takes care of you, too.\"")
 
-parts = section("01", "The Plan", "Signed before the cycle. Law once it starts.", s1, opn=True) + \
+parts = section("01", "The Plan", "Filed in advance. He's read it three times.", s1, opn=True) + \
         section("02", "The Nest", "Suite one. Build it your way.", s2) + \
         section("03", "Partner: Ryder Knox", "The line nobody has ever filled in with his name.", s3)
 
@@ -119,20 +119,20 @@ page = f'''<!DOCTYPE html>
             <div style="{LINES} border-radius: 4px; padding: 20px 16px; text-align: left;">
                 <div style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 0.8em; color: {MUTED}; letter-spacing: 2px; margin-bottom: 6px;">KNOX CYCLE CARE · OCT 31 · SUITE ONE</div>
                 <div style="text-align: center; font-family: Georgia, 'Times New Roman', serif; font-size: 30px; color: {INK}; letter-spacing: 1px;">The Heat Plan</div>
-                <div style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 0.95em; color: {MUTED}; margin: 6px 0 20px;">Heat or rut. Filed clear-headed. He's read yours three times.</div>
+                <div style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 0.95em; color: {MUTED}; margin: 6px 0 20px;">Heat or rut, your call. One line on it has his name.</div>
 {parts}
                 <div style="margin-top: 14px; border-top: 1px solid #D8CDB8; padding-top: 12px; color: {INK}; line-height: 1.6; font-size: 0.92em; text-align: center;">
                     <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">OVERNIGHT NOTES</span>
                     First snow. Jack-o'-lantern still lit. Devil horns stay on till midnight, per the neighbor kids. Legally binding.
                 </div>
-                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Green, yellow, red. I'm right here. ~R.K.</div>
+                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Electrolytes in the fridge, caps loosened. ~R.K.</div>
             </div>
         </div>
 
         <details style="margin-top: 30px; background: #1F1916; padding: 12px 20px; border-radius: 8px; border: 1px solid #33271F; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #43352B; padding-top: 12px; color: #A59A8D;">
-                Omegaverse. Expect heats, ruts, nesting, and explicit caretaking intimacy. All characters are adults. The plan, written clear-headed before the cycle, is law: Ryder never goes past it, no claiming bite unless it's written in, and red stops everything.
+                Omegaverse. Expect heats, ruts, nesting, and explicit caretaking intimacy. All characters are adults. Say stop and Ryder stops, and there's no claiming bite unless you asked for one beforehand.
             </div>
         </details>
 

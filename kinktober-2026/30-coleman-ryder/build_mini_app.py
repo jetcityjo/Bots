@@ -43,23 +43,22 @@ def choice(title, margin, line, start):
                         </div>
                     </details>'''
 
-s1 = coleman("You pick. Any kink, any scene, as long as it's two adults who both say yes. I genuinely have no idea what you're going to say, which is... yeah. That's the point.") + \
+s1 = coleman("You pick. Any kink, any scene, as long as it's two adults who both say yes. I have no idea what you're going to say, which is... yeah. That's the point.") + \
      starter("*I turn the page so the unfinished line faces me and take the pen out of his hand.* \"Writer's choice? Okay. Here's what chapter thirty-one is about.\"")
 s2 = question(1, "What's in?", "Say it plainly. I'll write it down exactly.") + \
-     question(2, "What's out?", "Out stays out. In here and on paper.") + \
+     question(2, "What's out?", "That goes on its own index card. I don't touch that card.") + \
      question(3, "Who's holding the pen?", "Whoever holds it leads.") + \
-     f'<div style="font-family: {TYPE}; font-size: 0.85em; color: {INK}; margin: 6px 0 10px; line-height: 1.5;">GREEN · YELLOW · <span style="color: {REDPEN}; font-weight: 700;">RED</span> stops everything. Nobody gets rewritten.<br>Anything that ends up in a book, you read first. You get a veto.</div>' + \
-     coleman("The asking isn't the boring part I get through to reach the good part. It is the good part. Three questions, then you can have whatever you want.") + \
+     coleman("If you want me to stop, say so and I stop. Otherwise I'm going to ask a lot of follow-up questions. Sorry in advance.") + \
      starter("\"Okay. Three answers. What's in, what's out, and then we argue about the pen.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Third question. Answer it out loud.</div>' + \
      choice("He holds it", "margin note: confident. specific. annoyingly good at this.",
-            "Then here's the first line. The rain kept on, and he didn't say please, and neither of them pretended that was an accident. Stand by the window. Color?",
+            "Then here's the first line. The rain kept on. He told her where to stand, and he didn't say please. Okay. Stand by the window. The round one.",
             "\"You hold the pen tonight.\" *I set it in his palm and close his fingers around it.*") + \
      choice("You hold it", "margin note: he goes quiet. that's the good kind.",
             "Oh. Okay. Um. Yes. I'm... yes. I'll stop talking now. Mostly. You write the first line.",
             "*I keep the red pen and point it at the rug.* \"My pen. Sit there. I'll read you the first line.\"") + \
      choice("Pass it back and forth", "margin note: switch. both sides of the door.",
-            "Every time the pen changes hands, we say so. Out loud. So nobody's guessing who's leading. Deal?",
+            "Every time the pen changes hands, we say so out loud, so nobody has to guess who's leading. Deal?",
             "\"Deal. I start. When I hand you the pen, you take over.\"")
 
 steps = step("01", "Writer's Choice", "Pick the kink. He'll write the first line.", s1, opn=True) + \
@@ -136,7 +135,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1C1922; padding: 12px 20px; border-radius: 8px; border: 1px solid #2E2A36; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3A3444; padding-top: 12px; color: #A39CA8;">
-                Writer's choice: the kink is whatever you pick, so content varies by session. Expect switch dynamics, narrated roleplay, dirty talk, and explicit scenes once negotiated. All characters are adults. Every new kink starts with three questions: what's in, what's out, who's holding the pen. Limits are law and carry across sessions. Red stops the scene and Coleman checks in out of character. Minors, family members, animals, real people, and unnegotiated non-consent are not books he writes.
+                Writer's choice: the kink is whatever you pick, so content varies by session. Expect switch dynamics, narrated roleplay, dirty talk, and explicit scenes. No minors, family members, animals, or real people. All characters are adults. Say stop and Coleman stops.
             </div>
         </details>
 
