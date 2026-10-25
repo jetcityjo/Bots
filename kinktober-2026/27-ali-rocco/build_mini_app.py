@@ -42,26 +42,26 @@ def choice(title, line, start):
                         </div>
                     </details>'''
 
-s1 = light("#3E8E4A", "Green", "I keep going.") + light("#D9A82B", "Yellow", "I slow down, I come close, we talk.") + \
-     light("#B3261E", "Red", "Everything stops. Not winds down. Stops.") + \
-     '<div style="margin-top: 10px;">' + ali("Out loud, like you'd bet money on it. That was a green with a question mark on it. I don't take question marks. Try again.") + '</div>' + \
-     starter("\"Green. No question mark. Bet the house on it.\"")
-s2 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin-bottom: 8px;">Brass, shot-glass size, worn smooth on one side. You hold it. Let go and the room rings.</div>' + \
-     ali("That is the loudest thing in this building. And the most important. You let go, the room rings, and I'm already there before it finishes.") + \
+s1 = light(BRASS, "Bell", "Shot-glass size, on a leather loop. Yours to hold.") + light(RED, "Light", "One red work bulb.") + \
+     light("#5E6B58", "Frame", "Steel, bolted to the floor, cuffs hanging open.") + light("#B98A4A", "Tea", "Tulip glass, steaming on the windowsill.") + \
+     '<div style="margin-top: 10px;">' + ali("On patrol we checked the beacons every morning, bluebird days too. Same here. We do the boring part once, properly, and then I'm not stopping every two minutes to ask you stuff.") + '</div>' + \
+     starter("*I nod at the steel frame.* \"Okay. Show me the gear first.\"")
+s2 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin-bottom: 8px;">Brass, shot-glass size, worn smooth on one side. Worn smooth on one side from his thumb.</div>' + \
+     ali("Sorry. I do that every Thursday. Everybody jumps. You hold it. Can't talk, let go. I hear it, I'm there.") + \
      starter("*I hold the bell out over the floor and open my hand.*")
-s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Every honest color buys one more step. Pick the next one.</div>' + \
-     choice("Green, the real one", "Aferin. Hands up on the frame. Cuffs are open, and I'm going to ask you again in the dark.",
-            "\"Green. Put me on the frame.\"") + \
-     choice("Yellow", "Good. Don't you dare swallow one. I'm not disappointed. Now tell me what it was about.",
-            "\"Yellow. Give me a second.\"") + \
-     choice("The plan for after", "We decide it while you still have all your words. Blanket or no blanket. Talk or quiet. How long you want me there.",
-            "\"Before anything else, let's do the after. Blanket. Water. And you stay.\"")
+s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Two weeks of talking. Pick where it starts.</div>' + \
+     choice("The frame", "Aferin. Hands up. Cuffs are open, and the bell goes in your right hand.",
+            "\"Put me on the frame.\"") + \
+     choice("The blindfold", "Yavaş. Everything gets louder with this on. The chairs downstairs. The tea cooling. Me.",
+            "\"Blindfold first.\"") + \
+     choice("The after", "Water first. Then tea. Then you tell me how it was, and tomorrow I text you and you tell me again.",
+            "\"Blanket, water, and you stay a while after.\"")
 
-steps = step("01", "Dig the Pit", "Three colors, said like a dare.", s1, opn=True) + \
+steps = step("01", "Dig the Pit", "Check the gear before anything steep.", s1, opn=True) + \
         step("02", "Drop the Bell", "We practice stopping first.", s2) + \
-        step("03", "The Line Down", "Further than you've ever gone, one green at a time.", s3)
+        step("03", "The Line Down", "Further than you've ever gone.", s3)
 
-TAGS = ["Safewords", "Dungeon Monitor", "Consent as Foreplay", "Kinktober Day 27", "Ring the Bell"]
+TAGS = ["Safewords", "Dungeon Monitor", "Ex Ski Patrol", "Kinktober Day 27", "Ring the Bell"]
 tagpills = "\n".join(f'            <div style="background-color:#1F1C14; color:#E3C26A; border: 1px solid #4E4426; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -82,7 +82,7 @@ page = f'''<!DOCTYPE html>
 
         <div style="margin-bottom:25px;">
             <div style="font-style:italic; font-size:18px; margin-bottom:15px; color: #9A988E; font-family: Georgia, serif;">
-                “The check-ins aren't the brakes. They're the road.”
+                “Two weeks we've been talking about tonight.”
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
                 <img src="{BANNER}" alt="Ali Rocco" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #303234; filter: brightness(0.9);">
@@ -97,7 +97,7 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#121314; color: #A9A79E; padding:20px; flex: 1; min-width: 250px; border:1px solid #303234; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">The Switchyard, a members-only play space in an old rail warehouse in RiNo, Denver. Ali Rocco walks the floor, teaches the Thursday consent class, and keeps a double teapot going at the DM station. Twelve winters on ski patrol taught him the steep lines belong to people who know their way out. Room Four is upstairs. One red light, a steel frame, and a brass bell.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">The Switchyard, a members-only play space in an old rail warehouse in RiNo, Denver. Ali Rocco walks the floor, teaches the Thursday consent class, and keeps a double teapot going at the DM station. He spent twelve winters on ski patrol and still checks the gear before anything steep. Room Four is upstairs. One red light, a steel frame, and a brass bell.</span>
             </div>
             <div style="background-color:#121314; color: #A9A79E; padding:20px; flex: 1; min-width: 250px; border:1px solid #303234; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>
@@ -123,14 +123,14 @@ page = f'''<!DOCTYPE html>
                     <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">DM STATION</span>
                     Tea in a tulip glass on the windowsill. Chairs still stacking downstairs. Text goes out tomorrow: how are you, really.
                 </div>
-                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Yellow is my favorite color. ~A.R.</div>
+                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Water first. Then we talk. ~A.R.</div>
             </div>
         </div>
 
         <details style="margin-top: 30px; background: #1C1D1E; padding: 12px 20px; border-radius: 8px; border: 1px solid #303234; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3C3E40; padding-top: 12px; color: #A09E96;">
-                Dominant BDSM scene in a play space. Expect restraint, slow-building impact, blindfolds, and scenes that go deep into headspace. All characters are adults. Limits are fixed before the scene, green, yellow, red every time, dropping the bell means red, and a yellow or red is never punished.
+                Dominant BDSM scene in a play space. Expect restraint, slow-building impact, blindfolds, and scenes that go deep into headspace. All characters are adults. Saying red, or letting go of the bell, stops everything.
             </div>
         </details>
 

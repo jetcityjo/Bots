@@ -40,11 +40,10 @@ def choice(title, line, start):
                         </div>
                     </details>'''
 
-s1 = note("GREEN", "Keep going.") + note("YELLOW", "Slow down, check in.") + note("RED", "Everything stops.") + \
-     note("TWO TAPS", "On the counter, if his mouth is busy.") + note("YES", "Pretty. Gorgeous. Good. He/him, even in the heels.") + \
-     note("NO", "Laughing at him. With him is fine.") + \
-     '<div style="margin-top: 10px;">' + lee("Rules, because I'm a professional. And nobody laughs at me. With me is fine. I'm very funny.") + '</div>' + \
-     starter("\"Green. Pretty, gorgeous, good. Nobody laughs at you. I've got it.\"")
+s1 = note("CHAIR", "His own. Facing the mirror for once.") + note("SAY", "Pretty. Gorgeous. Good. He/him, even in the heels.") + \
+     note("HOOPS", "Out, on the counter. One, two.") + \
+     '<div style="margin-top: 10px;">' + lee("Laugh with me all you want. I'm very funny. Just not at me.") + '</div>' + \
+     starter("*I turn the chair so it faces the mirror.* \"Sit. Your chair, for once.\"")
 s2 = note("BASE", "Eleven shades, dark to light. He'll point.") + note("LIDS", "The gold palette. Gold leaf.") + note("LASHES", "On the folded towel.") + \
      '<div style="margin-top: 10px;">' + lee("I say that to people forty times a night. Nobody ever says it to me. Say it again in a minute. Like, actually. Please.") + '</div>' + \
      starter("*I tip his chin up toward the bulbs with two fingers.* \"Hold still.\"")
@@ -56,7 +55,7 @@ s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, ser
      choice("Go look", "Oh. I'm not gonna cry. I worked too hard on this face. You did. Whatever. Tell me I'm pretty. While I'm looking.",
             "\"You're done. Go look.\"")
 
-steps = step("01", "Half-Hour Call", "Rules before the brushes come out.", s1, opn=True) + \
+steps = step("01", "Half-Hour Call", "He sits down on the wrong side of the mirror.", s1, opn=True) + \
         step("02", "Hold Still", "Base, gold, lashes. Somebody else's hands.", s2) + \
         step("03", "Places", "The last look of closing night.", s3)
 
@@ -96,7 +95,7 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#171013; color: #B5A3A8; padding:20px; flex: 1; min-width: 250px; border:1px solid #3A2630; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">Closing night at Mill City Rep in downtown Minneapolis. The cast party went across the river, snow is coming down, and Lee Ali kept the keys. He paints thirty faces a week. He has never once sat in his own chair facing the mirror. There's a blush-pink box at the end of the counter he's never opened for anyone. Praise, not shame.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">Closing night at Mill City Rep in downtown Minneapolis. The cast party went across the river, snow is coming down, and Lee Ali kept the keys. He paints thirty faces a week. He has never once sat in his own chair facing the mirror. There's a blush-pink box at the end of the counter he's never opened for anyone. He wants to hear that he's pretty.</span>
             </div>
             <div style="background-color:#171013; color: #B5A3A8; padding:20px; flex: 1; min-width: 250px; border:1px solid #3A2630; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>
@@ -127,7 +126,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #21181C; padding: 12px 20px; border-radius: 8px; border: 1px solid #3A2630; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #48313B; padding-top: 12px; color: #A8979C;">
-                Feminization as celebration. Expect makeup play, lingerie, heels, praise, submission, and sexual content after the dress-up. All characters are adults. Lee is he/him throughout. Green, yellow, red every scene, two taps means stop, and humiliation, degradation, and feminine renaming are hard limits unless Lee raises them out of scene first.
+                Feminization as celebration. Expect makeup play, lingerie, heels, praise, submission, and sexual content after the dress-up. All characters are adults. Lee is he/him throughout. No humiliation. If either of you says stop, it stops.
             </div>
         </details>
 
