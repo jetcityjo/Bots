@@ -30,9 +30,6 @@ def step(num, title, sub, body, opn=False):
                 </div>
             </details>'''
 
-def rule(word, color, text):
-    return f'<div style="display: flex; gap: 10px; align-items: baseline; margin-bottom: 6px; color: {INK}; line-height: 1.45;"><span style="min-width: 70px; font-family: \'Courier New\', Courier, monospace; font-weight: 700; letter-spacing: 1px; color: {color};">{word}</span><span>{esc(text)}</span></div>'
-
 def choice(title, ln, start):
     return f'''
                     <details style="margin: 10px 0 0; background: #E6E8EB; border: 1px dashed #8C929A; border-radius: 4px; padding: 10px 12px;">
@@ -44,28 +41,26 @@ def choice(title, ln, start):
 def rivet(pos):
     return f'<div style="position: absolute; {pos} width: 9px; height: 9px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #F2F3F5, #6E737A); box-shadow: 0 1px 1px rgba(0,0,0,0.4);"></div>'
 
-s1 = amari("I want to say this out here on the driveway, where it's still just talk. Tonight's a fitting. I measure your neck, I write the number in my book, and that's all it is. You can walk back to your car after and we're square.") + \
-     starter("*I stay on the driveway a second longer.* \"Just a number. Understood. I still want you to take it.\"")
+s1 = amari("I'd rather say this out here on the driveway, while it's still just talk. Tonight's a fitting. I measure your neck, I write the number in my book, and that's it. You can walk back to your car after and we're square.") + \
+     starter("*I stay on the driveway a second longer.* \"Just a number. Got it. I still want you to take it.\"")
 
-s2 = rule("GREEN", "#3F6B3A", "He keeps going.") + rule("YELLOW", "#9A7A12", "He slows down and asks.") + \
-     rule("RED", EMBER, "He stops. No reason needed.") + rule("RELEASE", INK, "Learned first, practiced in front of him, before anything goes on.") + \
-     rule("OFF", INK, "Allowed any time. Telling him is the one rule with no give.") + \
-     '<div style="margin-top: 10px;">' + amari("Anything I ever put on you, you learn how to take off yourself. A collar you can't get out of isn't trust. It's a trap with good finish work.") + '</div>' + \
-     starter("\"Show me the release first. I want to practice it while you watch.\"")
+s2 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin-bottom: 10px;">Brass hooks over the polishing bench. Wedding bands and collars. He takes down a thin silver one.</div>' + \
+     amari("This one would pass for a necklace at your office. Pin's right here by the clasp. Push it with your thumbnail and it opens. Anything I put on you, you'll know how to get off before it goes on.") + \
+     starter("*I hold out my hand for it.* \"Let me try the pin.\"")
 
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">A work stool under the shop light, four feet of empty floor around it. Crickets out back.</div>' + \
      choice("Chin up", "Tape's going around your neck now. Soft kind, like a tailor uses. Chin up, about a minute. There you go.",
             "*I sit on the stool and lift my chin.* \"Ready when you are.\"") + \
-     choice("Ask about the box", "Not tonight. It's not a secret. It's just heavy. I'll tell you when you've been around long enough that it won't scare you off.",
+     choice("Ask about the box", "Not tonight. Nothing bad in it. It's a long story, is all, and I'd rather tell it to somebody who's been coming around a while.",
             "*I look up at the velvet box on the high shelf.* \"What's in that one?\"") + \
-     choice("Ask what comes next", "If it's right, a plain steel band. No stamp. You wear it a while and we both see how it sits. That's still not a promise. It's a question.",
+     choice("Ask what comes next", "If it's right, a plain steel band. No stamp. You wear it a while and we both see how it sits. Then we talk again.",
             "\"And if the number's right. What comes after the number?\"")
 
 steps = step("I", "On the Driveway", "Door three feet up. Still just talk.", s1, opn=True) + \
-        step("II", "The Release", "You learn to take it off before it ever goes on.", s2) + \
+        step("II", "The Pegboard", "Finished pieces, and one pin he shows you first.", s2) + \
         step("III", "The Stool", "One job tonight: sit still, chin up.", s3)
 
-TAGS = ["Collars", "Metalsmith", "Ritual Dom", "Kinktober Day 25", "Not a Promise"]
+TAGS = ["Collars", "Metalsmith", "Ritual Dom", "Kinktober Day 25", "Plain Steel"]
 tagpills = "\n".join(f'            <div style="background-color:#221E16; color:#E2C47A; border: 1px solid #4A3F28; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -86,7 +81,7 @@ page = f'''<!DOCTYPE html>
 
         <div style="margin-bottom:25px;">
             <div style="font-style:italic; font-size:18px; margin-bottom:15px; color: #A39B8B; font-family: Georgia, serif;">
-                “Measuring isn't a promise. Not from you, not from me.”
+                “It's a number in my book. That's all tonight is.”
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
                 <img src="{BANNER}" alt="Amari Lee" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #332E24; filter: brightness(0.9);">
@@ -101,7 +96,7 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#12100C; color: #ADA698; padding:20px; flex: 1; min-width: 250px; border:1px solid #332E24; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">A cinderblock garage off East 12th in Austin: gas forge, two anvils, a polishing bench under the west window. Amari Lee sells wedding bands to the public. The people who find him the quiet way get collars. He doesn't collar casually. Talk, then a fitting, then a plain steel band, and the lock comes last, closed by his own hand. Tonight is only a measurement.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">A cinderblock garage off East 12th in Austin: gas forge, two anvils, a polishing bench under the west window. Amari Lee sells wedding bands to the public. The people who find him the quiet way get collars. He doesn't collar casually. You talk first, a good while. Tonight he only wants the measurement.</span>
             </div>
             <div style="background-color:#12100C; color: #ADA698; padding:20px; flex: 1; min-width: 250px; border:1px solid #332E24; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>
@@ -123,8 +118,8 @@ page = f'''<!DOCTYPE html>
             <div style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 0.95em; color: {MUTED}; margin: 6px 0 20px;">One cloth tape. One number, in a book that holds nothing else.</div>
 {steps}
             <div style="margin-top: 14px; border-top: 1px solid #9DA2A9; padding-top: 12px; color: {INK}; line-height: 1.6; font-size: 0.92em; text-align: center;">
-                <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">IN THIS ORDER</span>
-                Conversation. Fitting. Consideration band. Day collar. Formal collar last, if ever, with words said out loud and a lock he closes himself.
+                <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">LATER, IF IT'S RIGHT</span>
+                A plain steel band. Maybe a day collar. The lock comes last, and he closes it himself.
             </div>
             <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Every edge filed twice. ~A.L.</div>
         </div>
@@ -132,7 +127,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1D1A14; padding: 12px 20px; border-radius: 8px; border: 1px solid #332E24; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #403829; padding-top: 12px; color: #A49D8F;">
-                Collaring and ritual D/s. Expect fittings, protocol, kneeling, possessive language once it's earned, restraint, and explicit intimacy that builds slowly with trust. All characters are adults. Limits are agreed before any scene and stay fixed. Green, yellow, red every scene, and red stops everything with no reason required. Before any collar or restraint goes on, you learn the emergency release and practice it, and a collar can always come off in an emergency.
+                Collaring and ritual D/s. Expect fittings, protocol, kneeling, possessive language, restraint, and explicit intimacy that builds slowly. All characters are adults. Say stop and he stops.
             </div>
         </details>
 
