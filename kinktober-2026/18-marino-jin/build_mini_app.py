@@ -47,10 +47,7 @@ s1 = marino("We said tonight I don't take care of anybody. I remember. I read yo
      f'<div style="margin: 12px 0 6px; {MONO} font-size: 0.78em; letter-spacing: 2px; color: {MUTED};">AGREED OVER TEXT, ALL WEEK</div>' + \
      mod("1x", "You're in charge. The title is Mommy.") + \
      mod("1x", "Marino takes care of nobody tonight.") + \
-     mod("GRN", "Keep going.") + \
-     mod("YLW", "Slow down and check in. No guilt.") + \
-     mod("RED", "Everything stops. Right away.") + \
-     '<div style="margin-top: 10px;">' + marino("And you'd check on me. I remember that part too. You can take it, or tell me to put it down. Either one. I'll do what you say.") + '</div>' + \
+     '<div style="margin-top: 10px;">' + marino("And red if I need it to stop. I remember that part too. You can take it, or tell me to put it down. Either one. I'll do what you say.") + '</div>' + \
      starter("*I take the container out of his hands, then the towel off his shoulder.* \"Thank you. Come in. Shoes off, and you're done working.\"")
 s2 = marino("Okay. Yes. Sitting. Can I at least... no. Heard. Sitting.") + \
      '<div style="margin-top: 8px;">' + marino("...Nobody's made me a plate since Halmeoni. Jalmeokgesseumnida.") + '</div>' + \
@@ -60,7 +57,7 @@ s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, ser
             "I wasn't. I was rinsing. It's just really hard to watch a pan sit there. Can you... tell me again? Like you mean it?",
             "\"Put the sponge down, Marino. No dishes tonight. I mean it.\"") + \
      choice("You Did Good Today", "slow · specific · say it again",
-            "I closed alone and burned my wrist. That's not... Yellow. Sorry. Not sorry. Yellow. ...Okay. Green. Say it one more time? Slower?",
+            "I closed alone and burned my wrist. That's not... Danny would tell me to take the compliment, boss. ...Say it one more time? Slower?",
             "\"You closed by yourself and still came here. You did good today. I'll say it as slow as you need.\"") + \
      choice("Bed", "glasses on the nightstand · lights low",
             "Yes, Mommy. You're really not going to let me get up and check the stove. ...Could you stay. Just a little. I'm asking anyway.",
@@ -131,7 +128,7 @@ page = f'''<!DOCTYPE html>
 {steps}
                 <div style="margin-top: 14px; border-top: 1px dashed #CFC9BA; padding-top: 12px; color: {INK}; line-height: 1.6; font-size: 0.92em; text-align: center;">
                     <span style="display: block; {MONO} letter-spacing: 2px; color: {BROTH}; font-size: 0.85em; margin-bottom: 6px; font-weight: 700;">86'D FOR THE NIGHT</span>
-                    Dishes. Checking the stove. Saying sorry for yellow. Danny's texts can wait till morning.
+                    Dishes. Checking the stove. Saying sorry. Danny's texts can wait till morning.
                 </div>
                 <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Heard. Thank you for the plate. ~M.J.</div>
             </div>
@@ -140,7 +137,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1A201C; padding: 12px 20px; border-radius: 8px; border: 1px solid #2A3A2E; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #344638; padding-top: 12px; color: #A0A79F;">
-                An adult caretaking dynamic between two grown adults. Expect a submissive man being fed, praised, ordered to rest, kept from the dishes, put to bed, and taken to bed, slowly. "Mommy" is an adult title for whoever is in charge. There is no ageplay, no age regression, and nothing childlike. All characters are adults. Everything was agreed in writing beforehand: traffic lights every session, yellow is respected without guilt, red stops everything, and Marino can and does say no.
+                An adult caretaking dynamic between two grown adults. Expect a submissive man being fed, praised, ordered to rest, kept from the dishes, put to bed, and taken to bed, slowly. "Mommy" is an adult title for whoever is in charge. There is no ageplay, no age regression, and nothing childlike. All characters are adults. Red stops everything, and Marino can say no.
             </div>
         </details>
 

@@ -29,20 +29,6 @@ def track(num, title, sub, body, opn=False):
                 </div>
             </details>'''
 
-def scale():
-    cells = [("1", "easy"), ("2", "still working"), ("3", "a lot"), ("4", "the edge"), ("5", "done")]
-    out = []
-    for n, lab in cells:
-        bg = PLUM if n == "5" else ("#E7D6DF" if n == "4" else "#FFFFFF")
-        fg = "#FFFFFF" if n == "5" else INK
-        out.append(f'<div style="flex: 1; min-width: 52px; background: {bg}; color: {fg}; border: 1px solid #CDB9C4; border-radius: 4px; padding: 6px 4px; text-align: center;">'
-                   f'<span style="display: block; font-family: Georgia, serif; font-size: 1.3em; font-weight: 700;">{n}</span>'
-                   f'<span style="display: block; font-size: 0.72em; letter-spacing: 0.5px;">{lab}</span></div>')
-    return '<div style="display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px;">' + "".join(out) + '</div>'
-
-def stop(sig):
-    return f'<div style="display: flex; gap: 10px; align-items: flex-start; margin-bottom: 5px; color: {INK}; line-height: 1.45;"><span style="color: {EMBER}; font-weight: 700;">&#9632;</span><span>{esc(sig)}</span></div>'
-
 def choice(title, line, start):
     return f'''
                     <details style="margin: 10px 0 0; background: #FFFCF7; border: 1px dashed #CDB9C4; border-radius: 6px; padding: 10px 12px;">
@@ -52,12 +38,9 @@ def choice(title, line, start):
                     </details>'''
 
 s1 = esteban("That's yours tonight. Hold it the whole time. You drop it, I stop. No talking required.") + \
-     f'<div style="margin: 12px 0 6px; font-family: \'Courier New\', Courier, monospace; font-size: 0.8em; letter-spacing: 2px; color: {MUTED};">THE NUMBER</div>' + scale() + \
-     f'<div style="font-family: \'Courier New\', Courier, monospace; font-size: 0.8em; letter-spacing: 2px; color: {MUTED}; margin-bottom: 6px;">ANY ONE OF THESE. HANDS OFF.</div>' + \
-     stop("Red.") + stop("A five.") + stop("Three taps, on him or the table.") + stop("The ball hits the floor.") + \
-     '<div style="margin-top: 10px;">' + esteban("Done means my hands are off before you finish the word. And a signal beats a green that comes after it. Every time.") + '</div>' + \
+     '<div style="margin-top: 8px;">' + esteban("Words get hard later. I'm counting on it. And you're not on my books. You're in my house.") + '</div>' + \
      starter("*I close my hand around the ball.* \"Okay. Nervous is about a three. Ask me again in a minute.\"")
-s2 = esteban("When your body finishes, that is not the same thing as us being done. You said yes to it twice. Everybody thinks it's the finish line.") + \
+s2 = esteban("When your body finishes, that is not the same thing as us being done. We talked about it. Everybody thinks it's the finish line.") + \
      '<div style="margin-top: 8px;">' + esteban("Oh, you finished. Congratulations. Hand's staying right where it is. Pressure's going feather light. Number.") + '</div>' + \
      starter("\"I already came. Isn't that it?\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">He asks. You answer. He repeats back what he hears.</div>' + \
@@ -65,10 +48,10 @@ s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, ser
             "\"Three. Still three. Don't you dare stop.\"") + \
      choice("Four", "I heard four. Hands off, one flat on the blanket, nowhere that matters. You held at the edge a whole song. Breathe. Longer than that.",
             "\"Four. Give me a second.\"") + \
-     choice("Drop the ball", "Done. Hands are up where you can see them. That's not a punishment, that's the deal working. Towel's hot. I'm getting you a coney.",
+     choice("Drop the ball", "Done. Hands are up where you can see them. Towel's hot. I'm getting you a coney.",
             "*I open my hand and let the ball roll off the table.*")
 
-tracks = track("A1", "House Rules", "Then I'll stop talking. Mostly.", s1, opn=True) + \
+tracks = track("A1", "The Ball", "Warm from his pocket. Yours tonight.", s1, opn=True) + \
          track("A2", "Halftime", "You finishing isn't the end.", s2) + \
          track("B1", "Number", "One easy. Five done. He's asking.", s3)
 
@@ -138,13 +121,13 @@ page = f'''<!DOCTYPE html>
                 <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">LINER NOTES</span>
                 Recorded upstairs, North End. Radiator on percussion. Towel warmer older than his car. Lemon and honey after, and a coney from up the street, eaten in his bed, crumbs and all.
             </div>
-            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Signal wins. Every time. ~E.B.</div>
+            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Flip it when you're ready. ~E.B.</div>
         </div>
 
         <details style="margin-top: 30px; background: #1D161D; padding: 12px 20px; border-radius: 8px; border: 1px solid #36263A; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #46324A; padding-top: 12px; color: #A496A0;">
-                Overstimulation. Expect touch that keeps going after release, multiple orgasms, massage and sensation play, a patient dominant with a wicked sense of humor, and full aftercare. All characters are adults. You are never his client, and nothing happens at his studio. Constant number check-ins. Red, a five, three taps, or dropping the ball stops everything at once, and a signal always outranks a later green.
+                Overstimulation. Expect touch that keeps going after release, multiple orgasms, massage and sensation play, a patient dominant with a wicked sense of humor, and full aftercare. All characters are adults. You are never his client, and nothing happens at his studio. Drop the ball, or say stop, and everything stops.
             </div>
         </details>
 

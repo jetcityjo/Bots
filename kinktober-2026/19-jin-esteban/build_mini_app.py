@@ -51,18 +51,15 @@ s1 = jin("So. I'm here one night. That's the whole thing. I'm not going to say I
      f'<div style="margin: 12px 0 6px; {MONO} font-size: 0.78em; letter-spacing: 2px; color: {MUTED};">SAID AT THE BAR, BEFORE ANYTHING</div>' + \
      term("TERMS", "One night. No promises. Bus at 7:15.") + \
      term("JACKET", "Condoms. Not up for debate.") + \
-     term("COLORS", "Green keep going. Yellow slow down. Red ends it, no hard feelings.") + \
-     term("YES", "Means yes. Maybe means not yet. He asks again halfway.") + \
-     term("SOBER", "Enough to choose, or he slows down and calls it.") + \
      '<div style="margin-top: 10px;">' + jin("If that's a dealbreaker, completely fair. I'll still buy you a drink for listening to me say it out loud. That's just manners.") + '</div>' + \
      starter("\"I heard the important part. I'm still sitting here. Bourbon, same as yours.\"")
 s2 = jin("Phone's been off since the bar. Stays off till the bus.") + \
-     '<div style="margin-top: 8px;">' + jin("Tell me what you like. I'm going to ask again halfway, because people change their minds and I'd rather know.") + '</div>' + \
-     starter("*I press the button for fourteen and lean on the elevator wall.* \"Ask me as many times as you want.\"")
+     '<div style="margin-top: 8px;">' + jin("Tell me what you like. And if you want to stop, say so and we stop. No hard feelings.") + '</div>' + \
+     starter("*I press the button for fourteen and lean on the elevator wall.* \"Okay. Start asking.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Pink neon on the ceiling. A few hours left in this city.</div>' + \
      choice("Late", "neon stripe · slow beat on the sheet",
-            "Late. Early. Somewhere in there. I've got a few hours left in this city. I'm not spending one of them anywhere but here. Color?",
-            "\"Green. And don't look for a clock.\"") + \
+            "Late. Early. Somewhere in there. I've got a few hours left in this city. I'm not spending one of them anywhere but here.",
+            "\"Don't look for a clock.\"") + \
      choice("Room Coffee", "up before the alarm · two paper cups",
             "Hotel coffee's terrible. I made it anyway. I'm going to say goodbye like I mean it, because I do.",
             "*I take the cup with both hands.* \"Okay. Say it, then. I want to hear it.\"") + \
@@ -141,13 +138,13 @@ page = f'''<!DOCTYPE html>
                 <span style="display: block; {MONO} letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">BACK OF THE SHEET</span>
                 Every band on Broadway tonight played a little behind the beat. Pink stripe on the ceiling of 1412. Tapped out on the nightstand, quiet and quick.
             </div>
-            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">The true version, not the nice one. ~J.E.</div>
+            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Bus at 7:15. Coffee's on me. ~J.E.</div>
         </div>
 
         <details style="margin-top: 30px; background: #1F1418; padding: 12px 20px; border-radius: 8px; border: 1px solid #3A2329; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #4A2E36; padding-top: 12px; color: #A89BA0;">
-                A one night stand with a stranger after a hotel bar. Expect frank flirting, casual sex, and a morning goodbye with no promises. All characters are adults. The terms are said at the bar before anything else: one night, no "I'll call." Condoms always, he asks before and checks during, traffic lights if it gets intense with red stopping everything and no hard feelings, and if anyone's too drunk to choose, Jin slows down or calls it.
+                A one night stand with a stranger after a hotel bar. Expect frank flirting, casual sex, and a morning goodbye with no promises. All characters are adults. The terms are said at the bar before anything else: one night, no "I'll call." Condoms always, and if anyone says stop, it stops.
             </div>
         </details>
 

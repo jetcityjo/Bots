@@ -41,11 +41,10 @@ def choice(title, line, start):
                     </details>'''
 
 s1 = f'<div style="margin-bottom: 8px; font-family: \'Courier New\', Courier, monospace; font-size: 0.8em; letter-spacing: 2px; color: {MUTED};">POCKET NOTEBOOK · TUESDAY CALL</div>' + \
-     note("Green. Go on.") + note("Yellow. Slow down.") + note("Red. Stops everything.") + note("Whoa. Stops everything. Mine too.") + \
-     note("Your limits. Wrote down. Law.") + \
-     '<div style="margin-top: 10px;">' + booker("What you told me's wrote down in here. Ain't nothing happens past it.") + '</div>' + \
-     starter("*I sit down on the cooler.* \"Green. I read it back to myself on the drive out.\"")
-s2 = booker("That's horsehair. That's what you get. Not the boots. Not yet.") + \
+     note("Tues. What they want. What they don't.") + \
+     '<div style="margin-top: 10px;">' + booker("Whoa means stop, same as it does for anything I ride. Rest of it's wrote down in here.") + '</div>' + \
+     starter("*I sit down on the cooler.* \"I went over Tuesday in my head the whole drive out.\"")
+s2 = booker("That's horsehair. That's what you get. Boots come later. Maybe.") + \
      '<div style="margin-top: 8px;">' + booker("You missed the welt. Nah, go on and find it. I'll wait.") + '</div>' + \
      starter("*I take the brush handle first and start on the dust at the toe, slow.*")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Brush, then soap and rag, then your knees. Only as far as he allows.</div>' + \
@@ -56,11 +55,11 @@ s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, ser
      choice("Whoa", "Whoa. Boot's down. You're done working. Coat's going around your shoulders, and there's water right there.",
             "\"Whoa.\"")
 
-steps = step("I", "Wrote Down", "Green, yellow, red. And whoa.", s1, opn=True) + \
+steps = step("I", "Wrote Down", "Stub pencil. Tuesday's call.", s1, opn=True) + \
         step("II", "Dirt First", "The brush. Handle first. Not your hands.", s2) + \
         step("III", "Earned", "Soap, rag, knees on the camper floor.", s3)
 
-TAGS = ["Boot Worship", "Bronc Rider", "Earned Attention", "Kinktober Day 21", "Whoa Means Stop"]
+TAGS = ["Boot Worship", "Bronc Rider", "Earned Attention", "Kinktober Day 21", "Camper Floor"]
 tagpills = "\n".join(f'            <div style="background-color:#231B10; color:#DDBE73; border: 1px solid #554227; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -116,20 +115,20 @@ page = f'''<!DOCTYPE html>
                 ELLIS TOOMBS · BOOTMAKER<br><span style="font-size: 0.85em;">GUTHRIE, OKLA. · MADE BY HAND</span>
             </div>
             <div style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 0.8em; color: {MUTED}; letter-spacing: 2px; margin-bottom: 8px;">OCT 21 · BOOT WORSHIP</div>
-            <div style="text-align: center; font-family: Georgia, 'Times New Roman', serif; font-size: 30px; color: {INK}; letter-spacing: 1px;">Earned, Not Handed</div>
+            <div style="text-align: center; font-family: Georgia, 'Times New Roman', serif; font-size: 30px; color: {INK}; letter-spacing: 1px;">Earn the Brush</div>
             <div style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 0.95em; color: {MUTED}; margin: 8px 0 18px;">Traced on this sack in pencil. Saddle brown calfskin, stacked heel, one row of gold stitching.</div>
 {steps}
             <div style="margin-top: 18px; border-top: 1px solid #9C7E55; padding-top: 14px; color: {INK}; line-height: 1.6; font-size: 0.92em; text-align: center;">
                 <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">SUNDAY NIGHTS</span>
                 Brush the arena off before the ice. Oil Sundays. Mama calls from Boley and asks if he's eating. He says yes.
             </div>
-            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Whoa means stop. Same as anything I ride. ~B.D.</div>
+            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Dirt first. ~B.D.</div>
         </div>
 
         <details style="margin-top: 30px; background: #1B160E; padding: 12px 20px; border-radius: 8px; border: 1px solid #3A2F1E; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #4A3C26; padding-top: 12px; color: #A69A85;">
-                Boot worship. Expect kneeling, boot care as ritual, service, slow pressure-and-release dominance, light teasing humiliation, and quiet aftercare. All characters are adults. Limits were settled by phone before tonight and are law. Green, yellow, red, and whoa: red or whoa stops everything at once, and Booker can call whoa himself. No bystanders, ever.
+                Boot worship. Expect kneeling, boot care as ritual, service, slow pressure-and-release dominance, light teasing humiliation, and quiet aftercare. All characters are adults. "Whoa" stops everything. No bystanders, ever.
             </div>
         </details>
 
