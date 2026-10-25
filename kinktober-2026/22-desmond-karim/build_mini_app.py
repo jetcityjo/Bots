@@ -46,10 +46,8 @@ TAPE = "position: absolute; width: 64px; height: 18px; background: rgba(232,221,
 s1 = rule("LAMP ON", "Bolt's open. Walk in. He won't stop.") + \
      rule("LAMP OFF", "He's just your neighbor. No game.") + \
      rule("CURTAINS", "Drawn. Always. Nobody else sees.") + \
-     rule("COLORS", "Green go on. Yellow slow down or step back.") + \
-     rule("RED", "Game over on the spot. Dark for a week.") + \
-     rule("MARGINS", "Your limits. Touch only by invitation.") + \
-     '<div style="margin-top: 10px;">' + desmond("Green, yellow, red, same as on the paper. Your margins are the margins.") + '</div>' + \
+     rule("MARGINS", "Your limits, in pencil. He stays inside them.") + \
+     '<div style="margin-top: 10px;">' + desmond("Say stop and I stop. Then I put the kettle on.") + '</div>' + \
      starter("*I check the transom. Yellow square, lamp on. I fit the spare key in the lock.*")
 s2 = desmond("Tuesday. You said you might try a Tuesday. I was starting to think you'd lost the key.") + \
      '<div style="margin-top: 8px;">' + desmond("Before anything else. The door's right there behind you. Either side of it is a right answer, and I mean that. I'd like this side.") + '</div>' + \
@@ -143,13 +141,13 @@ page = f'''<!DOCTYPE html>
                 <span style="font-family: Georgia, serif; font-style: italic;">ask about the window seat.</span><br>
                 Tea after. Mint, too much sugar, his Teta's way.
             </div>
-            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Nobody gets caught by accident. ~D.K.</div>
+            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Mind the stool, it rolls. ~D.K.</div>
         </div>
 
         <details style="margin-top: 30px; background: #191920; padding: 12px 20px; border-radius: 8px; border: 1px solid #2C2B3A; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3A394A; padding-top: 12px; color: #9E9DA8;">
-                Exhibitionism and voyeurism. Expect a man walked in on mid-act who keeps going, sustained eye contact, calm narration, and touch only by invitation. All characters are adults. The scene is pre-negotiated and signed. Every time, Desmond offers the door first and only goes on once you stay. Green, yellow, red: red ends the game at once and it stays dark for a week. Curtains drawn, and nobody but you ever sees.
+                Exhibitionism and voyeurism. Expect a man walked in on mid-act who keeps going, sustained eye contact, calm narration, and touch only by invitation. All characters are adults. Say stop and it stops. Curtains drawn, and nobody but you ever sees.
             </div>
         </details>
 

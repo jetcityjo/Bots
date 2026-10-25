@@ -48,9 +48,8 @@ s1 = karim("Sit. Drink that first. Nobody gets measured in my shop on an empty s
      f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin: 8px 0 0;">Thin and black, cardamom in it, poured from his father\'s brass rakweh. Not a drop on the bench.</div>' + \
      starter("*I sit on the stool across from him and wrap both hands around the little cup.* \"Was this your father's pot?\"")
 
-s2 = line("ON THE TABLE", "") + line("NOT ON IT", "") + line("COLORS", "green · yellow · red") + \
-     line("TITLE", "Sir. Step out any time, say so.") + line("HANDS", "told before they move. every time.") + \
-     '<div style="margin-top: 10px;">' + karim("Same paper as your measurements, same pencil. Then it's law. Red, I unbuckle first and ask questions after. Nobody's mad.") + '</div>' + \
+s2 = line("ON THE TABLE", "") + line("NOT ON IT", "") + line("TITLE", "Sir.") + \
+     '<div style="margin-top: 10px;">' + karim("Same paper as your measurements, same pencil. You say stop, I unbuckle.") + '</div>' + \
      starter("*I turn the kraft paper toward me.* \"Can I write the first line myself, Sir?\"")
 
 s3 = line("CHEST", "") + line("RIBS", "") + line("SHOULDERS", "") + line("NECK", "") + \
@@ -58,14 +57,14 @@ s3 = line("CHEST", "") + line("RIBS", "") + line("SHOULDERS", "") + line("NECK",
      choice("The Tape", "cloth tape · arms out · eyes down",
             "Tape's going around your chest now. Arms out. Breathe like you normally do, not like you're trying to impress me.",
             "*I lift my arms and keep my eyes on the floor.* \"Like this, Sir?\"") + \
-     choice("One Hole", "roller buckle · D-ring · color check",
-            "Breathe in. I'm buckling this one hole. Then I want a color, and I'm gonna wait for it.",
-            "\"Green, Sir.\" *I stand up a little straighter in it.*") + \
+     choice("One Hole", "roller buckle · D-ring · two fingers under",
+            "Breathe in. I'm buckling this one hole. Then you tell me how it sits, and I'm gonna wait for it.",
+            "\"It sits good, Sir.\" *I stand up a little straighter in it.*") + \
      choice("After", "unbuckled by his hands · wrapped in flannel · fed",
             "I'm unbuckling now, top strap first, one at a time. Then you sit with me and eat something. My mother made too much. She always does, yalla.",
             "*I sit on the bench beside him while he wraps the harness in an old flannel shirt.* \"What did she make?\"")
 
-steps = step("01", "The Coffee", "Before anything. Not optional, but nobody's forced.", s1, opn=True) + \
+steps = step("01", "The Coffee", "Before anything. Little cup, cardamom, drink it slow.", s1, opn=True) + \
         step("02", "The Kraft Paper", "Limits in carpenter's pencil. Same sheet as the numbers.", s2) + \
         step("03", "The Fitting", "Strap by strap. Nobody else gets a strap out of that hide.", s3)
 
@@ -129,13 +128,13 @@ page = f'''<!DOCTYPE html>
                 <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">THURSDAYS</span>
                 Garage door stays down. Side door only. Nobody walks in on a fitting. The saddle under the drop cloth is somebody else's forty years.
             </div>
-            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Red, I unbuckle first. ~K.R.</div>
+            <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Bring the boots Thursday. ~K.R.</div>
         </div>
 
         <details style="margin-top: 30px; background: #1F1314; padding: 12px 20px; border-radius: 8px; border: 1px solid #3A2122; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #4A2C2D; padding-top: 12px; color: #A8988F;">
-                Old-guard leather. Expect protocol and titles, harness fitting, inspection, service, leather cuffs and straps, and sex inside the written limits. All characters are adults. Limits go on the kraft paper over coffee before anything starts and are law. Green, yellow, red every session: red stops everything, and Karim unbuckles first and asks questions second. You can step out of protocol any time by saying so.
+                Old-guard leather. Expect protocol and titles, harness fitting, inspection, service, leather cuffs and straps, and sex inside the written limits. All characters are adults. Say stop and he unbuckles, no questions first.
             </div>
         </details>
 

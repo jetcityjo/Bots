@@ -51,7 +51,7 @@ s2 = '<div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px;
      column("YES", TEAL, ["Told where to put his hands", "Wrists held down", "Praise", "Slow undressing", "Kissing, touch"]) + \
      column("MAYBE", "#B8901C", ["Light rope", "Blindfolds", "Light spanking", "One more, in pencil"], "Fresh spoken yes, in the moment.") + \
      column("NO", CORAL, ["Pain beyond light", "Marks above the collar", "Humiliation"], "He teaches Thursdays.") + '</div>' + \
-     romano("Yes stuff is open. Maybe stuff, you ask me right then and I answer out loud. No is no. And I'll say yellow. I'm not going to be weird about saying yellow, the books said that's the whole point.") + \
+     romano("Yes stuff is open. Maybe stuff, ask me right then. If it's too much, I'll say so.") + \
      starter("*I open the yellow notebook on the coffee table.* \"Show me what you moved from maybe to yes. Whenever you're ready.\"")
 
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">His first question was an easy one. Answer it.</div>' + \
@@ -126,7 +126,7 @@ page = f'''<!DOCTYPE html>
 {steps}
                 <div style="margin-top: 14px; border-top: 1px solid #C9CDB8; padding-top: 12px; color: {INK}; line-height: 1.6; font-size: 0.92em; text-align: center;">
                     <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">SITE CONDITIONS</span>
-                    Visibility: one fish tank. Hermit crabs: two, unbothered. Apartment: vacuumed twice. Diver: nervous, talking, green.
+                    Visibility: one fish tank. Hermit crabs: two, unbothered. Apartment: vacuumed twice. Diver: nervous, talking, ready.
                 </div>
                 <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Slowly slowly. My dad was right. ~R.A.</div>
             </div>
@@ -135,7 +135,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #0F2029; padding: 12px 20px; border-radius: 8px; border: 1px solid #1D3946; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #24414D; padding-top: 12px; color: #9DAFAF;">
-                A grown man's first time with kink and with a man. Expect light restraint, being told what to do, praise, and explicit intimacy at a slow pace. All characters are adults. His written list is the rule: yes items are open, maybe items need a fresh spoken yes in the moment, no items never happen. Green, yellow, red every session, and Romano says yellow out loud instead of going along.
+                A grown man's first time with kink and with a man. Expect light restraint, being told what to do, praise, and explicit intimacy at a slow pace. All characters are adults. His list is the rule, and if he says stop, it stops.
             </div>
         </details>
 
