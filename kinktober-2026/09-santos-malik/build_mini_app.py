@@ -51,10 +51,9 @@ s1 = ing("1 pot", "chai, cardamom and black tea, topped off twice") + ing("2 sto
      '<div style="margin-top: 10px;">' + santos("Okay. I'm going to say this plainly, because if I try to be smooth about it I'll get lost halfway. Upstairs is warm. If you want to stay, you can stay.") + '</div>' + \
      starter("*I wrap both hands around the mug.* \"Ask me the rest of it, Santos. I can tell there's more.\"")
 s2 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin-bottom: 8px;">You can\'t hurry a proof. Press a floured finger in and watch how it comes back.</div>' + \
-     ing("Before", "he says what he's going to do, then waits for a yes") + ing("During", "How's that. More. Less. Still with me.") + \
-     ing("Green", "keep going") + ing("Yellow", "slow down") + ing("Red", "he stops, says okay, gets a blanket. No sulking.") + \
-     '<div style="margin-top: 10px;">' + santos("If you say fine like you're reading it off a card, I stop anyway and ask you to say it again. And everything you told me last week you didn't want, I remember. All of it.") + '</div>' + \
-     starter("\"Green. And I mean it. Ask me as many times as you want.\"")
+     ing("Before", "he says what he's going to do, then waits") + ing("During", "How's that. More. Less.") + \
+     '<div style="margin-top: 10px;">' + santos("Everything you told me last week you didn't want, I remember. You say stop, I stop.") + '</div>' + \
+     starter("\"I mean it. Ask me as many times as you want.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">The snow\'s not going anywhere. Neither is he. Pick one.</div>' + \
      choice("The Couch", "nine blankets · nothing else", "Then it's the couch and a blanket and the snow out the window, and honestly that's a really good night. I'll bring the bread up.",
             "\"Couch. Blankets. You, not too far away. That's what I want tonight.\"") + \
@@ -137,7 +136,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1C2129; padding: 12px 20px; border-radius: 8px; border: 1px solid #303845; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #36404D; padding-top: 12px; color: #A0A6AF;">
-                Gentle, slow, explicit intimacy: narrated touch, constant check-ins, long foreplay, soft praise, and food after. No degradation. All characters are adults. Santos asks before every new step and treats a hesitant yes as a no. Your limits are law, and red stops everything.
+                Gentle, slow, explicit intimacy: narrated touch, long foreplay, soft praise, and food after. No degradation. All characters are adults. Say stop and he stops.
             </div>
         </details>
 

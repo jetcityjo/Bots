@@ -40,27 +40,24 @@ def bid(title, line, start):
                         </div>
                     </details>'''
 
-l1 = peter("Tell me what you want, in detail. Then tell me what you will never want. Those lines are not part of any game I play. They are walls, and I don't test walls.") + \
+l1 = peter("Tell me what you want. Specifically. Then tell me what you never want. I won't touch those, in a scene or out of one.") + \
      starter("*I set my tea down and meet his eyes.* \"All right. Here's what I want.\"")
-l2 = term("SAFEWORD", "Chosen tonight. Everyone looks at the painting first.") + \
-     term("SIGNAL", "Three taps, or drop what you're holding.") + \
-     term("OUT OF SCENE", "((Double parentheses)), always honored.") + \
-     term("IN SCENE", "No, stop, and struggle are part of the game.") + \
-     '<div style="margin-top: 10px;">' + peter("When you say it, everything stops, and I become a man who pours you tea and asks if you're alright. Nothing else ends a scene. Everything else is a negotiation I intend to win.") + '</div>' + \
+l2 = term("THE WORD", "Chosen tonight. Everyone looks at the painting first.") + \
+     '<div style="margin-top: 10px;">' + peter("You say it, I stop, and I pour you tea. Anything short of that word, I'll treat as part of the game.") + '</div>' + \
      starter("\"My word is Rothko.\"")
 l3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Negotiation complete. Choose how he opens the bidding.</div>' + \
      bid("The Chess Game", "Move fourteen. You can resign, or you can play on. I'd advise against resigning. I'd enjoy it less.",
          "*I move my knight.* \"I'm not resigning.\"") + \
      bid("The Viewing Room", "Private viewing, after hours. The door locks from my side. You agreed to that part.",
          "*I follow him into the private viewing room and hear the lock turn.*") + \
-     bid("The Chase", "Argue with me. Refuse me. Make it difficult. I have all evening, and I don't chase. I wait.",
+     bid("The Chase", "Refuse me. Make it difficult. I have all evening, and I don't chase. I wait.",
          "\"No. You'll have to do better than that.\"")
 
 lots = lot("01", "Provenance", "What you want, and where the walls are.", l1, opn=True) + \
        lot("02", "The Reserve", "The one word that stops everything.", l2) + \
        lot("03", "The Bidding", "Then, and only then, the game.", l3)
 
-TAGS = ["CNC", "Art Dealer", "Patient Predator", "Kinktober Day 6", "Negotiated Resistance"]
+TAGS = ["CNC", "Art Dealer", "Chess by Mail", "Kinktober Day 6", "Negotiated Resistance"]
 tagpills = "\n".join(f'            <div style="background-color:#221615; color:{GOLD}; border: 1px solid #4A2A26; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -81,7 +78,7 @@ page = f'''<!DOCTYPE html>
 
         <div style="margin-bottom:25px;">
             <div style="font-style:italic; font-size:18px; margin-bottom:15px; color: #988C82; font-family: Georgia, serif;">
-                “You were always going to say yes. Take your time. I have all evening.”
+                “So go on. Refuse me again. I have all evening.”
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
                 <img src="{BANNER}" alt="Peter Bennett" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #2E2321; filter: brightness(0.9);">
@@ -118,7 +115,7 @@ page = f'''<!DOCTYPE html>
 {lots}
             <div style="margin-top: 18px; border-top: 1px solid #DDD5C8; padding-top: 14px; color: {INK}; line-height: 1.6; font-size: 0.92em; text-align: center;">
                 <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">HAMMER PRICE</span>
-                Not sold to the highest bidder. Sold to the one who fought hardest, and chose him anyway.
+                Goes to whoever argues with him longest and still stays for the second pot of tea.
             </div>
             <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Your move. ~P.B., Chelsea</div>
         </div>
@@ -126,7 +123,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1D1615; padding: 12px 20px; border-radius: 8px; border: 1px solid #2E2321; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3E302D; padding-top: 12px; color: #A3988E;">
-                Peter's kink is consensual non-consent. Expect negotiated resistance, forced proximity, and power exchange, always negotiated out of scene first. All characters are adults. Hard limits are walls. The safeword or three taps ends any scene instantly, and out-of-character talk is always honored.
+                Consensual non-consent: negotiated resistance, forced proximity, and power exchange, set up over tea before anything starts. All characters are adults. Say the safeword and he stops.
             </div>
         </details>
 

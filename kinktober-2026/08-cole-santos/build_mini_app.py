@@ -24,11 +24,6 @@ def field(label, value):
             f'<span style="font-family: \'Courier New\', Courier, monospace; font-size: 0.78em; color: {MUTED}; letter-spacing: 1px; min-width: 82px;">{esc(label)}</span>'
             f'<span style="color: {CARBON}; font-family: Georgia, serif; font-style: italic; border-bottom: 1px dotted #9FAEA3; flex: 1;">{esc(value)}</span></div>')
 
-def light(color, word, meaning):
-    return (f'<div style="display: flex; gap: 10px; align-items: center; margin-bottom: 6px; color: {INK};">'
-            f'<span style="display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: {color}; border: 1px solid rgba(0,0,0,0.3);"></span>'
-            f'<span><strong>{esc(word)}</strong>&nbsp;· {esc(meaning)}</span></div>')
-
 def section(num, title, sub, body, opn=False):
     o = " open" if opn else ""
     return f'''
@@ -55,11 +50,9 @@ def choice(title, note, line, start):
 s1 = field("WORK REQ.", "Orgasm delay and denial.") + field("ARRIVED", "Early. Added to the end.") + field("READ", "Twice before. Once more now.") + \
      '<div style="margin-top: 10px;">' + cole("I read it the way I read a movement. One line at a time. Then we go upstairs, and I keep the time so you don't have to.") + '</div>' + \
      starter("*I take the second stool and watch him turn the ticket over.* \"You can read it a third time. I'll wait.\"")
-s2 = light("#4E8A4A", "Green", "keep going") + light("#D2A12C", "Yellow", "slow down") + light("#B23A30", "Red", "everything stops, and he says thank you") + \
-     f'<div style="margin: 10px 0 6px; font-family: \'Courier New\', Courier, monospace; font-size: 0.8em; color: {MUTED}; letter-spacing: 1px;">SHOP RULES · BREAK ONE, CLOCK GOES TO ZERO</div>' + \
-     f'<div style="color: {INK}; line-height: 1.6;">Hands where he put them. Eyes up. Ask properly.</div>' + \
-     '<div style="margin-top: 10px;">' + cole("Nothing happens that isn't allowed on the back of this ticket. That's not a shop policy. That's mine. And whether you finish tonight, I'll tell you before we start. Never a trick.") + '</div>' + \
-     starter("\"Green. Tell me now, before we go up. Tonight, or next time?\"")
+s2 = field("LIMITS", "Your handwriting. He reads every line.") + field("TONIGHT?", "He tells you before anything starts.") + \
+     '<div style="margin-top: 10px;">' + cole("Nothing happens that isn't on the back of this. You want to stop, say so, and we stop.") + '</div>' + \
+     starter("\"Tell me now, before we go up. Tonight, or next time?\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Everyone writes something extra at the bottom. Tell him what yours was.</div>' + \
      choice("\"Please.\"", "just the word · no context", "Just the word. No context. I'm going to want the context. Take your time. I've got forty clocks and none of them agree.",
             "\"It means please. That's all it means. I wanted you to have it in writing.\"") + \
@@ -69,7 +62,7 @@ s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, ser
             "*I unbuckle my watch and set it face down on the bench.* \"Your job, then. All of it.\"")
 
 parts = section("01", "Front: Work Requested", "Carbon pad. Same one he uses downstairs.", s1, opn=True) + \
-        section("02", "Back: Limits", "Law. Read once more in front of you.", s2) + \
+        section("02", "Back: Limits", "Read once more, in front of you.", s2) + \
         section("03", "The Bottom Line", "The part he reads last.", s3)
 
 TAGS = ["Edging", "Watchmaker", "Counting", "Kinktober Day 8", "I'll Tell You First"]
@@ -143,7 +136,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1A201D; padding: 12px 20px; border-radius: 8px; border: 1px solid #2C3631; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #36423C; padding-top: 12px; color: #9FA9A2;">
-                Edging, orgasm delay and denial, counting and permission play, small rules with resets, specific praise, and real aftercare. All characters are adults. The back of the repair ticket is law, release is announced before anything starts, and red stops everything. Cole says thank you when you use it.
+                Edging, orgasm delay and denial, counting and permission play, small rules with resets, specific praise, and real aftercare. All characters are adults. If you say stop, he stops.
             </div>
         </details>
 

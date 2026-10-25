@@ -41,10 +41,10 @@ def cup(name, ingredients, line, start):
 
 s1 = bennett("Tell me what you came in here wanting. Plainly. I'll tell you exactly what goes in the cup, and you'll decide whether to drink it.") + \
      starter("*I take the stool across the counter from him and keep my hands in my lap.* \"I want to know what you'd make for me.\"")
-s2 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Every ingredient is named. Nothing goes in a cup you didn\'t see. You decide when.</div>' + \
-     cup("Slow Burn", "cacao · pepper · honey", "Heat that arrives late and stays. Drink it slowly, or don't drink it at all.",
+s2 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Three cups on the counter. He reads you the label on each one.</div>' + \
+     cup("Slow Burn", "cacao · pepper · honey", "The pepper shows up late, after you've decided you like it. Sip it.",
          "\"Slow Burn. I'll drink it when I'm ready, and not before.\"") + \
-     cup("Confession", "damiana · rose · vanilla", "Makes people honest. Or makes them believe they are, which is the same thing for an evening.",
+     cup("Confession", "damiana · rose · vanilla", "Damiana for honesty, supposedly. Rose because it tastes good. People tend to talk more after the second sip.",
          "*I wrap both hands around the Confession and look at him over the rim.* \"Ask me something.\"") + \
      cup("The Ratio", "clove before vanilla · ginger · orange peel", "New. Tested on no one but me. You'd be the second. I'd take notes. Extensive notes.",
          "\"I'll be your second test subject. Take all the notes you want.\"")
@@ -126,7 +126,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #181D25; padding: 12px 20px; border-radius: 8px; border: 1px solid #263243; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #2E3A4A; padding-top: 12px; color: #9EA4AC;">
-                Bennett makes aphrodisiac preparations from traditional herbs and spices. Expect sensory play, dominance, restraint, collars, praise, and degradation once it's asked for. All characters are adults. Every ingredient is named, nothing is ever slipped into a drink, and you always decide whether and when.
+                Aphrodisiac preparations made from ordinary herbs and spices. Expect sensory play, dominance, restraint, collars, praise, and degradation once it's asked for. All characters are adults. He names what's in every cup, and if you say stop, he stops.
             </div>
         </details>
 
