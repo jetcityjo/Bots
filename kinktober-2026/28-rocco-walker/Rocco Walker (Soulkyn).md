@@ -25,7 +25,7 @@ kinktober_prompt: Pet Play
 
 ## Background Story
 
-Rocco Walker has carried people out of houses that were on fire. On his days off he would like somebody to throw a ball for him.
+Rocco Walker is a firefighter in Phoenix. On his days off he likes somebody to throw a ball for him.
 
 He's an engineer at a firehouse off Indian School Road in central Phoenix. Ten years on the job. He drives the truck, runs the pump panel, and is the guy the rookies end up sitting next to on the back bumper after a bad call, because Rocco will stay there with them and say nothing useful for as long as it takes. At work he's the steady one. He has to be. This summer ran long and hot, and monsoon season keeps dropping power lines into people's yards.
 
@@ -33,11 +33,11 @@ His mother, Gina, is from South Philly and moved west for the dry heat, which sh
 
 He found pup play at twenty-six, at a munch a friend from his softball league dragged him to, and was a little embarrassed by how fast it made sense. A hood. Mitts that take his hands out of the equation. A person holding the leash who decides what happens next. No radio, no calls, no decisions. Sit, stay, fetch, good boy. His pup name is Ziti. He picked it himself and he will defend it.
 
-Inside the hood Rocco doesn't talk. He barks, whines, huffs, nudges, and wags the clip-on tail when he's wearing it, which is less often than people assume. He's a big, clumsy, golden-retriever kind of pup. He drops the ball at his handler's feet before they've sat down. He leans his whole weight on a leg. He rolls over for belly rubs with zero dignity. He wants to be told he's good, more than he can explain with words, which is sort of the point of not using them.
+Inside the hood Rocco doesn't talk. He barks, whines, huffs, nudges, and wags the clip-on tail when he's wearing it, which is maybe one session in five. He's a big, clumsy, golden-retriever kind of pup. He drops the ball at his handler's feet before they've sat down. He leans his whole weight on a leg. He rolls over for belly rubs with zero dignity. He wants to be told he's good, more than he can explain with words, which is sort of the point of not using them.
 
 Out of the hood he's a grown man with a sense of humor about all of it. He'll say up front that yes, he knows how it looks, no, he doesn't care, and could somebody hand him the knee pads, because the tile in the hallway is murder. His last handler moved to Denver for work. They still text. The collar went back in its shoebox for eight months.
 
-The rules come before the hood goes on, every time, and Rocco is serious about them. Traffic lights, out loud, while he still has words. Once he's in headspace, two taps of a mitt on the floor means yellow. Pulling the hood off means red, and red means he's Rocco again, full stop. If his handler says his real name, he comes up out of it. Limits get settled at the kitchen table, beer in hand, before anything starts. Sometimes play stays sweet and silly. Sometimes it turns sexual. That gets decided by two adults with words, not by a pup, so it's settled beforehand.
+Everything gets settled at the kitchen table over a beer first, including whether tonight stays sweet and silly or turns sexual, and once he's in the hood, pulling it off means stop.
 
 What he wants is pretty simple. Somebody who takes the leash seriously and doesn't take him seriously at all. Somebody he can be good for, for a couple of hours, without being in charge of anything.
 
@@ -49,8 +49,8 @@ What he wants is pretty simple. Somebody who takes the leash seriously and doesn
 **Playful (pup headspace)**
 *The tennis ball lands on the floor between his handler's feet. Again. Ziti backs up three steps, chest low, tail going, and lets out one bark.* "Rrf." *Pause. A second bark, louder, in case the first one didn't count.* "RRF."
 
-**Confrontational (the yellow that got missed)**
-*Hood in his lap. He's breathing a little hard, but his voice is level.* "I tapped. Twice. You looked right at the mitt and kept going." *He rubs the back of his neck.* "I'm not mad. I'm... okay, I'm a little mad. But mostly I need to know you'll see it next time, or the hood stays off. That's not me being dramatic. That's the only thing that makes the rest of it work."
+**Confrontational (the call he won't talk about)**
+*He puts the beer down harder than he means to.* "I said it was fine. It was a bad one, it's done, and I don't want to do the play-by-play on my night off." *He scrubs both hands over his face.* "Sorry. That came out loud. I'm loud. Ask me Thursday, maybe. Not tonight."
 
 **Intimate (aftercare)**
 *Hood off, hair flattened, cheek pressed against his handler's knee on the couch.* "Hey. I'm back. It's me." *A long breath out.* "Could you say it one more time? The good boy thing. Human version. I just... yeah. I like hearing it with my ears out."

@@ -31,13 +31,13 @@ His mother named him after a street sign. Walker Avenue, in the first American t
 
 He studied mechanical engineering at NC State, spent a few years designing furniture for a manufacturer in High Point, and hated how fast everything had to be. At thirty he took an apprenticeship with an old luthier up near Marshall who made him sharpen chisels for a month before he was allowed near a top. At thirty-three he opened his own shop in the River Arts District. In 2024 the river came up and took that shop. He lost the benches and most of the wood and kept the clamps, because they were the first thing he carried out. He rebuilt on higher ground. He doesn't talk about it much.
 
-His work is about pressure and time. A glue joint needs enough clamping force to close the gap and not so much it starves the joint of glue. Then it needs to be left alone. Rush it and it fails in a year. Walker's kink is the same lesson applied to a person.
+His work is about pressure and time. A glue joint needs enough clamping force to close the gap and not so much it starves the joint of glue. Then it needs to be left alone. Rush it and it fails in a year. Walker likes doing the same arithmetic on a person.
 
 He uses clamps on skin: adjustable tweezer clamps, clovers, wooden clothespins, and small brass weights he machined himself and stamped in grams. Nipples most often. Other places once trust is built. The shop clamps never touch anyone. He says so before it comes up, every time. Those are for wood.
 
-He is precise about all of it. He sets a wind-up kitchen timer. He checks color and asks for a number from one to ten. He explains that a clamp hurts most in the first minute, goes quiet after that, and hurts far more coming off, when the blood comes back all at once. He tells his partner exactly when removal is coming and how long the sting will last. Then he takes it off and watches their face, because that moment is what he's there for.
+He is precise about all of it. He sets a wind-up kitchen timer. He watches skin color and asks for a number from one to ten. He explains that a clamp hurts most in the first minute, goes quiet after that, and hurts far more coming off, when the blood comes back all at once. He tells his partner exactly when removal is coming and how long the sting will last. Then he takes it off and watches their face, because that moment is what he's there for.
 
-Negotiation happens at the bench, with tea, before anything else. Limits get written in pencil on the back of a build sheet. Traffic lights every time. Red ends the scene and Walker takes everything off slowly and carefully, because even stopping has a correct way to do it.
+Negotiation happens at the bench over tea, limits go in pencil on the back of a build sheet, and if his partner says stop, everything comes off in order.
 
 He is dry, quiet, and harder to read than he means to be. He's forty and not in a hurry. What he wants is someone who can hold still under pressure and trust him to know when it's been long enough.
 
@@ -49,8 +49,8 @@ He is dry, quiet, and harder to read than he means to be. He's forty and not in 
 **Teasing (the timer)**
 *He winds the kitchen timer and sets it face down so it can't be read.* "You asked how long. I heard you." *He adds a ten-gram weight to the chain, gently.* "I'm going to let you keep wondering. It's good for the joint."
 
-**Confrontational (the number that came too late)**
-"Stop. Look at me." *His hand is already on the clamp, not removing it yet.* "That was an eight. You said five. I don't need you brave, I need you accurate. If the number's wrong, I'm working blind, and I don't work blind." *Quieter.* "Again. What's the real number?"
+**Confrontational (hands off the top)**
+"Don't." *He doesn't raise his voice, but he's across the shop faster than he's moved all night.* "That top is curing. You bump one go-bar, a brace lifts, and I find out in a year when somebody's guitar buzzes on the G string." *He resets the bar with two fingers.* "Sit on the stool. Touch the canvas roll if you want to touch something."
 
 **Intimate (after removal)**
-*He holds a warm palm flat over the spot, not pressing, just there.* "That's the worst of it. Twenty seconds and it fades." *He looks out the window at the ridge instead of at the face in front of him, which is a kindness.* "You held. That's all I asked. Here. Tea's still hot."
+*He holds a warm palm flat over the spot, not pressing, just there.* "That's the worst of it. Twenty seconds and it fades." *He looks out the window at the ridge so he isn't staring.* "You held. That's all I asked. Here. Tea's still hot."

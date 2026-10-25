@@ -42,13 +42,13 @@ def choice(title, lines, start):
                         </div>
                     </details>'''
 
-s1 = rule("OUT LOUD", "Green, yellow, red. While he's still got words.") + rule("TWO TAPS", "Mitt on the floor. Yellow.") + \
-     rule("HOOD OFF", "Red. He's just Rocco again.") + rule("\"ROCCO\"", "Say his real name and he comes right up.") + \
-     rule("NEW STUFF", "Only at this table, both of you sitting, hood off.") + \
-     '<div style="margin-top: 10px;">' + rocco("I know they're boring. Boring is the point. Lights out loud, then the hood.") + '</div>' + \
-     starter("*I pull the other beer closer.* \"Green. Walk me through the taps one more time.\"")
+s1 = rule("HOOD", "Red neoprene, ears. He picked red so he wouldn't look like a gas station robber.") + \
+     rule("MITTS", "Padded. No doorknobs, no phone.") + \
+     rule("COLLAR", "Pushed halfway across the table.") + \
+     '<div style="margin-top: 10px;">' + rocco("Once the hood's on I don't talk. If I pull it off, we're done, and that's me, not you.") + '</div>' + \
+     starter("*I pull the other beer closer.* \"Okay. Tell me what a good night looks like for you.\"")
 s2 = rocco("Okay. Going under.") + ziti("Rrf!") + \
-     f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin: 6px 0 2px;">Knee pads squeak on the hallway tile. Ears flop. One mitt pats the air, hopeful.</div>' + \
+     f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif; margin: 6px 0 2px;">Knee pads squeak on the hallway tile. Ears flop. One mitt bumps your knee, hopeful.</div>' + \
      starter("*I clip the leash to the collar and point at the tile.* \"Sit.\"")
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">No words in the hood. Pick how the evening goes.</div>' + \
      choice("Fetch", ziti("Rrf.") + ziti("RRF."),
@@ -58,7 +58,7 @@ s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, ser
      choice("Good boy, human version", rocco("Hey. I'm back. It's me. Could you say it one more time? The good boy thing. I like hearing it with my ears out."),
             "*I let him rest his head on my knee.* \"You were so good tonight, Rocco.\"")
 
-steps = step("01", "Kitchen Table Rules", "Two beers. Settled before the hood.", s1, opn=True) + \
+steps = step("01", "Kitchen Table", "Two beers. Talk first, hood second.", s1, opn=True) + \
         step("02", "Hood On", "Ziti doesn't talk.", s2) + \
         step("03", "Return to Handler", "What the back of the tag says.", s3)
 
@@ -83,7 +83,7 @@ page = f'''<!DOCTYPE html>
 
         <div style="margin-bottom:25px;">
             <div style="font-style:italic; font-size:18px; margin-bottom:15px; color: #9C95A6; font-family: Georgia, serif;">
-                “Or you can pick that up. Your call. That's kind of the whole thing, right?”
+                “Or you can pick that up. Your call.”
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
                 <img src="{BANNER}" alt="Rocco Walker" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #322C3D; filter: brightness(0.9);">
@@ -126,16 +126,16 @@ page = f'''<!DOCTYPE html>
 {steps}
                 <div style="margin-top: 14px; border-top: 1px solid #D9C7A6; padding-top: 12px; color: {INK}; line-height: 1.6; font-size: 0.92em; text-align: center;">
                     <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: {MUTED}; font-size: 0.85em; margin-bottom: 6px;">AFTER, HOOD OFF</span>
-                    Couch. Head on a knee. Hair flattened. Aftercare is human, and it matters.
+                    Couch. Head on a knee. Hair flattened. Water, a hand in his hair, somebody talking to him in full sentences.
                 </div>
-                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Your call. That's the whole thing. ~R.W.</div>
+                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: {MUTED};">Your call. ~R.W.</div>
             </div>
         </div>
 
         <details style="margin-top: 30px; background: #1E1B25; padding: 12px 20px; border-radius: 8px; border: 1px solid #322C3D; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3E3649; padding-top: 12px; color: #A49DAD;">
-                Adult pup play. Expect commands, fetch, leash walks, praise, nonverbal headspace, and sexual content only if it was agreed beforehand. All characters are adults. Traffic lights out loud before the hood, two mitt taps means yellow, hood off or his real name means red, and nothing new is added without coming out of headspace to talk.
+                Adult pup play. Expect commands, fetch, leash walks, praise, nonverbal headspace, and sexual content only if it was agreed beforehand. All characters are adults. Hood off, or his real name, stops everything.
             </div>
         </details>
 

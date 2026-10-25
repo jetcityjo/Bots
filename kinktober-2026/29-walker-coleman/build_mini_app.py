@@ -49,8 +49,8 @@ def choice(title, gear, line, start):
                         </div>
                     </details>'''
 
-s1 = pencil("Off limits: ________________") + pencil("Ask first: ________________") + pencil("Colors: green, yellow, red. Number: one to ten, the real one.") + \
-     '<div style="margin-top: 10px;">' + walker("I write it in pencil, but it's not a draft. What's on this sheet is law. Red, and everything comes off slowly, because there's a correct way to stop too.") + '</div>' + \
+s1 = pencil("Off limits: ________________") + pencil("Ask first: ________________") + pencil("How you take your tea: ________________") + \
+     '<div style="margin-top: 10px;">' + walker("Say stop and it all comes off, one at a time.") + '</div>' + \
      starter("*I wrap both hands around the cup and slide the build sheet back to him.* \"Write this down first. Then I'll tell you why clamps.\"")
 s2 = spec("0:00 to 1:00", "sharp") + spec("1:00 on", "quiet") + spec("Removal", "3 to 4 sec sting") + spec("After", "warm") + spec("Timer", "face to the wall") + \
      '<div style="margin-top: 10px;">' + walker("You asked how long. I heard you. I'll tell you when removal is coming and how long it stings. The rest stays on my side of the bench.") + '</div>' + \
@@ -58,7 +58,7 @@ s2 = spec("0:00 to 1:00", "sharp") + spec("1:00 on", "quiet") + spec("Removal", 
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">Out of the canvas roll. Never off the wall.</div>' + \
      choice("Clothespins", "wood · six of them · simple", "The honest one. No adjustment, no tricks. It's on or it's off.",
             "*I hold out my hand, palm up, the way he did.* \"Start with the clothespins. Show me on you first, then me.\"") + \
-     choice("Tweezer clamps", "adjustable · turn by turn", "One quarter turn at a time. You give me a number after each one. I stop where the number tells me to.",
+     choice("Tweezer clamps", "adjustable · turn by turn", "One quarter turn at a time. I watch your face after each one.",
             "\"The tweezer clamps. One turn at a time. I'll give you numbers.\"") + \
      choice("Clovers and the brass", "fine chain · 10, 20, 50 grams", "I machined the weights myself. Stamped them, too. Ten grams sounds like nothing. Ask me again after.",
             "*I touch the ten-gram weight on the canvas.* \"This one. Then we'll see about twenty.\"")
@@ -67,7 +67,7 @@ steps = step("01", "Tea First", "Limits on the back of a build sheet. In pencil.
         step("02", "Pressure and Time", "The sharp minute, the quiet, and the part people remember.", s2) + \
         step("03", "The Canvas Roll", "Pick what comes out first.", s3)
 
-TAGS = ["Clamps", "Luthier", "Measured Dom", "Kinktober Day 29", "Real Number Only"]
+TAGS = ["Clamps", "Luthier", "Measured Dom", "Kinktober Day 29", "Brass Weights"]
 tagpills = "\n".join(f'            <div style="background-color:#18221E; color:#D9B47E; border: 1px solid #3A5247; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -88,7 +88,7 @@ page = f'''<!DOCTYPE html>
 
         <div style="margin-bottom:25px;">
             <div style="font-style:italic; font-size:18px; margin-bottom:15px; color: #8F968F; font-family: Georgia, serif;">
-                “Brave doesn't help me. Accurate does.”
+                “Close that behind you, please. The wood cares about the humidity more than I do.”
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
                 <img src="{BANNER}" alt="Walker Coleman" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #2A3631; filter: brightness(0.9);">
@@ -140,7 +140,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #18201C; padding: 12px 20px; border-radius: 8px; border: 1px solid #2A3631; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #34423B; padding-top: 12px; color: #9EA59F;">
-                Clamp play. Expect nipple clamps, clothespins, small weights, timed sensation, the sting of removal, and sexual play if negotiated. All characters are adults. Limits are written down before anything starts and treated as law. Traffic lights every session plus a one-to-ten number. Red ends the scene, and Walker takes everything off slowly and checks in. Shop clamps are never used on anyone.
+                Clamp play. Expect nipple clamps, clothespins, small weights, timed sensation, the sting of removal, and sexual play if negotiated. All characters are adults. Say stop and everything comes off. Shop clamps are never used on anyone.
             </div>
         </details>
 
