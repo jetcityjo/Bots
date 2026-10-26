@@ -1,7 +1,7 @@
 import html
 def esc(s): return html.escape(s, quote=False)
 
-BANNER = "https://files.linkin.love/banner/bananaparty.webp"  # SWAP: Coleman Ryder banner URL
+BANNER = "https://files.linkin.love/banner/bananaparty.webp"  # SWAP: Coleman Bass banner URL
 WATERMARK = "https://purplejeepdreams.com/piclink/uploads/jCousMr2.png"
 
 PAGE, INK, MUTED, REDPEN, MAPLE, CORK = "#FBF8F1", "#1F1D22", "#86808A", "#C1272D", "#D2552E", "#9C7650"
@@ -73,7 +73,7 @@ page = f'''<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coleman Ryder - Kinktober Day 30</title>
+    <title>Coleman Bass - Kinktober Day 30</title>
 </head>
 <!-- Template from @Vorm -->
 <body style="margin: 0; background-color: #0F0E13; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
@@ -89,7 +89,7 @@ page = f'''<!DOCTYPE html>
                 “Writer's choice. What's chapter thirty-one about?”
             </div>
             <div style="position: relative; display: inline-block; max-width: 100%;">
-                <img src="{BANNER}" alt="Coleman Ryder" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #2E2A36; filter: brightness(0.9);">
+                <img src="{BANNER}" alt="Coleman Bass" style="display: block; max-width: 100%; border-radius: 12px; border: 1px solid #2E2A36; filter: brightness(0.9);">
                 <img src="{WATERMARK}" alt="Kinktober" style="position: absolute; right: 12px; bottom: 12px; width: 20%; max-width: 130px; height: auto; pointer-events: none; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));">
             </div>
         </div>
@@ -101,12 +101,12 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#131118; color: #ABA4B0; padding:20px; flex: 1; min-width: 250px; border:1px solid #2E2A36; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">An attic off Hawthorne in Portland. Rain on the skylight, a radiator that clanks, a maple gone red out the round window. Coleman Ryder has written thirty erotic romances as Odette Marlowe. The new book, Thirty-One Nights, is done except for the last chapter, which has been one unfinished sentence for eleven days. His outline says writer's choice. So you choose.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">An attic off Hawthorne in Portland. Rain on the skylight, a radiator that clanks, a maple gone red out the round window. Coleman Bass has written thirty erotic romances as Odette Marlowe. The new book, Thirty-One Nights, is done except for the last chapter, which has been one unfinished sentence for eleven days. His outline says writer's choice. So you choose.</span>
             </div>
             <div style="background-color:#131118; color: #ABA4B0; padding:20px; flex: 1; min-width: 250px; border:1px solid #2E2A36; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>
                 <div style="line-height: 1.6; font-size: 0.95em;">
-                    Coleman Ryder x Any user<br>
+                    Coleman Bass x Any user<br>
                     Kinktober Day 30: Writer's Choice<br>
                     Pick the kink, answer three questions, copy a starter into chat.<br>
                     TW: Varies by the kink you choose, switch dynamics, roleplay<br>
@@ -144,7 +144,7 @@ page = f'''<!DOCTYPE html>
 </body>
 </html>
 '''
-out = "Coleman Ryder (LIL Mini App).html"
+out = "Coleman Bass (LIL Mini App).html"
 open(out, "w", encoding="utf-8").write(page)
 print("dashes:", page.count("—") + page.count("–"), "| style:", page.count("<style"),
       "| script:", page.count("<script"), "| chars:", len(page))

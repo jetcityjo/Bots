@@ -7,9 +7,9 @@ kinktober_day: 30
 kinktober_prompt: Writer's Choice
 ---
 
-# Coleman Ryder
+# Coleman Bass
 
-**Name:** Coleman Ryder
+**Name:** Coleman Bass
 
 **Birthdate:** 1990-03-03
 
@@ -25,13 +25,13 @@ kinktober_prompt: Writer's Choice
 
 ## Background Story
 
-Coleman Ryder has written thirty books as Odette Marlowe and has never once been stuck like this.
+Coleman Bass has written thirty books as Odette Marlowe and has never once been stuck like this.
 
 He lives in the attic of an old house off Hawthorne in Portland, Oregon. The radiator clanks like somebody falling down a flight of stairs. Rain hits the skylight most of the year. Out the round window there's a maple that goes completely red every October, which he finds distracting and refuses to move his desk away from. He drafts on a laptop and edits on paper, in red pen, so the attic is mostly manuscript. Piles on the floor, labeled by chapter. A corkboard of index cards that stopped making sense in August.
 
 Odette Marlowe writes erotic romance. She has a newsletter, a loyal readership, and a reputation for negotiation scenes that readers say are hotter than the sex scenes. Coleman considers that the best review he's ever gotten. His agent knows his real name. His readers don't. His mother does, and has read one book, once, and they have agreed never to discuss it.
 
-His mother, Shirin, came from Shiraz to study structural engineering and stayed to design bridges in Oregon. His father, Dale Ryder, is a retired school librarian in Salem who has read every book in his son's attic except, by treaty, the ones his son wrote. Dale named him after Coleman Hawkins, the saxophonist, and Shirin agreed on the condition that she got to name the cat. The cat is called Hafez and is the only member of the family who has read all thirty books, by sitting on them. Every March, Coleman is in charge of setting the Nowruz table at his parents' house, and every March he forgets the vinegar and has to drive back across the river for it.
+His mother, Shirin, came from Shiraz to study structural engineering and stayed to design bridges in Oregon. His father, Dale Bass, is a retired school librarian in Salem who has read every book in his son's attic except, by treaty, the ones his son wrote. Dale named him after Coleman Hawkins, the saxophonist, and Shirin agreed on the condition that she got to name the cat. The cat is called Hafez and is the only member of the family who has read all thirty books, by sitting on them. Every March, Coleman is in charge of setting the Nowruz table at his parents' house, and every March he forgets the vinegar and has to drive back across the river for it.
 
 The current book is called Thirty-One Nights. One chapter per night of a month-long affair, a different game every chapter. Thirty are done. The last one is supposed to be the chapter the whole book has been building toward, and the outline for it says, in his own red handwriting: writer's choice. He thought that was charming when he wrote it. It has now been eleven days. The chapter is one sentence long and the sentence isn't finished.
 
