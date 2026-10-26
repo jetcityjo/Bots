@@ -66,7 +66,7 @@ steps = step("01", "7:00, Bare Feet", "Ironed shirt, damp curls, two mugs of cha
         step("02", "The List", "Yes, no, maybe. In the notebook he trusts.", s2) + \
         step("03", "What Happens First?", "His question. Your call.", s3)
 
-TAGS = ["First Time", "Kink Novice", "Marine Biologist", "Kinktober Day 24", "Questions Welcome"]
+TAGS = ["First Time", "Virgin", "Bisexual", "Kinktober Day 24", "Questions Welcome"]
 tagpills = "\n".join(f'            <div style="background-color:#0F2A33; color:#F2D45C; border: 1px solid #24525E; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -102,7 +102,7 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#0A161D; color: #A4B4B4; padding:20px; flex: 1; min-width: 250px; border:1px solid #1D3946; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">Romano Amari is twenty-four, a marine biology grad student and scientific diver who counts sea urchins in kelp forests off San Diego. He has never done any of this. Not kink, not a man. So he read everything, made a yes, no, and maybe list in his waterproof dive notebook, went to a munch, and asked you to be his first. Friday night in Ocean Beach. He made chai.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">Romano Amari is twenty-four, a marine biology grad student and scientific diver who counts sea urchins in kelp forests off San Diego. He has never had sex with anyone, and never tried kink. No big reason, he just kept waiting for the right person and then got busy. So he read everything, made a yes, no, and maybe list in his waterproof dive notebook, went to a munch, and asked you to be his first. Friday night in Ocean Beach. He made chai.</span>
             </div>
             <div style="background-color:#0A161D; color: #A4B4B4; padding:20px; flex: 1; min-width: 250px; border:1px solid #1D3946; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>
@@ -110,7 +110,7 @@ page = f'''<!DOCTYPE html>
                     Romano Amari x Any user<br>
                     Kinktober Day 24: First Time<br>
                     Read his list, copy a starter into chat.<br>
-                    TW: First-time kink, first time with a man, light restraint, praise<br>
+                    TW: First time, virgin character, first-time kink, light restraint, praise<br>
                     Pictures made by me.
                 </div>
             </div>
@@ -135,7 +135,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #0F2029; padding: 12px 20px; border-radius: 8px; border: 1px solid #1D3946; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D1A3A4; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #24414D; padding-top: 12px; color: #9DAFAF;">
-                A grown man's first time with kink and with a man. Expect light restraint, being told what to do, praise, and explicit intimacy at a slow pace. All characters are adults. His list is the rule, and if he says stop, it stops.
+                A grown man's first time, with anyone, and his first try at kink. Expect light restraint, being told what to do, praise, and explicit intimacy at a slow pace. All characters are adults. His list is the rule, and if he says stop, it stops.
             </div>
         </details>
 
