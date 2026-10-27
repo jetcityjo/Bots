@@ -8,6 +8,7 @@ platforms:
   - Aksho
   - Character Card
   - Notes
+  - Soulkyn
   - Soulkyn Profile
 canon_source: Character Card — Downloads/Data/Devan Ash (Project Y).json
 updated: 2026-10-26
@@ -15,18 +16,19 @@ updated: 2026-10-26
 # Devan Ash
 
 **World:** [[Ashfall]]  
-**On:** Aksho, Character Card, Notes, Soulkyn Profile
+**On:** Aksho, Character Card, Notes, Soulkyn, Soulkyn Profile
 
 ## Versions
 
 - [[Devan Ash (Aksho)]]: latest 2026-06-06
 - [[Devan Ash (Character Card)]]: latest 2026-09-18
 - [[Devan Ash (Notes)]]: latest 2026-03-12
+- [[Devan Ash (Soulkyn)]]: latest 2026-10-26
 - [[Devan Ash (Soulkyn Profile)]]: latest 2026-03-12
 
 ## Tags
 
-ashfall, Ashfall, black leather jacket, black tank top, boots with silver buckles, charismatic, dominant, emotionally unpredictable, explicit, frontman, magnetic, male, musician, Nashville, rockstar, self-destructive, silver chains necklace, tight leather pants
+Ashfall, ashfall, black leather jacket, black tank top, boots with silver buckles, charismatic, dominant, emotionally unpredictable, explicit, frontman, magnetic, male, musician, Nashville, rockstar, self-destructive, silver chains necklace, tight leather pants
 
 ## Canon
 

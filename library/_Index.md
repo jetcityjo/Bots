@@ -5,13 +5,13 @@ updated: 2026-10-26
 ---
 # AI Characters
 
-184 bots, 113 placeholders. Each bot folder holds a main file plus one file per site.
+191 bots, 112 placeholders. Each bot folder holds a main file plus one file per site.
 
 ## Ashfall
 
 - [[Ben Callahan]]: Aksho, Soulkyn Profile
 - [[Caleb Vance]]: Aksho, LIL, Soulkyn Profile
-- [[Devan Ash]]: Aksho, Character Card, Notes, Soulkyn Profile
+- [[Devan Ash]]: Aksho, Character Card, Notes, Soulkyn, Soulkyn Profile
 - [[Devan Ash & Harper Blaze]]: Aksho
 - [[Luke Maddox]]: Aksho, Soulkyn Profile
 - [[Nico Mane]]: Aksho, Dream Journey, LIL, Soulkyn Profile
@@ -40,7 +40,7 @@ updated: 2026-10-26
 - [[Aiden Rios]]: Companion, LIL, Notes, Soulkyn
 - [[Aiden Sterling]]: Aksho, Notes
 - [[Alex, Ethan and Adrien]]: Aksho, Companion, LIL, Soulkyn
-- [[Elias Ward]]: LIL
+- [[Elias Ward]]: LIL, Soulkyn
 - [[Santiago Reyes]]: Aksho, LIL
 
 ## Experience Bots
@@ -140,7 +140,7 @@ updated: 2026-10-26
 - [[Joric Corbin]]: LIL, Notes
 - [[Julian Hart]]: LIL, Notes
 - [[Lucien Albrecht]]: Notes
-- [[Nazir Adeyemi]]: Notes
+- [[Nazir Adeyemi]]: Notes, Soulkyn
 - [[Niko]]: Notes
 - [[Nova Kai]]: Aksho, Notes
 - [[Red Fair Dude]]: Notes
@@ -154,7 +154,7 @@ updated: 2026-10-26
 
 ## The Gamers
 
-- [[Brody Mercer]]: LIL, Notes
+- [[Brody Mercer]]: LIL, Notes, Soulkyn
 - [[Callie Voss]]: Character Card, LIL, Notes
 - [[Xander Stevens]]: LIL, Notes
 
@@ -168,6 +168,7 @@ updated: 2026-10-26
 - [[Alexander Calder]]: Companion
 - [[Ben]]: Notes
 - [[Ben Reed]]: LIL
+- [[Bigmouth Billy]]: Soulkyn
 - [[Bridget Birdie Calston]]: LIL
 - [[Callan Everidge]]: LIL
 - [[Calvin Bryce]]: LIL
@@ -179,6 +180,7 @@ updated: 2026-10-26
 - [[Dante Cruz]]: Aksho, LIL
 - [[Draven Crane]]: LIL
 - [[Draxen Blackveil]]: LIL
+- [[Eric]]: Soulkyn
 - [[Felix Fifi Lauren]]: LIL
 - [[Fenris and Hati]]: LIL
 - [[Finn]]: LIL
@@ -195,6 +197,7 @@ updated: 2026-10-26
 - [[Jonathan Axelrod]]: LIL
 - [[Joshua Miller]]: LIL
 - [[K Popper]]: Aksho, LIL
+- [[Kai Mercer]]: Aksho, Soulkyn
 - [[Kenji Saito]]: LIL
 - [[Lena Marlowe]]: LIL
 - [[Lian Yu]]: LIL
@@ -212,6 +215,7 @@ updated: 2026-10-26
 - [[Nick Hale]]: LIL
 - [[Nikolas Mavrakis]]: LIL
 - [[Octavia Bran]]: LIL
+- [[Orovox]]: Soulkyn
 - [[Rafeal Rafi Vega]]: LIL
 - [[Reed Watkins]]: LIL
 - [[Renee Silver]]: LIL
@@ -224,13 +228,16 @@ updated: 2026-10-26
 - [[Talia Wren]]: Aksho, Notes
 - [[Terrance Belcan]]: LIL
 - [[The Miami Bears]]: Aksho, LIL
+- [[The Midnight Wiretap]]: Soulkyn
 - [[Travis Marlowe]]: LIL
+- [[Uncle Lonnie]]: Soulkyn
 - [[Valerian Coraza]]: LIL
 - [[Victor Duran]]: LIL
 - [[Victor Hawthorn]]: Aksho
 - [[Vyrelle Noctaryn]]: LIL
 - [[Wren Quill]]: LIL
 - [[Wyatt Harper]]: LIL
+- [[Xander Thompson]]: Soulkyn
 
 ## VOC
 

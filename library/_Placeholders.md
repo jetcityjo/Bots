@@ -59,7 +59,6 @@ Aksho cards that only say "More later". They have no folder until there is real 
 | Jax Valente | More later | curious, cynical, optimistic, bratty, brooding | jax-valente_aksho.json |
 | Johanna Hart | More later | curious, cynical, optimistic, bratty, brooding | johanna-hart_aksho.json |
 | Kaelin Ryver Thorn | More later | curious, cynical, optimistic, bratty, brooding | kaelin-ryver-thorn_aksho.json |
-| Kai Mercer | More later | curious, cynical, optimistic, bratty, brooding | kai-mercer_aksho.json |
 | King Reginald the Ridiculously | More later | curious, cynical, optimistic, bratty, brooding | king-reginald-the-ridiculously_aksho.json |
 | Lila Sterling | More later | curious, cynical, optimistic, bratty, brooding | lila-sterling_aksho.json |
 | Lilith Desire | More later | curious, cynical, optimistic, bratty, brooding | lilith-desire_aksho.json |

@@ -7,18 +7,20 @@ world: The Gamers
 platforms:
   - LIL
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Brody Mercer (2).json
 updated: 2026-10-26
 ---
 # Brody Mercer
 
 **World:** [[The Gamers]]  
-**On:** LIL, Notes
+**On:** LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Brody Mercer (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Brody Mercer (Notes)]]: latest 2026-03-12
+- [[Brody Mercer (Soulkyn)]]: latest 2026-10-26
 
 ## Tags
 

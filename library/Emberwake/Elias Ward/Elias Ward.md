@@ -6,17 +6,19 @@ character: Elias Ward
 world: Emberwake
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Elias Ward (1).json
 updated: 2026-10-26
 ---
 # Elias Ward
 
 **World:** [[Emberwake]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Elias Ward (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Elias Ward (Soulkyn)]]: latest 2026-10-26
 
 ## Tags
 
