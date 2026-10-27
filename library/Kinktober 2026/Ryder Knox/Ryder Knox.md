@@ -17,8 +17,8 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Ryder Knox (LIL)]]: latest 2026-10-26
-- [[Ryder Knox (Soulkyn)]]: latest 2026-10-26
+- [[Ryder Knox (LIL)]]: latest 2026-10-25 (GitHub deslop)
+- [[Ryder Knox (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
 
 ## Tags
 

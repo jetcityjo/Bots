@@ -17,8 +17,8 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Ali Rocco (LIL)]]: latest 2026-10-26
-- [[Ali Rocco (Soulkyn)]]: latest 2026-10-26
+- [[Ali Rocco (LIL)]]: latest 2026-10-25 (GitHub deslop)
+- [[Ali Rocco (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
 
 ## Tags
 

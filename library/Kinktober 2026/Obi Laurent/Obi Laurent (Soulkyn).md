@@ -5,7 +5,7 @@ tags:
 character: Obi Laurent
 platform: Soulkyn
 source_file: GitHub/kinktober-2026/Obi Laurent (Soulkyn).md
-exported: 2026-10-26
+exported: 2026-10-25 (GitHub deslop)
 other_copies: 0
 ---
 # Obi Laurent (Soulkyn)

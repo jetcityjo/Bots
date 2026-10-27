@@ -5,7 +5,7 @@ tags:
 character: Karim Romano
 platform: Soulkyn
 source_file: GitHub/kinktober-2026/Karim Romano (Soulkyn).md
-exported: 2026-10-26
+exported: 2026-10-25 (GitHub deslop)
 other_copies: 0
 ---
 # Karim Romano (Soulkyn)

@@ -5,7 +5,7 @@ tags:
 character: Santos Malik
 platform: Soulkyn
 source_file: GitHub/kinktober-2026/Santos Malik (Soulkyn).md
-exported: 2026-10-26
+exported: 2026-10-25 (GitHub deslop)
 other_copies: 0
 ---
 # Santos Malik (Soulkyn)

@@ -17,8 +17,8 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Walker Coleman (LIL)]]: latest 2026-10-26
-- [[Walker Coleman (Soulkyn)]]: latest 2026-10-26
+- [[Walker Coleman (LIL)]]: latest 2026-10-25 (GitHub deslop)
+- [[Walker Coleman (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
 
 ## Tags
 

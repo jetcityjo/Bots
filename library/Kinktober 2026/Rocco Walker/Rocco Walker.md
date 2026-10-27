@@ -17,8 +17,8 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Rocco Walker (LIL)]]: latest 2026-10-26
-- [[Rocco Walker (Soulkyn)]]: latest 2026-10-26
+- [[Rocco Walker (LIL)]]: latest 2026-10-25 (GitHub deslop)
+- [[Rocco Walker (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
 
 ## Tags
 

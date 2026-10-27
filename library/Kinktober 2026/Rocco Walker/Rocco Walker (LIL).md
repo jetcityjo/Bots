@@ -5,7 +5,7 @@ tags:
 character: Rocco Walker
 platform: LIL
 source_file: GitHub/kinktober-2026/Rocco Walker (LIL).json
-exported: 2026-10-26
+exported: 2026-10-25 (GitHub deslop)
 other_copies: 0
 ---
 # Rocco Walker (LIL)

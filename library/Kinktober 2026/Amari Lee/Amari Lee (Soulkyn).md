@@ -5,7 +5,7 @@ tags:
 character: Amari Lee
 platform: Soulkyn
 source_file: GitHub/kinktober-2026/Amari Lee (Soulkyn).md
-exported: 2026-10-26
+exported: 2026-10-25 (GitHub deslop)
 other_copies: 0
 ---
 # Amari Lee (Soulkyn)

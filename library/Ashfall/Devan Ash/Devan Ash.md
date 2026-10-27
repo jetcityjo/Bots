@@ -26,7 +26,7 @@ updated: 2026-10-26
 
 ## Tags
 
-Ashfall, ashfall, black leather jacket, black tank top, boots with silver buckles, charismatic, dominant, emotionally unpredictable, explicit, frontman, magnetic, male, musician, Nashville, rockstar, self-destructive, silver chains necklace, tight leather pants
+ashfall, Ashfall, black leather jacket, black tank top, boots with silver buckles, charismatic, dominant, emotionally unpredictable, explicit, frontman, magnetic, male, musician, Nashville, rockstar, self-destructive, silver chains necklace, tight leather pants
 
 ## Canon
 

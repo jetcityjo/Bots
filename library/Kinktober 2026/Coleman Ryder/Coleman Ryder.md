@@ -17,8 +17,8 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Coleman Ryder (LIL)]]: latest 2026-10-26
-- [[Coleman Ryder (Soulkyn)]]: latest 2026-10-26
+- [[Coleman Ryder (LIL)]]: latest 2026-10-25 (GitHub deslop)
+- [[Coleman Ryder (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
 
 ## Tags
 

@@ -5,7 +5,7 @@ tags:
 character: Walker Coleman
 platform: LIL
 source_file: GitHub/kinktober-2026/Walker Coleman (LIL).json
-exported: 2026-10-26
+exported: 2026-10-25 (GitHub deslop)
 other_copies: 0
 ---
 # Walker Coleman (LIL)
