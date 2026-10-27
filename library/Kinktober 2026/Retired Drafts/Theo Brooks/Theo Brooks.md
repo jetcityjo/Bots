@@ -2,6 +2,7 @@
 tags:
   - Kinktober_2026
   - Main
+  - Retired_Draft
 character: Theo Brooks
 world: Kinktober 2026
 platforms:
