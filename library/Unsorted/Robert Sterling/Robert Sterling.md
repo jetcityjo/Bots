@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Robert Sterling (LIL)]]: latest 2026-09-26 (3 distinct versions kept in GitHub)
+- [[Robert Sterling (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 
 ## Tags
 

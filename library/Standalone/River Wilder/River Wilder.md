@@ -8,7 +8,7 @@ platforms:
   - Aksho
   - LIL
   - Notes
-canon_source: LIL — Downloads/Data/River Wilder.json
+canon_source: LIL — LIL export 2026-10-26/River Wilder.json
 updated: 2026-10-26
 ---
 # River Wilder
@@ -19,7 +19,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[River Wilder (Aksho)]]: latest 2026-06-06
-- [[River Wilder (LIL)]]: latest 2026-03-22
+- [[River Wilder (LIL)]]: latest 2026-10-26
 - [[River Wilder (Notes)]]: latest 2026-03-12
 
 ## Tags
@@ -28,7 +28,7 @@ updated: 2026-10-26
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-22). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

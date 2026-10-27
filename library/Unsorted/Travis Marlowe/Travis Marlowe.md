@@ -6,7 +6,7 @@ character: Travis Marlowe
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Travis Marlowe.json
+canon_source: LIL — LIL export 2026-10-26/Travis Marlowe (1).json
 updated: 2026-10-26
 ---
 # Travis Marlowe
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Travis Marlowe (LIL)]]: latest 2026-10-22
+- [[Travis Marlowe (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ fix the past, love triangle, pansexual, possessive, pre-established relationship
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-10-22). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

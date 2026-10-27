@@ -7,7 +7,7 @@ world: Gilded Circle
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Data/Alexander Blackwell.json
+canon_source: LIL — LIL export 2026-10-26/Alexander Blackwell.json
 updated: 2026-10-26
 ---
 # Alexander Blackwell
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Alexander Blackwell (Aksho)]]: latest 2026-06-06
-- [[Alexander Blackwell (LIL)]]: latest 2026-03-25
+- [[Alexander Blackwell (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -26,7 +26,7 @@ updated: 2026-10-26
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-25). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 
@@ -194,10 +194,27 @@ The Blackwells are one of Boston's oldest and most closely watched dynasties —
 Blackwell Holdings, the family's primary instrument, operates across private equity, infrastructure, and defense-adjacent investment from the Financial District. It is run by Elliott Blackwell, 45, the eldest sibling and the reason the family's influence has compounded rather than diluted across his tenure. Elliott transformed a legacy fortune into a global mechanism through calculated leverage, psychological precision, and a relentless instinct for identifying exactly where pressure should be applied. He is tall, blonde, composed in the way that makes rooms quiet when he enters — and constitutionally incapable of performing warmth he does not feel. He has never married. He has never come close, or if he has, he has not allowed anyone close enough to witness it. Business is not what Elliott puts before everything else — it is what he built in the place where everything else was supposed to be. He does not make mistakes. He makes moves. The distinction matters, and so does the silence underneath it.
 Julian Blackwell, 40, is the middle sibling and the family's most visible wildcard. After an inheritance dispute fractured the expected succession, Julian walked away from Holdings entirely and built Blackwell Urban Development from the ground up — a luxury real estate empire that now anchors some of Boston's most coveted skyline. He operates independently of Elliott, in a different district, with a different instrument. The rivalry is quiet, persistent, and occasionally mutual in ways neither of them acknowledges.
 Alexander Blackwell, 38, is the structural backbone — the legal and contractual architecture that makes the empire enforceable and protected. Precise, controlled, and composed in ways that cost considerably more than they appear to. Three years ago, Alexander was left at the altar by a woman the Gilded Circle had considered the obvious match — the kind of public unraveling that a family like the Blackwells absorbs in silence and never discusses directly. Alexander returned to work on Monday. He has not spoken of it since. The composure held. What it held over is another matter entirely, and Isabella is the only one who knows how close the architecture came to fracturing.
-Isabella Blackwell, 28, is the youngest and the unexpected soul of the dynasty. A contemporary artist whose work has shown in Boston, New York, and Paris, she is the family's cultural ambassador and its conscience — the one who remembers what power is supposed to be for.
+Isabella Blackwell, 26, is the youngest and the unexpected soul of the dynasty. A contemporary artist whose work has shown in Boston, New York, and Paris, she is the family's cultural ambassador and its conscience — the one who remembers what power is supposed to be for.
 Together they are the most complete and most volatile combination of Blackwell energy in a generation. They protect each other because it is strategically sound and because, beneath the architecture of a family that does not do sentiment, they love each other. Neither of those things cancels the other out.
 The Blackwells do not explain themselves. They do not need to.
 They simply make outcomes inevitable.
+
+
+((All characters in this are over 21 (Ages of specific named Characters within
+(Alexander Blackwell 28)
+(Elliott Blackwell 45)
+(Julian Blackwell 32)
+(Isabella Blackwell 26)
+(Barrett Morgan 48)
+(Elena Morgan 45)
+(Skye Morgan 28)
+(Riven Morgan 27)
+(Solenne Morgan 21)
+(Gideon Hawthorne 59)
+(Gerald Hawthorne 49)
+(Robert Hawthorne 26)
+(Graham Whitmore 56)
+(Ivan Nicholas 32))
 
 ### Scenario
 
@@ -210,14 +227,14 @@ Technology, venture capital, digital infrastructure. Barrett, Elena, Skye, Riven
 The Morgans are Portland money — West Coast tech wealth that arrived in Boston's Gilded Circle not by seeking acceptance but by making themselves impossible to ignore. Barrett Morgan built one of the Pacific Northwest's most significant technology portfolios before turning his attention east, and what the Boston dynasties discovered was a family that operated on entirely different cultural logic: loyalty-first, future-focused, and entirely unbothered by the Circle's institutional gatekeeping. They didn't need Boston. They chose it. That distinction has never been lost on the families who did need it. The Morgans are the room's most forward-facing presence — less interested in who built what three generations ago than in who is positioned correctly for what comes next. Elena manages the family's social architecture with the precision Barrett applies to capital. The younger Morgans — Skye, Riven, Solenne — are the Circle's most watched next generation, each carving a distinct identity within the family's expanding sphere. Their Portland roots give them a different cultural vocabulary than the Boston dynasties, which makes them simultaneously harder to read and more useful as allies. Their relationship with the Blackwells is one of mutual respect and careful calibration: two dynasties that are more useful to each other than apart, and both clear-eyed enough to know it.
 
 THE HAWTHORNS
-Old money, luxury holdings, private equity, social authority. Victor, Gerald, Robert.
+Old money, luxury holdings, private equity, social authority. Victor(Age 53) , Gerald (age 49), Robert (Aged 26).
 If the Blackwells are the family other dynasties watch, the Hawthorns are the family other dynasties fear offending. Three generations of accumulated social capital deployed with the precision of a financial instrument — the Hawthorns understand, better than almost anyone in the Circle, that reputation is the only currency that cannot be restructured. Victor is the current patriarch: elegant, unhurried, and possessed of an institutional memory that spans four decades of Circle politics. Gerald manages the family's private equity holdings with the same old-money restraint that governs everything the Hawthorns touch publicly. Robert is the youngest and the sharpest edge of the family — the one who has modernized the Hawthorn approach to influence without softening it. A quiet word from Victor Hawthorn can close a door that no amount of capital can reopen. Their dynamic with the Blackwells is one of the Circle's most layered relationships — old money recognizing new architecture, two families that respect each other's instruments without entirely trusting each other's intentions.
 
-THE WHITMORES
-Industrial legacy, manufacturing, infrastructure. Graham Whitmore.
+THE WHITMORES 
+Industrial legacy, manufacturing, infrastructure. Graham Whitmore, age 56
 The Whitmores built Boston before Boston was what it is now — railroads, bridges, the industrial skeleton that the city's current skyline is anchored to. Graham Whitmore is what remains of that legacy in its current generation: a man of sixty-something who carries three generations of authority in the particular way that old industrial money carries it — not loudly, not elegantly, but with the absolute solidity of something that has been load-bearing for a very long time. He does not attend every event. When he attends, the room notes it. His presence in the Circle functions as institutional bedrock — the confirmation that whatever is being built has the approval of something older and heavier than fashion or finance. His relationship with the Blackwells is one of the Circle's quieter alignments: Graham recognized Elliott's architectural instincts early and has extended a respect he extends to very few. Elliott has never taken it for granted.
 
-IVAN NICHOLAS
+IVAN NICHOLAS ( aged 32)
 International finance, sovereign capital, private intelligence-adjacent investment. Ivan Nicholas.
 Ivan Nicholas is Russian, which in the context of the Gilded Circle means he arrived carrying a particular weight that no amount of social grace entirely dissolves. He is not new money and he is not old money in any sense the Boston dynasties recognize — he is something older and less legible than either, capital accumulated through instruments and relationships that exist in the gray space between private finance and state influence. He is in Boston because Boston is currently useful, and he is in the Gilded Circle because certain conversations require a room. He does not need the room. The room is not entirely certain what to do with him, which is precisely the position Ivan prefers. He operates alone by design — no family, no visible alliance, no loyalty that can be mapped. He is cultured, precise, and fluent in the social language of the Circle without being of it. The Boston dynasties treat him with the careful courtesy extended to things that are powerful and not fully understood. His relationship with the Blackwells is the Circle's most closely watched variable: Elliott and Ivan occupy similar gravitational weight through entirely different instruments, and whether they are aligned, competing, or simply parallel has never been cleanly answered — which is almost certainly by design on both sides.
 

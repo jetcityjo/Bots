@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Callie Voss
 platform: LIL
-source_file: Downloads/Callie Voss.json
-exported: 2026-09-26
-other_copies: 1
+source_file: LIL export 2026-10-26/Callie Voss (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Callie Voss (LIL)
 

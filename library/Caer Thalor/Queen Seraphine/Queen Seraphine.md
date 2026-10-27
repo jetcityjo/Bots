@@ -7,7 +7,7 @@ world: Caer Thalor
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Queen Seraphine.json
+canon_source: LIL — LIL export 2026-10-26/Queen Seraphine (1).json
 updated: 2026-10-26
 ---
 # Queen Seraphine
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Queen Seraphine (Aksho)]]: latest 2026-06-06
-- [[Queen Seraphine (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[Queen Seraphine (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -26,7 +26,7 @@ caer thalor, caer-thalor, calculating, emotionally honest, fix her, flirtatious,
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

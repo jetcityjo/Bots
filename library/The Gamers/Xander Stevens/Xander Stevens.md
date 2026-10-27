@@ -7,7 +7,7 @@ world: The Gamers
 platforms:
   - LIL
   - Notes
-canon_source: LIL — Downloads/Xander Stevens (1).json
+canon_source: LIL — LIL export 2026-10-26/Xander Stevens (2).json
 updated: 2026-10-26
 ---
 # Xander Stevens
@@ -17,7 +17,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Xander Stevens (LIL)]]: latest 2026-10-21 (2 distinct versions kept in GitHub)
+- [[Xander Stevens (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Xander Stevens (Notes)]]: latest 2026-03-12
 
 ## Tags
@@ -26,7 +26,7 @@ human, kissing, pansexual, romance, story driven, straight
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-10-21). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

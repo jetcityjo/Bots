@@ -7,7 +7,7 @@ world: VOC
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Data/Maddy and Savvy _ Nitro Rush (1).json
+canon_source: LIL — LIL export 2026-10-26/Maddy and Savvy _ Nitro Rush.json
 updated: 2026-10-26
 ---
 # Maddie & Savvy Hartley
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Maddie & Savvy Hartley (Aksho)]]: latest 2026-08-31 (2 distinct versions kept in GitHub)
-- [[Maddie & Savvy Hartley (LIL)]]: latest 2026-08-30
+- [[Maddie & Savvy Hartley (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -26,7 +26,7 @@ bisexual, bratty, brooding, canon character, curious, cynical, female/female on 
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-08-30). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

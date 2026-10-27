@@ -4,9 +4,9 @@ tags:
   - LIL
 character: "Euclid \"Tank\" Blackwood"
 platform: LIL
-source_file: Downloads/Eucild _Tank_ Blackwood.json
-exported: 2026-09-26
-other_copies: 1
+source_file: LIL export 2026-10-26/Eucild _Tank_ Blackwood (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Euclid "Tank" Blackwood (LIL)
 

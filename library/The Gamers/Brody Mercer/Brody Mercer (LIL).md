@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Brody Mercer
 platform: LIL
-source_file: Downloads/Brody Mercer (1).json
-exported: 2026-09-26
-other_copies: 2
+source_file: LIL export 2026-10-26/Brody Mercer (2).json
+exported: 2026-10-26
+other_copies: 4
 ---
 # Brody Mercer (LIL)
 

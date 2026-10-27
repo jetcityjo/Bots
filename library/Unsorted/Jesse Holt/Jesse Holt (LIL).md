@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Jesse Holt
 platform: LIL
-source_file: Downloads/Data/Jesse Holt.json
-exported: 2026-08-29
-other_copies: 0
+source_file: LIL export 2026-10-26/Jesse Holt.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Jesse Holt (LIL)
 

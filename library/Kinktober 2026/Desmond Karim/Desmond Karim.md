@@ -7,7 +7,7 @@ world: Kinktober 2026
 platforms:
   - LIL
   - Soulkyn
-canon_source: LIL — Downloads/Desmond Karim (LIL) (1).json
+canon_source: LIL — LIL export 2026-10-26/Desmond Karim (LIL).json
 updated: 2026-10-26
 ---
 # Desmond Karim
@@ -17,7 +17,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Desmond Karim (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Desmond Karim (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 - [[Desmond Karim (Soulkyn)]]: latest 2026-10-26
 
 ## Tags
@@ -26,7 +26,7 @@ brooklyn, caught in the act, exhibitionism, kinktober 2026, male, neighbor, voye
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-10-25). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

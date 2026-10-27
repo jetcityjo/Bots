@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Elias Ward
 platform: LIL
-source_file: Downloads/Elias Ward.json
-exported: 2026-09-26
-other_copies: 1
+source_file: LIL export 2026-10-26/Elias Ward (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Elias Ward (LIL)
 

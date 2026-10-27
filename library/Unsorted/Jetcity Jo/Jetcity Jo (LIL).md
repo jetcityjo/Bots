@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Jetcity Jo
 platform: LIL
-source_file: Downloads/Data/Jetcity Jo.json
-exported: 2026-01-19
-other_copies: 0
+source_file: LIL export 2026-10-26/Jetcity Jo.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Jetcity Jo (LIL)
 

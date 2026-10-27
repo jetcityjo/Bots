@@ -7,7 +7,7 @@ world: Kinktober 2026
 platforms:
   - LIL
   - Soulkyn
-canon_source: LIL — Downloads/Cole Santos (LIL).json
+canon_source: LIL — LIL export 2026-10-26/Cole Santos (LIL).json
 updated: 2026-10-26
 ---
 # Cole Santos
@@ -17,7 +17,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Cole Santos (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Cole Santos (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 - [[Cole Santos (Soulkyn)]]: latest 2026-10-26
 
 ## Tags
@@ -26,7 +26,7 @@ bdsm, chicago, dominant, edging, kinktober 2026, male, orgasm denial
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-10-20). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

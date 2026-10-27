@@ -6,7 +6,7 @@ character: Tristan Beck
 world: Caer Thalor
 platforms:
   - LIL
-canon_source: LIL — Downloads/Tristan Beck (1).json
+canon_source: LIL — LIL export 2026-10-26/Tristan Beck.json
 updated: 2026-10-26
 ---
 # Tristan Beck
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Tristan Beck (LIL)]]: latest 2026-09-26 (3 distinct versions kept in GitHub)
+- [[Tristan Beck (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -24,7 +24,7 @@ fairy tale/fantasy, friend with benefits, friendly rival, historical, kingdom of
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

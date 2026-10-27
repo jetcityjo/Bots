@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Finch Alder
 platform: LIL
-source_file: Downloads/Data/Finch Alder  (1).json
-exported: 2026-03-07
-other_copies: 1
+source_file: LIL export 2026-10-26/Finch Alder .json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Finch Alder (LIL)
 

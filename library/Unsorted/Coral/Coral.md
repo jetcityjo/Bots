@@ -6,7 +6,7 @@ character: Coral
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Data/Coral.json
+canon_source: LIL — LIL export 2026-10-26/Coral.json
 updated: 2026-10-26
 ---
 # Coral
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Coral (LIL)]]: latest 2026-01-19
+- [[Coral (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ alternate universe, bisexual, fairy, fairy tale/fantasy, original character, sli
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-01-19). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

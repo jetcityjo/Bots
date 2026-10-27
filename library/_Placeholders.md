@@ -14,10 +14,8 @@ Aksho cards that only say "More later". They have no folder until there is real 
 | Aero & Atlas | More later | curious, cynical, optimistic, bratty, brooding | aero-and-atlas_aksho.json |
 | Alien Anomaly Collection | More later | curious, cynical, optimistic, bratty, brooding | alien-anomaly-collection_aksho.json |
 | Alter Vow Challenge | More later | curious, cynical, optimistic, bratty, brooding | alter-vow-challenge_aksho.json |
-| August Philpot | More later | curious, cynical, optimistic, bratty, brooding | august-philpot_aksho.json |
 | Aurelia Stevens | More later | curious, cynical, optimistic, bratty, brooding | aurelia-stevens_aksho.json |
 | Betty Bard | More later | curious, cynical, optimistic, bratty, brooding | betty-bard_aksho.json |
-| Big Mick Callahan | More later | curious, cynical, optimistic, bratty, brooding | big-mick-callahan_aksho.json |
 | Boardroom Kidnapper Boss | More later | curious, cynical, optimistic, bratty, brooding | boardroom-kidnapper-boss_aksho.json |
 | Bond Dynamics Unlocked | More later | curious, cynical, optimistic, bratty, brooding | bond-dynamics-unlocked_aksho.json |
 | Brandon Miller | More later | curious, cynical, optimistic, bratty, brooding | brandon-miller_aksho.json |
@@ -60,7 +58,6 @@ Aksho cards that only say "More later". They have no folder until there is real 
 | Jackson Ward | More later | curious, cynical, optimistic, bratty, brooding | jackson-ward_aksho.json |
 | Jax Valente | More later | curious, cynical, optimistic, bratty, brooding | jax-valente_aksho.json |
 | Johanna Hart | More later | curious, cynical, optimistic, bratty, brooding | johanna-hart_aksho.json |
-| K Popper | More later | curious, cynical, optimistic, bratty, brooding | k-popper_aksho.json |
 | Kaelin Ryver Thorn | More later | curious, cynical, optimistic, bratty, brooding | kaelin-ryver-thorn_aksho.json |
 | Kai Mercer | More later | curious, cynical, optimistic, bratty, brooding | kai-mercer_aksho.json |
 | King Reginald the Ridiculously | More later | curious, cynical, optimistic, bratty, brooding | king-reginald-the-ridiculously_aksho.json |
@@ -73,7 +70,6 @@ Aksho cards that only say "More later". They have no folder until there is real 
 | Malik Cruz | More later | curious, cynical, optimistic, bratty, brooding | malik-cruz_aksho.json |
 | Manager's Teasing Temptress | More later | curious, cynical, optimistic, bratty, brooding | managers-teasing-temptress_aksho.json |
 | Mara Frost | More later | curious, cynical, optimistic, bratty, brooding | mara-frost_aksho.json |
-| Marcus 'Coach D' Dillard | More later | curious, cynical, optimistic, bratty, brooding | marcus-coach-d-dillard_aksho.json |
 | Mary xxx | More later | curious, cynical, optimistic, bratty, brooding | mary-xxx_aksho.json |
 | Maya Lynn | More later | curious, cynical, optimistic, bratty, brooding | maya-lynn_aksho.json |
 | Merry Moo | More later | curious, cynical, optimistic, bratty, brooding | merry-moo_aksho.json |
@@ -117,7 +113,6 @@ Aksho cards that only say "More later". They have no folder until there is real 
 | Tamsin Quill | More later | curious, cynical, optimistic, bratty, brooding | tamsin-quill_aksho.json |
 | Tater Tot Battle Bud | More later | curious, cynical, optimistic, bratty, brooding | tater-tot-battle-bud_aksho.json |
 | Teri Jax | More later | curious, cynical, optimistic, bratty, brooding | teri-jax_aksho.json |
-| The Miami Bears | More later | curious, cynical, optimistic, bratty, brooding | the-miami-bears_aksho.json |
 | Travis Morris | More later | curious, cynical, optimistic, bratty, brooding | travis-morris_aksho.json |
 | Trixie | More later | curious, cynical, optimistic, bratty, brooding | trixie_aksho.json |
 | Tyler Kim | More later | curious, cynical, optimistic, bratty, brooding | tyler-kim_aksho.json |

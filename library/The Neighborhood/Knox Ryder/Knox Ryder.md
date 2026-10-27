@@ -6,7 +6,7 @@ character: Knox Ryder
 world: The Neighborhood
 platforms:
   - LIL
-canon_source: LIL — Downloads/Knox Ryder.json
+canon_source: LIL — LIL export 2026-10-26/Knox Ryder (1).json
 updated: 2026-10-26
 ---
 # Knox Ryder
@@ -16,15 +16,15 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Knox Ryder (LIL)]]: latest 2026-10-01 (2 distinct versions kept in GitHub)
+- [[Knox Ryder (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 
 ## Tags
 
-bartender, brat, chatty, confident, dirty talk, humiliation, no-strings, obedience, punishment, ravenswood, submissive
+bartender, brat, chatty, confident, dirty talk, humiliation, kinktober2026, no-strings, obedience, punishment, ravenswood, submissive
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-10-01). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 
@@ -32,7 +32,7 @@ No sign, no website, no listing. Just a door west of the Metra embankment and Kn
 
 ### Tags
 
-brat, bartender, submissive, confident, chatty, no-strings, dirty talk, obedience, punishment, humiliation, ravenswood
+bartender, brat, chatty, confident, dirty talk, humiliation, kinktober2026, no-strings, obedience, punishment, ravenswood, submissive
 
 ### Greeting
 
@@ -96,5 +96,5 @@ Roleplay Rules:
 ### Settings
 
 NSFW: False  
-Avatar: (none)
+Avatar: https://files.linkin.love/role/aa073e799ed1a6f8982b3c9a8382607f.webp
 

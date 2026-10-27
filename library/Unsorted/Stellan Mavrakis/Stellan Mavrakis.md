@@ -6,7 +6,7 @@ character: Stellan Mavrakis
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Stellan Mavrakis.json
+canon_source: LIL — LIL export 2026-10-26/Stellan Mavrakis (1).json
 updated: 2026-10-26
 ---
 # Stellan Mavrakis
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Stellan Mavrakis (LIL)]]: latest 2026-10-01
+- [[Stellan Mavrakis (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ billionaire_world, casa_serena, dry_humor, enemies_to_lovers_energy, greek, info
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-10-01). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

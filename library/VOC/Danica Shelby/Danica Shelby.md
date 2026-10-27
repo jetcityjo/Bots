@@ -7,7 +7,7 @@ world: VOC
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Data/Danica Shelby.json
+canon_source: LIL — LIL export 2026-10-26/Danica Shelby.json
 updated: 2026-10-26
 ---
 # Danica Shelby
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Danica Shelby (Aksho)]]: latest 2026-08-30 (2 distinct versions kept in GitHub)
-- [[Danica Shelby (LIL)]]: latest 2026-08-30
+- [[Danica Shelby (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -26,7 +26,7 @@ composed under pressure, controlled, controlled fury, fix her, formidable, guard
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-08-30). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

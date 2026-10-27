@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Florian Dahlia
 platform: LIL
-source_file: Downloads/Florian Dahlia.json
-exported: 2026-09-26
-other_copies: 1
+source_file: LIL export 2026-10-26/Florian Dahlia (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Florian Dahlia (LIL)
 

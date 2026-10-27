@@ -4,9 +4,9 @@ tags:
   - LIL
 character: King Darius Kaelthorne II
 platform: LIL
-source_file: Downloads/King Darius Kaelthorne II.json
-exported: 2026-09-26
-other_copies: 1
+source_file: LIL export 2026-10-26/King Darius Kaelthorne II (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # King Darius Kaelthorne II (LIL)
 

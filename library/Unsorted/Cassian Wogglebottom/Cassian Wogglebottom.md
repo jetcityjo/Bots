@@ -7,7 +7,7 @@ world: Unsorted
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Data/Cassian Wogglebottom.json
+canon_source: LIL — LIL export 2026-10-26/Cassian Wogglebottom.json
 updated: 2026-10-26
 ---
 # Cassian Wogglebottom
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Cassian Wogglebottom (Aksho)]]: latest 2026-06-06
-- [[Cassian Wogglebottom (LIL)]]: latest 2026-03-22
+- [[Cassian Wogglebottom (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -26,7 +26,7 @@ action/combat, adventure, alternate universe, bisexual, deft fingers, elegant ha
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-22). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

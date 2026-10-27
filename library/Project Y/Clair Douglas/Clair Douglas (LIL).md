@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Clair Douglas
 platform: LIL
-source_file: Downloads/Data/Clair Douglas.json
-exported: 2026-03-22
-other_copies: 2
+source_file: LIL export 2026-10-26/Clair Douglas.json
+exported: 2026-10-26
+other_copies: 3
 ---
 # Clair Douglas (LIL)
 

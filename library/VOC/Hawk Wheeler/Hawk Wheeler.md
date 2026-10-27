@@ -7,7 +7,7 @@ world: VOC
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Data/Hawk Wheeler (1).json
+canon_source: LIL — LIL export 2026-10-26/Hawk Wheeler.json
 updated: 2026-10-26
 ---
 # Hawk Wheeler
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Hawk Wheeler (Aksho)]]: latest 2026-08-30 (2 distinct versions kept in GitHub)
-- [[Hawk Wheeler (LIL)]]: latest 2026-08-30
+- [[Hawk Wheeler (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -26,7 +26,7 @@ anti-authority, bisexual, darkly funny, dominant, fearless, fiercely independent
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-08-30). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

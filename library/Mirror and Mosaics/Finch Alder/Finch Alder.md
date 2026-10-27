@@ -9,7 +9,7 @@ platforms:
   - Character Card
   - LIL
   - Notes
-canon_source: LIL — Downloads/Data/Finch Alder  (1).json
+canon_source: LIL — LIL export 2026-10-26/Finch Alder .json
 updated: 2026-10-26
 ---
 # Finch Alder
@@ -21,7 +21,7 @@ updated: 2026-10-26
 
 - [[Finch Alder (Aksho)]]: latest 2026-06-06
 - [[Finch Alder (Character Card)]]: latest 2026-03-07
-- [[Finch Alder (LIL)]]: latest 2026-03-07 (2 distinct versions kept in GitHub)
+- [[Finch Alder (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Finch Alder (Notes)]]: latest 2026-03-07
 
 ## Tags
@@ -30,7 +30,7 @@ alternate universe, fairy tale/fantasy, lean build, long stride, mirror-and-mosa
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-07). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

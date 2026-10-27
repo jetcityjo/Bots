@@ -9,7 +9,7 @@ platforms:
   - LIL
   - Notes
   - Soulkyn
-canon_source: LIL — Downloads/Aiden Rios.json
+canon_source: LIL — LIL export 2026-10-26/Aiden Rios (1).json
 updated: 2026-10-26
 ---
 # Aiden Rios
@@ -20,7 +20,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Aiden Rios (Companion)]]: latest 2026-09-26
-- [[Aiden Rios (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[Aiden Rios (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Aiden Rios (Notes)]]: latest 2026-03-12
 - [[Aiden Rios (Soulkyn)]]: latest 2026-09-26
 
@@ -30,7 +30,7 @@ alpha, bisexual, brat tamer, crush, emberwake collective, fated mate, heat_rut, 
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

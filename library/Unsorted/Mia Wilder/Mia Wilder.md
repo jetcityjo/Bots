@@ -6,7 +6,7 @@ character: Mia Wilder
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Data/Mia Wilder.json
+canon_source: LIL — LIL export 2026-10-26/Mia Wilder.json
 updated: 2026-10-26
 ---
 # Mia Wilder
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Mia Wilder (LIL)]]: latest 2026-08-29
+- [[Mia Wilder (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ angst, athlete, baseball, cheating (ntr/netorare), co-ed league, forbidden, guil
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-08-29). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Rhizyn Brightwood
 platform: LIL
-source_file: Downloads/Rhizyn Brightwood.json
-exported: 2026-09-26
-other_copies: 0
+source_file: LIL export 2026-10-26/Rhizyn Brightwood (1).json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Rhizyn Brightwood (LIL)
 

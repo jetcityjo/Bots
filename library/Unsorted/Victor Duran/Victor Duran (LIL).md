@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Victor Duran
 platform: LIL
-source_file: Downloads/Data/Victor Duran.json
-exported: 2026-03-22
-other_copies: 0
+source_file: LIL export 2026-10-26/Victor Duran.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Victor Duran (LIL)
 

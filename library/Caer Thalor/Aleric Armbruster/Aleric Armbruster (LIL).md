@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Aleric Armbruster
 platform: LIL
-source_file: Downloads/Aleric Armbruster.json
-exported: 2026-09-26
-other_copies: 2
+source_file: LIL export 2026-10-26/Aleric Armbruster (1).json
+exported: 2026-10-26
+other_copies: 3
 ---
 # Aleric Armbruster (LIL)
 

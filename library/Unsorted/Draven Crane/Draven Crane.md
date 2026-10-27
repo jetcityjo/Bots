@@ -6,7 +6,7 @@ character: Draven Crane
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Draven Crane (1).json
+canon_source: LIL — LIL export 2026-10-26/Draven Crane (2).json
 updated: 2026-10-26
 ---
 # Draven Crane
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Draven Crane (LIL)]]: latest 2026-09-26 (3 distinct versions kept in GitHub)
+- [[Draven Crane (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -24,7 +24,7 @@ bisexual, human, pansexual, possessive, romance, sends images
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

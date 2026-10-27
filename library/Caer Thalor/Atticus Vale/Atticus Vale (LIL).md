@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Atticus Vale
 platform: LIL
-source_file: Downloads/Atticus Vale.json
-exported: 2026-09-26
-other_copies: 1
+source_file: LIL export 2026-10-26/Atticus Vale (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Atticus Vale (LIL)
 

@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Lucien Marlowe
 platform: LIL
-source_file: Downloads/Lucien Marlowe.json
-exported: 2026-09-26
-other_copies: 1
+source_file: LIL export 2026-10-26/Lucien Marlowe (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Lucien Marlowe (LIL)
 

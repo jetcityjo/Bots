@@ -7,7 +7,7 @@ world: Unsorted
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Data/Jetcity Jo.json
+canon_source: LIL — LIL export 2026-10-26/Jetcity Jo.json
 updated: 2026-10-26
 ---
 # Jetcity Jo
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Jetcity Jo (Aksho)]]: latest 2026-06-06
-- [[Jetcity Jo (LIL)]]: latest 2026-01-19
+- [[Jetcity Jo (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -26,7 +26,7 @@ bisexual, confident without arrogance, emotionally guarded, happily married, int
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-01-19). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

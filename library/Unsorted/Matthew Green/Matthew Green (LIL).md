@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Matthew Green
 platform: LIL
-source_file: Downloads/Data/Matthew Green.json
-exported: 2026-02-09
-other_copies: 0
+source_file: LIL export 2026-10-26/Matthew Green.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Matthew Green (LIL)
 

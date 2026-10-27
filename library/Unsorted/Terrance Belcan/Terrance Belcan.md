@@ -6,7 +6,7 @@ character: Terrance Belcan
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Data/Terrance Belcan .json
+canon_source: LIL — LIL export 2026-10-26/Terrance Belcan .json
 updated: 2026-10-26
 ---
 # Terrance Belcan
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Terrance Belcan (LIL)]]: latest 2026-01-15
+- [[Terrance Belcan (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ enemies to lovers, grumptogoo, human, pansexual, romance, story driven, teacher
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-01-15). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

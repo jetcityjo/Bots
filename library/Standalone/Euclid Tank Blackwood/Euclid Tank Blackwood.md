@@ -7,7 +7,7 @@ world: Standalone
 platforms:
   - LIL
   - Notes
-canon_source: LIL — Downloads/Eucild _Tank_ Blackwood.json
+canon_source: LIL — LIL export 2026-10-26/Eucild _Tank_ Blackwood (1).json
 updated: 2026-10-26
 ---
 # Euclid "Tank" Blackwood
@@ -17,7 +17,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Euclid Tank Blackwood (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[Euclid Tank Blackwood (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Euclid Tank Blackwood (Notes)]]: latest 2026-03-12
 
 ## Tags
@@ -26,7 +26,7 @@ adventure, alpha, hero, omegaverse, original character, pansexual, romance, stor
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

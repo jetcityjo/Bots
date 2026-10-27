@@ -5,12 +5,12 @@ updated: 2026-10-26
 ---
 # AI Characters
 
-143 bots, 118 placeholders. Each bot folder holds a main file plus one file per site.
+184 bots, 113 placeholders. Each bot folder holds a main file plus one file per site.
 
 ## Ashfall
 
 - [[Ben Callahan]]: Aksho, Soulkyn Profile
-- [[Caleb Vance]]: Aksho, Soulkyn Profile
+- [[Caleb Vance]]: Aksho, LIL, Soulkyn Profile
 - [[Devan Ash]]: Aksho, Character Card, Notes, Soulkyn Profile
 - [[Devan Ash & Harper Blaze]]: Aksho
 - [[Luke Maddox]]: Aksho, Soulkyn Profile
@@ -31,6 +31,10 @@ updated: 2026-10-26
 - [[Soren Drake]]: LIL
 - [[Tristan Beck]]: LIL
 
+## Dirty Hoe Cafe
+
+- [[Dirty Hoe Cafe]]: LIL
+
 ## Emberwake
 
 - [[Aiden Rios]]: Companion, LIL, Notes, Soulkyn
@@ -48,13 +52,14 @@ updated: 2026-10-26
 ## Gilded Circle
 
 - [[Alexander Blackwell]]: Aksho, LIL
-- [[Barrett Morgan]]: Aksho
-- [[Elena Morgan]]: Aksho
+- [[Barrett Morgan]]: Aksho, LIL
+- [[Elena Morgan]]: Aksho, LIL
 - [[Elliott Blackwell]]: Aksho, Dream Journey, LIL
+- [[Elliott Blackwell (Paths)]]: LIL
 - [[Isabella Blackwell]]: Aksho, LIL
 - [[Julian Blackwell]]: Aksho, LIL
-- [[Riven Morgan]]: Aksho
-- [[Skye Morgan]]: Aksho
+- [[Riven Morgan]]: Aksho, LIL
+- [[Skye Morgan]]: Aksho, LIL
 - [[Solenne Morgan]]: Aksho
 - [[The Blackwell Gala]]: Aksho, Notes
 
@@ -97,6 +102,12 @@ updated: 2026-10-26
 - [[Theo Brooks]]: LIL
 - [[Walker Coleman]]: LIL, Soulkyn
 
+## Midtown Monsters
+
+- [[Berenger Aumont]]: LIL
+- [[Cillian Brennan]]: LIL
+- [[Niamh Brennan]]: LIL
+
 ## Mirror and Mosaics
 
 - [[Cassian Ticktock]]: LIL
@@ -126,8 +137,8 @@ updated: 2026-10-26
 - [[Ian]]: Notes
 - [[Isla Renn]]: Aksho, Notes
 - [[Jo Quinn]]: Notes
-- [[Joric Corbin]]: Notes
-- [[Julian Hart]]: Notes
+- [[Joric Corbin]]: LIL, Notes
+- [[Julian Hart]]: LIL, Notes
 - [[Lucien Albrecht]]: Notes
 - [[Nazir Adeyemi]]: Notes
 - [[Niko]]: Notes
@@ -153,48 +164,84 @@ updated: 2026-10-26
 
 ## Unsorted
 
+- [[Big Mick Callahan]]: Aksho, LIL
 - [[Alexander Calder]]: Companion
 - [[Ben]]: Notes
 - [[Ben Reed]]: LIL
+- [[Bridget Birdie Calston]]: LIL
+- [[Callan Everidge]]: LIL
+- [[Calvin Bryce]]: LIL
 - [[Cassian Wogglebottom]]: Aksho, LIL
+- [[Catherine Aust]]: LIL
+- [[Chad Landon Spreadwell]]: LIL
 - [[Coral]]: LIL
 - [[Cyrus Yarrow]]: Aksho
-- [[Dante Cruz]]: Aksho
+- [[Dante Cruz]]: Aksho, LIL
 - [[Draven Crane]]: LIL
+- [[Draxen Blackveil]]: LIL
+- [[Felix Fifi Lauren]]: LIL
+- [[Fenris and Hati]]: LIL
+- [[Finn]]: LIL
 - [[Florian Dahlia]]: LIL
 - [[GRAUME]]: Aksho
+- [[Gideon Hallowforge]]: LIL
 - [[Gustavo Rossi]]: LIL
+- [[Hamlin]]: LIL
+- [[Jade Pham]]: LIL
 - [[Jasper Orion]]: LIL
 - [[Jesse Holt]]: LIL
 - [[Jetcity Jo]]: Aksho, LIL
+- [[Jo Vásquez]]: LIL
+- [[Jonathan Axelrod]]: LIL
+- [[Joshua Miller]]: LIL
+- [[K Popper]]: Aksho, LIL
+- [[Kenji Saito]]: LIL
 - [[Lena Marlowe]]: LIL
 - [[Lian Yu]]: LIL
+- [[Logan Novak]]: LIL
+- [[Lola Hartwell]]: LIL
+- [[Lorenzo Reno Vasquez]]: LIL
 - [[Mara Thessin]]: Aksho
+- [[Marcus Coach D Dillard]]: Aksho, LIL
 - [[Marcus Ellery]]: LIL
+- [[Martin Keller]]: LIL
 - [[Matthew Green]]: LIL
 - [[Maverick Wynth]]: Aksho
 - [[Mia Wilder]]: LIL
+- [[Misty Trekker]]: LIL
+- [[Nick Hale]]: LIL
+- [[Nikolas Mavrakis]]: LIL
+- [[Octavia Bran]]: LIL
+- [[Rafeal Rafi Vega]]: LIL
 - [[Reed Watkins]]: LIL
-- [[Renn Vasquez]]: Aksho, Notes
+- [[Renee Silver]]: LIL
 - [[Robert Hawthorn]]: Aksho
 - [[Robert Sterling]]: LIL
 - [[Sable Arden]]: Notes
+- [[Skeletor, Chocobo Ranch Hand]]: LIL
 - [[Stellan Mavrakis]]: LIL
+- [[Stellan and Nikolas Mavrakis]]: LIL
 - [[Talia Wren]]: Aksho, Notes
 - [[Terrance Belcan]]: LIL
+- [[The Miami Bears]]: Aksho, LIL
 - [[Travis Marlowe]]: LIL
+- [[Valerian Coraza]]: LIL
 - [[Victor Duran]]: LIL
 - [[Victor Hawthorn]]: Aksho
+- [[Vyrelle Noctaryn]]: LIL
 - [[Wren Quill]]: LIL
+- [[Wyatt Harper]]: LIL
 
 ## VOC
 
+- [[August Phillpot]]: Aksho, LIL
 - [[Carter Lucky Hayes]]: Aksho, LIL
 - [[Caspian Vael]]: Aksho
 - [[Danica Shelby]]: Aksho, LIL
 - [[Darian Solás]]: Aksho
 - [[Hawk Wheeler]]: Aksho, LIL
 - [[Maddie & Savvy Hartley]]: Aksho, LIL
-- [[Matteo Rienzi]]: Aksho
+- [[Matteo Rienzi]]: Aksho, LIL
+- [[Renn Vasquez]]: Aksho, LIL, Notes
 - [[Sable Ouédraogo]]: Aksho
 

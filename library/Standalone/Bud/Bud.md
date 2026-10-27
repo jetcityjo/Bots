@@ -7,7 +7,7 @@ world: Standalone
 platforms:
   - LIL
   - Notes
-canon_source: LIL — Downloads/Bud.json
+canon_source: LIL — LIL export 2026-10-26/Bud (2).json
 updated: 2026-10-26
 ---
 # Bud
@@ -17,16 +17,16 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Bud (LIL)]]: latest 2026-10-12
+- [[Bud (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Bud (Notes)]]: latest 2026-03-12 (2 distinct versions kept in GitHub)
 
 ## Tags
 
-comedy, modern, potatoes, slice of life, story driven, wholesome
+asexual, bud, comedy, modern, potatoes, scientist, slice of life, story driven, teaspoon chronicles, wholesome
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-10-12). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

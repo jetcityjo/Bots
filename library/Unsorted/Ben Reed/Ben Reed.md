@@ -6,7 +6,7 @@ character: Ben Reed
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Professor Ben Reed.json
+canon_source: LIL — LIL export 2026-10-26/Professor Ben Reed (1).json
 updated: 2026-10-26
 ---
 # Ben Reed
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Ben Reed (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[Ben Reed (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -24,7 +24,7 @@ bdsm, dom, dominant, high protocol, professor, sex driven, story driven
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

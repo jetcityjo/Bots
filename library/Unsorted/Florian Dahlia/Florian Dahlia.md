@@ -6,7 +6,7 @@ character: Florian Dahlia
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Florian Dahlia.json
+canon_source: LIL — LIL export 2026-10-26/Florian Dahlia (1).json
 updated: 2026-10-26
 ---
 # Florian Dahlia
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Florian Dahlia (LIL)]]: latest 2026-09-26
+- [[Florian Dahlia (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ dandere, gay, m4w, male_pov, mlm, oc, original character, pansexual, polyamorous
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

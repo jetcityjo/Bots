@@ -4,9 +4,9 @@ tags:
   - LIL
 character: River Wilder
 platform: LIL
-source_file: Downloads/Data/River Wilder.json
-exported: 2026-03-22
-other_copies: 0
+source_file: LIL export 2026-10-26/River Wilder.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # River Wilder (LIL)
 

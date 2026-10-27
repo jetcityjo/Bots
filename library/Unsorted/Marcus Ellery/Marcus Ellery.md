@@ -6,7 +6,7 @@ character: Marcus Ellery
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Data/Marcus Ellery.json
+canon_source: LIL — LIL export 2026-10-26/Marcus Ellery.json
 updated: 2026-10-26
 ---
 # Marcus Ellery
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Marcus Ellery (LIL)]]: latest 2026-03-22
+- [[Marcus Ellery (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ bisexual, original character, pansexual, roaring26, slice of life, story driven,
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-22). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

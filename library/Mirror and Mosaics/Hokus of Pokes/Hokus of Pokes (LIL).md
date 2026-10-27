@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Hokus of Pokes
 platform: LIL
-source_file: Downloads/Data/Hokus of Pokes.json
-exported: 2026-03-10
-other_copies: 1
+source_file: LIL export 2026-10-26/Hokus of Pokes.json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Hokus of Pokes (LIL)
 

@@ -6,7 +6,7 @@ character: Reed Watkins
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Data/Reed Watkins.json
+canon_source: LIL — LIL export 2026-10-26/Reed Watkins.json
 updated: 2026-10-26
 ---
 # Reed Watkins
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Reed Watkins (LIL)]]: latest 2026-08-29
+- [[Reed Watkins (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ angst, athlete, baseball, co-ed league, enemies to lovers, fallen golden boy, hu
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-08-29). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

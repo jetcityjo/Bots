@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Tristan Beck
 platform: LIL
-source_file: Downloads/Tristan Beck (1).json
-exported: 2026-09-26
-other_copies: 2
+source_file: LIL export 2026-10-26/Tristan Beck.json
+exported: 2026-10-26
+other_copies: 4
 ---
 # Tristan Beck (LIL)
 

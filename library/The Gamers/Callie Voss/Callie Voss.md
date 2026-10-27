@@ -8,7 +8,7 @@ platforms:
   - Character Card
   - LIL
   - Notes
-canon_source: LIL — Downloads/Callie Voss.json
+canon_source: LIL — LIL export 2026-10-26/Callie Voss (1).json
 updated: 2026-10-26
 ---
 # Callie Voss
@@ -19,7 +19,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Callie Voss (Character Card)]]: latest 2026-08-26
-- [[Callie Voss (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[Callie Voss (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Callie Voss (Notes)]]: latest 2026-03-12
 
 ## Tags
@@ -28,7 +28,7 @@ bisexual, dry humor, friend, friends to lovers, game night, girls-girl, human, m
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

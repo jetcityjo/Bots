@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Reed Watkins
 platform: LIL
-source_file: Downloads/Data/Reed Watkins.json
-exported: 2026-08-29
-other_copies: 0
+source_file: LIL export 2026-10-26/Reed Watkins.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Reed Watkins (LIL)
 

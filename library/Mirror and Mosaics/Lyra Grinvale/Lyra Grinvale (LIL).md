@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Lyra Grinvale
 platform: LIL
-source_file: Downloads/Data/Lyra Grinvale.json
-exported: 2026-03-10
-other_copies: 1
+source_file: LIL export 2026-10-26/Lyra Grinvale.json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Lyra Grinvale (LIL)
 

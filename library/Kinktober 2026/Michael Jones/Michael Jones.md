@@ -17,12 +17,12 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Michael Jones (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Michael Jones (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 - [[Michael Jones (Soulkyn)]]: latest 2026-10-26
 
 ## Tags
 
-dominant, kinktober 2026, male, master/slave, older man, protocol, sadism
+age gap, dominant, kinktober 2026, kinktober2026, male, master/slave, older man, protocol, sadism
 
 ## Canon
 

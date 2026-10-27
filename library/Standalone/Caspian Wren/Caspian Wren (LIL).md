@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Caspian Wren
 platform: LIL
-source_file: Downloads/Data/Caspian Wren.json
-exported: 2026-03-22
-other_copies: 0
+source_file: LIL export 2026-10-26/Caspian Wren.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Caspian Wren (LIL)
 

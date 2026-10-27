@@ -6,7 +6,7 @@ character: Gustavo Rossi
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Data/Gustavo Rossi.json
+canon_source: LIL — LIL export 2026-10-26/Gustavo Rossi.json
 updated: 2026-10-26
 ---
 # Gustavo Rossi
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Gustavo Rossi (LIL)]]: latest 2026-02-07
+- [[Gustavo Rossi (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ bisexual, sex driven, slice of life, story driven
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-02-07). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

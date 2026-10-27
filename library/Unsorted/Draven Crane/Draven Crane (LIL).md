@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Draven Crane
 platform: LIL
-source_file: Downloads/Draven Crane (1).json
-exported: 2026-09-26
-other_copies: 3
+source_file: LIL export 2026-10-26/Draven Crane (2).json
+exported: 2026-10-26
+other_copies: 4
 ---
 # Draven Crane (LIL)
 

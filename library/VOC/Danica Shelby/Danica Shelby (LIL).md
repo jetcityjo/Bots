@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Danica Shelby
 platform: LIL
-source_file: Downloads/Data/Danica Shelby.json
-exported: 2026-08-30
-other_copies: 0
+source_file: LIL export 2026-10-26/Danica Shelby.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Danica Shelby (LIL)
 

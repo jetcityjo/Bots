@@ -9,7 +9,7 @@ platforms:
   - Dream Journey
   - LIL
   - Soulkyn Profile
-canon_source: LIL — Downloads/Data/Nico Mane .json
+canon_source: LIL — LIL export 2026-10-26/Nico Mane .json
 updated: 2026-10-26
 ---
 # Nico Mane
@@ -21,7 +21,7 @@ updated: 2026-10-26
 
 - [[Nico Mane (Aksho)]]: latest 2026-06-06
 - [[Nico Mane (Dream Journey)]]: latest 2026-03-22
-- [[Nico Mane (LIL)]]: latest 2026-03-22
+- [[Nico Mane (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Nico Mane (Soulkyn Profile)]]: latest 2026-03-12
 
 ## Tags
@@ -30,7 +30,7 @@ ashfall, ashfall the band, authoritative, crisis solver, dominant, enemies to lo
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-22). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 
@@ -58,7 +58,13 @@ ashfall the band, enemies to lovers, friends to lovers, love triangle, pan, pans
 
 ### Personality
 
-DOB:01/18/1998
+((All characters in this are over 21 (Ages of specific named Characters within
+(Devan Ash 29)
+(Tori Jax 28)
+(Caleb Vance 28)
+(Ben Callahan  26)
+(Luke Maddox 32
+Nico is 30))
 Protective, Authoritative, Reliable, Pragmatic, Disciplined, Patient, Strategic, Observant, Loyal, Calm_in_Chaos, No_Nonsense, Sharp_Witted, Intimidating_When_Needed, Self_Sacrificing, Grounded
 
 Physical Description:

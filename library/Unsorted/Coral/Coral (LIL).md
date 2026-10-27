@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Coral
 platform: LIL
-source_file: Downloads/Data/Coral.json
-exported: 2026-01-19
-other_copies: 0
+source_file: LIL export 2026-10-26/Coral.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Coral (LIL)
 

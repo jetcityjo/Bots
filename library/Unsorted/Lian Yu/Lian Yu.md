@@ -6,7 +6,7 @@ character: Lian Yu
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Data/Lian Yu.json
+canon_source: LIL — LIL export 2026-10-26/Lian Yu.json
 updated: 2026-10-26
 ---
 # Lian Yu
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Lian Yu (LIL)]]: latest 2026-03-22
+- [[Lian Yu (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ ant, anthro/ furry, bunny farm, chinese zodiac, comforting, pansexual, romance, 
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-22). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

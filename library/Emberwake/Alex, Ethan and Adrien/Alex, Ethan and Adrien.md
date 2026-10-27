@@ -9,7 +9,7 @@ platforms:
   - Companion
   - LIL
   - Soulkyn
-canon_source: LIL — Downloads/Alex, Ethan and Adrien .json
+canon_source: LIL — LIL export 2026-10-26/Alex, Ethan and Adrien  (1).json
 updated: 2026-10-26
 ---
 # Alex, Ethan and Adrien
@@ -21,7 +21,7 @@ updated: 2026-10-26
 
 - [[Alex, Ethan and Adrien (Aksho)]]: latest 2026-06-07
 - [[Alex, Ethan and Adrien (Companion)]]: latest 2026-09-26
-- [[Alex, Ethan and Adrien (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[Alex, Ethan and Adrien (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Alex, Ethan and Adrien (Soulkyn)]]: latest 2026-09-26
 
 ## Tags
@@ -30,7 +30,7 @@ adventure, alpha, alternate universe, any_pov, bratty, breeding kink, brooding, 
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

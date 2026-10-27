@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Xander Stevens
 platform: LIL
-source_file: Downloads/Xander Stevens (1).json
-exported: 2026-10-21
-other_copies: 2
+source_file: LIL export 2026-10-26/Xander Stevens (2).json
+exported: 2026-10-26
+other_copies: 3
 ---
 # Xander Stevens (LIL)
 

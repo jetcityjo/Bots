@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Alex, Ethan and Adrien
 platform: LIL
-source_file: Downloads/Alex, Ethan and Adrien .json
-exported: 2026-09-26
-other_copies: 1
+source_file: LIL export 2026-10-26/Alex, Ethan and Adrien  (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Alex, Ethan and Adrien (LIL)
 

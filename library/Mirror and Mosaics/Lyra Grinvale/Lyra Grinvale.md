@@ -7,7 +7,7 @@ world: Mirror and Mosaics
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Data/Lyra Grinvale.json
+canon_source: LIL — LIL export 2026-10-26/Lyra Grinvale.json
 updated: 2026-10-26
 ---
 # Lyra Grinvale
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Lyra Grinvale (Aksho)]]: latest 2026-06-06
-- [[Lyra Grinvale (LIL)]]: latest 2026-03-10 (2 distinct versions kept in GitHub)
+- [[Lyra Grinvale (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -26,7 +26,7 @@ adventure, alternate universe, captivating aura, ethereal presence, expressive f
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-10). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

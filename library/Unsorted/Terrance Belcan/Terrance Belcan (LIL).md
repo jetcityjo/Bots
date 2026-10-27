@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Terrance Belcan
 platform: LIL
-source_file: Downloads/Data/Terrance Belcan .json
-exported: 2026-01-15
-other_copies: 0
+source_file: LIL export 2026-10-26/Terrance Belcan .json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Terrance Belcan (LIL)
 

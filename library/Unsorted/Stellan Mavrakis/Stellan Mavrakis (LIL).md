@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Stellan Mavrakis
 platform: LIL
-source_file: Downloads/Stellan Mavrakis.json
-exported: 2026-10-01
-other_copies: 0
+source_file: LIL export 2026-10-26/Stellan Mavrakis (1).json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Stellan Mavrakis (LIL)
 

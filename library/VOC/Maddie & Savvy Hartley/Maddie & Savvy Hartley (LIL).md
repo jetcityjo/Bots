@@ -4,9 +4,9 @@ tags:
   - LIL
 character: "Maddie & Savvy Hartley"
 platform: LIL
-source_file: Downloads/Data/Maddy and Savvy _ Nitro Rush (1).json
-exported: 2026-08-30
-other_copies: 1
+source_file: LIL export 2026-10-26/Maddy and Savvy _ Nitro Rush.json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Maddie & Savvy Hartley (LIL)
 

@@ -6,7 +6,7 @@ character: Rhizyn Brightwood
 world: Caer Thalor
 platforms:
   - LIL
-canon_source: LIL — Downloads/Rhizyn Brightwood.json
+canon_source: LIL — LIL export 2026-10-26/Rhizyn Brightwood (1).json
 updated: 2026-10-26
 ---
 # Rhizyn Brightwood
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Rhizyn Brightwood (LIL)]]: latest 2026-09-26
+- [[Rhizyn Brightwood (LIL)]]: latest 2026-10-26
 
 ## Tags
 
@@ -24,7 +24,7 @@ another world [isekai], caer thalor, original character, pansexual, story driven
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

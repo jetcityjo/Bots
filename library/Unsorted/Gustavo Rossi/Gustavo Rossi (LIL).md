@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Gustavo Rossi
 platform: LIL
-source_file: Downloads/Data/Gustavo Rossi.json
-exported: 2026-02-07
-other_copies: 0
+source_file: LIL export 2026-10-26/Gustavo Rossi.json
+exported: 2026-10-26
+other_copies: 1
 ---
 # Gustavo Rossi (LIL)
 

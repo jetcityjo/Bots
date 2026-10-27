@@ -6,7 +6,7 @@ character: Aleric Armbruster
 world: Caer Thalor
 platforms:
   - LIL
-canon_source: LIL — Downloads/Aleric Armbruster.json
+canon_source: LIL — LIL export 2026-10-26/Aleric Armbruster (1).json
 updated: 2026-10-26
 ---
 # Aleric Armbruster
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Aleric Armbruster (LIL)]]: latest 2026-09-26 (3 distinct versions kept in GitHub)
+- [[Aleric Armbruster (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -24,7 +24,7 @@ action/combat, adventure, caer thalor, fairy tale/fantasy, human, kingdom of cae
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

@@ -17,12 +17,12 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[James Michaels (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[James Michaels (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
 - [[James Michaels (Soulkyn)]]: latest 2026-10-26
 
 ## Tags
 
-dominant, kinktober 2026, male, rope bondage, shibari, slow burn, suspension, suspension bondage
+dominant, kinktober 2026, kinktober2026, male, rope bondage, shibari, slow burn, suspension, suspension bondage
 
 ## Canon
 

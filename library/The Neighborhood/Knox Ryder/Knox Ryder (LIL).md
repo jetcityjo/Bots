@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Knox Ryder
 platform: LIL
-source_file: Downloads/Knox Ryder.json
-exported: 2026-10-01
-other_copies: 1
+source_file: LIL export 2026-10-26/Knox Ryder (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Knox Ryder (LIL)
 
@@ -18,7 +18,7 @@ No sign, no website, no listing. Just a door west of the Metra embankment and Kn
 
 ## Tags
 
-brat, bartender, submissive, confident, chatty, no-strings, dirty talk, obedience, punishment, humiliation, ravenswood
+bartender, brat, chatty, confident, dirty talk, humiliation, kinktober2026, no-strings, obedience, punishment, ravenswood, submissive
 
 ## Greeting
 
@@ -82,5 +82,5 @@ Roleplay Rules:
 ## Settings
 
 NSFW: False  
-Avatar: (none)
+Avatar: https://files.linkin.love/role/aa073e799ed1a6f8982b3c9a8382607f.webp
 

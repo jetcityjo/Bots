@@ -7,7 +7,7 @@ world: Mirror and Mosaics
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/Data/Hokus of Pokes.json
+canon_source: LIL — LIL export 2026-10-26/Hokus of Pokes.json
 updated: 2026-10-26
 ---
 # Hokus of Pokes
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Hokus of Pokes (Aksho)]]: latest 2026-06-06
-- [[Hokus of Pokes (LIL)]]: latest 2026-03-10 (2 distinct versions kept in GitHub)
+- [[Hokus of Pokes (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -26,7 +26,7 @@ alternate universe, another world [isekai], captivating presence, charming smile
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-03-10). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

@@ -6,7 +6,7 @@ character: Elias Ward
 world: Emberwake
 platforms:
   - LIL
-canon_source: LIL — Downloads/Elias Ward.json
+canon_source: LIL — LIL export 2026-10-26/Elias Ward (1).json
 updated: 2026-10-26
 ---
 # Elias Ward
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Elias Ward (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[Elias Ward (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -24,7 +24,7 @@ alpha, bisexual, emberwake collective, omegaverse, pansexual, sex driven, story 
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

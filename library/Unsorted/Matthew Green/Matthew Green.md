@@ -6,7 +6,7 @@ character: Matthew Green
 world: Unsorted
 platforms:
   - LIL
-canon_source: LIL — Downloads/Data/Matthew Green.json
+canon_source: LIL — LIL export 2026-10-26/Matthew Green.json
 updated: 2026-10-26
 ---
 # Matthew Green
@@ -16,7 +16,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Matthew Green (LIL)]]: latest 2026-02-09
+- [[Matthew Green (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -24,7 +24,7 @@ bisexual, boyfriend, fix the past, original character, pansexual, slice of life,
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-02-09). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Travis Marlowe
 platform: LIL
-source_file: Downloads/Travis Marlowe.json
-exported: 2026-10-22
-other_copies: 1
+source_file: LIL export 2026-10-26/Travis Marlowe (1).json
+exported: 2026-10-26
+other_copies: 2
 ---
 # Travis Marlowe (LIL)
 

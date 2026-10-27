@@ -4,9 +4,9 @@ tags:
   - LIL
 character: "Carter \"Lucky\" Hayes"
 platform: LIL
-source_file: Downloads/Data/Carter _Lucky_ Hayes (1) - 2026-08-31.json
-exported: 2026-08-30
-other_copies: 2
+source_file: LIL export 2026-10-26/Carter _Lucky_ Hayes.json
+exported: 2026-10-26
+other_copies: 3
 ---
 # Carter "Lucky" Hayes (LIL)
 

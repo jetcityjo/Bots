@@ -7,7 +7,7 @@ world: The Gamers
 platforms:
   - LIL
   - Notes
-canon_source: LIL — Downloads/Brody Mercer (1).json
+canon_source: LIL — LIL export 2026-10-26/Brody Mercer (2).json
 updated: 2026-10-26
 ---
 # Brody Mercer
@@ -17,7 +17,7 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Brody Mercer (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[Brody Mercer (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Brody Mercer (Notes)]]: latest 2026-03-12
 
 ## Tags
@@ -26,7 +26,7 @@ love triangle, pansexual, romance, story driven
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

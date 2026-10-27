@@ -7,7 +7,7 @@ world: Caer Thalor
 platforms:
   - Aksho
   - LIL
-canon_source: LIL — Downloads/King Darius Kaelthorne II.json
+canon_source: LIL — LIL export 2026-10-26/King Darius Kaelthorne II (1).json
 updated: 2026-10-26
 ---
 # King Darius Kaelthorne II
@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[King Darius Kaelthorne II (Aksho)]]: latest 2026-06-06
-- [[King Darius Kaelthorne II (LIL)]]: latest 2026-09-26 (2 distinct versions kept in GitHub)
+- [[King Darius Kaelthorne II (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 
 ## Tags
 
@@ -26,7 +26,7 @@ ambitious, bisexual, caer thalor, caer-thalor, commanding, competitive rival, co
 
 ## Canon
 
-> Pulled from the most complete version: **LIL** (2026-09-26). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **LIL** (2026-10-26). Edit here going forward and push changes out to each site file.
 
 ### Short Description
 

@@ -4,9 +4,9 @@ tags:
   - LIL
 character: Robert Sterling
 platform: LIL
-source_file: Downloads/Robert Sterling (1).json
-exported: 2026-09-26
-other_copies: 3
+source_file: LIL export 2026-10-26/Robert Sterling (2).json
+exported: 2026-10-26
+other_copies: 4
 ---
 # Robert Sterling (LIL)
 
