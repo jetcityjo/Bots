@@ -6,7 +6,6 @@ character: "Carter \"Lucky\" Hayes"
 world: VOC
 platforms:
   - Aksho
-  - Character Card
   - LIL
 canon_source: LIL — Downloads/Data/Carter _Lucky_ Hayes (1) - 2026-08-31.json
 updated: 2026-10-26
@@ -14,12 +13,11 @@ updated: 2026-10-26
 # Carter "Lucky" Hayes
 
 **World:** [[VOC]]  
-**On:** Aksho, Character Card, LIL
+**On:** Aksho, LIL
 
 ## Versions
 
-- [[Carter Lucky Hayes (Aksho)]]: latest 2026-06-07
-- [[Carter Lucky Hayes (Character Card)]]: latest 2026-09-01
+- [[Carter Lucky Hayes (Aksho)]]: latest 2026-09-01 (2 distinct versions kept in GitHub)
 - [[Carter Lucky Hayes (LIL)]]: latest 2026-08-30 (3 distinct versions kept in GitHub)
 
 ## Tags

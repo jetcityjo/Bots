@@ -6,7 +6,6 @@ character: "Maddie & Savvy Hartley"
 world: VOC
 platforms:
   - Aksho
-  - Character Card
   - LIL
 canon_source: LIL — Downloads/Data/Maddy and Savvy _ Nitro Rush (1).json
 updated: 2026-10-26
@@ -14,12 +13,11 @@ updated: 2026-10-26
 # Maddie & Savvy Hartley
 
 **World:** [[VOC]]  
-**On:** Aksho, Character Card, LIL
+**On:** Aksho, LIL
 
 ## Versions
 
-- [[Maddie & Savvy Hartley (Aksho)]]: latest 2026-06-07
-- [[Maddie & Savvy Hartley (Character Card)]]: latest 2026-08-31
+- [[Maddie & Savvy Hartley (Aksho)]]: latest 2026-08-31 (2 distinct versions kept in GitHub)
 - [[Maddie & Savvy Hartley (LIL)]]: latest 2026-08-30
 
 ## Tags

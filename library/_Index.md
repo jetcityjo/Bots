@@ -159,7 +159,7 @@ updated: 2026-10-26
 - [[Cassian Wogglebottom]]: Aksho, LIL
 - [[Coral]]: LIL
 - [[Cyrus Yarrow]]: Aksho
-- [[Dante Cruz]]: Character Card
+- [[Dante Cruz]]: Aksho
 - [[Draven Crane]]: LIL
 - [[Florian Dahlia]]: LIL
 - [[GRAUME]]: Aksho
@@ -169,7 +169,7 @@ updated: 2026-10-26
 - [[Jetcity Jo]]: Aksho, LIL
 - [[Lena Marlowe]]: LIL
 - [[Lian Yu]]: LIL
-- [[Mara Thessin]]: Character Card
+- [[Mara Thessin]]: Aksho
 - [[Marcus Ellery]]: LIL
 - [[Matthew Green]]: LIL
 - [[Maverick Wynth]]: Aksho
@@ -189,12 +189,12 @@ updated: 2026-10-26
 
 ## VOC
 
-- [[Carter Lucky Hayes]]: Aksho, Character Card, LIL
-- [[Caspian Vael]]: Aksho, Character Card
-- [[Danica Shelby]]: Aksho, Character Card, LIL
+- [[Carter Lucky Hayes]]: Aksho, LIL
+- [[Caspian Vael]]: Aksho
+- [[Danica Shelby]]: Aksho, LIL
 - [[Darian Solás]]: Aksho
-- [[Hawk Wheeler]]: Aksho, Character Card, LIL
-- [[Maddie & Savvy Hartley]]: Aksho, Character Card, LIL
-- [[Matteo Rienzi]]: Aksho, Character Card
-- [[Sable Ouédraogo]]: Aksho, Character Card
+- [[Hawk Wheeler]]: Aksho, LIL
+- [[Maddie & Savvy Hartley]]: Aksho, LIL
+- [[Matteo Rienzi]]: Aksho
+- [[Sable Ouédraogo]]: Aksho
 

@@ -6,7 +6,6 @@ character: Hawk Wheeler
 world: VOC
 platforms:
   - Aksho
-  - Character Card
   - LIL
 canon_source: LIL — Downloads/Data/Hawk Wheeler (1).json
 updated: 2026-10-26
@@ -14,12 +13,11 @@ updated: 2026-10-26
 # Hawk Wheeler
 
 **World:** [[VOC]]  
-**On:** Aksho, Character Card, LIL
+**On:** Aksho, LIL
 
 ## Versions
 
-- [[Hawk Wheeler (Aksho)]]: latest 2026-06-06
-- [[Hawk Wheeler (Character Card)]]: latest 2026-08-30
+- [[Hawk Wheeler (Aksho)]]: latest 2026-08-30 (2 distinct versions kept in GitHub)
 - [[Hawk Wheeler (LIL)]]: latest 2026-08-30
 
 ## Tags

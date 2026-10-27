@@ -6,7 +6,6 @@ character: Danica Shelby
 world: VOC
 platforms:
   - Aksho
-  - Character Card
   - LIL
 canon_source: LIL — Downloads/Data/Danica Shelby.json
 updated: 2026-10-26
@@ -14,12 +13,11 @@ updated: 2026-10-26
 # Danica Shelby
 
 **World:** [[VOC]]  
-**On:** Aksho, Character Card, LIL
+**On:** Aksho, LIL
 
 ## Versions
 
-- [[Danica Shelby (Aksho)]]: latest 2026-06-06
-- [[Danica Shelby (Character Card)]]: latest 2026-08-30
+- [[Danica Shelby (Aksho)]]: latest 2026-08-30 (2 distinct versions kept in GitHub)
 - [[Danica Shelby (LIL)]]: latest 2026-08-30
 
 ## Tags
