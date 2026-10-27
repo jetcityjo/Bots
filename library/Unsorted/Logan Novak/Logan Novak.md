@@ -6,17 +6,19 @@ character: Logan Novak
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Logan Novak.json
 updated: 2026-10-26
 ---
 # Logan Novak
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Logan Novak (LIL)]]: latest 2026-10-26
+- [[Logan Novak (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

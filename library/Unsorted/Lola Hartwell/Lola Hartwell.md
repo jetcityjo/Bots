@@ -6,17 +6,19 @@ character: Lola Hartwell
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Lola Hartwell.json
 updated: 2026-10-26
 ---
 # Lola Hartwell
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Lola Hartwell (LIL)]]: latest 2026-10-26
+- [[Lola Hartwell (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

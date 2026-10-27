@@ -7,18 +7,20 @@ world: VOC
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Danica Shelby.json
 updated: 2026-10-26
 ---
 # Danica Shelby
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Danica Shelby (Aksho)]]: latest 2026-08-30 (2 distinct versions kept in GitHub)
 - [[Danica Shelby (LIL)]]: latest 2026-10-26
+- [[Danica Shelby (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

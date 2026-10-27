@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Esteban Booker (LIL)]]: latest 2026-10-25 (GitHub deslop) (3 distinct versions kept in GitHub)
-- [[Esteban Booker (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
+- [[Esteban Booker (Soulkyn)]]: latest 2026-10-25 (GitHub deslop) (2 distinct versions kept in GitHub)
 
 ## Tags
 

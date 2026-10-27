@@ -6,17 +6,19 @@ character: Gustavo Rossi
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Gustavo Rossi.json
 updated: 2026-10-26
 ---
 # Gustavo Rossi
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Gustavo Rossi (LIL)]]: latest 2026-10-26
+- [[Gustavo Rossi (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

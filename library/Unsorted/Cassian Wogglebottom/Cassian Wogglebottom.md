@@ -7,18 +7,20 @@ world: Unsorted
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Cassian Wogglebottom.json
 updated: 2026-10-26
 ---
 # Cassian Wogglebottom
 
 **World:** [[Unsorted]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Cassian Wogglebottom (Aksho)]]: latest 2026-06-06
 - [[Cassian Wogglebottom (LIL)]]: latest 2026-10-26
+- [[Cassian Wogglebottom (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

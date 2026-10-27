@@ -7,18 +7,20 @@ world: Unsorted
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Marcus _Coach D_ Dillard.json
 updated: 2026-10-26
 ---
 # Marcus "Coach D" Dillard
 
 **World:** [[Unsorted]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Marcus Coach D Dillard (Aksho)]]: latest 2026-06-07
 - [[Marcus Coach D Dillard (LIL)]]: latest 2026-10-26
+- [[Marcus Coach D Dillard (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

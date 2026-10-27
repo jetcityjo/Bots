@@ -6,17 +6,19 @@ character: Ben Reed
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Professor Ben Reed (1).json
 updated: 2026-10-26
 ---
 # Ben Reed
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Ben Reed (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Ben Reed (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

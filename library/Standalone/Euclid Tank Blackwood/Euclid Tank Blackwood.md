@@ -7,18 +7,20 @@ world: Standalone
 platforms:
   - LIL
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Eucild _Tank_ Blackwood (1).json
 updated: 2026-10-26
 ---
 # Euclid "Tank" Blackwood
 
 **World:** [[Standalone]]  
-**On:** LIL, Notes
+**On:** LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Euclid Tank Blackwood (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Euclid Tank Blackwood (Notes)]]: latest 2026-03-12
+- [[Euclid Tank Blackwood (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

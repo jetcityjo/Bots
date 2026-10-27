@@ -6,7 +6,7 @@ character: Mon-Roe Bowie
 platform: Soulkyn
 source_file: GitHub/kinktober-2026/Mon-Roe Bowie (Soulkyn).md
 exported: 2026-10-25 (GitHub deslop)
-other_copies: 0
+other_copies: 1
 ---
 # Mon-Roe Bowie (Soulkyn)
 

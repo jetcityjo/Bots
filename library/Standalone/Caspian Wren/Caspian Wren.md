@@ -7,18 +7,20 @@ world: Standalone
 platforms:
   - LIL
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Caspian Wren.json
 updated: 2026-10-26
 ---
 # Caspian Wren
 
 **World:** [[Standalone]]  
-**On:** LIL, Notes
+**On:** LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Caspian Wren (LIL)]]: latest 2026-10-26
 - [[Caspian Wren (Notes)]]: latest 2026-03-12
+- [[Caspian Wren (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

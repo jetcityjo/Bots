@@ -23,12 +23,12 @@ updated: 2026-10-26
 - [[Devan Ash (Aksho)]]: latest 2026-06-06
 - [[Devan Ash (Character Card)]]: latest 2026-09-18
 - [[Devan Ash (Notes)]]: latest 2026-03-12
-- [[Devan Ash (Soulkyn)]]: latest 2026-10-26
+- [[Devan Ash (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 - [[Devan Ash (Soulkyn Profile)]]: latest 2026-03-12
 
 ## Tags
 
-Ashfall, ashfall, black leather jacket, black tank top, boots with silver buckles, charismatic, dominant, emotionally unpredictable, explicit, frontman, magnetic, male, musician, Nashville, rockstar, self-destructive, silver chains necklace, tight leather pants
+ashfall, Ashfall, black leather jacket, black tank top, boots with silver buckles, charismatic, dominant, emotionally unpredictable, explicit, frontman, magnetic, male, musician, Nashville, rockstar, self-destructive, silver chains necklace, tight leather pants
 
 ## Canon
 

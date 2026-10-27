@@ -7,18 +7,20 @@ world: Unsorted
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Dante Cruz.json
 updated: 2026-10-26
 ---
 # Dante Cruz
 
 **World:** [[Unsorted]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Dante Cruz (Aksho)]]: latest 2026-08-30
 - [[Dante Cruz (LIL)]]: latest 2026-10-26
+- [[Dante Cruz (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

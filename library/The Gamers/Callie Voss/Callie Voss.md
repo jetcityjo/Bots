@@ -8,19 +8,21 @@ platforms:
   - Character Card
   - LIL
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Callie Voss (1).json
 updated: 2026-10-26
 ---
 # Callie Voss
 
 **World:** [[The Gamers]]  
-**On:** Character Card, LIL, Notes
+**On:** Character Card, LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Callie Voss (Character Card)]]: latest 2026-08-26
 - [[Callie Voss (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Callie Voss (Notes)]]: latest 2026-03-12
+- [[Callie Voss (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

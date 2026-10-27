@@ -6,17 +6,19 @@ character: Atticus Vale
 world: Caer Thalor
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Atticus Vale (1).json
 updated: 2026-10-26
 ---
 # Atticus Vale
 
 **World:** [[Caer Thalor]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Atticus Vale (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Atticus Vale (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

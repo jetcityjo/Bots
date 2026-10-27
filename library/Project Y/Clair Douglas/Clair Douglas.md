@@ -7,18 +7,20 @@ world: Project Y
 platforms:
   - Character Card
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Clair Douglas.json
 updated: 2026-10-26
 ---
 # Clair Douglas
 
 **World:** [[Project Y]]  
-**On:** Character Card, LIL
+**On:** Character Card, LIL, Soulkyn
 
 ## Versions
 
 - [[Clair Douglas (Character Card)]]: latest 2026-09-18
 - [[Clair Douglas (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Clair Douglas (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

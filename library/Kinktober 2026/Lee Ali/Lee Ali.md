@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Lee Ali (LIL)]]: latest 2026-10-25 (GitHub deslop) (2 distinct versions kept in GitHub)
-- [[Lee Ali (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
+- [[Lee Ali (Soulkyn)]]: latest 2026-10-25 (GitHub deslop) (2 distinct versions kept in GitHub)
 
 ## Tags
 

@@ -8,6 +8,7 @@ platforms:
   - Aksho
   - Dream Journey
   - LIL
+  - Soulkyn
   - Soulkyn Profile
 canon_source: LIL — LIL export 2026-10-26/Nico Mane .json
 updated: 2026-10-26
@@ -15,13 +16,14 @@ updated: 2026-10-26
 # Nico Mane
 
 **World:** [[Ashfall]]  
-**On:** Aksho, Dream Journey, LIL, Soulkyn Profile
+**On:** Aksho, Dream Journey, LIL, Soulkyn, Soulkyn Profile
 
 ## Versions
 
 - [[Nico Mane (Aksho)]]: latest 2026-06-06
 - [[Nico Mane (Dream Journey)]]: latest 2026-03-22
 - [[Nico Mane (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Nico Mane (Soulkyn)]]: latest 2026-10-27
 - [[Nico Mane (Soulkyn Profile)]]: latest 2026-03-12
 
 ## Tags

@@ -6,17 +6,19 @@ character: Selene Vire
 world: Caer Thalor
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Selene Vire.json
 updated: 2026-10-26
 ---
 # Selene Vire
 
 **World:** [[Caer Thalor]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Selene Vire (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Selene Vire (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

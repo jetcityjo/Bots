@@ -7,18 +7,20 @@ world: Emberwake
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Santiago Reyes (1).json
 updated: 2026-10-26
 ---
 # Santiago Reyes
 
 **World:** [[Emberwake]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Santiago Reyes (Aksho)]]: latest 2026-06-07
 - [[Santiago Reyes (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Santiago Reyes (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

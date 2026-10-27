@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Booker Desmond (LIL)]]: latest 2026-10-25 (GitHub deslop) (3 distinct versions kept in GitHub)
-- [[Booker Desmond (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
+- [[Booker Desmond (Soulkyn)]]: latest 2026-10-25 (GitHub deslop) (2 distinct versions kept in GitHub)
 
 ## Tags
 

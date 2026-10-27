@@ -9,13 +9,14 @@ platforms:
   - Character Card
   - LIL
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Finch Alder .json
 updated: 2026-10-26
 ---
 # Finch Alder
 
 **World:** [[Mirror and Mosaics]]  
-**On:** Aksho, Character Card, LIL, Notes
+**On:** Aksho, Character Card, LIL, Notes, Soulkyn
 
 ## Versions
 
@@ -23,6 +24,7 @@ updated: 2026-10-26
 - [[Finch Alder (Character Card)]]: latest 2026-03-07
 - [[Finch Alder (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Finch Alder (Notes)]]: latest 2026-03-07
+- [[Finch Alder (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

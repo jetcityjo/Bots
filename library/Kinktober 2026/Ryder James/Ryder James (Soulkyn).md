@@ -6,7 +6,7 @@ character: Ryder James
 platform: Soulkyn
 source_file: GitHub/kinktober-2026/Ryder James (Soulkyn).md
 exported: 2026-10-25 (GitHub deslop)
-other_copies: 0
+other_copies: 1
 ---
 # Ryder James (Soulkyn)
 

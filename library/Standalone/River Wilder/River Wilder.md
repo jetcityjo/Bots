@@ -8,19 +8,21 @@ platforms:
   - Aksho
   - LIL
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/River Wilder.json
 updated: 2026-10-26
 ---
 # River Wilder
 
 **World:** [[Standalone]]  
-**On:** Aksho, LIL, Notes
+**On:** Aksho, LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[River Wilder (Aksho)]]: latest 2026-06-06
 - [[River Wilder (LIL)]]: latest 2026-10-26
 - [[River Wilder (Notes)]]: latest 2026-03-12
+- [[River Wilder (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

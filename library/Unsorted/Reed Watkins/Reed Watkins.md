@@ -6,17 +6,19 @@ character: Reed Watkins
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Reed Watkins.json
 updated: 2026-10-26
 ---
 # Reed Watkins
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Reed Watkins (LIL)]]: latest 2026-10-26
+- [[Reed Watkins (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

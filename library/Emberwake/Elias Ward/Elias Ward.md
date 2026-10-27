@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Elias Ward (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Elias Ward (Soulkyn)]]: latest 2026-10-26
+- [[Elias Ward (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

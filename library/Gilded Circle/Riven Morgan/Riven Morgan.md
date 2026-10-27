@@ -7,18 +7,20 @@ world: Gilded Circle
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Riven Morgan.json
 updated: 2026-10-26
 ---
 # Riven Morgan
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Riven Morgan (Aksho)]]: latest 2026-06-06
 - [[Riven Morgan (LIL)]]: latest 2026-10-26
+- [[Riven Morgan (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

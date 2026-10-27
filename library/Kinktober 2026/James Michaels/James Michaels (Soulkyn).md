@@ -6,7 +6,7 @@ character: James Michaels
 platform: Soulkyn
 source_file: GitHub/kinktober-2026/James Michaels (Soulkyn).md
 exported: 2026-10-25 (GitHub deslop)
-other_copies: 0
+other_copies: 1
 ---
 # James Michaels (Soulkyn)
 

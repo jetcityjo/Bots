@@ -6,17 +6,19 @@ character: Draven Crane
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Draven Crane (2).json
 updated: 2026-10-26
 ---
 # Draven Crane
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Draven Crane (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Draven Crane (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

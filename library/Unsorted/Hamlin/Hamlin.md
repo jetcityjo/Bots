@@ -6,17 +6,19 @@ character: Hamlin
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Hamlin.json
 updated: 2026-10-26
 ---
 # Hamlin
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Hamlin (LIL)]]: latest 2026-10-26
+- [[Hamlin (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

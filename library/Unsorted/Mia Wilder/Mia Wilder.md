@@ -6,17 +6,19 @@ character: Mia Wilder
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Mia Wilder.json
 updated: 2026-10-26
 ---
 # Mia Wilder
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Mia Wilder (LIL)]]: latest 2026-10-26
+- [[Mia Wilder (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

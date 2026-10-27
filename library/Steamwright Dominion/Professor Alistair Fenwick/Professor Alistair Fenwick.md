@@ -6,17 +6,19 @@ character: Professor Alistair Fenwick
 world: Steamwright Dominion
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Professor Alistair Fenwick.json
 updated: 2026-10-26
 ---
 # Professor Alistair Fenwick
 
 **World:** [[Steamwright Dominion]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Professor Alistair Fenwick (LIL)]]: latest 2026-10-26
+- [[Professor Alistair Fenwick (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

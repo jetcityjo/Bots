@@ -22,7 +22,7 @@ updated: 2026-10-26
 - [[Aiden Rios (Companion)]]: latest 2026-09-26
 - [[Aiden Rios (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Aiden Rios (Notes)]]: latest 2026-03-12
-- [[Aiden Rios (Soulkyn)]]: latest 2026-09-26
+- [[Aiden Rios (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

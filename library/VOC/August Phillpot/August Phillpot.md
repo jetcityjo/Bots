@@ -7,18 +7,20 @@ world: VOC
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/August Phillpot.json
 updated: 2026-10-26
 ---
 # August Phillpot
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[August Phillpot (Aksho)]]: latest 2026-06-07
 - [[August Phillpot (LIL)]]: latest 2026-10-26
+- [[August Phillpot (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

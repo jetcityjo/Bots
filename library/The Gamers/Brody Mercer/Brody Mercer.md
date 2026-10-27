@@ -20,7 +20,7 @@ updated: 2026-10-26
 
 - [[Brody Mercer (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
 - [[Brody Mercer (Notes)]]: latest 2026-03-12
-- [[Brody Mercer (Soulkyn)]]: latest 2026-10-26
+- [[Brody Mercer (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

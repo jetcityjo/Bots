@@ -6,17 +6,19 @@ character: Misty Trekker
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Misty Trekker.json
 updated: 2026-10-26
 ---
 # Misty Trekker
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Misty Trekker (LIL)]]: latest 2026-10-26
+- [[Misty Trekker (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

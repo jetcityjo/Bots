@@ -6,17 +6,19 @@ character: Martin Keller
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Martin Keller.json
 updated: 2026-10-26
 ---
 # Martin Keller
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Martin Keller (LIL)]]: latest 2026-10-26
+- [[Martin Keller (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

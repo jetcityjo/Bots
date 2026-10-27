@@ -8,19 +8,21 @@ platforms:
   - Aksho
   - LIL
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Renn Vásquez.json
 updated: 2026-10-26
 ---
 # Renn Vasquez
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL, Notes
+**On:** Aksho, LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Renn Vasquez (Aksho)]]: latest 2026-06-07
 - [[Renn Vasquez (LIL)]]: latest 2026-10-26
 - [[Renn Vasquez (Notes)]]: latest 2026-03-14
+- [[Renn Vasquez (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

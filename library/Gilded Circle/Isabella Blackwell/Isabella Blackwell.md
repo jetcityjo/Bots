@@ -7,18 +7,20 @@ world: Gilded Circle
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Isabella Blackwell.json
 updated: 2026-10-26
 ---
 # Isabella Blackwell
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Isabella Blackwell (Aksho)]]: latest 2026-06-06
 - [[Isabella Blackwell (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Isabella Blackwell (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

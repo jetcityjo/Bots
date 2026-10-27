@@ -7,6 +7,7 @@ world: Ashfall
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
   - Soulkyn Profile
 canon_source: LIL — LIL export 2026-10-26/Caleb Vance.json
 updated: 2026-10-26
@@ -14,12 +15,13 @@ updated: 2026-10-26
 # Caleb Vance
 
 **World:** [[Ashfall]]  
-**On:** Aksho, LIL, Soulkyn Profile
+**On:** Aksho, LIL, Soulkyn, Soulkyn Profile
 
 ## Versions
 
 - [[Caleb Vance (Aksho)]]: latest 2026-06-06
 - [[Caleb Vance (LIL)]]: latest 2026-10-26
+- [[Caleb Vance (Soulkyn)]]: latest 2026-10-27
 - [[Caleb Vance (Soulkyn Profile)]]: latest 2026-03-12
 
 ## Tags

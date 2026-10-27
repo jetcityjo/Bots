@@ -7,18 +7,20 @@ world: VOC
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Carter _Lucky_ Hayes.json
 updated: 2026-10-26
 ---
 # Carter "Lucky" Hayes
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Carter Lucky Hayes (Aksho)]]: latest 2026-09-01 (2 distinct versions kept in GitHub)
 - [[Carter Lucky Hayes (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Carter Lucky Hayes (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

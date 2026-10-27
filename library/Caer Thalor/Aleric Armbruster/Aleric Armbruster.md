@@ -6,17 +6,19 @@ character: Aleric Armbruster
 world: Caer Thalor
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Aleric Armbruster (1).json
 updated: 2026-10-26
 ---
 # Aleric Armbruster
 
 **World:** [[Caer Thalor]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Aleric Armbruster (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Aleric Armbruster (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

@@ -6,17 +6,19 @@ character: Tristan Beck
 world: Caer Thalor
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Tristan Beck.json
 updated: 2026-10-26
 ---
 # Tristan Beck
 
 **World:** [[Caer Thalor]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Tristan Beck (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Tristan Beck (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

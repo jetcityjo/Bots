@@ -6,17 +6,19 @@ character: "Bridget \"Birdie\" Calston"
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Bridget _Birdie_ Calston.json
 updated: 2026-10-26
 ---
 # Bridget "Birdie" Calston
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Bridget Birdie Calston (LIL)]]: latest 2026-10-26
+- [[Bridget Birdie Calston (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

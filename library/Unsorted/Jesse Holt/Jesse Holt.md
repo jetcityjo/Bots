@@ -6,17 +6,19 @@ character: Jesse Holt
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Jesse Holt.json
 updated: 2026-10-26
 ---
 # Jesse Holt
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Jesse Holt (LIL)]]: latest 2026-10-26
+- [[Jesse Holt (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

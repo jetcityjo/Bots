@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Bennett Cole (LIL)]]: latest 2026-10-25 (GitHub deslop) (3 distinct versions kept in GitHub)
-- [[Bennett Cole (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
+- [[Bennett Cole (Soulkyn)]]: latest 2026-10-25 (GitHub deslop) (2 distinct versions kept in GitHub)
 
 ## Tags
 

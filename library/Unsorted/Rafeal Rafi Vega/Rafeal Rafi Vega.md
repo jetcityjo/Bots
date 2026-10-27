@@ -6,17 +6,19 @@ character: "Rafeal \"Rafi\" Vega"
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Rafeal _Rafi_ Vega.json
 updated: 2026-10-26
 ---
 # Rafeal "Rafi" Vega
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Rafeal Rafi Vega (LIL)]]: latest 2026-10-26
+- [[Rafeal Rafi Vega (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

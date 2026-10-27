@@ -6,17 +6,19 @@ character: Soren Drake
 world: Caer Thalor
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Soren Drake.json
 updated: 2026-10-26
 ---
 # Soren Drake
 
 **World:** [[Caer Thalor]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Soren Drake (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Soren Drake (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

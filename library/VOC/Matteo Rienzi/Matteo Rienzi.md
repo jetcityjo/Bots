@@ -7,18 +7,20 @@ world: VOC
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Matteo Rienzi.json
 updated: 2026-10-26
 ---
 # Matteo Rienzi
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Matteo Rienzi (Aksho)]]: latest 2026-09-02 (2 distinct versions kept in GitHub)
 - [[Matteo Rienzi (LIL)]]: latest 2026-10-26
+- [[Matteo Rienzi (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

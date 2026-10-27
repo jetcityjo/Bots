@@ -6,17 +6,19 @@ character: "Felix \"Fifi\" Lauren"
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Felix _Fifi_ Lauren.json
 updated: 2026-10-26
 ---
 # Felix "Fifi" Lauren
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Felix Fifi Lauren (LIL)]]: latest 2026-10-26
+- [[Felix Fifi Lauren (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

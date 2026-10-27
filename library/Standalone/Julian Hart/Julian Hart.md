@@ -7,18 +7,20 @@ world: Standalone
 platforms:
   - LIL
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Julian Hart .json
 updated: 2026-10-26
 ---
 # Julian Hart
 
 **World:** [[Standalone]]  
-**On:** LIL, Notes
+**On:** LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Julian Hart (LIL)]]: latest 2026-10-26
 - [[Julian Hart (Notes)]]: latest 2026-03-12
+- [[Julian Hart (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

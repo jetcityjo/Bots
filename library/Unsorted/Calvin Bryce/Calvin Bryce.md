@@ -6,17 +6,19 @@ character: Calvin Bryce
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Calvin Bryce.json
 updated: 2026-10-26
 ---
 # Calvin Bryce
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Calvin Bryce (LIL)]]: latest 2026-10-26
+- [[Calvin Bryce (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

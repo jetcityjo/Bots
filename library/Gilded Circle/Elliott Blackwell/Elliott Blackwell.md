@@ -8,19 +8,21 @@ platforms:
   - Aksho
   - Dream Journey
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Elliott Blackwell.json
 updated: 2026-10-26
 ---
 # Elliott Blackwell
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, Dream Journey, LIL
+**On:** Aksho, Dream Journey, LIL, Soulkyn
 
 ## Versions
 
 - [[Elliott Blackwell (Aksho)]]: latest 2026-06-06
 - [[Elliott Blackwell (Dream Journey)]]: latest 2026-03-22
 - [[Elliott Blackwell (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Elliott Blackwell (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

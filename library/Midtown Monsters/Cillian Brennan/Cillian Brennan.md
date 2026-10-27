@@ -6,17 +6,19 @@ character: Cillian Brennan
 world: Midtown Monsters
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Cillian Brennan.json
 updated: 2026-10-26
 ---
 # Cillian Brennan
 
 **World:** [[Midtown Monsters]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Cillian Brennan (LIL)]]: latest 2026-10-26
+- [[Cillian Brennan (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

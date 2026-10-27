@@ -6,17 +6,19 @@ character: Lucien Marlowe
 world: Caer Thalor
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Lucien Marlowe (1).json
 updated: 2026-10-26
 ---
 # Lucien Marlowe
 
 **World:** [[Caer Thalor]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Lucien Marlowe (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Lucien Marlowe (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

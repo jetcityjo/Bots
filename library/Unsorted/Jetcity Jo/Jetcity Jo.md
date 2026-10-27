@@ -7,18 +7,20 @@ world: Unsorted
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Jetcity Jo.json
 updated: 2026-10-26
 ---
 # Jetcity Jo
 
 **World:** [[Unsorted]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Jetcity Jo (Aksho)]]: latest 2026-06-06
 - [[Jetcity Jo (LIL)]]: latest 2026-10-26
+- [[Jetcity Jo (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

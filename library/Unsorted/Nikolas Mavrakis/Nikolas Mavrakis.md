@@ -6,17 +6,19 @@ character: Nikolas Mavrakis
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Nikolas Mavrakis.json
 updated: 2026-10-26
 ---
 # Nikolas Mavrakis
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Nikolas Mavrakis (LIL)]]: latest 2026-10-26
+- [[Nikolas Mavrakis (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

@@ -6,17 +6,19 @@ character: Knox Ryder
 world: The Neighborhood
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Knox Ryder (1).json
 updated: 2026-10-26
 ---
 # Knox Ryder
 
 **World:** [[The Neighborhood]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Knox Ryder (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Knox Ryder (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

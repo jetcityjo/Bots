@@ -7,18 +7,20 @@ world: Unsorted
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/The Miami Bears .json
 updated: 2026-10-26
 ---
 # The Miami Bears
 
 **World:** [[Unsorted]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[The Miami Bears (Aksho)]]: latest 2026-06-07
 - [[The Miami Bears (LIL)]]: latest 2026-10-26
+- [[The Miami Bears (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

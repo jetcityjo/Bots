@@ -7,18 +7,20 @@ world: Gilded Circle
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Alexander Blackwell.json
 updated: 2026-10-26
 ---
 # Alexander Blackwell
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Alexander Blackwell (Aksho)]]: latest 2026-06-06
 - [[Alexander Blackwell (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Alexander Blackwell (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

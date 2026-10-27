@@ -6,17 +6,19 @@ character: Dirty Hoe Cafe
 world: Dirty Hoe Cafe
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Dirty Hoe Cafe.json
 updated: 2026-10-26
 ---
 # Dirty Hoe Cafe
 
 **World:** [[Dirty Hoe Cafe]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Dirty Hoe Cafe (LIL)]]: latest 2026-10-26
+- [[Dirty Hoe Cafe (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

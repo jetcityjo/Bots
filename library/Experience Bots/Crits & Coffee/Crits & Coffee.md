@@ -7,18 +7,20 @@ world: Experience Bots
 platforms:
   - LIL
   - Notes
+  - Soulkyn
 canon_source: "LIL — LIL export 2026-10-26/Crits & Coffee .json"
 updated: 2026-10-26
 ---
 # Crits & Coffee
 
 **World:** [[Experience Bots]]  
-**On:** LIL, Notes
+**On:** LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Crits & Coffee (LIL)]]: latest 2026-10-26
 - [[Crits & Coffee (Notes)]]: latest 2026-03-12
+- [[Crits & Coffee (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

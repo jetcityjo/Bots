@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Obi Laurent (LIL)]]: latest 2026-10-25 (GitHub deslop) (3 distinct versions kept in GitHub)
-- [[Obi Laurent (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
+- [[Obi Laurent (Soulkyn)]]: latest 2026-10-25 (GitHub deslop) (2 distinct versions kept in GitHub)
 
 ## Tags
 

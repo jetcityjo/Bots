@@ -7,18 +7,20 @@ world: Ashfall
 platforms:
   - Character Card
   - LIL
+  - Soulkyn
 canon_source: LIL — Downloads/Data/Tori Jaxx (2).json
 updated: 2026-10-26
 ---
 # Tori Jaxx
 
 **World:** [[Ashfall]]  
-**On:** Character Card, LIL
+**On:** Character Card, LIL, Soulkyn
 
 ## Versions
 
 - [[Tori Jaxx (Character Card)]]: latest 2026-01-16 (2 distinct versions kept in GitHub)
 - [[Tori Jaxx (LIL)]]: latest 2026-01-16 (2 distinct versions kept in GitHub)
+- [[Tori Jaxx (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

@@ -18,7 +18,7 @@ updated: 2026-10-26
 ## Versions
 
 - [[Laurent Kekoa (LIL)]]: latest 2026-10-25 (GitHub deslop) (3 distinct versions kept in GitHub)
-- [[Laurent Kekoa (Soulkyn)]]: latest 2026-10-25 (GitHub deslop)
+- [[Laurent Kekoa (Soulkyn)]]: latest 2026-10-25 (GitHub deslop) (2 distinct versions kept in GitHub)
 
 ## Tags
 

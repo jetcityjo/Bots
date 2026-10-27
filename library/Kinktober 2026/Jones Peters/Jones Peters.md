@@ -6,17 +6,19 @@ character: Jones Peters
 world: Kinktober 2026
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — GitHub/kinktober-2026/Jones Peters (LIL).json
 updated: 2026-10-26
 ---
 # Jones Peters
 
 **World:** [[Kinktober 2026]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Jones Peters (LIL)]]: latest 2026-10-25 (GitHub deslop) (4 distinct versions kept in GitHub)
+- [[Jones Peters (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

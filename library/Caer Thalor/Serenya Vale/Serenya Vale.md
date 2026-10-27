@@ -7,18 +7,20 @@ world: Caer Thalor
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Serenya Vale (1).json
 updated: 2026-10-26
 ---
 # Serenya Vale
 
 **World:** [[Caer Thalor]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Serenya Vale (Aksho)]]: latest 2026-06-06
 - [[Serenya Vale (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Serenya Vale (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

@@ -7,18 +7,20 @@ world: VOC
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Maddy and Savvy _ Nitro Rush.json
 updated: 2026-10-26
 ---
 # Maddie & Savvy Hartley
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Maddie & Savvy Hartley (Aksho)]]: latest 2026-08-31 (2 distinct versions kept in GitHub)
 - [[Maddie & Savvy Hartley (LIL)]]: latest 2026-10-26
+- [[Maddie & Savvy Hartley (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

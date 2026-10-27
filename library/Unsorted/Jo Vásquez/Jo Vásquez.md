@@ -6,17 +6,19 @@ character: Jo Vásquez
 world: Unsorted
 platforms:
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Jo Vásquez.json
 updated: 2026-10-26
 ---
 # Jo Vásquez
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Soulkyn
 
 ## Versions
 
 - [[Jo Vásquez (LIL)]]: latest 2026-10-26
+- [[Jo Vásquez (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 

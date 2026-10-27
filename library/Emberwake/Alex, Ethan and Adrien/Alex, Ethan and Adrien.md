@@ -22,7 +22,7 @@ updated: 2026-10-26
 - [[Alex, Ethan and Adrien (Aksho)]]: latest 2026-06-07
 - [[Alex, Ethan and Adrien (Companion)]]: latest 2026-09-26
 - [[Alex, Ethan and Adrien (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Alex, Ethan and Adrien (Soulkyn)]]: latest 2026-09-26
+- [[Alex, Ethan and Adrien (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

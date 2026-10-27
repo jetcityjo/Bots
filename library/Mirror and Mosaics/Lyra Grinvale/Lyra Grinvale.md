@@ -7,18 +7,20 @@ world: Mirror and Mosaics
 platforms:
   - Aksho
   - LIL
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Lyra Grinvale.json
 updated: 2026-10-26
 ---
 # Lyra Grinvale
 
 **World:** [[Mirror and Mosaics]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Soulkyn
 
 ## Versions
 
 - [[Lyra Grinvale (Aksho)]]: latest 2026-06-06
 - [[Lyra Grinvale (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Lyra Grinvale (Soulkyn)]]: latest 2026-10-27
 
 ## Tags
 
