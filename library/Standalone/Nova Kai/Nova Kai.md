@@ -6,6 +6,7 @@ character: Nova Kai
 world: Standalone
 platforms:
   - Aksho
+  - Bio
   - Notes
   - Soulkyn
 canon_source: Soulkyn — Soulkyn crawl 2026-10-27/nova-kai
@@ -14,11 +15,12 @@ updated: 2026-10-26
 # Nova Kai
 
 **World:** [[Standalone]]  
-**On:** Aksho, Notes, Soulkyn
+**On:** Aksho, Bio, Notes, Soulkyn
 
 ## Versions
 
 - [[Nova Kai (Aksho)]]: latest 2026-06-07
+- [[Nova Kai (Bio)]]: latest 2026-10-27
 - [[Nova Kai (Notes)]]: latest 2026-03-12
 - [[Nova Kai (Soulkyn)]]: latest 2026-10-27
 

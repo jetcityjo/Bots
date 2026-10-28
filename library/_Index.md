@@ -144,7 +144,7 @@ updated: 2026-10-26
 - [[Lucien Albrecht]]: Notes
 - [[Nazir Adeyemi]]: Notes, Soulkyn
 - [[Niko]]: Notes
-- [[Nova Kai]]: Aksho, Notes, Soulkyn
+- [[Nova Kai]]: Aksho, Bio, Notes, Soulkyn
 - [[Red Fair Dude]]: Notes
 - [[Ren4ld]]: Notes
 - [[Riley]]: Notes
