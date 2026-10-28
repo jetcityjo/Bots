@@ -1,17 +1,17 @@
 ---
 tags:
-  - Unsorted
+  - Orion_Gambit
   - Aksho
-character: "Aero & Atlas"
+character: Rafe Calder
 platform: Aksho
-source_file: OneDrive/1 Projects/aksho_cards/aero-and-atlas_aksho.json
+source_file: OneDrive/1 Projects/aksho_cards/rafe-calder_aksho.json
 exported: 2026-06-07
 other_copies: 0
 status: stub
 ---
-# Aero & Atlas (Aksho)
+# Rafe Calder (Aksho)
 
-← [[Aero & Atlas]]
+← [[Rafe Calder]]
 
 ## Tagline
 
@@ -48,7 +48,7 @@ More later.
 ## Settings
 
 Species: -  
-Gender: multiple  
+Gender: male  
 Created: 2026-06-07  
 Rating: ar_sfw
 

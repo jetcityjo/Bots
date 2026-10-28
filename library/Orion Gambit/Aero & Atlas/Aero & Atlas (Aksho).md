@@ -1,17 +1,17 @@
 ---
 tags:
-  - Standalone
+  - Orion_Gambit
   - Aksho
-character: Nova Kai
+character: "Aero & Atlas"
 platform: Aksho
-source_file: OneDrive/1 Projects/aksho_cards/nova-kai_aksho.json
+source_file: OneDrive/1 Projects/aksho_cards/aero-and-atlas_aksho.json
 exported: 2026-06-07
 other_copies: 0
 status: stub
 ---
-# Nova Kai (Aksho)
+# Aero & Atlas (Aksho)
 
-← [[Nova Kai]]
+← [[Aero & Atlas]]
 
 ## Tagline
 
@@ -48,7 +48,7 @@ More later.
 ## Settings
 
 Species: -  
-Gender: female  
+Gender: multiple  
 Created: 2026-06-07  
 Rating: ar_sfw
 

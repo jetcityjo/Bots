@@ -1,6 +1,6 @@
 ---
 tags:
-  - Standalone
+  - Orion_Gambit
   - Bio
 character: Nova Kai
 platform: Bio

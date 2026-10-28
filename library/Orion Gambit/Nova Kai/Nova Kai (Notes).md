@@ -1,6 +1,6 @@
 ---
 tags:
-  - Standalone
+  - Orion_Gambit
   - Source
 character: Nova Kai
 platform: Notes

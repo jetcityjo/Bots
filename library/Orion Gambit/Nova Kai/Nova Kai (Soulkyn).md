@@ -1,6 +1,6 @@
 ---
 tags:
-  - Standalone
+  - Orion_Gambit
   - Soulkyn
 character: Nova Kai
 platform: Soulkyn

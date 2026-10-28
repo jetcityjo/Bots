@@ -1,9 +1,9 @@
 ---
 tags:
-  - Unsorted
+  - Orion_Gambit
   - Main
 character: Cass Virel
-world: Unsorted
+world: Orion Gambit
 platforms:
   - Soulkyn
 canon_source: Soulkyn — Soulkyn crawl 2026-10-27/cass-virel
@@ -11,7 +11,7 @@ updated: 2026-10-26
 ---
 # Cass Virel
 
-**World:** [[Unsorted]]  
+**World:** [[Orion Gambit]]  
 **On:** Soulkyn
 
 ## Versions

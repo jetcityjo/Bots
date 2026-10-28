@@ -117,6 +117,15 @@ updated: 2026-10-26
 - [[Hokus of Pokes]]: Aksho, LIL, Soulkyn
 - [[Lyra Grinvale]]: Aksho, LIL, Soulkyn
 
+## Orion Gambit
+
+- [[Aero & Atlas]]: Aksho, Soulkyn
+- [[Cass Virel]]: Soulkyn
+- [[Nova Kai]]: Aksho, Bio, Notes, Soulkyn
+- [[Orion Gambit.Wrl]]: Soulkyn
+- [[Rafe Calder]]: Aksho, Soulkyn
+- [[Renald Evens]]: Soulkyn
+
 ## Project Y
 
 - [[Clair Douglas]]: Character Card, LIL, Soulkyn
@@ -144,7 +153,6 @@ updated: 2026-10-26
 - [[Lucien Albrecht]]: Notes
 - [[Nazir Adeyemi]]: Notes, Soulkyn
 - [[Niko]]: Notes
-- [[Nova Kai]]: Aksho, Bio, Notes, Soulkyn
 - [[Red Fair Dude]]: Notes
 - [[Ren4ld]]: Notes
 - [[Riley]]: Notes
@@ -171,7 +179,6 @@ updated: 2026-10-26
 - [[Adrian Cole]]: Aksho, Soulkyn
 - [[Adrien, Alex and Ethan]]: Soulkyn
 - [[Aeloria Tidewhisper]]: Soulkyn
-- [[Aero & Atlas]]: Aksho, Soulkyn
 - [[Alex & David]]: Soulkyn
 - [[Alexander Calder]]: Companion
 - [[Antonio Vance]]: Soulkyn
@@ -194,7 +201,6 @@ updated: 2026-10-26
 - [[Camilla Sjöberg]]: Soulkyn
 - [[CandyCaneKitty]]: Aksho, Soulkyn
 - [[Canticle Hallow]]: Soulkyn
-- [[Cass Virel]]: Soulkyn
 - [[Cassian Wogglebottom]]: Aksho, LIL, Soulkyn
 - [[Catarina Richardsson]]: Soulkyn
 - [[Catfina]]: Soulkyn
@@ -346,7 +352,6 @@ updated: 2026-10-26
 - [[Octavia Bran]]: LIL
 - [[Omegaverse.dll]]: Soulkyn
 - [[Onya Kael]]: Soulkyn
-- [[Orion Gambit.Wrl]]: Soulkyn
 - [[Orion Glowthorn]]: Soulkyn
 - [[Orovox]]: Soulkyn
 - [[PNW Wilds.wrl]]: Soulkyn
@@ -361,12 +366,10 @@ updated: 2026-10-26
 - [[Queen Seraphine of Caer Thalor]]: Soulkyn
 - [[Quentin Xander]]: Soulkyn
 - [[Quillon Sevren]]: Soulkyn
-- [[Rafe Calder]]: Aksho, Soulkyn
 - [[Rafeal Rafi Vega]]: LIL, Soulkyn
 - [[Red]]: Soulkyn
 - [[Reed Watkins]]: LIL, Soulkyn
 - [[Ren Drae]]: Soulkyn
-- [[Renald Evens]]: Soulkyn
 - [[Renee Silver]]: LIL
 - [[Renji Sakamura]]: Soulkyn
 - [[Renzo Aldecoa]]: Soulkyn

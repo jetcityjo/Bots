@@ -1,17 +1,17 @@
 ---
 tags:
-  - Unsorted
+  - Orion_Gambit
   - Aksho
-character: Rafe Calder
+character: Nova Kai
 platform: Aksho
-source_file: OneDrive/1 Projects/aksho_cards/rafe-calder_aksho.json
+source_file: OneDrive/1 Projects/aksho_cards/nova-kai_aksho.json
 exported: 2026-06-07
 other_copies: 0
 status: stub
 ---
-# Rafe Calder (Aksho)
+# Nova Kai (Aksho)
 
-← [[Rafe Calder]]
+← [[Nova Kai]]
 
 ## Tagline
 
@@ -48,7 +48,7 @@ More later.
 ## Settings
 
 Species: -  
-Gender: male  
+Gender: female  
 Created: 2026-06-07  
 Rating: ar_sfw
 

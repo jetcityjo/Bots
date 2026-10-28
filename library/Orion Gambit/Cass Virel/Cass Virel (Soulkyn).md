@@ -1,6 +1,6 @@
 ---
 tags:
-  - Unsorted
+  - Orion_Gambit
   - Soulkyn
 character: Cass Virel
 platform: Soulkyn

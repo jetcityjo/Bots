@@ -1,9 +1,9 @@
 ---
 tags:
-  - Standalone
+  - Orion_Gambit
   - Main
 character: Nova Kai
-world: Standalone
+world: Orion Gambit
 platforms:
   - Aksho
   - Bio
@@ -14,7 +14,7 @@ updated: 2026-10-26
 ---
 # Nova Kai
 
-**World:** [[Standalone]]  
+**World:** [[Orion Gambit]]  
 **On:** Aksho, Bio, Notes, Soulkyn
 
 ## Versions
