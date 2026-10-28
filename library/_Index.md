@@ -5,7 +5,7 @@ updated: 2026-10-26
 ---
 # AI Characters
 
-407 bots, 44 placeholders. Each bot folder holds a main file plus one file per site.
+406 bots, 44 placeholders. Each bot folder holds a main file plus one file per site.
 
 ## Ashfall
 
@@ -124,7 +124,7 @@ updated: 2026-10-26
 - [[Nova Kai]]: Aksho, Bio, Notes, Soulkyn
 - [[Orion Gambit.Wrl]]: Soulkyn
 - [[Rafe Calder]]: Aksho, Soulkyn
-- [[Renald Evens]]: Soulkyn
+- [[Renald Evens]]: Notes, Soulkyn
 
 ## Project Y
 
@@ -154,7 +154,6 @@ updated: 2026-10-26
 - [[Nazir Adeyemi]]: Notes, Soulkyn
 - [[Niko]]: Notes
 - [[Red Fair Dude]]: Notes
-- [[Ren4ld]]: Notes
 - [[Riley]]: Notes
 - [[River Wilder]]: Aksho, LIL, Notes, Soulkyn
 

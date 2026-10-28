@@ -5,6 +5,7 @@ tags:
 character: Renald Evens
 world: Orion Gambit
 platforms:
+  - Notes
   - Soulkyn
 canon_source: Soulkyn — Soulkyn crawl 2026-10-27/renald-evens
 updated: 2026-10-26
@@ -12,10 +13,11 @@ updated: 2026-10-26
 # Renald Evens
 
 **World:** [[Orion Gambit]]  
-**On:** Soulkyn
+**On:** Notes, Soulkyn
 
 ## Versions
 
+- [[Renald Evens (Notes)]]: latest 2026-03-12
 - [[Renald Evens (Soulkyn)]]: latest 2026-10-27
 
 ## Canon
