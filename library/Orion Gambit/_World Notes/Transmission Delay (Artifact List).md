@@ -9,13 +9,13 @@ source_file: Pasted 2026-10-27
 
 The Transmission Delay songbook belongs to the same signal universe as the Orion Gambit. It follows [[Nova Kai]] and Renald, whose bond runs across centuries through delayed transmissions.
 
-These five artifacts existed in an earlier chat. Only this list was saved, not the files themselves.
+These five artifacts came out of an earlier chat. Found so far: the Full Lyrics Anthology.
 
 1. **Transmission Delay – Complete Collection** (PDF): overview, structure, and visuals
-2. **Full Lyrics Anthology** (PDF): all eight songs plus the hidden track
+2. **Full Lyrics Anthology** (PDF): all eight songs plus the hidden track. ✅ Found: [[Transmission Delay (Full Lyrics Collection)]] and the original PDF
 3. **Interludes Collection** (PDF): all five short transmissions
 4. **Dead Air – Renald’s Companion Logs** (text): his side of the story, with the "centuries apart" timeline
-5. **Hidden Track – The Long Delay** (lyrics + storyboard): the final duet and its cinematic breakdown
+5. **Hidden Track – The Long Delay** (lyrics + storyboard): the final duet and its cinematic breakdown. Lyrics are in the Full Lyrics Collection; storyboard still missing
 
 ## Open decisions from that chat
 
