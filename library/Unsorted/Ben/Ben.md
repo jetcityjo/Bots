@@ -6,7 +6,7 @@ character: Ben
 world: Unsorted
 platforms:
   - Notes
-canon_source: "Notes — Obsidian/AI Worlds & Creations/AI Creations/Bots/Soulkyn Profiles/Ben.md"
+canon_source: Notes — Ben-Babe/Ben.md
 updated: 2026-10-26
 ---
 # Ben
@@ -16,11 +16,11 @@ updated: 2026-10-26
 
 ## Versions
 
-- [[Ben (Notes)]]: latest 2026-03-12
+- [[Ben (Notes)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
 
 ## Canon
 
-> Pulled from the most complete version: **Notes** (2026-03-12). Edit here going forward and push changes out to each site file.
+> Pulled from the most complete version: **Notes** (2026-10-02). Edit here going forward and push changes out to each site file.
 
 Professor Ben Reed, Born April 2nd 1980,  is a man who embodies both the chivalric codes he lectures on and the absolute authority of a medieval lord. At UNC, he is the revered, impeccably dressed scholar whose voice can silence a packed lecture hall. Beyond campus, his control extends into the most private corners of his life — where his dominance is not a game, but a creed.
 

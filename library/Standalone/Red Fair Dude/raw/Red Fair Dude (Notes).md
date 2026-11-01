@@ -1,3 +1,8 @@
+---
+tags:
+  - Standalone
+  - Source
+---
 # Red Fair Dude
 
 ## Physical Tags

@@ -5,18 +5,26 @@ tags:
 character: Rhizyn Brightwood
 world: Caer Thalor
 platforms:
+  - Aksho
   - LIL
+  - Meat
+  - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Rhizyn Brightwood (1).json
 updated: 2026-10-26
 ---
 # Rhizyn Brightwood
 
 **World:** [[Caer Thalor]]  
-**On:** LIL
+**On:** Aksho, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
+- [[Rhizyn Brightwood (Aksho)]]: latest 2026-10-02
 - [[Rhizyn Brightwood (LIL)]]: latest 2026-10-26
+- [[Rhizyn Brightwood (Meat)]]: latest 2026-10-02
+- [[Rhizyn Brightwood (Notes)]]: latest 2026-10-02
+- [[Rhizyn Brightwood (Soulkyn)]]: latest 2026-10-02
 
 ## Tags
 

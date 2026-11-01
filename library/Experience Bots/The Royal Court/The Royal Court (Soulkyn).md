@@ -6,7 +6,7 @@ character: The Royal Court
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/the-royal-court
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # The Royal Court (Soulkyn)
 

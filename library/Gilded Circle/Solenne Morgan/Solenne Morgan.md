@@ -6,6 +6,7 @@ character: Solenne Morgan
 world: Gilded Circle
 platforms:
   - Aksho
+  - Notes
   - Soulkyn
 canon_source: Soulkyn — Soulkyn crawl 2026-10-27/solenne-morgan
 updated: 2026-10-26
@@ -13,11 +14,12 @@ updated: 2026-10-26
 # Solenne Morgan
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, Soulkyn
+**On:** Aksho, Notes, Soulkyn
 
 ## Versions
 
 - [[Solenne Morgan (Aksho)]]: latest 2026-06-06
+- [[Solenne Morgan (Notes)]]: latest 2026-10-02
 - [[Solenne Morgan (Soulkyn)]]: latest 2026-10-27
 
 ## Tags

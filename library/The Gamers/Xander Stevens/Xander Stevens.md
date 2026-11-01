@@ -6,19 +6,23 @@ character: Xander Stevens
 world: The Gamers
 platforms:
   - LIL
+  - Meat
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Xander Stevens (2).json
 updated: 2026-10-26
 ---
 # Xander Stevens
 
 **World:** [[The Gamers]]  
-**On:** LIL, Notes
+**On:** LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Xander Stevens (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Xander Stevens (Notes)]]: latest 2026-03-12
+- [[Xander Stevens (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Xander Stevens (Meat)]]: latest 2026-10-02
+- [[Xander Stevens (Notes)]]: latest 2026-10-02 (3 distinct versions kept in GitHub)
+- [[Xander Stevens (Soulkyn)]]: latest 2026-10-02
 
 ## Tags
 

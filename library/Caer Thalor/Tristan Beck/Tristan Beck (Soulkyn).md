@@ -6,7 +6,7 @@ character: Tristan Beck
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/tristan-beck
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Tristan Beck (Soulkyn)
 

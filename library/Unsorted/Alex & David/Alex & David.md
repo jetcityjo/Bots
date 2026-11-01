@@ -5,6 +5,7 @@ tags:
 character: "Alex & David"
 world: Unsorted
 platforms:
+  - Notes
   - Soulkyn
 canon_source: Soulkyn — Soulkyn crawl 2026-10-27/alex-and-david
 updated: 2026-10-26
@@ -12,10 +13,11 @@ updated: 2026-10-26
 # Alex & David
 
 **World:** [[Unsorted]]  
-**On:** Soulkyn
+**On:** Notes, Soulkyn
 
 ## Versions
 
+- [[Alex & David (Notes)]]: latest 2026-10-02
 - [[Alex & David (Soulkyn)]]: latest 2026-10-27
 
 ## Canon

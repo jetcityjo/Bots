@@ -4,9 +4,9 @@ tags:
   - Source
 character: Joric Corbin
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Joric Corbin.md"
-exported: 2026-03-12
-other_copies: 1
+source_file: Ben-Babe/Joric Corbin.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Joric Corbin (Notes)
 

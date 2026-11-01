@@ -6,7 +6,7 @@ character: "Crits & Coffee"
 platform: LIL
 source_file: "LIL export 2026-10-26/Crits & Coffee .json"
 exported: 2026-10-26
-other_copies: 1
+other_copies: 2
 ---
 # Crits & Coffee (LIL)
 

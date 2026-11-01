@@ -4,9 +4,9 @@ tags:
   - Source
 character: Elias Vane
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Elias_Vane.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Elias_Vane.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Elias Vane (Notes)
 

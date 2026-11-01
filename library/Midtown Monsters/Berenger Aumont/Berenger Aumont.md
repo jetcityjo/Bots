@@ -6,17 +6,19 @@ character: Berenger Aumont
 world: Midtown Monsters
 platforms:
   - LIL
+  - Meat
 canon_source: LIL — LIL export 2026-10-26/Berenger Aumont.json
 updated: 2026-10-26
 ---
 # Berenger Aumont
 
 **World:** [[Midtown Monsters]]  
-**On:** LIL
+**On:** LIL, Meat
 
 ## Versions
 
 - [[Berenger Aumont (LIL)]]: latest 2026-10-26
+- [[Berenger Aumont (Meat)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
 
 ## Tags
 

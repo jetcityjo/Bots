@@ -6,7 +6,7 @@ character: Elliott Blackwell
 platform: LIL
 source_file: LIL export 2026-10-26/Elliott Blackwell.json
 exported: 2026-10-26
-other_copies: 2
+other_copies: 3
 ---
 # Elliott Blackwell (LIL)
 

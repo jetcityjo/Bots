@@ -6,7 +6,7 @@ character: Joric Corbin
 platform: LIL
 source_file: LIL export 2026-10-26/Joric _The Rust_ Corbin.json
 exported: 2026-10-26
-other_copies: 0
+other_copies: 1
 ---
 # Joric Corbin (LIL)
 

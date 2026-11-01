@@ -4,9 +4,9 @@ tags:
   - Source
 character: Sable Arden
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Soulkyn Profiles/Sable Arden.md"
-exported: 2026-03-12
-other_copies: 3
+source_file: Ben-Babe/Sable Arden.md
+exported: 2026-10-02
+other_copies: 4
 ---
 # Sable Arden (Notes)
 

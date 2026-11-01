@@ -5,7 +5,9 @@ tags:
 character: Julian Hart
 world: Standalone
 platforms:
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Julian Hart .json
@@ -14,13 +16,15 @@ updated: 2026-10-26
 # Julian Hart
 
 **World:** [[Standalone]]  
-**On:** LIL, Notes, Soulkyn
+**On:** Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Julian Hart (LIL)]]: latest 2026-10-26
-- [[Julian Hart (Notes)]]: latest 2026-03-12
-- [[Julian Hart (Soulkyn)]]: latest 2026-10-27
+- [[Julian Hart (Dream Journey)]]: latest 2026-10-02
+- [[Julian Hart (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Julian Hart (Meat)]]: latest 2026-10-02
+- [[Julian Hart (Notes)]]: latest 2026-10-02 (3 distinct versions kept in GitHub)
+- [[Julian Hart (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

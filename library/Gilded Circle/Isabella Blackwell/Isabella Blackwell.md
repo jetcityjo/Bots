@@ -6,7 +6,10 @@ character: Isabella Blackwell
 world: Gilded Circle
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Isabella Blackwell.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Isabella Blackwell
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Isabella Blackwell (Aksho)]]: latest 2026-06-06
-- [[Isabella Blackwell (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Isabella Blackwell (Soulkyn)]]: latest 2026-10-27
+- [[Isabella Blackwell (Dream Journey)]]: latest 2026-10-02
+- [[Isabella Blackwell (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Isabella Blackwell (Meat)]]: latest 2026-10-02
+- [[Isabella Blackwell (Notes)]]: latest 2026-10-02
+- [[Isabella Blackwell (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

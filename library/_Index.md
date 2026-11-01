@@ -5,31 +5,31 @@ updated: 2026-10-26
 ---
 # AI Characters
 
-406 bots, 44 placeholders. Each bot folder holds a main file plus one file per site.
+413 bots, 44 placeholders. Each bot folder holds a main file plus one file per site.
 
 ## Ashfall
 
-- [[Ben Callahan]]: Aksho, Soulkyn, Soulkyn Profile
-- [[Caleb Vance]]: Aksho, LIL, Soulkyn, Soulkyn Profile
-- [[Devan Ash]]: Aksho, Character Card, Notes, Soulkyn, Soulkyn Profile
+- [[Ben Callahan]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn, Soulkyn Profile
+- [[Caleb Vance]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn, Soulkyn Profile
+- [[Devan Ash]]: Aksho, Character Card, Dream Journey, LIL, Meat, Notes, Soulkyn, Soulkyn Profile
 - [[Devan Ash & Harper Blaze]]: Aksho, Soulkyn
-- [[Luke Maddox]]: Aksho, Soulkyn, Soulkyn Profile
-- [[Nico Mane]]: Aksho, Dream Journey, LIL, Soulkyn, Soulkyn Profile
+- [[Luke Maddox]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn, Soulkyn Profile
+- [[Nico Mane]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn, Soulkyn Profile
 - [[Tori Jaxx]]: Character Card, LIL, Soulkyn
 
 ## Caer Thalor
 
-- [[Aleric Armbruster]]: LIL, Soulkyn
-- [[Atticus Vale]]: LIL, Soulkyn
-- [[King Darius Kaelthorne II]]: Aksho, LIL, Soulkyn
-- [[Lucien Marlowe]]: LIL, Soulkyn
-- [[Queen Seraphine]]: Aksho, LIL
-- [[Rhizyn Brightwood]]: LIL
-- [[Rowyn Brown]]: Aksho, LIL, Soulkyn
+- [[Aleric Armbruster]]: Aksho, LIL, Meat, Notes, Soulkyn
+- [[Atticus Vale]]: Aksho, LIL, Meat, Notes, Soulkyn
+- [[King Darius Kaelthorne II]]: Aksho, LIL, Meat, Notes, Soulkyn
+- [[Lucien Marlowe]]: Aksho, LIL, Meat, Notes, Soulkyn
+- [[Queen Seraphine]]: Aksho, LIL, Meat, Notes, Soulkyn
+- [[Rhizyn Brightwood]]: Aksho, LIL, Meat, Notes, Soulkyn
+- [[Rowyn Brown]]: Aksho, LIL, Meat, Notes, Soulkyn
 - [[Selene Vire]]: LIL, Soulkyn
-- [[Serenya Vale]]: Aksho, LIL, Soulkyn
+- [[Serenya Vale]]: Aksho, LIL, Meat, Notes, Soulkyn
 - [[Soren Drake]]: LIL, Soulkyn
-- [[Tristan Beck]]: LIL, Soulkyn
+- [[Tristan Beck]]: Aksho, LIL, Meat, Notes, Soulkyn
 
 ## Dirty Hoe Cafe
 
@@ -37,37 +37,41 @@ updated: 2026-10-26
 
 ## Emberwake
 
-- [[Aiden Rios]]: Companion, LIL, Notes, Soulkyn
-- [[Aiden Sterling]]: Aksho, Notes, Soulkyn
+- [[Aiden Rios]]: Companion, Dream Journey, LIL, Meat, Notes, Soulkyn, Summary
+- [[Aiden Sterling]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Alex, Ethan and Adrien]]: Aksho, Companion, LIL, Soulkyn
 - [[Elias Ward]]: LIL, Soulkyn
 - [[Santiago Reyes]]: Aksho, LIL, Soulkyn
 
 ## Experience Bots
 
-- [[Crits & Coffee]]: LIL, Notes, Soulkyn
-- [[Redford (The Mailbox)]]: Aksho, Notes, Soulkyn
-- [[The Royal Court]]: Aksho, Notes, Soulkyn
+- [[Crits & Coffee]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Redford (The Mailbox)]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[The Royal Court]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Gilded Circle
 
-- [[Alexander Blackwell]]: Aksho, LIL, Soulkyn
-- [[Barrett Morgan]]: Aksho, LIL, Soulkyn
-- [[Elena Morgan]]: Aksho, LIL, Soulkyn
-- [[Elliott Blackwell]]: Aksho, Dream Journey, LIL, Soulkyn
+- [[Alexander Blackwell]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Barrett Morgan]]: Aksho, LIL, Notes, Soulkyn
+- [[Elena Morgan]]: Aksho, LIL, Notes, Soulkyn
+- [[Elliott Blackwell]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Elliott Blackwell (Paths)]]: LIL
-- [[Isabella Blackwell]]: Aksho, LIL, Soulkyn
-- [[Julian Blackwell]]: Aksho, LIL, Soulkyn
+- [[Graham Hawthorn]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Isabella Blackwell]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Julian Blackwell]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Morgan Compound]]: Soulkyn
-- [[Riven Morgan]]: Aksho, LIL, Soulkyn
-- [[Skye Morgan]]: Aksho, LIL, Soulkyn
-- [[Solenne Morgan]]: Aksho, Soulkyn
-- [[The Blackwell Gala]]: Aksho, Notes, Soulkyn
+- [[Riley]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Riven Morgan]]: Aksho, LIL, Notes, Soulkyn
+- [[Robert Hawthorn]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Skye Morgan]]: Aksho, LIL, Notes, Soulkyn
+- [[Solenne Morgan]]: Aksho, Notes, Soulkyn
+- [[The Blackwell Gala]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Victor Hawthorn]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Kink Bots
 
-- [[Atticus]]: Notes
-- [[Sam Kemper]]: Kink.AI
+- [[Atticus]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Sam Kemper]]: Dream Journey, Kink.AI, LIL, Meat, Notes, Soulkyn
 
 ## Kinktober 2026
 
@@ -104,58 +108,64 @@ updated: 2026-10-26
 - [[Theo Brooks]]: LIL
 - [[Walker Coleman]]: LIL, Soulkyn
 
+## Lantern Room
+
+- [[Caspian Wren]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Lena Marlowe]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Marcus Ellery]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[River Wilder]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Victor Duran]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+
 ## Midtown Monsters
 
-- [[Berenger Aumont]]: LIL
-- [[Cillian Brennan]]: LIL, Soulkyn
-- [[Niamh Brennan]]: LIL, Soulkyn
+- [[Berenger Aumont]]: LIL, Meat
+- [[Cillian Brennan]]: LIL, Meat, Notes, Soulkyn
+- [[Cyrus Yarrow]]: Aksho, Notes, Soulkyn
+- [[Niamh Brennan]]: LIL, Meat, Notes, Soulkyn
 
 ## Mirror and Mosaics
 
-- [[Cassian Ticktock]]: LIL
-- [[Finch Alder]]: Aksho, Character Card, LIL, Notes, Soulkyn
-- [[Hokus of Pokes]]: Aksho, LIL, Soulkyn
-- [[Lyra Grinvale]]: Aksho, LIL, Soulkyn
+- [[Cassian Ticktock]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Finch Alder]]: Aksho, Character Card, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Hokus of Pokes]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Lyra Grinvale]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Orion Gambit
 
 - [[Aero & Atlas]]: Aksho, Soulkyn
 - [[Cass Virel]]: Soulkyn
-- [[Nova Kai]]: Aksho, Bio, Notes, Soulkyn
+- [[Nova Kai]]: Aksho, Bio, Dream Journey, LIL, Notes, Soulkyn
 - [[Orion Gambit.Wrl]]: Soulkyn
 - [[Rafe Calder]]: Aksho, Soulkyn
-- [[Renald Evens]]: Notes, Soulkyn
+- [[Renald Evens]]: Dream Journey, LIL, Notes, Soulkyn
 
 ## Project Y
 
-- [[Clair Douglas]]: Character Card, LIL, Soulkyn
+- [[Clair Douglas]]: Character Card, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Rosehart
 
-- [[Alexander Cornwall]]: Aksho, Soulkyn
-- [[Kieran Solis]]: Aksho, Companion, Soulkyn
+- [[Alexander Cornwall]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Kieran Solis]]: Aksho, Companion, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Standalone
 
-- [[Alex the Artist]]: Notes
-- [[Bud]]: LIL, Notes, Soulkyn
-- [[Cain Vire]]: Aksho, Notes
-- [[Caspian Wren]]: LIL, Notes, Soulkyn
-- [[Elias Vane]]: Notes
-- [[Eliot Chase]]: Notes
-- [[Ethan]]: Notes
-- [[Euclid Tank Blackwood]]: LIL, Notes, Soulkyn
-- [[Ian]]: Notes
-- [[Isla Renn]]: Aksho, Notes, Soulkyn
-- [[Jo Quinn]]: Notes
-- [[Joric Corbin]]: LIL, Notes
-- [[Julian Hart]]: LIL, Notes, Soulkyn
-- [[Lucien Albrecht]]: Notes
-- [[Nazir Adeyemi]]: Notes, Soulkyn
-- [[Niko]]: Notes
-- [[Red Fair Dude]]: Notes
-- [[Riley]]: Notes
-- [[River Wilder]]: Aksho, LIL, Notes, Soulkyn
+- [[Alex the Artist]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Bud]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Cain Vire]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Elias Vane]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Eliot Chase]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Ethan]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Euclid Tank Blackwood]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Ian]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Isla Renn]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Jo Quinn]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Joric Corbin]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Julian Hart]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Lucien Albrecht]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Nazir Adeyemi]]: Dream Journey, LIL, Meat, Notes, Soulkyn, W++
+- [[Niko]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Red Fair Dude]]: Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Steamwright Dominion
 
@@ -163,9 +173,10 @@ updated: 2026-10-26
 
 ## The Gamers
 
-- [[Brody Mercer]]: LIL, Notes, Soulkyn
+- [[Brody Mercer]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Caleb]]: Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Callie Voss]]: Character Card, LIL, Notes, Soulkyn
-- [[Xander Stevens]]: LIL, Notes
+- [[Xander Stevens]]: LIL, Meat, Notes, Soulkyn
 
 ## The Neighborhood
 
@@ -178,7 +189,7 @@ updated: 2026-10-26
 - [[Adrian Cole]]: Aksho, Soulkyn
 - [[Adrien, Alex and Ethan]]: Soulkyn
 - [[Aeloria Tidewhisper]]: Soulkyn
-- [[Alex & David]]: Soulkyn
+- [[Alex & David]]: Notes, Soulkyn
 - [[Alexander Calder]]: Companion
 - [[Antonio Vance]]: Soulkyn
 - [[Ari Thorne]]: Soulkyn
@@ -186,7 +197,7 @@ updated: 2026-10-26
 - [[Aurelis Valen]]: Soulkyn
 - [[Baron Fairchild]]: Soulkyn
 - [[Ben]]: Notes
-- [[Ben Reed]]: LIL, Soulkyn
+- [[Ben Reed]]: Character Card, Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Ben Ryan]]: Soulkyn
 - [[Beth Vane]]: Soulkyn
 - [[Bigmouth Billy]]: Soulkyn
@@ -200,6 +211,7 @@ updated: 2026-10-26
 - [[Camilla Sjöberg]]: Soulkyn
 - [[CandyCaneKitty]]: Aksho, Soulkyn
 - [[Canticle Hallow]]: Soulkyn
+- [[Carnal Hex Academy]]: Notes
 - [[Cassian Wogglebottom]]: Aksho, LIL, Soulkyn
 - [[Catarina Richardsson]]: Soulkyn
 - [[Catfina]]: Soulkyn
@@ -216,7 +228,6 @@ updated: 2026-10-26
 - [[Corwin Dace]]: Aksho, Soulkyn
 - [[Cowgirl Darla]]: Aksho, Soulkyn
 - [[Creata]]: Soulkyn
-- [[Cyrus Yarrow]]: Aksho, Soulkyn
 - [[Dalton 'Barnstormer' Barns]]: Soulkyn
 - [[Damian Roark]]: Aksho, Soulkyn
 - [[Daniel Jones]]: Soulkyn
@@ -253,7 +264,7 @@ updated: 2026-10-26
 - [[Flynn Arc]]: Soulkyn
 - [[Fogshire Sky Docks.wrl]]: Aksho, Soulkyn
 - [[GRAHAM ASHFORD]]: Soulkyn
-- [[GRAUME]]: Aksho, Soulkyn
+- [[GRAUME]]: Aksho, Notes, Soulkyn
 - [[Garen Ysla]]: Soulkyn
 - [[Georg Sköld]]: Soulkyn
 - [[Gerald Cogsworth]]: Aksho, Soulkyn
@@ -305,8 +316,6 @@ updated: 2026-10-26
 - [[Kirb]]: Soulkyn
 - [[Konstantinos]]: Soulkyn
 - [[Korrin Halshard]]: Soulkyn
-- [[Lena Krauss]]: Soulkyn
-- [[Lena Marlowe]]: LIL
 - [[Li Wei]]: Soulkyn
 - [[Lian Yu]]: LIL
 - [[Lily Hart]]: Aksho, Soulkyn
@@ -321,13 +330,11 @@ updated: 2026-10-26
 - [[Lyris Lux]]: Aksho, Soulkyn
 - [[Malik Cruz]]: Aksho, Soulkyn
 - [[Mara Frost]]: Aksho, Soulkyn
-- [[Mara Thessin]]: Aksho, Soulkyn
 - [[Marcus Coach D Dillard]]: Aksho, LIL, Soulkyn
-- [[Marcus Ellery]]: LIL
 - [[Marry Me.scn]]: Soulkyn
 - [[Martin Keller]]: LIL, Soulkyn
 - [[Matthew Green]]: LIL
-- [[Maverick Wynth]]: Aksho, Soulkyn
+- [[Maverick Wynth]]: Aksho, Notes, Soulkyn
 - [[Maya Voss]]: Soulkyn
 - [[Merak Eltari]]: Soulkyn
 - [[Merry Mae]]: Soulkyn
@@ -348,7 +355,7 @@ updated: 2026-10-26
 - [[Noodle Aisles Nora]]: Soulkyn
 - [[Nora Tilden]]: Aksho, Soulkyn
 - [[Oathbreakers Fog.Scn]]: Aksho, Soulkyn
-- [[Octavia Bran]]: LIL
+- [[Octavia Bran]]: LIL, Meat, Notes
 - [[Omegaverse.dll]]: Soulkyn
 - [[Onya Kael]]: Soulkyn
 - [[Orion Glowthorn]]: Soulkyn
@@ -371,14 +378,12 @@ updated: 2026-10-26
 - [[Ren Drae]]: Soulkyn
 - [[Renee Silver]]: LIL
 - [[Renji Sakamura]]: Soulkyn
-- [[Renzo Aldecoa]]: Soulkyn
 - [[Rhea Xylander]]: Soulkyn
 - [[Rhys Calloway]]: Aksho, Soulkyn
 - [[Rian Alden]]: Soulkyn
 - [[Rietta Lynn]]: Aksho, Soulkyn
 - [[Riley Jones]]: Aksho, Soulkyn
 - [[Riley Smith]]: Aksho, Soulkyn
-- [[Robert Hawthorn]]: Aksho, Soulkyn
 - [[Robert Oto]]: Soulkyn
 - [[Robert Sterling]]: LIL
 - [[Rockzon Albion]]: Soulkyn
@@ -390,7 +395,7 @@ updated: 2026-10-26
 - [[Rowan Hale]]: Aksho, Soulkyn
 - [[Ruarc 'Goldling' Voylen]]: Aksho, Soulkyn
 - [[SKB]]: Soulkyn
-- [[Sable Arden]]: Notes, Soulkyn
+- [[Sable Arden]]: Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Scarlet Harlow]]: Aksho, Soulkyn
 - [[Seelen]]: Aksho, Soulkyn
 - [[Sela Vorra]]: Aksho, Soulkyn
@@ -403,10 +408,11 @@ updated: 2026-10-26
 - [[Spotted Horror]]: Aksho, Soulkyn
 - [[Stellan Mavrakis]]: LIL
 - [[Stellan and Nikolas Mavrakis]]: LIL
+- [[Steve Alvarez]]: Notes
 - [[Steven Mitchell]]: Soulkyn
 - [[Sugar Daddy]]: Aksho, Soulkyn
 - [[Talia Orenfell]]: Soulkyn
-- [[Talia Wren]]: Aksho, Notes, Soulkyn
+- [[Talia Wren]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Tamsin Quill]]: Aksho, Soulkyn
 - [[Tara Ironside]]: Soulkyn
 - [[Tater Tot Battle Bud]]: Aksho, Soulkyn
@@ -431,12 +437,9 @@ updated: 2026-10-26
 - [[Velvet Vortex SexClub Wrl]]: Aksho, Soulkyn
 - [[Veyan Marzemino]]: Soulkyn
 - [[Veyrix 7]]: Soulkyn
-- [[Victor Duran]]: LIL
-- [[Victor Hawthorn]]: Aksho, Soulkyn
 - [[Victoria]]: Aksho, Soulkyn
 - [[Viktor Grimshaw]]: Aksho, Soulkyn
 - [[Viktor Twirlshade]]: Soulkyn
-- [[Vivienne Aldred]]: Soulkyn
 - [[Voss Island.WRL]]: Soulkyn
 - [[Vyrelle Noctaryn]]: LIL
 - [[Walker Stevens]]: Soulkyn
@@ -458,15 +461,22 @@ updated: 2026-10-26
 
 - [[August Phillpot]]: Aksho, LIL, Soulkyn
 - [[Carter Lucky Hayes]]: Aksho, LIL, Soulkyn
-- [[Caspian Vael]]: Aksho, Soulkyn
-- [[Danica Shelby]]: Aksho, LIL, Soulkyn
-- [[Darian Solás]]: Aksho, Soulkyn
-- [[Hawk Wheeler]]: Aksho, LIL, Soulkyn
+- [[Caspian Vael]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Celeste Morvan]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Danica Shelby]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Darian Solás]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Hawk Wheeler]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Henrik Voss]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Lena Krauss]]: Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Lila Sterling]]: Aksho, Soulkyn
 - [[Maddie & Savvy Hartley]]: Aksho, LIL, Soulkyn
-- [[Matteo Rienzi]]: Aksho, LIL, Soulkyn
+- [[Mara Thessin]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Matteo Rienzi]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 - [[Maya Lynn]]: Aksho, Soulkyn
-- [[Renn Vasquez]]: Aksho, LIL, Notes, Soulkyn
-- [[Sable Ouédraogo]]: Aksho, Soulkyn
-- [[Yuki Tanomura]]: Soulkyn
+- [[Renn Vasquez]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Renzo Aldecoa]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Sable Ouédraogo]]: Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Tobias Wren]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Vivienne Aldred]]: Dream Journey, LIL, Meat, Notes, Soulkyn
+- [[Yuki Tanomura]]: Dream Journey, LIL, Meat, Notes, Soulkyn
 

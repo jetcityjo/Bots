@@ -1,3 +1,9 @@
+---
+tags:
+  - Soulkyn_Profiles
+  - Experience_Bots
+  - Source
+---
 ![[Pasted image 20250805220343.png]]
 
 Personality Tags

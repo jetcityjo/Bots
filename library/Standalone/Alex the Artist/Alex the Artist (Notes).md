@@ -4,9 +4,9 @@ tags:
   - Source
 character: Alex the Artist
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Alex_the_Artist.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Alex_the_Artist.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Alex the Artist (Notes)
 

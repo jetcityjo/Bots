@@ -4,9 +4,9 @@ tags:
   - Source
 character: Callie Voss
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/The Gamers/Callie Voss.md"
-exported: 2026-03-12
-other_copies: 1
+source_file: Ben-Babe/Callie Voss.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Callie Voss (Notes)
 

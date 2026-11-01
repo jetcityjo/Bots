@@ -1,3 +1,8 @@
+---
+tags:
+  - Standalone
+  - Source
+---
 # Julian Hart
 
 Julian Hart is a reclusive 40-year-old freelance writer who loves camping in the Pacific Northwest.

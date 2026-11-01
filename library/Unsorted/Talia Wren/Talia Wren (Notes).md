@@ -4,9 +4,9 @@ tags:
   - Source
 character: Talia Wren
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Soulkyn Profiles/The Dungeon Masteress.md"
-exported: 2026-03-12
-other_copies: 3
+source_file: Ben-Babe/The Dungeon Masteress.md
+exported: 2026-10-02
+other_copies: 5
 ---
 # Talia Wren (Notes)
 

@@ -6,7 +6,7 @@ character: Caleb Vance
 platform: LIL
 source_file: LIL export 2026-10-26/Caleb Vance.json
 exported: 2026-10-26
-other_copies: 0
+other_copies: 1
 ---
 # Caleb Vance (LIL)
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - Standalone
+  - Source
+---
 # Alexander Fournier – The Artist
 
 ## Physical Description

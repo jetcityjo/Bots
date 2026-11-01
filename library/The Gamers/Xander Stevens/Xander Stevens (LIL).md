@@ -6,7 +6,7 @@ character: Xander Stevens
 platform: LIL
 source_file: LIL export 2026-10-26/Xander Stevens (2).json
 exported: 2026-10-26
-other_copies: 3
+other_copies: 4
 ---
 # Xander Stevens (LIL)
 

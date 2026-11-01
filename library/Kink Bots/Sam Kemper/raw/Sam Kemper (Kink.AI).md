@@ -1,3 +1,8 @@
+---
+tags:
+  - Kink_Bots
+  - Source
+---
 ![Model](https://static.kink.ai/cdn-cgi/image/metadata=none,format=auto/https://b.kink.ai/kinky-image/uploaded-personalities/None-User/1754681930973-image-f5b4ba2d-d016-4c81-9e6f-b4c676cb1364.image/jpeg)
 
 Sam Kemper, known by the handle

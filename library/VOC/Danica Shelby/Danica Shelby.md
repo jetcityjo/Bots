@@ -6,7 +6,10 @@ character: Danica Shelby
 world: VOC
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Danica Shelby.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Danica Shelby
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Danica Shelby (Aksho)]]: latest 2026-08-30 (2 distinct versions kept in GitHub)
-- [[Danica Shelby (LIL)]]: latest 2026-10-26
-- [[Danica Shelby (Soulkyn)]]: latest 2026-10-27
+- [[Danica Shelby (Dream Journey)]]: latest 2026-10-02
+- [[Danica Shelby (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Danica Shelby (Meat)]]: latest 2026-10-02
+- [[Danica Shelby (Notes)]]: latest 2026-10-02
+- [[Danica Shelby (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

@@ -4,9 +4,9 @@ tags:
   - Source
 character: Ethan
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Ethan.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Ethan.md
+exported: 2026-10-02
+other_copies: 1
 ---
 # Ethan (Notes)
 

@@ -6,7 +6,7 @@ character: Isla Renn
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/isla-renn
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Isla Renn (Soulkyn)
 

@@ -4,9 +4,9 @@ tags:
   - Soulkyn_Profile
 character: Ben Callahan
 platform: Soulkyn Profile
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Soulkyn Profiles/Ben Callahan (Soulkyn Profile).md"
-exported: 2026-03-12
-other_copies: 1
+source_file: Ben-Babe/Ben Callahan (Soulkyn Profile).md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Ben Callahan (Soulkyn Profile)
 

@@ -4,9 +4,9 @@ tags:
   - Kink_AI
 character: Sam Kemper
 platform: Kink.AI
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Kink Bots/Sam Kemper (Kink.AI).md"
-exported: 2026-03-12
-other_copies: 2
+source_file: Ben-Babe/Sam Kemper (Kink.AI).md
+exported: 2026-10-02
+other_copies: 3
 ---
 # Sam Kemper (Kink.AI)
 

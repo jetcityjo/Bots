@@ -6,7 +6,7 @@ character: Clair Douglas
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/clair-douglas
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Clair Douglas (Soulkyn)
 

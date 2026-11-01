@@ -7,6 +7,8 @@ world: Caer Thalor
 platforms:
   - Aksho
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Rowyn Brown (1).json
 updated: 2026-10-26
@@ -14,13 +16,15 @@ updated: 2026-10-26
 # Rowyn Brown
 
 **World:** [[Caer Thalor]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Rowyn Brown (Aksho)]]: latest 2026-06-06
+- [[Rowyn Brown (Aksho)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
 - [[Rowyn Brown (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Rowyn Brown (Soulkyn)]]: latest 2026-10-27
+- [[Rowyn Brown (Meat)]]: latest 2026-10-02
+- [[Rowyn Brown (Notes)]]: latest 2026-10-02
+- [[Rowyn Brown (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

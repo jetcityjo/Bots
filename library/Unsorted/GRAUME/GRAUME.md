@@ -6,6 +6,7 @@ character: GRAUME
 world: Unsorted
 platforms:
   - Aksho
+  - Notes
   - Soulkyn
 canon_source: Soulkyn — Soulkyn crawl 2026-10-27/graume
 updated: 2026-10-26
@@ -13,11 +14,12 @@ updated: 2026-10-26
 # GRAUME
 
 **World:** [[Unsorted]]  
-**On:** Aksho, Soulkyn
+**On:** Aksho, Notes, Soulkyn
 
 ## Versions
 
 - [[GRAUME (Aksho)]]: latest 2026-06-06
+- [[GRAUME (Notes)]]: latest 2026-10-02
 - [[GRAUME (Soulkyn)]]: latest 2026-10-27
 
 ## Tags

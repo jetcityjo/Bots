@@ -6,7 +6,7 @@ character: Rowyn Brown
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/rowyn-brown
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Rowyn Brown (Soulkyn)
 

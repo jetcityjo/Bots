@@ -6,6 +6,8 @@ character: Niamh Brennan
 world: Midtown Monsters
 platforms:
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Niamh Brennan.json
 updated: 2026-10-26
@@ -13,12 +15,14 @@ updated: 2026-10-26
 # Niamh Brennan
 
 **World:** [[Midtown Monsters]]  
-**On:** LIL, Soulkyn
+**On:** LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Niamh Brennan (LIL)]]: latest 2026-10-26
-- [[Niamh Brennan (Soulkyn)]]: latest 2026-10-27
+- [[Niamh Brennan (Meat)]]: latest 2026-10-02
+- [[Niamh Brennan (Notes)]]: latest 2026-10-02
+- [[Niamh Brennan (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

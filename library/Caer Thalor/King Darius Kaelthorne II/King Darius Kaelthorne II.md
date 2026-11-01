@@ -7,6 +7,8 @@ world: Caer Thalor
 platforms:
   - Aksho
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/King Darius Kaelthorne II (1).json
 updated: 2026-10-26
@@ -14,13 +16,15 @@ updated: 2026-10-26
 # King Darius Kaelthorne II
 
 **World:** [[Caer Thalor]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[King Darius Kaelthorne II (Aksho)]]: latest 2026-06-06
+- [[King Darius Kaelthorne II (Aksho)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
 - [[King Darius Kaelthorne II (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[King Darius Kaelthorne II (Soulkyn)]]: latest 2026-10-27
+- [[King Darius Kaelthorne II (Meat)]]: latest 2026-10-02
+- [[King Darius Kaelthorne II (Notes)]]: latest 2026-10-02
+- [[King Darius Kaelthorne II (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

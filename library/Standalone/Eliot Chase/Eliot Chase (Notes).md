@@ -4,9 +4,9 @@ tags:
   - Source
 character: Eliot Chase
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Eliot_Chase.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Eliot_Chase.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Eliot Chase (Notes)
 

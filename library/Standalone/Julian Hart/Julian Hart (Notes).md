@@ -4,9 +4,9 @@ tags:
   - Source
 character: Julian Hart
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Julian_Hart.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Julian_Hart.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Julian Hart (Notes)
 

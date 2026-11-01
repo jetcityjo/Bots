@@ -6,7 +6,7 @@ character: Ben Reed
 platform: LIL
 source_file: LIL export 2026-10-26/Professor Ben Reed (1).json
 exported: 2026-10-26
-other_copies: 4
+other_copies: 5
 ---
 # Ben Reed (LIL)
 

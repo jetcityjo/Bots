@@ -6,7 +6,7 @@ character: Finch Alder
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/finch-alder-qe9wu
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Finch Alder (Soulkyn)
 

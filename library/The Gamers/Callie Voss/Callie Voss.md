@@ -21,7 +21,7 @@ updated: 2026-10-26
 
 - [[Callie Voss (Character Card)]]: latest 2026-08-26
 - [[Callie Voss (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Callie Voss (Notes)]]: latest 2026-03-12
+- [[Callie Voss (Notes)]]: latest 2026-10-02
 - [[Callie Voss (Soulkyn)]]: latest 2026-10-27
 
 ## Tags

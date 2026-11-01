@@ -7,6 +7,7 @@ world: Gilded Circle
 platforms:
   - Aksho
   - LIL
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Barrett Morgan.json
 updated: 2026-10-26
@@ -14,12 +15,13 @@ updated: 2026-10-26
 # Barrett Morgan
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Barrett Morgan (Aksho)]]: latest 2026-06-06
 - [[Barrett Morgan (LIL)]]: latest 2026-10-26
+- [[Barrett Morgan (Notes)]]: latest 2026-10-02
 - [[Barrett Morgan (Soulkyn)]]: latest 2026-10-27
 
 ## Tags

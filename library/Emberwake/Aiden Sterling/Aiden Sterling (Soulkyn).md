@@ -6,7 +6,7 @@ character: Aiden Sterling
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/aiden-sterling
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Aiden Sterling (Soulkyn)
 

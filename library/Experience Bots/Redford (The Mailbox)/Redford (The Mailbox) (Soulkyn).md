@@ -6,7 +6,7 @@ character: Redford (The Mailbox)
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/redford-the-mailbox
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Redford (The Mailbox) (Soulkyn)
 

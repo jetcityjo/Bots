@@ -6,7 +6,10 @@ character: Hawk Wheeler
 world: VOC
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Hawk Wheeler.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Hawk Wheeler
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Hawk Wheeler (Aksho)]]: latest 2026-08-30 (2 distinct versions kept in GitHub)
-- [[Hawk Wheeler (LIL)]]: latest 2026-10-26
-- [[Hawk Wheeler (Soulkyn)]]: latest 2026-10-27
+- [[Hawk Wheeler (Dream Journey)]]: latest 2026-10-02
+- [[Hawk Wheeler (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Hawk Wheeler (Meat)]]: latest 2026-10-02
+- [[Hawk Wheeler (Notes)]]: latest 2026-10-02
+- [[Hawk Wheeler (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

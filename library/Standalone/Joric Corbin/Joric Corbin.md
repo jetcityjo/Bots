@@ -5,20 +5,26 @@ tags:
 character: Joric Corbin
 world: Standalone
 platforms:
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Joric _The Rust_ Corbin.json
 updated: 2026-10-26
 ---
 # Joric Corbin
 
 **World:** [[Standalone]]  
-**On:** LIL, Notes
+**On:** Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Joric Corbin (LIL)]]: latest 2026-10-26
-- [[Joric Corbin (Notes)]]: latest 2026-03-12
+- [[Joric Corbin (Dream Journey)]]: latest 2026-10-02
+- [[Joric Corbin (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Joric Corbin (Meat)]]: latest 2026-10-02
+- [[Joric Corbin (Notes)]]: latest 2026-10-02
+- [[Joric Corbin (Soulkyn)]]: latest 2026-10-02
 
 ## Tags
 

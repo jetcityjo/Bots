@@ -6,6 +6,8 @@ character: Cillian Brennan
 world: Midtown Monsters
 platforms:
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Cillian Brennan.json
 updated: 2026-10-26
@@ -13,12 +15,14 @@ updated: 2026-10-26
 # Cillian Brennan
 
 **World:** [[Midtown Monsters]]  
-**On:** LIL, Soulkyn
+**On:** LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Cillian Brennan (LIL)]]: latest 2026-10-26
-- [[Cillian Brennan (Soulkyn)]]: latest 2026-10-27
+- [[Cillian Brennan (Meat)]]: latest 2026-10-02
+- [[Cillian Brennan (Notes)]]: latest 2026-10-02
+- [[Cillian Brennan (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - Standalone
+  - Source
+---
 # Jo Quinn – Omega
 
 ## Age

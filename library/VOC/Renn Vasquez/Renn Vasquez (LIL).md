@@ -6,7 +6,7 @@ character: Renn Vasquez
 platform: LIL
 source_file: LIL export 2026-10-26/Renn Vásquez.json
 exported: 2026-10-26
-other_copies: 0
+other_copies: 1
 ---
 # Renn Vasquez (LIL)
 

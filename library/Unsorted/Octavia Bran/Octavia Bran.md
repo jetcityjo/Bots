@@ -6,17 +6,21 @@ character: Octavia Bran
 world: Unsorted
 platforms:
   - LIL
+  - Meat
+  - Notes
 canon_source: LIL — LIL export 2026-10-26/Octavia Bran.json
 updated: 2026-10-26
 ---
 # Octavia Bran
 
 **World:** [[Unsorted]]  
-**On:** LIL
+**On:** LIL, Meat, Notes
 
 ## Versions
 
 - [[Octavia Bran (LIL)]]: latest 2026-10-26
+- [[Octavia Bran (Meat)]]: latest 2026-10-02
+- [[Octavia Bran (Notes)]]: latest 2026-10-02
 
 ## Tags
 

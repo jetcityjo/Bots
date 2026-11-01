@@ -6,23 +6,29 @@ character: Aiden Rios
 world: Emberwake
 platforms:
   - Companion
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
   - Soulkyn
+  - Summary
 canon_source: LIL — LIL export 2026-10-26/Aiden Rios (1).json
 updated: 2026-10-26
 ---
 # Aiden Rios
 
 **World:** [[Emberwake]]  
-**On:** Companion, LIL, Notes, Soulkyn
+**On:** Companion, Dream Journey, LIL, Meat, Notes, Soulkyn, Summary
 
 ## Versions
 
 - [[Aiden Rios (Companion)]]: latest 2026-09-26
-- [[Aiden Rios (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Aiden Rios (Notes)]]: latest 2026-03-12
-- [[Aiden Rios (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
+- [[Aiden Rios (Dream Journey)]]: latest 2026-10-02
+- [[Aiden Rios (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Aiden Rios (Meat)]]: latest 2026-10-02
+- [[Aiden Rios (Notes)]]: latest 2026-10-02
+- [[Aiden Rios (Soulkyn)]]: latest 2026-10-27 (3 distinct versions kept in GitHub)
+- [[Aiden Rios (Summary)]]: latest 2026-10-02
 
 ## Tags
 

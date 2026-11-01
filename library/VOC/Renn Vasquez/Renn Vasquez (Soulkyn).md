@@ -6,7 +6,7 @@ character: Renn Vasquez
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/renn-vasquez
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Renn Vasquez (Soulkyn)
 

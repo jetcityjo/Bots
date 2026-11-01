@@ -6,7 +6,7 @@ character: Julian Hart
 platform: LIL
 source_file: LIL export 2026-10-26/Julian Hart .json
 exported: 2026-10-26
-other_copies: 0
+other_copies: 1
 ---
 # Julian Hart (LIL)
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - Standalone
+  - Source
+---
 # Isla Renn
 
 Isla Renn is a reclusive omega and a writer whose latest book unexpectedly became a bestseller.

@@ -5,7 +5,10 @@ tags:
 character: Lucien Marlowe
 world: Caer Thalor
 platforms:
+  - Aksho
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Lucien Marlowe (1).json
 updated: 2026-10-26
@@ -13,12 +16,15 @@ updated: 2026-10-26
 # Lucien Marlowe
 
 **World:** [[Caer Thalor]]  
-**On:** LIL, Soulkyn
+**On:** Aksho, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
+- [[Lucien Marlowe (Aksho)]]: latest 2026-10-02
 - [[Lucien Marlowe (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Lucien Marlowe (Soulkyn)]]: latest 2026-10-27
+- [[Lucien Marlowe (Meat)]]: latest 2026-10-02
+- [[Lucien Marlowe (Notes)]]: latest 2026-10-02
+- [[Lucien Marlowe (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

@@ -4,9 +4,9 @@ tags:
   - Source
 character: Ian
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Ian.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Ian.md
+exported: 2026-10-02
+other_copies: 1
 ---
 # Ian (Notes)
 

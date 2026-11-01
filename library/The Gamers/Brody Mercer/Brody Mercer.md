@@ -5,7 +5,9 @@ tags:
 character: Brody Mercer
 world: The Gamers
 platforms:
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Brody Mercer (2).json
@@ -14,13 +16,15 @@ updated: 2026-10-26
 # Brody Mercer
 
 **World:** [[The Gamers]]  
-**On:** LIL, Notes, Soulkyn
+**On:** Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Brody Mercer (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Brody Mercer (Notes)]]: latest 2026-03-12
-- [[Brody Mercer (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
+- [[Brody Mercer (Dream Journey)]]: latest 2026-10-02
+- [[Brody Mercer (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Brody Mercer (Meat)]]: latest 2026-10-02
+- [[Brody Mercer (Notes)]]: latest 2026-10-02 (3 distinct versions kept in GitHub)
+- [[Brody Mercer (Soulkyn)]]: latest 2026-10-27 (3 distinct versions kept in GitHub)
 
 ## Tags
 

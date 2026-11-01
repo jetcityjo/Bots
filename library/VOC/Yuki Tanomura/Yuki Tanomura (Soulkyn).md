@@ -6,7 +6,7 @@ character: Yuki Tanomura
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/yuki-tanomura
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Yuki Tanomura (Soulkyn)
 

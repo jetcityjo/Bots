@@ -6,7 +6,7 @@ character: "Euclid \"Tank\" Blackwood"
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/euclid-blackwood
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Euclid "Tank" Blackwood (Soulkyn)
 

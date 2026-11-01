@@ -6,7 +6,7 @@ character: Hokus of Pokes
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/hokus-pokus
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Hokus of Pokes (Soulkyn)
 

@@ -6,7 +6,7 @@ character: Sable Arden
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/sable-arden-pxp3z
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Sable Arden (Soulkyn)
 

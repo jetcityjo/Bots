@@ -4,9 +4,9 @@ tags:
   - Source
 character: Jo Quinn
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Jo_Quinn_Full.md"
-exported: 2026-03-12
-other_copies: 1
+source_file: Ben-Babe/Jo_Quinn_Full.md
+exported: 2026-10-02
+other_copies: 5
 ---
 # Jo Quinn (Notes)
 

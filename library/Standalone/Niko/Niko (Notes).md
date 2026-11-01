@@ -4,9 +4,9 @@ tags:
   - Source
 character: Niko
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Niko.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Niko.md
+exported: 2026-10-02
+other_copies: 1
 ---
 # Niko (Notes)
 

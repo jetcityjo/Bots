@@ -4,9 +4,9 @@ tags:
   - Source
 character: Aiden Sterling
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Aiden Sterling.md"
-exported: 2026-03-12
-other_copies: 1
+source_file: Ben-Babe/Aiden Sterling.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Aiden Sterling (Notes)
 

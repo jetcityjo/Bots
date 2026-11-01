@@ -4,9 +4,9 @@ tags:
   - Source
 character: Lucien Albrecht
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Lucien_Albrecht.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Lucien_Albrecht.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Lucien Albrecht (Notes)
 

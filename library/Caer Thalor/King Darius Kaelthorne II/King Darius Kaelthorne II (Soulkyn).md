@@ -6,7 +6,7 @@ character: King Darius Kaelthorne II
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/king-darius-kaelthorne-ii
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # King Darius Kaelthorne II (Soulkyn)
 

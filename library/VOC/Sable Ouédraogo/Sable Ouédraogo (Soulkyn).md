@@ -6,7 +6,7 @@ character: Sable Ouédraogo
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/sable-ouedraogo-lfm3z
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Sable Ouédraogo (Soulkyn)
 

@@ -6,7 +6,7 @@ character: Ben Callahan
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/ben-callahan
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Ben Callahan (Soulkyn)
 

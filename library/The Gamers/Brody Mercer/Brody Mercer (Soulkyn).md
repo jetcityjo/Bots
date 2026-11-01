@@ -6,7 +6,7 @@ character: Brody Mercer
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/brody-mercer
 exported: 2026-10-27
-other_copies: 1
+other_copies: 2
 ---
 # Brody Mercer (Soulkyn)
 

@@ -6,7 +6,10 @@ character: Alexander Blackwell
 world: Gilded Circle
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Alexander Blackwell.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Alexander Blackwell
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Alexander Blackwell (Aksho)]]: latest 2026-06-06
-- [[Alexander Blackwell (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Alexander Blackwell (Soulkyn)]]: latest 2026-10-27
+- [[Alexander Blackwell (Dream Journey)]]: latest 2026-10-02
+- [[Alexander Blackwell (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Alexander Blackwell (Meat)]]: latest 2026-10-02
+- [[Alexander Blackwell (Notes)]]: latest 2026-10-02
+- [[Alexander Blackwell (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

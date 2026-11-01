@@ -4,9 +4,9 @@ tags:
   - Source
 character: Cain Vire
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Cain_Vire.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Cain_Vire.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Cain Vire (Notes)
 

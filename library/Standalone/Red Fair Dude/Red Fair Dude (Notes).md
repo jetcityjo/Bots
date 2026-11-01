@@ -4,9 +4,9 @@ tags:
   - Source
 character: Red Fair Dude
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Red_Fair_Dude.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Red_Fair_Dude.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Red Fair Dude (Notes)
 

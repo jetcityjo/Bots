@@ -1,3 +1,9 @@
+---
+tags:
+  - Soulkyn_Profiles
+  - Experience_Bots
+  - Source
+---
 ![[Pasted image 20250805220810.png]]
 **Personality Tags**
 Protective, Duty Bound, Prideful, Loyal, Cunning, Land Barons, Noble, Romantic, Rich, Diplomatic, Royal, Strategic, Tradition_steeped

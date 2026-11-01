@@ -6,7 +6,7 @@ character: The Blackwell Gala
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/the-blackwell-gala
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # The Blackwell Gala (Soulkyn)
 

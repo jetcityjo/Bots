@@ -4,9 +4,9 @@ tags:
   - Source
 character: Finch Alder
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Mirror and Mosaics/Finch Alder.md"
-exported: 2026-03-07
-other_copies: 0
+source_file: Ben-Babe/Finch Alder.md
+exported: 2026-10-02
+other_copies: 1
 ---
 # Finch Alder (Notes)
 

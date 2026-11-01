@@ -6,7 +6,10 @@ character: Clair Douglas
 world: Project Y
 platforms:
   - Character Card
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Clair Douglas.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Clair Douglas
 
 **World:** [[Project Y]]  
-**On:** Character Card, LIL, Soulkyn
+**On:** Character Card, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Clair Douglas (Character Card)]]: latest 2026-09-18
-- [[Clair Douglas (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Clair Douglas (Soulkyn)]]: latest 2026-10-27
+- [[Clair Douglas (Dream Journey)]]: latest 2026-10-02
+- [[Clair Douglas (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Clair Douglas (Meat)]]: latest 2026-10-02
+- [[Clair Douglas (Notes)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
+- [[Clair Douglas (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

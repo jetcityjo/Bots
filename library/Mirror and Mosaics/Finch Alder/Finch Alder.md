@@ -7,7 +7,9 @@ world: Mirror and Mosaics
 platforms:
   - Aksho
   - Character Card
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Finch Alder .json
@@ -16,15 +18,17 @@ updated: 2026-10-26
 # Finch Alder
 
 **World:** [[Mirror and Mosaics]]  
-**On:** Aksho, Character Card, LIL, Notes, Soulkyn
+**On:** Aksho, Character Card, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Finch Alder (Aksho)]]: latest 2026-06-06
 - [[Finch Alder (Character Card)]]: latest 2026-03-07
-- [[Finch Alder (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Finch Alder (Notes)]]: latest 2026-03-07
-- [[Finch Alder (Soulkyn)]]: latest 2026-10-27
+- [[Finch Alder (Dream Journey)]]: latest 2026-10-02
+- [[Finch Alder (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Finch Alder (Meat)]]: latest 2026-10-02
+- [[Finch Alder (Notes)]]: latest 2026-10-02
+- [[Finch Alder (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

@@ -6,7 +6,10 @@ character: Caleb Vance
 world: Ashfall
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
   - Soulkyn Profile
 canon_source: LIL — LIL export 2026-10-26/Caleb Vance.json
@@ -15,14 +18,17 @@ updated: 2026-10-26
 # Caleb Vance
 
 **World:** [[Ashfall]]  
-**On:** Aksho, LIL, Soulkyn, Soulkyn Profile
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn, Soulkyn Profile
 
 ## Versions
 
 - [[Caleb Vance (Aksho)]]: latest 2026-06-06
-- [[Caleb Vance (LIL)]]: latest 2026-10-26
-- [[Caleb Vance (Soulkyn)]]: latest 2026-10-27
-- [[Caleb Vance (Soulkyn Profile)]]: latest 2026-03-12
+- [[Caleb Vance (Dream Journey)]]: latest 2026-10-02
+- [[Caleb Vance (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Caleb Vance (Meat)]]: latest 2026-10-02
+- [[Caleb Vance (Notes)]]: latest 2026-10-02
+- [[Caleb Vance (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
+- [[Caleb Vance (Soulkyn Profile)]]: latest 2026-10-02
 
 ## Tags
 

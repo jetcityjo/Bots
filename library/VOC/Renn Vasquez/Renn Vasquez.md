@@ -6,7 +6,9 @@ character: Renn Vasquez
 world: VOC
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Renn Vásquez.json
@@ -15,14 +17,16 @@ updated: 2026-10-26
 # Renn Vasquez
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL, Notes, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Renn Vasquez (Aksho)]]: latest 2026-06-07
-- [[Renn Vasquez (LIL)]]: latest 2026-10-26
-- [[Renn Vasquez (Notes)]]: latest 2026-03-14
-- [[Renn Vasquez (Soulkyn)]]: latest 2026-10-27
+- [[Renn Vasquez (Dream Journey)]]: latest 2026-09-23
+- [[Renn Vasquez (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Renn Vasquez (Meat)]]: latest 2026-09-23
+- [[Renn Vasquez (Notes)]]: latest 2026-09-23 (2 distinct versions kept in GitHub)
+- [[Renn Vasquez (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

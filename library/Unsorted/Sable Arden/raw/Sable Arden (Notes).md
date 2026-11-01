@@ -1,3 +1,8 @@
+---
+tags:
+  - Soulkyn_Profiles
+  - Source
+---
 
 Physical Tags
 Gamer_energy, Dark Eyeliner, Expressive Eyes, Brown Eyes, Young Woman, Messenger_bag, 90S_alt_nerd_style, Layered_hair_with_bangs, Thrifted_coat, Urban_grit_vibe, Soft_smirk, Baggy Sweater, Red Hair

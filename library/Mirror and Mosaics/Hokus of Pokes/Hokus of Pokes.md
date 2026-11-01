@@ -6,7 +6,10 @@ character: Hokus of Pokes
 world: Mirror and Mosaics
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Hokus of Pokes.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Hokus of Pokes
 
 **World:** [[Mirror and Mosaics]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Hokus of Pokes (Aksho)]]: latest 2026-06-06
-- [[Hokus of Pokes (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Hokus of Pokes (Soulkyn)]]: latest 2026-10-27
+- [[Hokus of Pokes (Dream Journey)]]: latest 2026-10-02
+- [[Hokus of Pokes (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Hokus of Pokes (Meat)]]: latest 2026-10-02
+- [[Hokus of Pokes (Notes)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
+- [[Hokus of Pokes (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

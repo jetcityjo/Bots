@@ -5,7 +5,9 @@ tags:
 character: Bud
 world: Standalone
 platforms:
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Bud (2).json
@@ -14,13 +16,15 @@ updated: 2026-10-26
 # Bud
 
 **World:** [[Standalone]]  
-**On:** LIL, Notes, Soulkyn
+**On:** Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Bud (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Bud (Notes)]]: latest 2026-03-12 (2 distinct versions kept in GitHub)
-- [[Bud (Soulkyn)]]: latest 2026-10-27
+- [[Bud (Dream Journey)]]: latest 2026-10-02
+- [[Bud (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Bud (Meat)]]: latest 2026-10-02
+- [[Bud (Notes)]]: latest 2026-10-02 (4 distinct versions kept in GitHub)
+- [[Bud (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

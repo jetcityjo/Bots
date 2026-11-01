@@ -6,7 +6,7 @@ character: Talia Wren
 platform: Soulkyn
 source_file: Soulkyn crawl 2026-10-27/talia-wren
 exported: 2026-10-27
-other_copies: 0
+other_copies: 1
 ---
 # Talia Wren (Soulkyn)
 

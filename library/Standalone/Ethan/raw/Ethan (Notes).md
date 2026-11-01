@@ -1,3 +1,8 @@
+---
+tags:
+  - Standalone
+  - Source
+---
 # Ethan Vale – The Polished Edge
 
 ## Age

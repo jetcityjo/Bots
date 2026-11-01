@@ -6,7 +6,10 @@ character: Matteo Rienzi
 world: VOC
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Matteo Rienzi.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Matteo Rienzi
 
 **World:** [[VOC]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Matteo Rienzi (Aksho)]]: latest 2026-09-02 (2 distinct versions kept in GitHub)
-- [[Matteo Rienzi (LIL)]]: latest 2026-10-26
-- [[Matteo Rienzi (Soulkyn)]]: latest 2026-10-27
+- [[Matteo Rienzi (Dream Journey)]]: latest 2026-10-02
+- [[Matteo Rienzi (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Matteo Rienzi (Meat)]]: latest 2026-10-02
+- [[Matteo Rienzi (Notes)]]: latest 2026-10-02
+- [[Matteo Rienzi (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

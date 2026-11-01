@@ -5,18 +5,26 @@ tags:
 character: Cassian Ticktock
 world: Mirror and Mosaics
 platforms:
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
+  - Soulkyn
 canon_source: LIL — Downloads/Data/Cassian Ticktock.json
 updated: 2026-10-26
 ---
 # Cassian Ticktock
 
 **World:** [[Mirror and Mosaics]]  
-**On:** LIL
+**On:** Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Cassian Ticktock (LIL)]]: latest 2026-03-10 (2 distinct versions kept in GitHub)
+- [[Cassian Ticktock (Dream Journey)]]: latest 2026-10-02
+- [[Cassian Ticktock (LIL)]]: latest 2026-10-02 (3 distinct versions kept in GitHub)
+- [[Cassian Ticktock (Meat)]]: latest 2026-10-02
+- [[Cassian Ticktock (Notes)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
+- [[Cassian Ticktock (Soulkyn)]]: latest 2026-10-02
 
 ## Tags
 

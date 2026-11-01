@@ -4,9 +4,9 @@ tags:
   - Soulkyn_Profile
 character: Devan Ash
 platform: Soulkyn Profile
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Soulkyn Profiles/Devan Ash (Soulkyn Profile).md"
-exported: 2026-03-12
-other_copies: 1
+source_file: Ben-Babe/Devan Ash (Soulkyn Profile).md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Devan Ash (Soulkyn Profile)
 

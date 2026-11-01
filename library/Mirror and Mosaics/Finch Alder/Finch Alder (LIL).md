@@ -6,7 +6,7 @@ character: Finch Alder
 platform: LIL
 source_file: LIL export 2026-10-26/Finch Alder .json
 exported: 2026-10-26
-other_copies: 2
+other_copies: 3
 ---
 # Finch Alder (LIL)
 

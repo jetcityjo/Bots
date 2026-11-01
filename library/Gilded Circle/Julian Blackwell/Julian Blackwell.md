@@ -6,7 +6,10 @@ character: Julian Blackwell
 world: Gilded Circle
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Julian Blackwell.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Julian Blackwell
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Julian Blackwell (Aksho)]]: latest 2026-06-06
-- [[Julian Blackwell (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Julian Blackwell (Soulkyn)]]: latest 2026-10-27
+- [[Julian Blackwell (Dream Journey)]]: latest 2026-10-02
+- [[Julian Blackwell (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Julian Blackwell (Meat)]]: latest 2026-10-02
+- [[Julian Blackwell (Notes)]]: latest 2026-10-02
+- [[Julian Blackwell (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

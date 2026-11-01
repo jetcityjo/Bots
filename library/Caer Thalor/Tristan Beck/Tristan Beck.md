@@ -5,7 +5,10 @@ tags:
 character: Tristan Beck
 world: Caer Thalor
 platforms:
+  - Aksho
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Tristan Beck.json
 updated: 2026-10-26
@@ -13,12 +16,15 @@ updated: 2026-10-26
 # Tristan Beck
 
 **World:** [[Caer Thalor]]  
-**On:** LIL, Soulkyn
+**On:** Aksho, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
+- [[Tristan Beck (Aksho)]]: latest 2026-10-02
 - [[Tristan Beck (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
-- [[Tristan Beck (Soulkyn)]]: latest 2026-10-27
+- [[Tristan Beck (Meat)]]: latest 2026-10-02
+- [[Tristan Beck (Notes)]]: latest 2026-10-02
+- [[Tristan Beck (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

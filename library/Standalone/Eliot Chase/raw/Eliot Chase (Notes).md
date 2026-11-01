@@ -1,3 +1,8 @@
+---
+tags:
+  - Standalone
+  - Source
+---
 # Eliot Chase
 
 Eliot Chase built his fortune in cybersecurity and AI.

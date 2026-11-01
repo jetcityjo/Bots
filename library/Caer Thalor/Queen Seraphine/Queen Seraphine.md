@@ -7,18 +7,24 @@ world: Caer Thalor
 platforms:
   - Aksho
   - LIL
+  - Meat
+  - Notes
+  - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Queen Seraphine (1).json
 updated: 2026-10-26
 ---
 # Queen Seraphine
 
 **World:** [[Caer Thalor]]  
-**On:** Aksho, LIL
+**On:** Aksho, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Queen Seraphine (Aksho)]]: latest 2026-06-06
+- [[Queen Seraphine (Aksho)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
 - [[Queen Seraphine (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Queen Seraphine (Meat)]]: latest 2026-10-02
+- [[Queen Seraphine (Notes)]]: latest 2026-10-02
+- [[Queen Seraphine (Soulkyn)]]: latest 2026-10-02
 
 ## Tags
 

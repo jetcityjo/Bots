@@ -5,7 +5,10 @@ tags:
 character: Aleric Armbruster
 world: Caer Thalor
 platforms:
+  - Aksho
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Aleric Armbruster (1).json
 updated: 2026-10-26
@@ -13,12 +16,15 @@ updated: 2026-10-26
 # Aleric Armbruster
 
 **World:** [[Caer Thalor]]  
-**On:** LIL, Soulkyn
+**On:** Aksho, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
+- [[Aleric Armbruster (Aksho)]]: latest 2026-10-02
 - [[Aleric Armbruster (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
-- [[Aleric Armbruster (Soulkyn)]]: latest 2026-10-27
+- [[Aleric Armbruster (Meat)]]: latest 2026-10-02
+- [[Aleric Armbruster (Notes)]]: latest 2026-10-02
+- [[Aleric Armbruster (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

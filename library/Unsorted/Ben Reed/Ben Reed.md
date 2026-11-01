@@ -5,7 +5,11 @@ tags:
 character: Ben Reed
 world: Unsorted
 platforms:
+  - Character Card
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Professor Ben Reed (1).json
 updated: 2026-10-26
@@ -13,16 +17,20 @@ updated: 2026-10-26
 # Ben Reed
 
 **World:** [[Unsorted]]  
-**On:** LIL, Soulkyn
+**On:** Character Card, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Ben Reed (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
-- [[Ben Reed (Soulkyn)]]: latest 2026-10-27
+- [[Ben Reed (Character Card)]]: latest 2026-10-02
+- [[Ben Reed (Dream Journey)]]: latest 2026-10-02
+- [[Ben Reed (LIL)]]: latest 2026-10-26 (4 distinct versions kept in GitHub)
+- [[Ben Reed (Meat)]]: latest 2026-10-02
+- [[Ben Reed (Notes)]]: latest 2026-10-02
+- [[Ben Reed (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 
-bdsm, dom, dominant, high protocol, professor, sex driven, story driven
+authority, bdsm, dom, dominant, feudal philosophy, high protocol, medieval scholar, power exchange, professor, psychological dominance, sex driven, story driven
 
 ## Canon
 

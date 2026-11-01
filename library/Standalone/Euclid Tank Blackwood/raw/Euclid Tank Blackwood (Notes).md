@@ -1,3 +1,8 @@
+---
+tags:
+  - Standalone
+  - Source
+---
 # Euclid "Tank" Blackwood
 
 Tank Blackwood is a burly alpha and elite security professional tasked with protecting a reclusive omega.

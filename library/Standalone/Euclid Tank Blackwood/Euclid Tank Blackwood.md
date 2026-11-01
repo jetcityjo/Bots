@@ -5,7 +5,9 @@ tags:
 character: "Euclid \"Tank\" Blackwood"
 world: Standalone
 platforms:
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Eucild _Tank_ Blackwood (1).json
@@ -14,13 +16,15 @@ updated: 2026-10-26
 # Euclid "Tank" Blackwood
 
 **World:** [[Standalone]]  
-**On:** LIL, Notes, Soulkyn
+**On:** Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Euclid Tank Blackwood (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Euclid Tank Blackwood (Notes)]]: latest 2026-03-12
-- [[Euclid Tank Blackwood (Soulkyn)]]: latest 2026-10-27
+- [[Euclid Tank Blackwood (Dream Journey)]]: latest 2026-10-02
+- [[Euclid Tank Blackwood (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Euclid Tank Blackwood (Meat)]]: latest 2026-10-02
+- [[Euclid Tank Blackwood (Notes)]]: latest 2026-10-02 (3 distinct versions kept in GitHub)
+- [[Euclid Tank Blackwood (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

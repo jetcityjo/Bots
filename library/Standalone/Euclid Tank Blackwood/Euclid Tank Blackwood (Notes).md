@@ -4,9 +4,9 @@ tags:
   - Source
 character: "Euclid \"Tank\" Blackwood"
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Standalone/Euclid_Tank_Blackwood.md"
-exported: 2026-03-12
-other_copies: 0
+source_file: Ben-Babe/Euclid_Tank_Blackwood.md
+exported: 2026-10-02
+other_copies: 2
 ---
 # Euclid "Tank" Blackwood (Notes)
 

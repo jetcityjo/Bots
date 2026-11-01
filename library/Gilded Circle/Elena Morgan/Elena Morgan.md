@@ -7,6 +7,7 @@ world: Gilded Circle
 platforms:
   - Aksho
   - LIL
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Elena Morgan.json
 updated: 2026-10-26
@@ -14,12 +15,13 @@ updated: 2026-10-26
 # Elena Morgan
 
 **World:** [[Gilded Circle]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, LIL, Notes, Soulkyn
 
 ## Versions
 
 - [[Elena Morgan (Aksho)]]: latest 2026-06-06
 - [[Elena Morgan (LIL)]]: latest 2026-10-26
+- [[Elena Morgan (Notes)]]: latest 2026-10-02
 - [[Elena Morgan (Soulkyn)]]: latest 2026-10-27
 
 ## Tags

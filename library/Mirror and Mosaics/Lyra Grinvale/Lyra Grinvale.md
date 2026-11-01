@@ -6,7 +6,10 @@ character: Lyra Grinvale
 world: Mirror and Mosaics
 platforms:
   - Aksho
+  - Dream Journey
   - LIL
+  - Meat
+  - Notes
   - Soulkyn
 canon_source: LIL — LIL export 2026-10-26/Lyra Grinvale.json
 updated: 2026-10-26
@@ -14,13 +17,16 @@ updated: 2026-10-26
 # Lyra Grinvale
 
 **World:** [[Mirror and Mosaics]]  
-**On:** Aksho, LIL, Soulkyn
+**On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
 - [[Lyra Grinvale (Aksho)]]: latest 2026-06-06
-- [[Lyra Grinvale (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
-- [[Lyra Grinvale (Soulkyn)]]: latest 2026-10-27
+- [[Lyra Grinvale (Dream Journey)]]: latest 2026-10-02
+- [[Lyra Grinvale (LIL)]]: latest 2026-10-26 (3 distinct versions kept in GitHub)
+- [[Lyra Grinvale (Meat)]]: latest 2026-10-02
+- [[Lyra Grinvale (Notes)]]: latest 2026-10-02
+- [[Lyra Grinvale (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 

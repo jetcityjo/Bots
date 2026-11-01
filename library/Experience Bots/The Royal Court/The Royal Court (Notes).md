@@ -4,9 +4,9 @@ tags:
   - Source
 character: The Royal Court
 platform: Notes
-source_file: "Obsidian/AI Worlds & Creations/AI Creations/Bots/Soulkyn Profiles/Experience Bots/The Royal Court.md"
-exported: 2026-03-12
-other_copies: 3
+source_file: Ben-Babe/The Royal Court.md
+exported: 2026-10-02
+other_copies: 4
 ---
 # The Royal Court (Notes)
 

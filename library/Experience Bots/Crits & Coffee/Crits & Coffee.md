@@ -5,7 +5,9 @@ tags:
 character: "Crits & Coffee"
 world: Experience Bots
 platforms:
+  - Dream Journey
   - LIL
+  - Meat
   - Notes
   - Soulkyn
 canon_source: "LIL — LIL export 2026-10-26/Crits & Coffee .json"
@@ -14,13 +16,15 @@ updated: 2026-10-26
 # Crits & Coffee
 
 **World:** [[Experience Bots]]  
-**On:** LIL, Notes, Soulkyn
+**On:** Dream Journey, LIL, Meat, Notes, Soulkyn
 
 ## Versions
 
-- [[Crits & Coffee (LIL)]]: latest 2026-10-26
-- [[Crits & Coffee (Notes)]]: latest 2026-03-12
-- [[Crits & Coffee (Soulkyn)]]: latest 2026-10-27
+- [[Crits & Coffee (Dream Journey)]]: latest 2026-10-02
+- [[Crits & Coffee (LIL)]]: latest 2026-10-26 (2 distinct versions kept in GitHub)
+- [[Crits & Coffee (Meat)]]: latest 2026-10-02
+- [[Crits & Coffee (Notes)]]: latest 2026-10-02 (2 distinct versions kept in GitHub)
+- [[Crits & Coffee (Soulkyn)]]: latest 2026-10-27 (2 distinct versions kept in GitHub)
 
 ## Tags
 
