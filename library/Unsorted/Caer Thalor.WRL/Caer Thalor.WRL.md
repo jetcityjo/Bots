@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Caer Thalor.WRL
 
+![[Caer Thalor.WRL.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

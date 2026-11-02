@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Alex & David
 
+![[Alex & David.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Notes, Soulkyn
 

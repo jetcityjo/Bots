@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Concordia of Sweets.wrl
 
+![[Concordia of Sweets.wrl.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

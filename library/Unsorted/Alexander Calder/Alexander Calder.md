@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Alexander Calder
 
+![[Alexander Calder.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Companion
 

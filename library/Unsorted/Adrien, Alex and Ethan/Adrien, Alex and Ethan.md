@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Adrien, Alex and Ethan
 
+![[Adrien, Alex and Ethan.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

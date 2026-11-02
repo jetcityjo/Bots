@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Aero & Atlas
 
+![[Aero & Atlas.png|300]]
+
 **World:** [[Orion Gambit]]  
 **On:** Aksho, Soulkyn
 

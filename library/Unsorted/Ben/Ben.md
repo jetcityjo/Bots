@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Ben
 
+![[Ben.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Notes
 

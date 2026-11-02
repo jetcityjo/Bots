@@ -16,6 +16,8 @@ updated: 2026-10-26
 ---
 # Ben Reed
 
+![[Ben Reed.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Character Card, Dream Journey, LIL, Meat, Notes, Soulkyn
 

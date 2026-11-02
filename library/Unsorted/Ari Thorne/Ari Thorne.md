@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Ari Thorne
 
+![[Ari Thorne.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

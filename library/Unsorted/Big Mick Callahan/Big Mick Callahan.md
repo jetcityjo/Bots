@@ -13,6 +13,8 @@ updated: 2026-10-26
 ---
 # "Big Mick" Callahan
 
+![[Big Mick Callahan.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, LIL, Soulkyn
 

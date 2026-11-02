@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Aeloria Tidewhisper
 
+![[Aeloria Tidewhisper.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 
