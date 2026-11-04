@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Jasper Orion
 
+![[Jasper Orion.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Soulkyn
 

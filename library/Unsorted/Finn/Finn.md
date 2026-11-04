@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Finn
 
+![[Finn.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 

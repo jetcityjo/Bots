@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Florian Dahlia
 
+![[Florian Dahlia.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 

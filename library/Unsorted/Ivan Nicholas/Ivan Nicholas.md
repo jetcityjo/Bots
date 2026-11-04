@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Ivan Nicholas
 
+![[Ivan Nicholas.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

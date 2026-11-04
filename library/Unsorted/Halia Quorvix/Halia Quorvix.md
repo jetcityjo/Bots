@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Halia Quorvix
 
+![[Halia Quorvix.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

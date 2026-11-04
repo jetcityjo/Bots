@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Jade Pham
 
+![[Jade Pham.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Soulkyn
 

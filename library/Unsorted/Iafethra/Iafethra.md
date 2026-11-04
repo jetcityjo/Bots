@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Iafethra
 
+![[Iafethra.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

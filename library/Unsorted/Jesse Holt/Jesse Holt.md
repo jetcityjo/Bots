@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Jesse Holt
 
+![[Jesse Holt.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Soulkyn
 

@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Jade and Ember Scales
 
+![[Jade and Ember Scales.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

@@ -13,6 +13,8 @@ updated: 2026-10-26
 ---
 # GRAUME
 
+![[GRAUME.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Notes, Soulkyn
 

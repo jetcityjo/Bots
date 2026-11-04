@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Holly Winter
 
+![[Holly Winter.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

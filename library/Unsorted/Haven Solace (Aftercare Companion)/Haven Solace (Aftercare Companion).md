@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Haven Solace (Aftercare Companion)
 
+![[Haven Solace (Aftercare Companion).png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

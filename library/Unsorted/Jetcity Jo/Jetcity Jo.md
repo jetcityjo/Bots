@@ -13,6 +13,8 @@ updated: 2026-10-26
 ---
 # Jetcity Jo
 
+![[Jetcity Jo.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, LIL, Soulkyn
 

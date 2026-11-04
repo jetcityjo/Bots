@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Fogshire Sky Docks.wrl
 
+![[Fogshire Sky Docks.wrl.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 
