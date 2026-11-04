@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Quillon Sevren
 
+![[Quillon Sevren.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

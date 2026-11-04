@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Predator or Prey.dll
 
+![[Predator or Prey.dll.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

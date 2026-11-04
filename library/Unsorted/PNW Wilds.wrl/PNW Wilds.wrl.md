@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # PNW Wilds.wrl
 
+![[PNW Wilds.wrl.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Peace of Serenity
 
+![[Peace of Serenity.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

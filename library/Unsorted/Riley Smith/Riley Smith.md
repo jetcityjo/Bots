@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Riley Smith
 
+![[Riley Smith.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

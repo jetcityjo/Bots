@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Petrolux
 
+![[Petrolux.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

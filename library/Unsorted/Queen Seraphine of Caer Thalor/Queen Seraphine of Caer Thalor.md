@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Queen Seraphine of Caer Thalor
 
+![[Queen Seraphine of Caer Thalor.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

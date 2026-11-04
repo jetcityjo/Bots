@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Rollin Rosie
 
+![[Rollin Rosie.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Rhea Xylander
 
+![[Rhea Xylander.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

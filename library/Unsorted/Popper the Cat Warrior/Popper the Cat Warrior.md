@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Popper the Cat Warrior
 
+![[Popper the Cat Warrior.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

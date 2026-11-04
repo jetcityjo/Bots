@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Renee Silver
 
+![[Renee Silver.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 

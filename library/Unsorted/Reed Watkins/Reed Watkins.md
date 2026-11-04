@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Reed Watkins
 
+![[Reed Watkins.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Soulkyn
 

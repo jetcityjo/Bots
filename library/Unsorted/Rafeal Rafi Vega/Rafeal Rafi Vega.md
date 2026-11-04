@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Rafeal "Rafi" Vega
 
+![[Rafeal Rafi Vega.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Soulkyn
 

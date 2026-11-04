@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Renji Sakamura
 
+![[Renji Sakamura.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Qael Norveth
 
+![[Qael Norveth.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 
