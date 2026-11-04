@@ -13,6 +13,8 @@ updated: 2026-10-26
 ---
 # K Popper
 
+![[K Popper.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, LIL, Soulkyn
 

@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Kaelin Ryver Thorn
 
+![[Kaelin Ryver Thorn.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

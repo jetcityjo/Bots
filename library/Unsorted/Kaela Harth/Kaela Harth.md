@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Kaela Harth
 
+![[Kaela Harth.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

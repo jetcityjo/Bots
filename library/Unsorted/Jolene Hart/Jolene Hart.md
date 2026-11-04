@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Jolene Hart
 
+![[Jolene Hart.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

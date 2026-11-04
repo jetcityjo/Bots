@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # John
 
+![[John.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

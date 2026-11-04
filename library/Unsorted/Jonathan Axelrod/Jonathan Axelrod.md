@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Jonathan Axelrod
 
+![[Jonathan Axelrod.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 
