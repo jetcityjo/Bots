@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Onya Kael
 
+![[Onya Kael.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

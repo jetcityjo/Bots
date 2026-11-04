@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Kenji Saito
 
+![[Kenji Saito.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Soulkyn
 

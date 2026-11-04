@@ -13,6 +13,8 @@ updated: 2026-10-26
 ---
 # Octavia Bran
 
+![[Octavia Bran.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Meat, Notes
 

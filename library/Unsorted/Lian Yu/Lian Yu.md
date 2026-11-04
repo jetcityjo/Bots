@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Lian Yu
 
+![[Lian Yu.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 

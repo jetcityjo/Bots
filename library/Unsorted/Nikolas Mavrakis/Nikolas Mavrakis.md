@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Nikolas Mavrakis
 
+![[Nikolas Mavrakis.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Soulkyn
 

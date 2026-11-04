@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # King Reginald the Ridiculously Resplendent
 
+![[King Reginald the Ridiculously Resplendent.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

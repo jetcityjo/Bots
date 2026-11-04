@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Oathbreakers Fog.Scn
 
+![[Oathbreakers Fog.Scn.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 
