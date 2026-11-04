@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Emberwake Omegaverse RPG
 
+![[Emberwake Omegaverse RPG.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

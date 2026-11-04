@@ -13,6 +13,8 @@ updated: 2026-10-26
 ---
 # Dante Cruz
 
+![[Dante Cruz.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, LIL, Soulkyn
 

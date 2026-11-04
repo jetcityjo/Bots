@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Elenore Fairchild
 
+![[Elenore Fairchild.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Dalton 'Barnstormer' Barns
 
+![[Dalton 'Barnstormer' Barns.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

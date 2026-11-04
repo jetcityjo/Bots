@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Dr. Thomas Vesper
 
+![[Dr. Thomas Vesper.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

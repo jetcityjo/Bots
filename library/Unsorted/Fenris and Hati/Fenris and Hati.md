@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Fenris and Hati
 
+![[Fenris and Hati.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL, Soulkyn
 

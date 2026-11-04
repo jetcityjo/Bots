@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Elias Stonehaven
 
+![[Elias Stonehaven.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

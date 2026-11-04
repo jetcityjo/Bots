@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Eric Johnson
 
+![[Eric Johnson.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

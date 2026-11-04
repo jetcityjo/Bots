@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Cowgirl Darla
 
+![[Cowgirl Darla.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

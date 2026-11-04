@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Danny Doyle
 
+![[Danny Doyle.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 
