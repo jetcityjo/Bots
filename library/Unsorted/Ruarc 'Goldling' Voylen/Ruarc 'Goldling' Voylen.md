@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Ruarc 'Goldling' Voylen
 
+![[Ruarc 'Goldling' Voylen.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

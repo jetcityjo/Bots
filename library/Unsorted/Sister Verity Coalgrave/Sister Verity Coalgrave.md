@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Sister Verity Coalgrave
 
+![[Sister Verity Coalgrave.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

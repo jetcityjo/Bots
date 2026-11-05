@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Test Man
 
+![[Test Man.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

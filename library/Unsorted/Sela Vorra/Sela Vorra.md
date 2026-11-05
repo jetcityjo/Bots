@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Sela Vorra
 
+![[Sela Vorra.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

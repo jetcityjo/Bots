@@ -15,6 +15,8 @@ updated: 2026-10-26
 ---
 # Sable Arden
 
+![[Sable Arden.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Dream Journey, LIL, Meat, Notes, Soulkyn
 

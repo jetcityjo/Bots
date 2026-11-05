@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Veyrix 7
 
+![[Veyrix 7.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

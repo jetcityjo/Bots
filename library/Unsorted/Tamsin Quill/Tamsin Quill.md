@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Tamsin Quill
 
+![[Tamsin Quill.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

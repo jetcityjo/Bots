@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Tara Ironside
 
+![[Tara Ironside.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

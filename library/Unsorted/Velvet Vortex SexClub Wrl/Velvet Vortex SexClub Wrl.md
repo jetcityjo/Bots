@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Velvet Vortex SexClub Wrl
 
+![[Velvet Vortex SexClub Wrl.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Skeletor, Chocobo Ranch Hand
 
+![[Skeletor, Chocobo Ranch Hand.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 

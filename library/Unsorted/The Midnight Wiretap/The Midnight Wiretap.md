@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # The Midnight Wiretap
 
+![[The Midnight Wiretap.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

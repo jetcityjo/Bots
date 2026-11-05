@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Valerian Coraza
 
+![[Valerian Coraza.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 

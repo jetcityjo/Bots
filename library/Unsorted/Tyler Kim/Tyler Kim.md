@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Tyler Kim
 
+![[Tyler Kim.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

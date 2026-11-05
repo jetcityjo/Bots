@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Stellan and Nikolas Mavrakis
 
+![[Stellan and Nikolas Mavrakis.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 

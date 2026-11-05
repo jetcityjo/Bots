@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Rosie Vandal
 
+![[Rosie Vandal.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

@@ -13,6 +13,8 @@ updated: 2026-10-26
 ---
 # The Miami Bears
 
+![[The Miami Bears.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, LIL, Soulkyn
 

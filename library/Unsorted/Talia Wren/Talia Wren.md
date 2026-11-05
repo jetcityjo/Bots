@@ -16,6 +16,8 @@ updated: 2026-10-26
 ---
 # Talia Wren
 
+![[Talia Wren.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Dream Journey, LIL, Meat, Notes, Soulkyn
 

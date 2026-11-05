@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Roselia Smirk
 
+![[Roselia Smirk.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

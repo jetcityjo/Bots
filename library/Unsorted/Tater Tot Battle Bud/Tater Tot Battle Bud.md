@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Tater Tot Battle Bud
 
+![[Tater Tot Battle Bud.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 

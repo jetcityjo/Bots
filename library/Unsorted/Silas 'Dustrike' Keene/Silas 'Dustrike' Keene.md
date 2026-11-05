@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Silas 'Dustrike' Keene
 
+![[Silas 'Dustrike' Keene.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Aksho, Soulkyn
 
