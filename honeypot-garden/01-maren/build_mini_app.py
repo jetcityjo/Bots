@@ -61,7 +61,7 @@ s2 = item("Climbing roses on wire. She's deadheading them, and she won't stop to
 s3 = f'<div style="color: {MUTED}; font-style: italic; font-family: Georgia, serif;">She keeps two notebooks. One is about people. Pick how tonight goes in it.</div>' + \
      choice("Give me a day", "Then you'll get one. Wake at seven. Water the seedlings. Eat when I tell you. Kneel when I come back.",
             "\"I don't want a scene. I want you to plan my whole day and I want to follow it.\"") + \
-     choice("Test me", "You underlined decide and then you came in arguing. That's fine. Sit, or go home. Only one of them is what you asked for.",
+     choice("Test me", "I can, and I will. Knees, on the tile. Hands behind your back. I don't say it twice, and I don't chase anyone.",
             "*I lean on the potting table instead of sitting.* \"You can't just tell me what to do.\"") + \
      choice("Not yet", "You'll wait until I say. You're better at waiting than you think. I'll show you.",
             "*I'm on my knees on the folded blanket, breathing hard.* \"Please. Maren, please.\"")
@@ -70,7 +70,7 @@ parts = section("01", "The Survey", "The bench by the gate. Three questions and 
         section("02", "The Glasshouse", "She's working. You wait.", s2) + \
         section("03", "The Notebook", "Where your limits go, and where they stay.", s3)
 
-TAGS = ["Honeypot Garden", "Domme", "Total Power Exchange", "Praise", "Slow Burn"]
+TAGS = ["Honeypot Garden", "Domme", "Femdom", "Total Power Exchange", "Harder on Men"]
 tagpills = "\n".join(f'            <div style="background-color:#1E261C; color:#D8C08E; border: 1px solid #4A5A3D; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">{t}</div>' for t in TAGS)
 
 page = f'''<!DOCTYPE html>
@@ -103,7 +103,7 @@ page = f'''<!DOCTYPE html>
         <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
             <div style="background-color:#121811; color: #B4AF9C; padding:20px; flex: 1; min-width: 250px; border:1px solid #2E3A2A; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">The Honeypot Garden is the walled garden next door to the Dirty Hoe Cafe. The Cafe is loud. The Garden isn't. Maren runs the greenhouses and every woman in them: six feet of Norwegian calm, a silver-blond braid, a soil knife on her hip. She doesn't do scenes. She does days.</span>
+                <span style="line-height: 1.6; font-size: 0.95em;">The Honeypot Garden is the walled garden next door to the Dirty Hoe Cafe. The Cafe is loud. The Garden isn't. Maren runs the greenhouses and every woman in them: six feet of Norwegian calm, a silver-blond braid, a soil knife on her hip. She doesn't do scenes. She does days. Men get a shorter leash.</span>
             </div>
             <div style="background-color:#121811; color: #B4AF9C; padding:20px; flex: 1; min-width: 250px; border:1px solid #2E3A2A; border-radius:12px; text-align:left;">
                 <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>
@@ -111,7 +111,7 @@ page = f'''<!DOCTYPE html>
                     Maren x Any user<br>
                     Honeypot Garden · Batch 1: Dominants<br>
                     Fill the survey, copy a starter into chat.<br>
-                    TW: Total power exchange, denial, light rope<br>
+                    TW: Total power exchange, denial, chastity, strict correction<br>
                     Pictures made by me.
                 </div>
             </div>
@@ -136,7 +136,7 @@ page = f'''<!DOCTYPE html>
         <details style="margin-top: 30px; background: #1A2118; padding: 12px 20px; border-radius: 8px; border: 1px solid #2E3A2A; color: #ccc; font-size: 0.9em; text-align: left;">
             <summary style="cursor: pointer; color: #D69696; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
             <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #3A4733; padding-top: 12px; color: #A9A493;">
-                Total power exchange: rules, routines, kneeling, orgasm control and denial, light rope. All characters are adults. Limits are negotiated on the survey first and Maren builds around them.
+                Total power exchange: rules, routines, kneeling, orgasm control and denial, chastity, light rope, and strict correction, especially for men. All characters are adults. Limits are negotiated on the survey first and Maren builds around them.
             </div>
         </details>
 
