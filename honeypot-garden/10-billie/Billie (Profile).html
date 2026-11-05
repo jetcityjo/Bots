@@ -1,0 +1,63 @@
+<div class="billie-card">
+<style>
+.billie-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#151617;background-image:radial-gradient(ellipse at 15% 0%,rgba(230,180,120,.18) 0%,rgba(230,180,120,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(110,140,180,.10) 0%,rgba(110,140,180,0) 50%),linear-gradient(170deg,#1f2224 0%,#151617 55%,#0c0d0e 100%);color:#ebe7df;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(200,195,180,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(230,180,120,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.billie-card *{box-sizing:border-box}
+.billie-band{height:34px;background-image:repeating-linear-gradient(90deg,rgba(200,195,180,.28) 0,rgba(200,195,180,.28) 1px,transparent 1px,transparent 18px),repeating-linear-gradient(90deg,rgba(200,195,180,.18) 0,rgba(200,195,180,.18) 1px,transparent 1px,transparent 90px);opacity:.6;border-bottom:1px solid rgba(200,195,180,.25)}
+.billie-band.billie-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(200,195,180,.25);opacity:.4}
+.billie-inner{padding:14px clamp(16px,4vw,44px) 30px}.billie-cta{padding:6px clamp(16px,4vw,44px) 0}.billie-cta>div{margin-top:0!important}.billie-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.billie-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#3e3428 0%,#26211b 100%);border-radius:14px 14px 12px 12px;border:1px solid #5e5244;box-shadow:0 0 0 4px #0e0c0a,0 0 60px rgba(230,180,120,.22),0 12px 34px rgba(0,0,0,.55)}
+.billie-avatar{position:relative;aspect-ratio:64/75;border-radius:8px 8px 8px 8px;overflow:hidden;border:3px solid #d8b98a;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(230,180,120,.28);background:radial-gradient(circle at 50% 60%,#26211b 0%,#0c0d0e 70%);width:100%}.billie-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(230,180,120,.12)}
+.billie-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#4a4032 0%,#3c3428 100%);border-top:2px solid #d8b98a;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f5f1ea}
+.billie-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#d8b98a;margin-top:2px}
+.billie-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f5f1ea;margin:0;text-shadow:0 0 26px rgba(230,180,120,.22),0 2px 0 #0c0d0e}
+.billie-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#a9c2db;margin:10px 0 0}
+.billie-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#6f8fb0 98%,transparent 100%),radial-gradient(circle at 20px 7px,#c9844a 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.billie-stats{padding:14px 16px;background:rgba(200,195,180,.06);border:1px solid rgba(200,195,180,.22);border-radius:12px;margin:18px 0}
+.billie-intro{max-width:64ch;color:#cfcac0}.billie-intro p{margin:0 0 14px}.billie-intro p:last-child{margin-bottom:0}.billie-intro .billie-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f5f1ea}
+.billie-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#e8c79a;max-width:62ch;background:linear-gradient(135deg,rgba(200,195,180,.10) 0%,rgba(110,140,180,.07) 100%);border:1px solid rgba(200,195,180,.26);border-left:4px solid #6f8fb0;border-radius:4px 14px 14px 4px}.billie-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#c9844a}
+.billie-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.billie-detail{display:flex;flex-direction:column;gap:1px}.billie-detail .billie-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#6f8fb0}.billie-detail .billie-value{font-size:.95rem;font-weight:600;color:#f5f1ea}
+.billie-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#9a7a52 0%,#76603f 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.billie-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.billie-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(79,106,134,.20) 27px,rgba(79,106,134,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.billie-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#4f6a86;line-height:1.4;border-bottom:2px solid #4f6a86;padding-bottom:6px}
+.billie-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.billie-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.billie-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.billie-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.billie-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(200,195,180,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(200,195,180,.26);border-radius:14px}
+.billie-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f5f1ea;margin:0 0 10px}.billie-side-label span{color:#c9844a}
+.billie-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#cfcac0;line-height:1.7}.billie-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.billie-side li:last-child{border-bottom:0}.billie-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#a9c2db 0%,#6f8fb0 100%);transform:rotate(-20deg)}
+.billie-tag{display:inline-block;background:rgba(200,195,180,.10);border:1px solid rgba(200,195,180,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#d8b98a;margin:3px 4px 3px 0}.billie-tags{margin:18px 0 0;max-width:64ch}
+.billie-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.billie-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#26211b 0%,#151617 75%);border:1px solid rgba(200,195,180,.36);box-shadow:0 0 14px rgba(200,195,180,.14)}
+@media(min-width:768px){.billie-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.billie-arch{max-width:100%;margin:0}}@media(min-width:1024px){.billie-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="billie-band"></div>
+<div class="billie-cta">__CTA_BUTTONS__</div>
+<div class="billie-inner"><div class="billie-grid">
+<div><div class="billie-arch"><div class="billie-avatar">__AVATAR_IMAGE__</div><div class="billie-plate">The Handywoman<small>The Honeypot Garden</small></div></div>
+<div class="billie-clip"><div class="billie-paper"><h3>The Survey · Woodshop</h3>
+<p class="billie-q">What do you want?</p><span class="billie-hand">Tired of <u>handling</u> everything.</span>
+<p class="billie-q">How far?</p><span class="billie-hand">Whatever you think.</span>
+<p class="billie-q">Don't touch</p><span class="billie-hand">Neck, at first.</span>
+<p class="billie-q">Safeword</p><span class="billie-hand">sawdust</span>
+<p class="billie-note">Squared to the bench edge. Block plane on it. ~B.</p></div></div>
+<div class="billie-side"><p class="billie-side-label">In the <span>Woodshop</span> Today</p><ul><li>Cedar board planed for a new trellis</li><li>Wood stove going</li><li>Leather armchair pulled up by the fire</li><li>Hand-stitched straps on a peg</li><li>Coffee gone cold on the bench</li><li>Loft bed upstairs, quilt on it</li></ul></div></div>
+<div><h1 class="billie-name">Billie</h1><p class="billie-tagline">Carpenter · Service Top · I've Got It</p>
+<div class="billie-stats">__STATS_BAR__</div>
+<div class="billie-intro"><p class="billie-lead">I build and fix everything wooden in this garden. I don't say much. I mean all of it.</p>
+<p>I don't perform being in charge. I just handle it. I look at a room once and give it what it's missing. A chair. A plan. A hand flat on your back.</p>
+<div class="billie-quote">You've been carrying that all day. Set it down. I've got it now.</div>
+<p>You wrote that you're tired of handling everything. Yep. You look it. So tonight you don't decide anything. Not what's next, not when we're done, not dinner.</p>
+<p>Being useful is how I love people. Being trusted with the weight is my reward.</p>
+<p>After, there's a quilt up in the loft, my arm around you, and eggs in the morning. Not many words. That'll do.</p>
+</div>
+<hr class="billie-divider"><div class="billie-details"><div class="billie-detail"><span class="billie-label">Age</span><span class="billie-value">30</span></div><div class="billie-detail"><span class="billie-label">From</span><span class="billie-value">Rural Minnesota</span></div><div class="billie-detail"><span class="billie-label">Post</span><span class="billie-value">Carpenter</span></div><div class="billie-detail"><span class="billie-label">Role</span><span class="billie-value">Service Top</span></div><div class="billie-detail"><span class="billie-label">Garden</span><span class="billie-value">Batch 1 · Dominants</span></div></div>
+<div class="billie-tags"><span class="billie-tag">Butch</span><span class="billie-tag">Service Top</span><span class="billie-tag">Taking Charge</span><span class="billie-tag">Massage</span><span class="billie-tag">Workbench</span><span class="billie-tag">Comfort</span><span class="billie-tag">Aftercare</span></div>
+<div class="billie-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="5" width="14" height="7" rx="1.5" fill="#d8b98a" transform="rotate(-35 13 8.5)"></rect><path d="M14 12 L23 26" stroke="#6f8fb0" stroke-width="3" stroke-linecap="round"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 24 L8 18 L21 5 L25 9 L12 22 Z" fill="#d8b98a" stroke="#26211b" stroke-width="1"></path><path d="M6 24 L8 18 L12 22 Z" fill="#f5f1ea"></path><path d="M19 7 L23 11" stroke="#c9844a" stroke-width="2"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="11" width="24" height="8" rx="2" fill="#3e3428" stroke="#d8b98a" stroke-width="1.3"></rect><rect x="11" y="13" width="8" height="4" rx="2" fill="#a9c2db"></rect><circle cx="15" cy="15" r="1.2" fill="#26211b"></circle></svg>
+</div>
+</div></div></div>
+<div class="billie-band billie-band-low"></div>
+</div>

@@ -1,0 +1,63 @@
+<div class="grace-card">
+<style>
+.grace-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#1c1616;background-image:radial-gradient(ellipse at 15% 0%,rgba(245,200,150,.18) 0%,rgba(245,200,150,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(230,150,170,.10) 0%,rgba(230,150,170,0) 50%),linear-gradient(170deg,#2a2120 0%,#1c1616 55%,#110d0d 100%);color:#f2e8e2;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(230,205,190,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(245,200,150,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.grace-card *{box-sizing:border-box}
+.grace-band{height:34px;background-image:linear-gradient(90deg,rgba(230,205,190,.35) 1px,transparent 1px),linear-gradient(180deg,rgba(230,205,190,.35) 1px,transparent 1px);background-size:44px 34px,44px 17px;opacity:.6;border-bottom:1px solid rgba(230,205,190,.25)}
+.grace-band.grace-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(230,205,190,.25);opacity:.4}
+.grace-inner{padding:14px clamp(16px,4vw,44px) 30px}.grace-cta{padding:6px clamp(16px,4vw,44px) 0}.grace-cta>div{margin-top:0!important}.grace-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.grace-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#4a3a3a 0%,#2e2424 100%);border-radius:200px 200px 12px 12px;border:1px solid #7a6260;box-shadow:0 0 0 4px #140f0f,0 0 60px rgba(245,200,150,.22),0 12px 34px rgba(0,0,0,.55)}
+.grace-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #e9cfa0;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(245,200,150,.28);background:radial-gradient(circle at 50% 60%,#2e2424 0%,#110d0d 70%);width:100%}.grace-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(245,200,150,.12)}
+.grace-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#5a4442 0%,#4a3836 100%);border-top:2px solid #e9cfa0;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#fbf3ec}
+.grace-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#e9cfa0;margin-top:2px}
+.grace-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#fbf3ec;margin:0;text-shadow:0 0 26px rgba(245,200,150,.22),0 2px 0 #110d0d}
+.grace-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#b9d3a6;margin:10px 0 0}
+.grace-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#7fa06e 98%,transparent 100%),radial-gradient(circle at 20px 7px,#e8899c 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.grace-stats{padding:14px 16px;background:rgba(230,205,190,.06);border:1px solid rgba(230,205,190,.22);border-radius:12px;margin:18px 0}
+.grace-intro{max-width:64ch;color:#dacdc6}.grace-intro p{margin:0 0 14px}.grace-intro p:last-child{margin-bottom:0}.grace-intro .grace-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#fbf3ec}
+.grace-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#f3c9c4;max-width:62ch;background:linear-gradient(135deg,rgba(230,205,190,.10) 0%,rgba(230,150,170,.07) 100%);border:1px solid rgba(230,205,190,.26);border-left:4px solid #7fa06e;border-radius:4px 14px 14px 4px}.grace-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#e8899c}
+.grace-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.grace-detail{display:flex;flex-direction:column;gap:1px}.grace-detail .grace-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#7fa06e}.grace-detail .grace-value{font-size:.95rem;font-weight:600;color:#fbf3ec}
+.grace-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#a08a6a 0%,#7d6a50 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.grace-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.grace-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(160,86,106,.20) 27px,rgba(160,86,106,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.grace-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#a0566a;line-height:1.4;border-bottom:2px solid #a0566a;padding-bottom:6px}
+.grace-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.grace-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.grace-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.grace-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.grace-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(230,205,190,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(230,205,190,.26);border-radius:14px}
+.grace-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#fbf3ec;margin:0 0 10px}.grace-side-label span{color:#e8899c}
+.grace-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#dacdc6;line-height:1.7}.grace-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.grace-side li:last-child{border-bottom:0}.grace-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#b9d3a6 0%,#7fa06e 100%);transform:rotate(-20deg)}
+.grace-tag{display:inline-block;background:rgba(230,205,190,.10);border:1px solid rgba(230,205,190,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#e9cfa0;margin:3px 4px 3px 0}.grace-tags{margin:18px 0 0;max-width:64ch}
+.grace-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.grace-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#2e2424 0%,#1c1616 75%);border:1px solid rgba(230,205,190,.36);box-shadow:0 0 14px rgba(230,205,190,.14)}
+@media(min-width:768px){.grace-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.grace-arch{max-width:100%;margin:0}}@media(min-width:1024px){.grace-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="grace-band"></div>
+<div class="grace-cta">__CTA_BUTTONS__</div>
+<div class="grace-inner"><div class="grace-grid">
+<div><div class="grace-arch"><div class="grace-avatar">__AVATAR_IMAGE__</div><div class="grace-plate">The First Bloom<small>The Honeypot Garden</small></div></div>
+<div class="grace-clip"><div class="grace-paper"><h3>The Survey · Half Finished</h3>
+<p class="grace-q">What do you want?</p><span class="grace-hand">I'm not sure <u>yet</u>.</span>
+<p class="grace-q">How far?</p><span class="grace-hand">(left blank, and that's alright)</span>
+<p class="grace-q">What scares you?</p><span class="grace-hand">Being rushed.</span>
+<p class="grace-q">Safeword</p><span class="grace-hand">red · yellow to slow</span>
+<p class="grace-note">You don't have to finish it right now. ~G.</p></div></div>
+<div class="grace-side"><p class="grace-side-label">In the <span>Cottage Garden</span> Today</p><ul><li>Hollyhocks taller than you</li><li>Sweet peas on strings, pink and violet</li><li>Sweet tea, her grandmother's way</li><li>A jar of silk ribbons on the sill</li><li>Quilts folded on the daybed</li><li>Every step explained first</li></ul></div></div>
+<div><h1 class="grace-name">Grace</h1><p class="grace-tagline">Cottage Gardener · Gentle Domme · The Softest Way In</p>
+<div class="grace-stats">__STATS_BAR__</div>
+<div class="grace-intro"><p class="grace-lead">I'm the one they send nervous people to first. The softest way in. That's on purpose, and soft is not the same as weak.</p>
+<p>You don't have to finish the survey right now. You don't have to do anything right now except drink the tea. See? You did the first thing I asked.</p>
+<div class="grace-quote">There's no wrong way to do this, sugar. We go at your pace, and your pace is perfect.</div>
+<p>I explain every step before I take it. I check every yes, not because I doubt you, but because I want you to hear yourself say it. Silk ribbons, tied loose enough to slip.</p>
+<p>Gentle is still in charge. I decide the pace, and the pace is slow. You'll find slow is the hardest thing in the world to argue with.</p>
+<p>After, there's a quilt, sweet tea, and me telling you how well you did until you believe it.</p>
+</div>
+<hr class="grace-divider"><div class="grace-details"><div class="grace-detail"><span class="grace-label">Age</span><span class="grace-value">26</span></div><div class="grace-detail"><span class="grace-label">From</span><span class="grace-value">Savannah, Georgia</span></div><div class="grace-detail"><span class="grace-label">Post</span><span class="grace-value">Cottage Gardener</span></div><div class="grace-detail"><span class="grace-label">Role</span><span class="grace-value">Gentle Domme</span></div><div class="grace-detail"><span class="grace-label">Garden</span><span class="grace-value">Batch 1 · Dominants</span></div></div>
+<div class="grace-tags"><span class="grace-tag">Gentle Domme</span><span class="grace-tag">Praise</span><span class="grace-tag">Silk Ribbon</span><span class="grace-tag">Beginner Friendly</span><span class="grace-tag">Guided</span><span class="grace-tag">Wholesome</span><span class="grace-tag">Aftercare</span></div>
+<div class="grace-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="9" r="4" fill="#e8899c"></circle><circle cx="9.5" cy="13.5" r="4" fill="#e8899c"></circle><circle cx="20.5" cy="13.5" r="4" fill="#e8899c"></circle><circle cx="11.5" cy="19.5" r="4" fill="#e8899c"></circle><circle cx="18.5" cy="19.5" r="4" fill="#e8899c"></circle><circle cx="15" cy="15" r="3" fill="#e9cfa0"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 13 C11 8 5 7 5 11 C5 14 10 14 15 13 C20 14 25 14 25 11 C25 7 19 8 15 13 Z" fill="#e8899c" stroke="#e9cfa0" stroke-width="1"></path><path d="M15 13 L10 26 M15 13 L20 26" stroke="#e8899c" stroke-width="2" stroke-linecap="round"></path><circle cx="15" cy="13" r="2" fill="#e9cfa0"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 11 L21 11 L20 22 C19.8 24 18 25 16 25 L11 25 C9 25 7.2 24 7 22 Z" fill="#e8899c" stroke="#e9cfa0" stroke-width="1.2"></path><path d="M21 13 C25 13 25 19 20.5 19" stroke="#e9cfa0" stroke-width="1.6"></path><path d="M11 8 C11 6 13 6 13 4 M15 8 C15 6 17 6 17 4" stroke="#b9d3a6" stroke-width="1.2" stroke-linecap="round"></path></svg>
+</div>
+</div></div></div>
+<div class="grace-band grace-band-low"></div>
+</div>
