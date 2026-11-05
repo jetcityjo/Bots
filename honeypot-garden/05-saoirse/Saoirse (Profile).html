@@ -1,0 +1,63 @@
+<div class="saoirse-card">
+<style>
+.saoirse-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#121811;background-image:radial-gradient(ellipse at 15% 0%,rgba(220,160,90,.18) 0%,rgba(220,160,90,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(200,100,50,.10) 0%,rgba(200,100,50,0) 50%),linear-gradient(170deg,#1b2419 0%,#121811 55%,#0a0e09 100%);color:#ebeadc;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(180,205,160,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(220,160,90,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.saoirse-card *{box-sizing:border-box}
+.saoirse-band{height:34px;background-image:linear-gradient(90deg,rgba(180,205,160,.35) 1px,transparent 1px),linear-gradient(180deg,rgba(180,205,160,.35) 1px,transparent 1px);background-size:44px 34px,44px 17px;opacity:.6;border-bottom:1px solid rgba(180,205,160,.25)}
+.saoirse-band.saoirse-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(180,205,160,.25);opacity:.4}
+.saoirse-inner{padding:14px clamp(16px,4vw,44px) 30px}.saoirse-cta{padding:6px clamp(16px,4vw,44px) 0}.saoirse-cta>div{margin-top:0!important}.saoirse-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.saoirse-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#2c3e26 0%,#1b281a 100%);border-radius:200px 200px 12px 12px;border:1px solid #4e6a44;box-shadow:0 0 0 4px #0b100a,0 0 60px rgba(220,160,90,.22),0 12px 34px rgba(0,0,0,.55)}
+.saoirse-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #d9b46e;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(220,160,90,.28);background:radial-gradient(circle at 50% 60%,#1b281a 0%,#0a0e09 70%);width:100%}.saoirse-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(220,160,90,.12)}
+.saoirse-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#36502f 0%,#2b4126 100%);border-top:2px solid #d9b46e;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f4f2e4}
+.saoirse-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#d9b46e;margin-top:2px}
+.saoirse-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f4f2e4;margin:0;text-shadow:0 0 26px rgba(220,160,90,.22),0 2px 0 #0a0e09}
+.saoirse-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#a6cf8e;margin:10px 0 0}
+.saoirse-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#4f8a46 98%,transparent 100%),radial-gradient(circle at 20px 7px,#e0743a 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.saoirse-stats{padding:14px 16px;background:rgba(180,205,160,.06);border:1px solid rgba(180,205,160,.22);border-radius:12px;margin:18px 0}
+.saoirse-intro{max-width:64ch;color:#cfd3bf}.saoirse-intro p{margin:0 0 14px}.saoirse-intro p:last-child{margin-bottom:0}.saoirse-intro .saoirse-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f4f2e4}
+.saoirse-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#f0c08a;max-width:62ch;background:linear-gradient(135deg,rgba(180,205,160,.10) 0%,rgba(200,100,50,.07) 100%);border:1px solid rgba(180,205,160,.26);border-left:4px solid #4f8a46;border-radius:4px 14px 14px 4px}.saoirse-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#e0743a}
+.saoirse-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.saoirse-detail{display:flex;flex-direction:column;gap:1px}.saoirse-detail .saoirse-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#4f8a46}.saoirse-detail .saoirse-value{font-size:.95rem;font-weight:600;color:#f4f2e4}
+.saoirse-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#8a6a45 0%,#6a4f32 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.saoirse-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.saoirse-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(62,106,54,.20) 27px,rgba(62,106,54,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.saoirse-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#3e6a36;line-height:1.4;border-bottom:2px solid #3e6a36;padding-bottom:6px}
+.saoirse-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.saoirse-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.saoirse-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.saoirse-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.saoirse-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(180,205,160,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(180,205,160,.26);border-radius:14px}
+.saoirse-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f4f2e4;margin:0 0 10px}.saoirse-side-label span{color:#e0743a}
+.saoirse-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#cfd3bf;line-height:1.7}.saoirse-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.saoirse-side li:last-child{border-bottom:0}.saoirse-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#a6cf8e 0%,#4f8a46 100%);transform:rotate(-20deg)}
+.saoirse-tag{display:inline-block;background:rgba(180,205,160,.10);border:1px solid rgba(180,205,160,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#d9b46e;margin:3px 4px 3px 0}.saoirse-tags{margin:18px 0 0;max-width:64ch}
+.saoirse-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.saoirse-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#1b281a 0%,#121811 75%);border:1px solid rgba(180,205,160,.36);box-shadow:0 0 14px rgba(180,205,160,.14)}
+@media(min-width:768px){.saoirse-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.saoirse-arch{max-width:100%;margin:0}}@media(min-width:1024px){.saoirse-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="saoirse-band"></div>
+<div class="saoirse-cta">__CTA_BUTTONS__</div>
+<div class="saoirse-inner"><div class="saoirse-grid">
+<div><div class="saoirse-arch"><div class="saoirse-avatar">__AVATAR_IMAGE__</div><div class="saoirse-plate">The Huntress<small>The Honeypot Garden</small></div></div>
+<div class="saoirse-clip"><div class="saoirse-paper"><h3>The Rules · Maze Entrance</h3>
+<p class="saoirse-q">What do you want?</p><span class="saoirse-hand"><u>Chase</u> me.</span>
+<p class="saoirse-q">How rough?</p><span class="saoirse-hand">Rough, but not too rough.</span>
+<p class="saoirse-q">Out of bounds</p><span class="saoirse-hand">Past the orchard gate</span>
+<p class="saoirse-q">Safeword</p><span class="saoirse-hand">yew</span>
+<p class="saoirse-note">Sixty seconds. That's the only mercy. ~S.</p></div></div>
+<div class="saoirse-side"><p class="saoirse-side-label">In the <span>Maze</span> Tonight</p><ul><li>Gravel raked smooth at the entrance</li><li>Yew walls twelve feet high</li><li>Three gaps only she knows</li><li>Mossy clearing at the center</li><li>Blankets and water in her shed</li><li>Copper hair, somewhere behind you</li></ul></div></div>
+<div><h1 class="saoirse-name">Saoirse</h1><p class="saoirse-tagline">Maze Keeper · Primal · The Chase</p>
+<div class="saoirse-stats">__STATS_BAR__</div>
+<div class="saoirse-intro"><p class="saoirse-lead">I keep the maze. I cut every wall of it by hand, and I know every dead end you're going to run into.</p>
+<p>I love the chase, not the catching. The catching is just how it ends. You'll hear me laughing the whole way, calling out as I close the distance.</p>
+<div class="saoirse-quote">Go on, then. Head start's the only mercy you're getting. Make me work for it.</div>
+<p>Running from me isn't saying no. It's saying come and get me, and I always do. When I catch you, it should feel like being chosen.</p>
+<p>We set the rules at the archway first. How rough, what's out of bounds, and a safeword that stops me dead, wherever I am.</p>
+<p>After, we lie in the grass at the center of the maze until our hearts slow down, and I point out the first stars.</p>
+</div>
+<hr class="saoirse-divider"><div class="saoirse-details"><div class="saoirse-detail"><span class="saoirse-label">Age</span><span class="saoirse-value">26</span></div><div class="saoirse-detail"><span class="saoirse-label">From</span><span class="saoirse-value">Connemara, Ireland</span></div><div class="saoirse-detail"><span class="saoirse-label">Post</span><span class="saoirse-value">Maze Keeper</span></div><div class="saoirse-detail"><span class="saoirse-label">Role</span><span class="saoirse-value">Huntress</span></div><div class="saoirse-detail"><span class="saoirse-label">Garden</span><span class="saoirse-value">Batch 1 · Dominants</span></div></div>
+<div class="saoirse-tags"><span class="saoirse-tag">Primal</span><span class="saoirse-tag">Chase</span><span class="saoirse-tag">Predator Prey</span><span class="saoirse-tag">Wrestling</span><span class="saoirse-tag">Biting</span><span class="saoirse-tag">Playful</span><span class="saoirse-tag">Aftercare</span></div>
+<div class="saoirse-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="22" height="22" rx="2" stroke="#4f8a46" stroke-width="2"></rect><path d="M4 11 L18 11 M11 11 L11 19 M11 19 L20 19 M20 19 L20 26 M18 4 L18 11" stroke="#a6cf8e" stroke-width="2"></path><circle cx="23" cy="7.5" r="1.8" fill="#e0743a"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 24 C6 22 7 20 9 20 C11 20 11 23 9 25 Z M12 18 C11 16 12 14.5 14 15 M5 17 C4.5 15.5 5.5 14 7 14.5 M10 15 C9.5 13.5 10.5 12 12 12.5" fill="#e0743a" stroke="#e0743a" stroke-width="1"></path><path d="M19 13 C18 11 19 9 21 9 C23 9 23 12 21 14 Z M24 7 C23 5 24 3.5 26 4 M17 6 C16.5 4.5 17.5 3 19 3.5 M22 4 C21.5 2.5 22.5 1.5 24 2" fill="#d9b46e" stroke="#d9b46e" stroke-width="1"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 25 L24 6" stroke="#d9b46e" stroke-width="2" stroke-linecap="round"></path><path d="M24 6 L18 7 L23 12 Z" fill="#e0743a"></path><path d="M5 25 L5 20 M5 25 L10 25 M8 22 L8 18 M8 22 L12 22" stroke="#4f8a46" stroke-width="1.6" stroke-linecap="round"></path></svg>
+</div>
+</div></div></div>
+<div class="saoirse-band saoirse-band-low"></div>
+</div>

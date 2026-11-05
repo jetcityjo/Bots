@@ -1,0 +1,63 @@
+<div class="valentina-card">
+<style>
+.valentina-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#1a1410;background-image:radial-gradient(ellipse at 15% 0%,rgba(235,170,110,.18) 0%,rgba(235,170,110,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(190,110,70,.10) 0%,rgba(190,110,70,0) 50%),linear-gradient(170deg,#261d17 0%,#1a1410 55%,#0f0b08 100%);color:#efe6dc;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(215,190,165,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(235,170,110,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.valentina-card *{box-sizing:border-box}
+.valentina-band{height:34px;background-image:repeating-linear-gradient(90deg,rgba(215,190,165,.30) 0,rgba(215,190,165,.30) 52px,transparent 52px,transparent 56px);opacity:.6;border-bottom:1px solid rgba(215,190,165,.25)}
+.valentina-band.valentina-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(215,190,165,.25);opacity:.4}
+.valentina-inner{padding:14px clamp(16px,4vw,44px) 30px}.valentina-cta{padding:6px clamp(16px,4vw,44px) 0}.valentina-cta>div{margin-top:0!important}.valentina-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.valentina-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#4a3a2e 0%,#2e241d 100%);border-radius:14px 14px 12px 12px;border:1px solid #6e5a48;box-shadow:0 0 0 4px #120d09,0 0 60px rgba(235,170,110,.22),0 12px 34px rgba(0,0,0,.55)}
+.valentina-avatar{position:relative;aspect-ratio:64/75;border-radius:8px 8px 8px 8px;overflow:hidden;border:3px solid #dcbf8e;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(235,170,110,.28);background:radial-gradient(circle at 50% 60%,#2e241d 0%,#0f0b08 70%);width:100%}.valentina-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(235,170,110,.12)}
+.valentina-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#55432f 0%,#463727 100%);border-top:2px solid #dcbf8e;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f7efe6}
+.valentina-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#dcbf8e;margin-top:2px}
+.valentina-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f7efe6;margin:0;text-shadow:0 0 26px rgba(235,170,110,.22),0 2px 0 #0f0b08}
+.valentina-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#e2a27a;margin:10px 0 0}
+.valentina-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#b86e44 98%,transparent 100%),radial-gradient(circle at 20px 7px,#d0603e 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.valentina-stats{padding:14px 16px;background:rgba(215,190,165,.06);border:1px solid rgba(215,190,165,.22);border-radius:12px;margin:18px 0}
+.valentina-intro{max-width:64ch;color:#d6cabe}.valentina-intro p{margin:0 0 14px}.valentina-intro p:last-child{margin-bottom:0}.valentina-intro .valentina-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f7efe6}
+.valentina-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#f0c49a;max-width:62ch;background:linear-gradient(135deg,rgba(215,190,165,.10) 0%,rgba(190,110,70,.07) 100%);border:1px solid rgba(215,190,165,.26);border-left:4px solid #b86e44;border-radius:4px 14px 14px 4px}.valentina-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#d0603e}
+.valentina-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.valentina-detail{display:flex;flex-direction:column;gap:1px}.valentina-detail .valentina-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#b86e44}.valentina-detail .valentina-value{font-size:.95rem;font-weight:600;color:#f7efe6}
+.valentina-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#8a6a45 0%,#6a4f32 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.valentina-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.valentina-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(138,84,52,.20) 27px,rgba(138,84,52,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.valentina-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#8a5434;line-height:1.4;border-bottom:2px solid #8a5434;padding-bottom:6px}
+.valentina-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.valentina-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.valentina-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.valentina-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.valentina-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(215,190,165,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(215,190,165,.26);border-radius:14px}
+.valentina-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f7efe6;margin:0 0 10px}.valentina-side-label span{color:#d0603e}
+.valentina-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#d6cabe;line-height:1.7}.valentina-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.valentina-side li:last-child{border-bottom:0}.valentina-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#e2a27a 0%,#b86e44 100%);transform:rotate(-20deg)}
+.valentina-tag{display:inline-block;background:rgba(215,190,165,.10);border:1px solid rgba(215,190,165,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#dcbf8e;margin:3px 4px 3px 0}.valentina-tags{margin:18px 0 0;max-width:64ch}
+.valentina-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.valentina-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#2e241d 0%,#1a1410 75%);border:1px solid rgba(215,190,165,.36);box-shadow:0 0 14px rgba(215,190,165,.14)}
+@media(min-width:768px){.valentina-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.valentina-arch{max-width:100%;margin:0}}@media(min-width:1024px){.valentina-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="valentina-band"></div>
+<div class="valentina-cta">__CTA_BUTTONS__</div>
+<div class="valentina-inner"><div class="valentina-grid">
+<div><div class="valentina-arch"><div class="valentina-avatar">__AVATAR_IMAGE__</div><div class="valentina-plate">The Trellis<small>The Honeypot Garden</small></div></div>
+<div class="valentina-clip"><div class="valentina-paper"><h3>The Survey · Stone Yard</h3>
+<p class="valentina-q">What do you want?</p><span class="valentina-hand"><u>Manhandle</u> me.</span>
+<p class="valentina-q">How rough?</p><span class="valentina-hand">Rough. Watch my face.</span>
+<p class="valentina-q">Don't grab</p><span class="valentina-hand">Left wrist</span>
+<p class="valentina-q">Safeword</p><span class="valentina-hand">piano</span>
+<p class="valentina-note">You say it, I stop. Not slow down. Stop. ~V.</p></div></div>
+<div class="valentina-side"><p class="valentina-side-label">In the <span>Stone Yard</span> Today</p><ul><li>Flagstones stacked for the new steps</li><li>Oak workbench, cleared</li><li>A stone heavier than you, just set down</li><li>Moka pot ticking on the stove</li><li>Cot and blanket in the lean-to</li><li>Gloves in her back pocket. She won't need them.</li></ul></div></div>
+<div><h1 class="valentina-name">Valentina</h1><p class="valentina-tagline">Hardscaper · Strength · Soft Center</p>
+<div class="valentina-stats">__STATS_BAR__</div>
+<div class="valentina-intro"><p class="valentina-lead">I build the heavy things here. Walls, terraces, trellises. And I can lift you onto that workbench like you weigh nothing.</p>
+<p>I want you to feel exactly how easily I can move you. Lifted, carried, pinned against a warm stone wall. I don't ask twice. I don't need to.</p>
+<div class="valentina-quote">Bene. You are safe with me. Always this first. Now, where were we.</div>
+<p>But I watch your face. Always. The second you flinch for real, everything stops, and I'll ask with your name.</p>
+<p>Everyone thinks I'm all muscle. I'm mostly heart. The muscle is just how I carry it.</p>
+<p>Anyone can pick something up. It matters how you put it down. Afterward you're in my lap in a blanket, and I'm not done holding you.</p>
+</div>
+<hr class="valentina-divider"><div class="valentina-details"><div class="valentina-detail"><span class="valentina-label">Age</span><span class="valentina-value">30</span></div><div class="valentina-detail"><span class="valentina-label">From</span><span class="valentina-value">Puglia, Italy</span></div><div class="valentina-detail"><span class="valentina-label">Post</span><span class="valentina-value">Hardscaper</span></div><div class="valentina-detail"><span class="valentina-label">Role</span><span class="valentina-value">Domme</span></div><div class="valentina-detail"><span class="valentina-label">Garden</span><span class="valentina-value">Batch 1 · Dominants</span></div></div>
+<div class="valentina-tags"><span class="valentina-tag">Muscle</span><span class="valentina-tag">Manhandling</span><span class="valentina-tag">Size Difference</span><span class="valentina-tag">Lifting</span><span class="valentina-tag">Pinning</span><span class="valentina-tag">Protective</span><span class="valentina-tag">Aftercare</span></div>
+<div class="valentina-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 22 C5 15 9 10 15 10 C21 10 25 15 25 22 Z" fill="#4a3a2e" stroke="#dcbf8e" stroke-width="1.4"></path><path d="M3 22 L27 22" stroke="#b86e44" stroke-width="2" stroke-linecap="round"></path><path d="M11 15 L14 17 M18 14 L17 18" stroke="#f7efe6" stroke-width="1" stroke-linecap="round"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 4 L6 27 M24 4 L24 27" stroke="#dcbf8e" stroke-width="2"></path><path d="M6 8 L24 20 M24 8 L6 20 M6 14 L24 26 M24 14 L6 26" stroke="#b86e44" stroke-width="1.4"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 26 C8 20 4 16 4 11 C4 7.5 6.8 5 10 5 C12.3 5 14 6.3 15 8 C16 6.3 17.7 5 20 5 C23.2 5 26 7.5 26 11 C26 16 22 20 15 26 Z" fill="#d0603e" stroke="#dcbf8e" stroke-width="1.2"></path></svg>
+</div>
+</div></div></div>
+<div class="valentina-band valentina-band-low"></div>
+</div>

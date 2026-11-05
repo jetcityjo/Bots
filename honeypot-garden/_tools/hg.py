@@ -371,7 +371,7 @@ def build(s, folder):
     for out, ln, ok in res:
         t = open(out, encoding="utf-8").read()
         d = t.count("—") + t.count("–")
-        b = re.findall(BANNED, t, re.I)
+        b = [m.group(0) for m in re.finditer(BANNED, t, re.I)]
         good = ok and d == 0 and not b
         allok &= good
         print(("OK  " if good else "FAIL"), os.path.basename(out), ln, "dashes", d, "banned", b)
