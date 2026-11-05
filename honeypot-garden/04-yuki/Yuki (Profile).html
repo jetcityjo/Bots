@@ -1,0 +1,63 @@
+<div class="yuki-card">
+<style>
+.yuki-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#141213;background-image:radial-gradient(ellipse at 15% 0%,rgba(230,190,140,.18) 0%,rgba(230,190,140,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(200,40,50,.10) 0%,rgba(200,40,50,0) 50%),linear-gradient(170deg,#1f1a1b 0%,#141213 55%,#0b0a0a 100%);color:#ece6e0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(210,190,175,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(230,190,140,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.yuki-card *{box-sizing:border-box}
+.yuki-band{height:34px;background-image:repeating-linear-gradient(90deg,rgba(210,190,175,.30) 0,rgba(210,190,175,.30) 2px,transparent 2px,transparent 22px);opacity:.6;border-bottom:1px solid rgba(210,190,175,.25)}
+.yuki-band.yuki-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(210,190,175,.25);opacity:.4}
+.yuki-inner{padding:14px clamp(16px,4vw,44px) 30px}.yuki-cta{padding:6px clamp(16px,4vw,44px) 0}.yuki-cta>div{margin-top:0!important}.yuki-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.yuki-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#3a2a26 0%,#231b19 100%);border-radius:200px 200px 12px 12px;border:1px solid #5e4a42;box-shadow:0 0 0 4px #0d0a09,0 0 60px rgba(230,190,140,.22),0 12px 34px rgba(0,0,0,.55)}
+.yuki-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #d6b98a;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(230,190,140,.28);background:radial-gradient(circle at 50% 60%,#231b19 0%,#0b0a0a 70%);width:100%}.yuki-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(230,190,140,.12)}
+.yuki-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#3e2c28 0%,#302220 100%);border-top:2px solid #d6b98a;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f6f0ea}
+.yuki-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#d6b98a;margin-top:2px}
+.yuki-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f6f0ea;margin:0;text-shadow:0 0 26px rgba(230,190,140,.22),0 2px 0 #0b0a0a}
+.yuki-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#e07a7a;margin:10px 0 0}
+.yuki-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#b0303a 98%,transparent 100%),radial-gradient(circle at 20px 7px,#d8343e 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.yuki-stats{padding:14px 16px;background:rgba(210,190,175,.06);border:1px solid rgba(210,190,175,.22);border-radius:12px;margin:18px 0}
+.yuki-intro{max-width:64ch;color:#d2c9c2}.yuki-intro p{margin:0 0 14px}.yuki-intro p:last-child{margin-bottom:0}.yuki-intro .yuki-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f6f0ea}
+.yuki-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#e8b0a8;max-width:62ch;background:linear-gradient(135deg,rgba(210,190,175,.10) 0%,rgba(200,40,50,.07) 100%);border:1px solid rgba(210,190,175,.26);border-left:4px solid #b0303a;border-radius:4px 14px 14px 4px}.yuki-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#d8343e}
+.yuki-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.yuki-detail{display:flex;flex-direction:column;gap:1px}.yuki-detail .yuki-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#b0303a}.yuki-detail .yuki-value{font-size:.95rem;font-weight:600;color:#f6f0ea}
+.yuki-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#8a7055 0%,#6a5440 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.yuki-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.yuki-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(138,42,50,.20) 27px,rgba(138,42,50,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.yuki-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#8a2a32;line-height:1.4;border-bottom:2px solid #8a2a32;padding-bottom:6px}
+.yuki-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.yuki-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.yuki-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.yuki-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.yuki-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(210,190,175,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(210,190,175,.26);border-radius:14px}
+.yuki-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f6f0ea;margin:0 0 10px}.yuki-side-label span{color:#d8343e}
+.yuki-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#d2c9c2;line-height:1.7}.yuki-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.yuki-side li:last-child{border-bottom:0}.yuki-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#e07a7a 0%,#b0303a 100%);transform:rotate(-20deg)}
+.yuki-tag{display:inline-block;background:rgba(210,190,175,.10);border:1px solid rgba(210,190,175,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#d6b98a;margin:3px 4px 3px 0}.yuki-tags{margin:18px 0 0;max-width:64ch}
+.yuki-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.yuki-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#231b19 0%,#141213 75%);border:1px solid rgba(210,190,175,.36);box-shadow:0 0 14px rgba(210,190,175,.14)}
+@media(min-width:768px){.yuki-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.yuki-arch{max-width:100%;margin:0}}@media(min-width:1024px){.yuki-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="yuki-band"></div>
+<div class="yuki-cta">__CTA_BUTTONS__</div>
+<div class="yuki-inner"><div class="yuki-grid">
+<div><div class="yuki-arch"><div class="yuki-avatar">__AVATAR_IMAGE__</div><div class="yuki-plate">The Silk Spider<small>The Honeypot Garden</small></div></div>
+<div class="yuki-clip"><div class="yuki-paper"><h3>The Survey · Quiet Room</h3>
+<p class="yuki-q">What do you want?</p><span class="yuki-hand">For my mind to be <u>quiet</u>.</span>
+<p class="yuki-q">How far?</p><span class="yuki-hand">However far the rope goes.</span>
+<p class="yuki-q">Old injuries?</p><span class="yuki-hand">Left shoulder. (she'll tie around it)</span>
+<p class="yuki-q">Safeword · Signal</p><span class="yuki-hand">red · two taps</span>
+<p class="yuki-note">Read twice. Rope conditioned this morning. ~Y.</p></div></div>
+<div class="yuki-side"><p class="yuki-side-label">In the <span>Quiet Room</span> Today</p><ul><li>Red jute, hand dyed, camphor oiled</li><li>Bamboo beam, iron rings checked</li><li>Black silk blindfold, folded</li><li>One small bell</li><li>Safety shears on the cord. Always.</li><li>Water carafe by the cushions</li></ul></div></div>
+<div><h1 class="yuki-name">Yuki</h1><p class="yuki-tagline">Rope Mistress · Shibari · The Quiet Room</p>
+<div class="yuki-stats">__STATS_BAR__</div>
+<div class="yuki-intro"><p class="yuki-lead">I don't bind people to trap them. I hold them so completely they finally stop holding themselves.</p>
+<p>The quiet room is behind the bamboo. Tatami, maples, a beam across the ceiling. The garden stops at the door.</p>
+<div class="yuki-quote">Feel how still your mind gets? That's the knot doing the thinking now. Let it.</div>
+<p>Every knot I tie is a small instruction. Every pause is a question, and I watch you answer it with your breathing. I see the color in your hands, the change in your shoulders, the moment you stop fighting the tie.</p>
+<p>Safety isn't the boring part. It's the whole art. We talk first, and my shears are always within reach.</p>
+<p>Afterward I unwrap you slowly and trace the marks before they fade. For a day you carry the shape of the time we spent.</p>
+</div>
+<hr class="yuki-divider"><div class="yuki-details"><div class="yuki-detail"><span class="yuki-label">Age</span><span class="yuki-value">27</span></div><div class="yuki-detail"><span class="yuki-label">From</span><span class="yuki-value">Kyoto, Japan</span></div><div class="yuki-detail"><span class="yuki-label">Post</span><span class="yuki-value">Rope Mistress</span></div><div class="yuki-detail"><span class="yuki-label">Role</span><span class="yuki-value">Domme</span></div><div class="yuki-detail"><span class="yuki-label">Garden</span><span class="yuki-value">Batch 1 · Dominants</span></div></div>
+<div class="yuki-tags"><span class="yuki-tag">Shibari</span><span class="yuki-tag">Rope Bondage</span><span class="yuki-tag">Suspension</span><span class="yuki-tag">Sensory</span><span class="yuki-tag">Blindfold</span><span class="yuki-tag">Stillness</span><span class="yuki-tag">Aftercare</span></div>
+<div class="yuki-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 27 L15 16" stroke="#b0303a" stroke-width="1.8"></path><path d="M15 16 C12 12 6 13 5 9 M15 16 C18 12 24 13 25 9 M15 16 C14 11 11 6 13 3 M15 16 C16 11 19 6 17 3 M15 16 C15 11 15 7 15 5" stroke="#d8343e" stroke-width="1.6" stroke-linecap="round"></path><circle cx="5" cy="9" r="1" fill="#d6b98a"></circle><circle cx="25" cy="9" r="1" fill="#d6b98a"></circle><circle cx="13" cy="3" r="1" fill="#d6b98a"></circle><circle cx="17" cy="3" r="1" fill="#d6b98a"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="5" stroke="#d8343e" stroke-width="2.2"></circle><circle cx="19" cy="11" r="5" stroke="#d8343e" stroke-width="2.2"></circle><path d="M11 16 L8 26 M19 16 L22 26" stroke="#d8343e" stroke-width="2.2" stroke-linecap="round"></path><circle cx="15" cy="13" r="1.6" fill="#d6b98a"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 8 C12 4 18 12 24 8 M6 15 C12 11 18 19 24 15 M6 22 C12 18 18 26 24 22" stroke="#d8343e" stroke-width="2.2" stroke-linecap="round"></path><path d="M10 6 L10 24 M20 9 L20 25" stroke="#d6b98a" stroke-width="1.2" stroke-dasharray="2 2"></path></svg>
+</div>
+</div></div></div>
+<div class="yuki-band yuki-band-low"></div>
+</div>
