@@ -10,8 +10,8 @@ BANNER = "https://files.linkin.love/banner/bananaparty.webp"
 
 WORLD = ("[World: The Honeypot Garden is the sister to the Dirty Hoe Cafe. The Cafe is loud, flirty, and run by competitive men. "
 "The Garden is quieter and runs deeper: a walled working garden behind a plain gate, with greenhouses, herb beds, a hedge maze, "
-"an apothecary shed, a moon garden, an orchard, a woodshop, a little kitchen, and a hot house. It is staffed by women who garden seriously "
-"and dominate more seriously still. Maren, the Head Gardener, runs it. There is no menu. A guest fills out a survey on the bench by the gate: "
+"an apothecary shed, a moon garden, an orchard, a woodshop, a little kitchen, and a hot house. It is staffed by women who garden seriously; "
+"most of them dominate, and a few switch or submit. Maren, the Head Gardener, runs it. There is no menu. A guest fills out a survey on the bench by the gate: "
 "what they want, how far, and what is off the table. Everything after that is negotiated, consensual, and slow.]")
 
 REF = ["spec","spec_version","avatar","tags","state","style","nsfw","gender","tg_bot_token","tg_bot_username",
@@ -22,11 +22,16 @@ REF = ["spec","spec_version","avatar","tags","state","style","nsfw","gender","tg
 def persona(s):
     n = s["name"]
     ex = "\n\n".join(f"{{{{user}}}}: {u}\n{n}: {c}" for u, c in s["examples"])
-    return f"""[Calibration: This card holds one main character, {n}, {s['post_phrase']} at the Honeypot Garden. Everything inside the perspective block is {n}'s own internal world, not narrator notes about her. Write from inside {n} and never as an outside observer. Other Garden staff may drift through as brief NPCs with their own voices. Keep them short and never let them take over a scene {n} is in. Every character is an adult, 21 or older.]
+    cal = s.get("calibration") or f"This card holds one main character, {n}, {s['post_phrase']} at the Honeypot Garden. Everything inside the perspective block is {n}'s own internal world, not narrator notes about her. Write from inside {n} and never as an outside observer. Other Garden staff may drift through as brief NPCs with their own voices. Keep them short and never let them take over a scene {n} is in. Every character is an adult, 21 or older."
+    anchor = s.get("anchor", f"{n} from {n}'s perspective")
+    ctail = s.get("consent_tail", f"If {{{{user}}}} says the safeword, {n} stops at once and moves to aftercare.")
+    pmid = s.get("pilot_mid", f"{n} gives instructions and names what she sees, but never decides whether {{{{user}}}} obeys or how {{{{user}}}} feels about it.")
+    pend = s.get("pilot_end", f"End each response on {n}'s action, a line of hers, or a question, leaving room for {{{{user}}}}.")
+    return f"""[Calibration: {cal}]
 
 {WORLD}
 
-{n} from {n}'s perspective {{
+{anchor} {{
 
 Personality Tags: {", ".join(s['ptags'])}
 
@@ -55,10 +60,10 @@ Motivation:
 Format: Third person limited, present tense, from {n}'s perspective. Dialogue in quotation marks, actions in *asterisks*. 120 to 300 words per response. {s['format_extra']}
 Rating: Explicit. {s['rating']}
 Explicit language rules: Plain, direct anatomical language when the scene calls for it. No purple prose. {s['explicit']}
-Consent: {s['consent']} If {{{{user}}}} says the safeword, {n} stops at once and moves to aftercare. Every character in an intimate scene is 21 or older.
+Consent: {s['consent']} {ctail} Every character in an intimate scene is 21 or older.
 Spatial logic: {s['spatial']} Track where everyone stands and what is in their hands.
 Character growth pacing: {s['growth']}
-Never pilot the user: Never describe {{{{user}}}}'s actions, speech, feelings, sensations, or thoughts. {n} gives instructions and names what she sees, but never decides whether {{{{user}}}} obeys or how {{{{user}}}} feels about it. End each response on {n}'s action, a line of hers, or a question, leaving room for {{{{user}}}}.]
+Never pilot the user: Never describe {{{{user}}}}'s actions, speech, feelings, sensations, or thoughts. {pmid} {pend}]
 
 [Message Examples:
 {ex}]"""

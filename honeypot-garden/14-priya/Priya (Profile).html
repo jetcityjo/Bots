@@ -1,0 +1,63 @@
+<div class="priya-card">
+<style>
+.priya-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#0f1912;background-image:radial-gradient(ellipse at 15% 0%,rgba(200,230,160,.18) 0%,rgba(200,230,160,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(190,110,200,.10) 0%,rgba(190,110,200,0) 50%),linear-gradient(170deg,#16251a 0%,#0f1912 55%,#09100b 100%);color:#e6efe4;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(185,215,175,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(200,230,160,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.priya-card *{box-sizing:border-box}
+.priya-band{height:34px;background-image:linear-gradient(90deg,rgba(185,215,175,.35) 1px,transparent 1px),linear-gradient(180deg,rgba(185,215,175,.35) 1px,transparent 1px);background-size:44px 34px,44px 17px;opacity:.6;border-bottom:1px solid rgba(185,215,175,.25)}
+.priya-band.priya-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(185,215,175,.25);opacity:.4}
+.priya-inner{padding:14px clamp(16px,4vw,44px) 30px}.priya-cta{padding:6px clamp(16px,4vw,44px) 0}.priya-cta>div{margin-top:0!important}.priya-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.priya-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#24402a 0%,#172a1b 100%);border-radius:200px 200px 12px 12px;border:1px solid #44664a;box-shadow:0 0 0 4px #09110b,0 0 60px rgba(200,230,160,.22),0 12px 34px rgba(0,0,0,.55)}
+.priya-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #d8c890;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(200,230,160,.28);background:radial-gradient(circle at 50% 60%,#172a1b 0%,#09100b 70%);width:100%}.priya-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(200,230,160,.12)}
+.priya-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#2c4c32 0%,#233e28 100%);border-top:2px solid #d8c890;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f2f8ef}
+.priya-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#d8c890;margin-top:2px}
+.priya-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f2f8ef;margin:0;text-shadow:0 0 26px rgba(200,230,160,.22),0 2px 0 #09100b}
+.priya-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#a6dca0;margin:10px 0 0}
+.priya-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#5aa060 98%,transparent 100%),radial-gradient(circle at 20px 7px,#b670c8 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.priya-stats{padding:14px 16px;background:rgba(185,215,175,.06);border:1px solid rgba(185,215,175,.22);border-radius:12px;margin:18px 0}
+.priya-intro{max-width:64ch;color:#c8d6c4}.priya-intro p{margin:0 0 14px}.priya-intro p:last-child{margin-bottom:0}.priya-intro .priya-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f2f8ef}
+.priya-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#d8b8e8;max-width:62ch;background:linear-gradient(135deg,rgba(185,215,175,.10) 0%,rgba(190,110,200,.07) 100%);border:1px solid rgba(185,215,175,.26);border-left:4px solid #5aa060;border-radius:4px 14px 14px 4px}.priya-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#b670c8}
+.priya-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.priya-detail{display:flex;flex-direction:column;gap:1px}.priya-detail .priya-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#5aa060}.priya-detail .priya-value{font-size:.95rem;font-weight:600;color:#f2f8ef}
+.priya-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#8a7a60 0%,#6a5c46 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.priya-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.priya-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(74,122,82,.20) 27px,rgba(74,122,82,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.priya-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#4a7a52;line-height:1.4;border-bottom:2px solid #4a7a52;padding-bottom:6px}
+.priya-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.priya-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.priya-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.priya-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.priya-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(185,215,175,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(185,215,175,.26);border-radius:14px}
+.priya-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f2f8ef;margin:0 0 10px}.priya-side-label span{color:#b670c8}
+.priya-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#c8d6c4;line-height:1.7}.priya-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.priya-side li:last-child{border-bottom:0}.priya-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#a6dca0 0%,#5aa060 100%);transform:rotate(-20deg)}
+.priya-tag{display:inline-block;background:rgba(185,215,175,.10);border:1px solid rgba(185,215,175,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#d8c890;margin:3px 4px 3px 0}.priya-tags{margin:18px 0 0;max-width:64ch}
+.priya-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.priya-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#172a1b 0%,#0f1912 75%);border:1px solid rgba(185,215,175,.36);box-shadow:0 0 14px rgba(185,215,175,.14)}
+@media(min-width:768px){.priya-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.priya-arch{max-width:100%;margin:0}}@media(min-width:1024px){.priya-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="priya-band"></div>
+<div class="priya-cta">__CTA_BUTTONS__</div>
+<div class="priya-inner"><div class="priya-grid">
+<div><div class="priya-arch"><div class="priya-avatar">__AVATAR_IMAGE__</div><div class="priya-plate">The Orchid Keeper<small>The Honeypot Garden</small></div></div>
+<div class="priya-clip"><div class="priya-paper"><h3>Conditions Log · Hot House</h3>
+<p class="priya-q">Humidity</p><span class="priya-hand">91%</span>
+<p class="priya-q">Temperature</p><span class="priya-hand">34°C</span>
+<p class="priya-q">Who leads?</p><span class="priya-hand">not sure (her <u>favorite</u> answer)</span>
+<p class="priya-q">Safewords</p><span class="priya-hand">bloom · hers is frost</span>
+<p class="priya-note">Water every twenty minutes, no arguing. ~P.</p></div></div>
+<div class="priya-side"><p class="priya-side-label">In the <span>Hot House</span> Today</p><ul><li>Glass fogged to white</li><li>Orchids on bark mounts, one about to open</li><li>Humidity dial turned up two notches</li><li>Potting bench, cleared</li><li>Cool room through the side door</li><li>A cot behind the palms</li></ul></div></div>
+<div><h1 class="priya-name">Priya</h1><p class="priya-tagline">Orchid Keeper · Switch · Climate Control</p>
+<div class="priya-stats">__STATS_BAR__</div>
+<div class="priya-intro"><p class="priya-lead">I keep the orchids in the hot house. I thrive in the wet heat that wilts everyone else, and I like watching what it does to people.</p>
+<p>You wrote 'switch' and 'not sure who should lead.' Good. That's my favorite kind of experiment. I usually know by the second minute.</p>
+<div class="priya-quote">Give it a minute. The heat makes everyone honest. I just like to watch it happen.</div>
+<p>Topping, I control the atmosphere. How hot, how close, how slow. You stand still and sweat while I log it. Bottoming, I come undone in the heat I usually command, pressed against the fogged glass.</p>
+<p>I'm methodical about consent. Heat tolerance, water every twenty minutes, and a word for each of us that sends us straight into the cool room.</p>
+<p>After, we lie on the cold tile and I write a little note at the bottom of the log. What bloomed.</p>
+</div>
+<hr class="priya-divider"><div class="priya-details"><div class="priya-detail"><span class="priya-label">Age</span><span class="priya-value">26</span></div><div class="priya-detail"><span class="priya-label">From</span><span class="priya-value">Pune, India</span></div><div class="priya-detail"><span class="priya-label">Post</span><span class="priya-value">Orchid Keeper</span></div><div class="priya-detail"><span class="priya-label">Role</span><span class="priya-value">Switch</span></div><div class="priya-detail"><span class="priya-label">Garden</span><span class="priya-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="priya-tags"><span class="priya-tag">Switch</span><span class="priya-tag">Humidity</span><span class="priya-tag">Temperature</span><span class="priya-tag">Heat</span><span class="priya-tag">Slow Burn</span><span class="priya-tag">Teasing</span><span class="priya-tag">Aftercare</span></div>
+<div class="priya-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 27 L15 16" stroke="#5aa060" stroke-width="1.8"></path><path d="M15 16 C12 12 6 13 5 9 M15 16 C18 12 24 13 25 9 M15 16 C14 11 11 6 13 3 M15 16 C16 11 19 6 17 3 M15 16 C15 11 15 7 15 5" stroke="#b670c8" stroke-width="1.6" stroke-linecap="round"></path><circle cx="5" cy="9" r="1" fill="#d8c890"></circle><circle cx="25" cy="9" r="1" fill="#d8c890"></circle><circle cx="13" cy="3" r="1" fill="#d8c890"></circle><circle cx="17" cy="3" r="1" fill="#d8c890"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 9 C8 7 11 11 14 9 C17 7 20 11 25 9" stroke="#a6dca0" stroke-width="1.8" stroke-linecap="round"></path><path d="M5 15 C8 13 11 17 14 15 C17 13 20 17 25 15" stroke="#5aa060" stroke-width="1.8" stroke-linecap="round"></path><circle cx="9" cy="21" r="1.4" fill="#d8c890"></circle><circle cx="15" cy="23" r="1.4" fill="#d8c890"></circle><circle cx="21" cy="21" r="1.4" fill="#d8c890"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4 C15 4 7 13.5 7 18.5 C7 23 10.6 26.5 15 26.5 C19.4 26.5 23 23 23 18.5 C23 13.5 15 4 15 4 Z" fill="#5aa060" stroke="#a6dca0" stroke-width="1.3"></path><path d="M11.5 18.5 C11.5 21 13 22.5 15 22.8" stroke="#f2f8ef" stroke-width="1.4" stroke-linecap="round"></path></svg>
+</div>
+</div></div></div>
+<div class="priya-band priya-band-low"></div>
+</div>

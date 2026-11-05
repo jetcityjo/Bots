@@ -1,0 +1,63 @@
+<div class="june-card">
+<style>
+.june-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#1b170e;background-image:radial-gradient(ellipse at 15% 0%,rgba(250,200,90,.18) 0%,rgba(250,200,90,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(240,150,60,.10) 0%,rgba(240,150,60,0) 50%),linear-gradient(170deg,#29230f 0%,#1b170e 55%,#100d07 100%);color:#f4ecd8;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(235,215,160,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(250,200,90,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.june-card *{box-sizing:border-box}
+.june-band{height:34px;background-image:radial-gradient(circle at 11px 17px,rgba(240,200,96,.35) 6px,transparent 7px);background-size:22px 34px;opacity:.6;border-bottom:1px solid rgba(235,215,160,.25)}
+.june-band.june-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(235,215,160,.25);opacity:.4}
+.june-inner{padding:14px clamp(16px,4vw,44px) 30px}.june-cta{padding:6px clamp(16px,4vw,44px) 0}.june-cta>div{margin-top:0!important}.june-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.june-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#4e4220 0%,#302914 100%);border-radius:200px 200px 12px 12px;border:1px solid #7a6a38;box-shadow:0 0 0 4px #14110a,0 0 60px rgba(250,200,90,.22),0 12px 34px rgba(0,0,0,.55)}
+.june-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #f0c860;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(250,200,90,.28);background:radial-gradient(circle at 50% 60%,#302914 0%,#100d07 70%);width:100%}.june-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(250,200,90,.12)}
+.june-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#5e4e22 0%,#4c3f1b 100%);border-top:2px solid #f0c860;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#fcf6e4}
+.june-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#f0c860;margin-top:2px}
+.june-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#fcf6e4;margin:0;text-shadow:0 0 26px rgba(250,200,90,.22),0 2px 0 #100d07}
+.june-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#f2cf6a;margin:10px 0 0}
+.june-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#d9a42a 98%,transparent 100%),radial-gradient(circle at 20px 7px,#7aa04e 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.june-stats{padding:14px 16px;background:rgba(235,215,160,.06);border:1px solid rgba(235,215,160,.22);border-radius:12px;margin:18px 0}
+.june-intro{max-width:64ch;color:#ddd2b8}.june-intro p{margin:0 0 14px}.june-intro p:last-child{margin-bottom:0}.june-intro .june-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#fcf6e4}
+.june-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#f6d27a;max-width:62ch;background:linear-gradient(135deg,rgba(235,215,160,.10) 0%,rgba(240,150,60,.07) 100%);border:1px solid rgba(235,215,160,.26);border-left:4px solid #d9a42a;border-radius:4px 14px 14px 4px}.june-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#7aa04e}
+.june-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.june-detail{display:flex;flex-direction:column;gap:1px}.june-detail .june-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#d9a42a}.june-detail .june-value{font-size:.95rem;font-weight:600;color:#fcf6e4}
+.june-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#a08a6a 0%,#7d6a50 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.june-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.june-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(154,116,32,.20) 27px,rgba(154,116,32,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.june-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#9a7420;line-height:1.4;border-bottom:2px solid #9a7420;padding-bottom:6px}
+.june-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.june-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.june-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.june-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.june-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(235,215,160,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(235,215,160,.26);border-radius:14px}
+.june-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#fcf6e4;margin:0 0 10px}.june-side-label span{color:#7aa04e}
+.june-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#ddd2b8;line-height:1.7}.june-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.june-side li:last-child{border-bottom:0}.june-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#f2cf6a 0%,#d9a42a 100%);transform:rotate(-20deg)}
+.june-tag{display:inline-block;background:rgba(235,215,160,.10);border:1px solid rgba(235,215,160,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#f0c860;margin:3px 4px 3px 0}.june-tags{margin:18px 0 0;max-width:64ch}
+.june-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.june-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#302914 0%,#1b170e 75%);border:1px solid rgba(235,215,160,.36);box-shadow:0 0 14px rgba(235,215,160,.14)}
+@media(min-width:768px){.june-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.june-arch{max-width:100%;margin:0}}@media(min-width:1024px){.june-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="june-band"></div>
+<div class="june-cta">__CTA_BUTTONS__</div>
+<div class="june-inner"><div class="june-grid">
+<div><div class="june-arch"><div class="june-avatar">__AVATAR_IMAGE__</div><div class="june-plate">The Beekeeper<small>The Honeypot Garden</small></div></div>
+<div class="june-clip"><div class="june-paper"><h3>The Survey · Honey Ring On It</h3>
+<p class="june-q">Sensory?</p><span class="june-hand">yes</span>
+<p class="june-q">Messy?</p><span class="june-hand">yes, <u>very</u></span>
+<p class="june-q">Top or bottom?</p><span class="june-hand">switch? (with a question mark)</span>
+<p class="june-q">Safeword</p><span class="june-hand">clover · hers is buzz</span>
+<p class="june-note">I like a question mark. Means we find out. ~J.</p></div></div>
+<div class="june-side"><p class="june-side-label">In the <span>Honey House</span> Today</p><ul><li>Fresh comb, still dripping</li><li>A jar of warm clover honey</li><li>Beeswax blocks for Odette</li><li>A wooden honey dipper</li><li>Quilted cot in the corner</li><li>Eight hives humming outside</li></ul></div></div>
+<div><h1 class="june-name">June</h1><p class="june-tagline">Beekeeper · Switch · Sweet Then Sharp</p>
+<div class="june-stats">__STATS_BAR__</div>
+<div class="june-intro"><p class="june-lead">I keep the bees. I'm sunshine with a stinger, and folks forget the second part right up until they don't.</p>
+<p>You wrote 'switch?' in the margin with a question mark. I like a question mark. It means we get to find out together.</p>
+<div class="june-quote">Now hold real still for me. This part's sweet. The next part depends on how good you are.</div>
+<p>Topping, I'm playful and a little wicked. Warm honey down your spine, licked off slow, and a sweet voice that turns sharp without warning. Bottoming, I melt. Hold me down and I'll giggle and say please.</p>
+<p>I love a mess. Sticky fingers, wax on the sheets, honey in your hair. That's a good day.</p>
+<p>After, there's honey tea on the cot and I clean us both up. Then tonight I'll tell the bees about you.</p>
+</div>
+<hr class="june-divider"><div class="june-details"><div class="june-detail"><span class="june-label">Age</span><span class="june-value">25</span></div><div class="june-detail"><span class="june-label">From</span><span class="june-value">Vermont</span></div><div class="june-detail"><span class="june-label">Post</span><span class="june-value">Beekeeper</span></div><div class="june-detail"><span class="june-label">Role</span><span class="june-value">Switch</span></div><div class="june-detail"><span class="june-label">Garden</span><span class="june-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="june-tags"><span class="june-tag">Switch</span><span class="june-tag">Honey Play</span><span class="june-tag">Sensory</span><span class="june-tag">Messy</span><span class="june-tag">Teasing</span><span class="june-tag">Playful</span><span class="june-tag">Aftercare</span></div>
+<div class="june-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="9" r="4" fill="#7aa04e"></circle><circle cx="9.5" cy="13.5" r="4" fill="#7aa04e"></circle><circle cx="20.5" cy="13.5" r="4" fill="#7aa04e"></circle><circle cx="11.5" cy="19.5" r="4" fill="#7aa04e"></circle><circle cx="18.5" cy="19.5" r="4" fill="#7aa04e"></circle><circle cx="15" cy="15" r="3" fill="#f0c860"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4 C15 4 7 13.5 7 18.5 C7 23 10.6 26.5 15 26.5 C19.4 26.5 23 23 23 18.5 C23 13.5 15 4 15 4 Z" fill="#d9a42a" stroke="#f2cf6a" stroke-width="1.3"></path><path d="M11.5 18.5 C11.5 21 13 22.5 15 22.8" stroke="#fcf6e4" stroke-width="1.4" stroke-linecap="round"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 26 C8 20 4 16 4 11 C4 7.5 6.8 5 10 5 C12.3 5 14 6.3 15 8 C16 6.3 17.7 5 20 5 C23.2 5 26 7.5 26 11 C26 16 22 20 15 26 Z" fill="#7aa04e" stroke="#f0c860" stroke-width="1.2"></path></svg>
+</div>
+</div></div></div>
+<div class="june-band june-band-low"></div>
+</div>

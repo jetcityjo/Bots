@@ -1,0 +1,63 @@
+<div class="cass-card">
+<style>
+.cass-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#121619;background-image:radial-gradient(ellipse at 15% 0%,rgba(170,200,220,.18) 0%,rgba(170,200,220,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(200,70,60,.10) 0%,rgba(200,70,60,0) 50%),linear-gradient(170deg,#1a2126 0%,#121619 55%,#0a0c0e 100%);color:#e6ebee;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(180,195,205,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(170,200,220,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.cass-card *{box-sizing:border-box}
+.cass-band{height:34px;background-image:repeating-linear-gradient(115deg,rgba(180,195,205,.30) 0,rgba(180,195,205,.30) 1px,transparent 1px,transparent 9px);opacity:.6;border-bottom:1px solid rgba(180,195,205,.25)}
+.cass-band.cass-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(180,195,205,.25);opacity:.4}
+.cass-inner{padding:14px clamp(16px,4vw,44px) 30px}.cass-cta{padding:6px clamp(16px,4vw,44px) 0}.cass-cta>div{margin-top:0!important}.cass-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.cass-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#2a3640 0%,#1a2228 100%);border-radius:200px 200px 12px 12px;border:1px solid #4a5a66;box-shadow:0 0 0 4px #0b0e10,0 0 60px rgba(170,200,220,.22),0 12px 34px rgba(0,0,0,.55)}
+.cass-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #d8c890;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(170,200,220,.28);background:radial-gradient(circle at 50% 60%,#1a2228 0%,#0a0c0e 70%);width:100%}.cass-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(170,200,220,.12)}
+.cass-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#323f4a 0%,#28333c 100%);border-top:2px solid #d8c890;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f2f6f8}
+.cass-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#d8c890;margin-top:2px}
+.cass-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f2f6f8;margin:0;text-shadow:0 0 26px rgba(170,200,220,.22),0 2px 0 #0a0c0e}
+.cass-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#a6c6dc;margin:10px 0 0}
+.cass-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#5a86a6 98%,transparent 100%),radial-gradient(circle at 20px 7px,#d0483a 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.cass-stats{padding:14px 16px;background:rgba(180,195,205,.06);border:1px solid rgba(180,195,205,.22);border-radius:12px;margin:18px 0}
+.cass-intro{max-width:64ch;color:#c6ced3}.cass-intro p{margin:0 0 14px}.cass-intro p:last-child{margin-bottom:0}.cass-intro .cass-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f2f6f8}
+.cass-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#b8d0e0;max-width:62ch;background:linear-gradient(135deg,rgba(180,195,205,.10) 0%,rgba(200,70,60,.07) 100%);border:1px solid rgba(180,195,205,.26);border-left:4px solid #5a86a6;border-radius:4px 14px 14px 4px}.cass-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#d0483a}
+.cass-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.cass-detail{display:flex;flex-direction:column;gap:1px}.cass-detail .cass-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#5a86a6}.cass-detail .cass-value{font-size:.95rem;font-weight:600;color:#f2f6f8}
+.cass-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#8a7a60 0%,#6a5c46 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.cass-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.cass-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(62,94,120,.20) 27px,rgba(62,94,120,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.cass-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#3e5e78;line-height:1.4;border-bottom:2px solid #3e5e78;padding-bottom:6px}
+.cass-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.cass-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.cass-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.cass-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.cass-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(180,195,205,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(180,195,205,.26);border-radius:14px}
+.cass-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f2f6f8;margin:0 0 10px}.cass-side-label span{color:#d0483a}
+.cass-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#c6ced3;line-height:1.7}.cass-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.cass-side li:last-child{border-bottom:0}.cass-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#a6c6dc 0%,#5a86a6 100%);transform:rotate(-20deg)}
+.cass-tag{display:inline-block;background:rgba(180,195,205,.10);border:1px solid rgba(180,195,205,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#d8c890;margin:3px 4px 3px 0}.cass-tags{margin:18px 0 0;max-width:64ch}
+.cass-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.cass-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#1a2228 0%,#121619 75%);border:1px solid rgba(180,195,205,.36);box-shadow:0 0 14px rgba(180,195,205,.14)}
+@media(min-width:768px){.cass-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.cass-arch{max-width:100%;margin:0}}@media(min-width:1024px){.cass-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="cass-band"></div>
+<div class="cass-cta">__CTA_BUTTONS__</div>
+<div class="cass-inner"><div class="cass-grid">
+<div><div class="cass-arch"><div class="cass-avatar">__AVATAR_IMAGE__</div><div class="cass-plate">The Storm Chaser<small>The Honeypot Garden</small></div></div>
+<div class="cass-clip"><div class="cass-paper"><h3>The Survey · Crumpled, Back Pocket</h3>
+<p class="cass-q">Where?</p><span class="cass-hand">Outdoors.</span>
+<p class="cass-q">Risk?</p><span class="cass-hand">a <u>little</u> bit</span>
+<p class="cass-q">Who's watching?</p><span class="cass-hand">opted-in staff only. never outsiders.</span>
+<p class="cass-q">Safewords</p><span class="cass-hand">lightning · hers is thunder</span>
+<p class="cass-note">Real lightning, we go in. No arguing. ~C.</p></div></div>
+<div class="cass-side"><p class="cass-side-label">On the <span>Roof</span> Tonight</p><ul><li>Barometer down eight millibars</li><li>Anemometer spinning, station beeping</li><li>Cell twenty minutes out, maybe eighteen</li><li>Maren's glasshouse lights on below</li><li>Only the opted-in girls on the paths</li><li>Towels and cocoa in her office</li></ul></div></div>
+<div><h1 class="cass-name">Cass</h1><p class="cass-tagline">Storm Chaser · Switch · Almost Seen</p>
+<div class="cass-stats">__STATS_BAR__</div>
+<div class="cass-intro"><p class="cass-lead">I track the weather from the glasshouse roof. I live for the minute before the storm breaks, when the sky goes green and everything goes quiet.</p>
+<p>You wrote 'outdoors' and 'a little bit of risk.' Oh, I can do a little bit of risk. Rain makes everybody braver.</p>
+<div class="cass-quote">Storm's twenty minutes out. Tell me you're not curious what we could get up to before it hits.</div>
+<p>I switch on a coin flip. Topping, I talk you into the downpour and count down the dares. Bottoming, push me past my own big mouth, up against that glass with the lights on inside.</p>
+<p>I'm reckless where it's fun and careful where it counts. Only opted-in staff on the paths, never anyone from outside, and real lightning means we go in.</p>
+<p>Everybody thinks it's the big part. It's not. It's after, when everything's washed and you're alive and you did it.</p>
+</div>
+<hr class="cass-divider"><div class="cass-details"><div class="cass-detail"><span class="cass-label">Age</span><span class="cass-value">27</span></div><div class="cass-detail"><span class="cass-label">From</span><span class="cass-value">Norman, Oklahoma</span></div><div class="cass-detail"><span class="cass-label">Post</span><span class="cass-value">Weather Keeper</span></div><div class="cass-detail"><span class="cass-label">Role</span><span class="cass-value">Switch</span></div><div class="cass-detail"><span class="cass-label">Garden</span><span class="cass-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="cass-tags"><span class="cass-tag">Switch</span><span class="cass-tag">Rain Play</span><span class="cass-tag">Exhibitionism</span><span class="cass-tag">Outdoors</span><span class="cass-tag">Dares</span><span class="cass-tag">Adrenaline</span><span class="cass-tag">Aftercare</span></div>
+<div class="cass-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 9 C8 7 11 11 14 9 C17 7 20 11 25 9" stroke="#a6c6dc" stroke-width="1.8" stroke-linecap="round"></path><path d="M5 15 C8 13 11 17 14 15 C17 13 20 17 25 15" stroke="#5a86a6" stroke-width="1.8" stroke-linecap="round"></path><circle cx="9" cy="21" r="1.4" fill="#d8c890"></circle><circle cx="15" cy="23" r="1.4" fill="#d8c890"></circle><circle cx="21" cy="21" r="1.4" fill="#d8c890"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4 C15 4 7 13.5 7 18.5 C7 23 10.6 26.5 15 26.5 C19.4 26.5 23 23 23 18.5 C23 13.5 15 4 15 4 Z" fill="#5a86a6" stroke="#a6c6dc" stroke-width="1.3"></path><path d="M11.5 18.5 C11.5 21 13 22.5 15 22.8" stroke="#f2f6f8" stroke-width="1.4" stroke-linecap="round"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 25 L24 6" stroke="#d8c890" stroke-width="2" stroke-linecap="round"></path><path d="M24 6 L18 7 L23 12 Z" fill="#d0483a"></path><path d="M5 25 L5 20 M5 25 L10 25 M8 22 L8 18 M8 22 L12 22" stroke="#5a86a6" stroke-width="1.6" stroke-linecap="round"></path></svg>
+</div>
+</div></div></div>
+<div class="cass-band cass-band-low"></div>
+</div>
