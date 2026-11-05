@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Yael Runekeeper
 
+![[Yael Runekeeper.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

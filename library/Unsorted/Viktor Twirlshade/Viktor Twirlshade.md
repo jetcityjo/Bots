@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Viktor Twirlshade
 
+![[Viktor Twirlshade.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

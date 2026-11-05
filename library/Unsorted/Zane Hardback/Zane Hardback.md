@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Zane Hardback
 
+![[Zane Hardback.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

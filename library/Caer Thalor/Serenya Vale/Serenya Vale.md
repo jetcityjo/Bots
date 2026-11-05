@@ -15,6 +15,8 @@ updated: 2026-10-26
 ---
 # Serenya Vale
 
+![[Serenya Vale.png|300]]
+
 **World:** [[Caer Thalor]]  
 **On:** Aksho, LIL, Meat, Notes, Soulkyn
 

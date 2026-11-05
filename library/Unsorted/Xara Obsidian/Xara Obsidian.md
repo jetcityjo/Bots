@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Xara Obsidian
 
+![[Xara Obsidian.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** Soulkyn
 

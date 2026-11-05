@@ -11,6 +11,8 @@ updated: 2026-10-26
 ---
 # Wyatt Harper
 
+![[Wyatt Harper.png|300]]
+
 **World:** [[Unsorted]]  
 **On:** LIL
 

@@ -12,6 +12,8 @@ updated: 2026-10-26
 ---
 # Selene Vire
 
+![[Selene Vire.png|300]]
+
 **World:** [[Caer Thalor]]  
 **On:** LIL, Soulkyn
 
