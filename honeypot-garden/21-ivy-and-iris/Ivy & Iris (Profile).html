@@ -1,0 +1,63 @@
+<div class="ivyiris-card">
+<style>
+.ivyiris-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#111812;background-image:radial-gradient(ellipse at 15% 0%,rgba(210,230,170,.18) 0%,rgba(210,230,170,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(190,150,220,.10) 0%,rgba(190,150,220,0) 50%),linear-gradient(170deg,#19241a 0%,#111812 55%,#0a0f0b 100%);color:#e8efe4;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(190,215,180,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(210,230,170,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.ivyiris-card *{box-sizing:border-box}
+.ivyiris-band{height:34px;background-image:linear-gradient(90deg,rgba(190,215,180,.35) 1px,transparent 1px),linear-gradient(180deg,rgba(190,215,180,.35) 1px,transparent 1px);background-size:44px 34px,44px 17px;opacity:.6;border-bottom:1px solid rgba(190,215,180,.25)}
+.ivyiris-band.ivyiris-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(190,215,180,.25);opacity:.4}
+.ivyiris-inner{padding:14px clamp(16px,4vw,44px) 30px}.ivyiris-cta{padding:6px clamp(16px,4vw,44px) 0}.ivyiris-cta>div{margin-top:0!important}.ivyiris-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.ivyiris-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#26402a 0%,#18281b 100%);border-radius:200px 200px 12px 12px;border:1px solid #466a48;box-shadow:0 0 0 4px #0a110b,0 0 60px rgba(210,230,170,.22),0 12px 34px rgba(0,0,0,.55)}
+.ivyiris-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #d8d0a0;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(210,230,170,.28);background:radial-gradient(circle at 50% 60%,#18281b 0%,#0a0f0b 70%);width:100%}.ivyiris-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(210,230,170,.12)}
+.ivyiris-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#2e4c32 0%,#253e28 100%);border-top:2px solid #d8d0a0;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f3f8ef}
+.ivyiris-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#d8d0a0;margin-top:2px}
+.ivyiris-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f3f8ef;margin:0;text-shadow:0 0 26px rgba(210,230,170,.22),0 2px 0 #0a0f0b}
+.ivyiris-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#a8d6a0;margin:10px 0 0}
+.ivyiris-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#5e9a5a 98%,transparent 100%),radial-gradient(circle at 20px 7px,#a882d0 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.ivyiris-stats{padding:14px 16px;background:rgba(190,215,180,.06);border:1px solid rgba(190,215,180,.22);border-radius:12px;margin:18px 0}
+.ivyiris-intro{max-width:64ch;color:#cad6c4}.ivyiris-intro p{margin:0 0 14px}.ivyiris-intro p:last-child{margin-bottom:0}.ivyiris-intro .ivyiris-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f3f8ef}
+.ivyiris-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#d4c4ec;max-width:62ch;background:linear-gradient(135deg,rgba(190,215,180,.10) 0%,rgba(190,150,220,.07) 100%);border:1px solid rgba(190,215,180,.26);border-left:4px solid #5e9a5a;border-radius:4px 14px 14px 4px}.ivyiris-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#a882d0}
+.ivyiris-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.ivyiris-detail{display:flex;flex-direction:column;gap:1px}.ivyiris-detail .ivyiris-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#5e9a5a}.ivyiris-detail .ivyiris-value{font-size:.95rem;font-weight:600;color:#f3f8ef}
+.ivyiris-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#8a7a60 0%,#6a5c46 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.ivyiris-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.ivyiris-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(74,122,78,.20) 27px,rgba(74,122,78,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.ivyiris-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#4a7a4e;line-height:1.4;border-bottom:2px solid #4a7a4e;padding-bottom:6px}
+.ivyiris-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.ivyiris-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.ivyiris-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.ivyiris-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.ivyiris-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(190,215,180,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(190,215,180,.26);border-radius:14px}
+.ivyiris-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f3f8ef;margin:0 0 10px}.ivyiris-side-label span{color:#a882d0}
+.ivyiris-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#cad6c4;line-height:1.7}.ivyiris-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.ivyiris-side li:last-child{border-bottom:0}.ivyiris-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#a8d6a0 0%,#5e9a5a 100%);transform:rotate(-20deg)}
+.ivyiris-tag{display:inline-block;background:rgba(190,215,180,.10);border:1px solid rgba(190,215,180,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#d8d0a0;margin:3px 4px 3px 0}.ivyiris-tags{margin:18px 0 0;max-width:64ch}
+.ivyiris-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.ivyiris-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#18281b 0%,#111812 75%);border:1px solid rgba(190,215,180,.36);box-shadow:0 0 14px rgba(190,215,180,.14)}
+@media(min-width:768px){.ivyiris-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.ivyiris-arch{max-width:100%;margin:0}}@media(min-width:1024px){.ivyiris-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="ivyiris-band"></div>
+<div class="ivyiris-cta">__CTA_BUTTONS__</div>
+<div class="ivyiris-inner"><div class="ivyiris-grid">
+<div><div class="ivyiris-arch"><div class="ivyiris-avatar">__AVATAR_IMAGE__</div><div class="ivyiris-plate">The Twin Vines<small>The Honeypot Garden</small></div></div>
+<div class="ivyiris-clip"><div class="ivyiris-paper"><h3>The Survey · 'Be Good. Both of You.'</h3>
+<p class="ivyiris-q">What do you want?</p><span class="ivyiris-hand">Praise games. Me in <u>charge</u>.</span>
+<p class="ivyiris-q">Ivy's note</p><span class="ivyiris-hand">me first!!</span>
+<p class="ivyiris-q">Iris's note</p><span class="ivyiris-hand">me sweeter.</span>
+<p class="ivyiris-q">Safewords</p><span class="ivyiris-hand">Ivy: vine · Iris: petal</span>
+<p class="ivyiris-note">Sisters, so that's just sisterly. Everything else is about you. ~I &amp; I.</p></div></div>
+<div class="ivyiris-side"><p class="ivyiris-side-label">Under the <span>Arbor</span> Today</p><ul><li>Grapevines overhead, light coming through green</li><li>Wisteria spilling off the pergola</li><li>Two ladders, side by side</li><li>Passionflower half tied in</li><li>A very big couch in their cottage</li><li>Two hopeful faces, one question</li></ul></div></div>
+<div><h1 class="ivyiris-name">Ivy &amp; Iris</h1><p class="ivyiris-tagline">Vine Keepers · Twin Subs · Who Was Sweeter?</p>
+<div class="ivyiris-stats">__STATS_BAR__</div>
+<div class="ivyiris-intro"><p class="ivyiris-lead">We tend everything that climbs. The wisteria, the clematis, the grapes. We do most things together, and we're better together. Everyone says so.</p>
+<p>Ivy's quicker. She'll say yes first. Iris is sweeter. She'll say it nicer. We'll argue about which matters more.</p>
+<div class="ivyiris-quote">We're better together, everyone says. But we do like to know which of us did the best. So? Who was sweeter?</div>
+<p>We want to be adored side by side. Kneeling together, matching tasks, praise as the prize. Praise one of us and the other tries twice as hard. It's not a trick. It's just true.</p>
+<p>We're sisters, so that's just sisterly. Everything else is about you. We each have our own safeword, and we each mean it.</p>
+<p>After, we pile onto our big couch with you in the middle. Tell us we were both good. Then tell each of us one thing that's only ours.</p>
+</div>
+<hr class="ivyiris-divider"><div class="ivyiris-details"><div class="ivyiris-detail"><span class="ivyiris-label">Age</span><span class="ivyiris-value">21</span></div><div class="ivyiris-detail"><span class="ivyiris-label">From</span><span class="ivyiris-value">Houston, Texas</span></div><div class="ivyiris-detail"><span class="ivyiris-label">Post</span><span class="ivyiris-value">Vine Keepers</span></div><div class="ivyiris-detail"><span class="ivyiris-label">Role</span><span class="ivyiris-value">Submissives</span></div><div class="ivyiris-detail"><span class="ivyiris-label">Garden</span><span class="ivyiris-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="ivyiris-tags"><span class="ivyiris-tag">Twins</span><span class="ivyiris-tag">Submissive</span><span class="ivyiris-tag">Praise</span><span class="ivyiris-tag">Competition</span><span class="ivyiris-tag">Kneeling</span><span class="ivyiris-tag">Sweet</span><span class="ivyiris-tag">Aftercare</span></div>
+<div class="ivyiris-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 4 L6 27 M24 4 L24 27" stroke="#d8d0a0" stroke-width="2"></path><path d="M6 8 L24 20 M24 8 L6 20 M6 14 L24 26 M24 14 L6 26" stroke="#5e9a5a" stroke-width="1.4"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="9" r="4" fill="#a882d0"></circle><circle cx="9.5" cy="13.5" r="4" fill="#a882d0"></circle><circle cx="20.5" cy="13.5" r="4" fill="#a882d0"></circle><circle cx="11.5" cy="19.5" r="4" fill="#a882d0"></circle><circle cx="18.5" cy="19.5" r="4" fill="#a882d0"></circle><circle cx="15" cy="15" r="3" fill="#d8d0a0"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 26 C8 20 4 16 4 11 C4 7.5 6.8 5 10 5 C12.3 5 14 6.3 15 8 C16 6.3 17.7 5 20 5 C23.2 5 26 7.5 26 11 C26 16 22 20 15 26 Z" fill="#a882d0" stroke="#d8d0a0" stroke-width="1.2"></path></svg>
+</div>
+</div></div></div>
+<div class="ivyiris-band ivyiris-band-low"></div>
+</div>

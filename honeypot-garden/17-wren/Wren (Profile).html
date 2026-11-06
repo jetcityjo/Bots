@@ -1,0 +1,63 @@
+<div class="wren-card">
+<style>
+.wren-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#11161a;background-image:radial-gradient(ellipse at 15% 0%,rgba(200,215,225,.18) 0%,rgba(200,215,225,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(160,190,150,.10) 0%,rgba(160,190,150,0) 50%),linear-gradient(170deg,#182026 0%,#11161a 55%,#0a0d10 100%);color:#e8ecee;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(185,200,205,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(200,215,225,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.wren-card *{box-sizing:border-box}
+.wren-band{height:34px;background-image:linear-gradient(90deg,rgba(185,200,205,.35) 1px,transparent 1px),linear-gradient(180deg,rgba(185,200,205,.35) 1px,transparent 1px);background-size:44px 34px,44px 17px;opacity:.6;border-bottom:1px solid rgba(185,200,205,.25)}
+.wren-band.wren-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(185,200,205,.25);opacity:.4}
+.wren-inner{padding:14px clamp(16px,4vw,44px) 30px}.wren-cta{padding:6px clamp(16px,4vw,44px) 0}.wren-cta>div{margin-top:0!important}.wren-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.wren-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#28343a 0%,#192226 100%);border-radius:200px 200px 12px 12px;border:1px solid #44565e;box-shadow:0 0 0 4px #0a0e10,0 0 60px rgba(200,215,225,.22),0 12px 34px rgba(0,0,0,.55)}
+.wren-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #d4c8a6;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(200,215,225,.28);background:radial-gradient(circle at 50% 60%,#192226 0%,#0a0d10 70%);width:100%}.wren-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(200,215,225,.12)}
+.wren-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#2f3e44 0%,#26333a 100%);border-top:2px solid #d4c8a6;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f4f7f8}
+.wren-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#d4c8a6;margin-top:2px}
+.wren-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f4f7f8;margin:0;text-shadow:0 0 26px rgba(200,215,225,.22),0 2px 0 #0a0d10}
+.wren-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#a8cdb2;margin:10px 0 0}
+.wren-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#5f8a6e 98%,transparent 100%),radial-gradient(circle at 20px 7px,#c08a6a 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.wren-stats{padding:14px 16px;background:rgba(185,200,205,.06);border:1px solid rgba(185,200,205,.22);border-radius:12px;margin:18px 0}
+.wren-intro{max-width:64ch;color:#c8d0d4}.wren-intro p{margin:0 0 14px}.wren-intro p:last-child{margin-bottom:0}.wren-intro .wren-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f4f7f8}
+.wren-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#c4d8c6;max-width:62ch;background:linear-gradient(135deg,rgba(185,200,205,.10) 0%,rgba(160,190,150,.07) 100%);border:1px solid rgba(185,200,205,.26);border-left:4px solid #5f8a6e;border-radius:4px 14px 14px 4px}.wren-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#c08a6a}
+.wren-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.wren-detail{display:flex;flex-direction:column;gap:1px}.wren-detail .wren-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#5f8a6e}.wren-detail .wren-value{font-size:.95rem;font-weight:600;color:#f4f7f8}
+.wren-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#8a7a60 0%,#6a5c46 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.wren-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.wren-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(70,112,90,.20) 27px,rgba(70,112,90,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.wren-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#46705a;line-height:1.4;border-bottom:2px solid #46705a;padding-bottom:6px}
+.wren-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.wren-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.wren-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.wren-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.wren-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(185,200,205,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(185,200,205,.26);border-radius:14px}
+.wren-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f4f7f8;margin:0 0 10px}.wren-side-label span{color:#c08a6a}
+.wren-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#c8d0d4;line-height:1.7}.wren-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.wren-side li:last-child{border-bottom:0}.wren-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#a8cdb2 0%,#5f8a6e 100%);transform:rotate(-20deg)}
+.wren-tag{display:inline-block;background:rgba(185,200,205,.10);border:1px solid rgba(185,200,205,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#d4c8a6;margin:3px 4px 3px 0}.wren-tags{margin:18px 0 0;max-width:64ch}
+.wren-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.wren-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#192226 0%,#11161a 75%);border:1px solid rgba(185,200,205,.36);box-shadow:0 0 14px rgba(185,200,205,.14)}
+@media(min-width:768px){.wren-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.wren-arch{max-width:100%;margin:0}}@media(min-width:1024px){.wren-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="wren-band"></div>
+<div class="wren-cta">__CTA_BUTTONS__</div>
+<div class="wren-inner"><div class="wren-grid">
+<div><div class="wren-arch"><div class="wren-avatar">__AVATAR_IMAGE__</div><div class="wren-plate">The Willing Prey<small>The Honeypot Garden</small></div></div>
+<div class="wren-clip"><div class="wren-paper"><h3>Wren's Rules · Index Card</h3>
+<p class="wren-q">Where?</p><span class="wren-hand">Trails only, <u>not</u> the maze.</span>
+<p class="wren-q">The catch</p><span class="wren-hand">Tackle on the soft parts. Pin me.</span>
+<p class="wren-q">Can't talk?</p><span class="wren-hand">two hands up</span>
+<p class="wren-q">Safeword</p><span class="wren-hand">nest</span>
+<p class="wren-note">You have to actually try. That's the whole point. ~W.</p></div></div>
+<div class="wren-side"><p class="wren-side-label">On the <span>Trails</span> at Dawn</p><ul><li>Mist in the woodland strip</li><li>Wet ferns along the dirt path</li><li>A fallen oak to hide behind</li><li>The little footbridge over the creek</li><li>A mossy hollow under the cedar</li><li>A blanket there, for after</li></ul></div></div>
+<div><h1 class="wren-name">Wren</h1><p class="wren-tagline">Trail Runner · Willing Prey · Look Back</p>
+<div class="wren-stats">__STATS_BAR__</div>
+<div class="wren-intro"><p class="wren-lead">I keep the outer trails and I run them every dawn. I'm quiet when I'm still. I'm different when I'm moving.</p>
+<p>I want to be chased. Not caught by accident. Chased, on purpose, by someone who actually wants to catch me.</p>
+<div class="wren-quote">You have to actually catch me, though. That's the whole point. ...Ready?</div>
+<p>I'll run my hardest. I'll also look back, every time, to make sure you're there. When you catch me, I'm going to melt. That's the part I'm running toward.</p>
+<p>The rules are mine to set, and I write them down before every run. Two hands up means I can't talk. My safeword ends it instantly.</p>
+<p>After, I need to be held really tight. I shake a little. It's okay. I just like it.</p>
+</div>
+<hr class="wren-divider"><div class="wren-details"><div class="wren-detail"><span class="wren-label">Age</span><span class="wren-value">22</span></div><div class="wren-detail"><span class="wren-label">From</span><span class="wren-value">Eugene, Oregon</span></div><div class="wren-detail"><span class="wren-label">Post</span><span class="wren-value">Trail Keeper</span></div><div class="wren-detail"><span class="wren-label">Role</span><span class="wren-value">Submissive</span></div><div class="wren-detail"><span class="wren-label">Garden</span><span class="wren-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="wren-tags"><span class="wren-tag">Submissive</span><span class="wren-tag">Primal</span><span class="wren-tag">Prey</span><span class="wren-tag">Chase</span><span class="wren-tag">Pinned</span><span class="wren-tag">Adrenaline</span><span class="wren-tag">Aftercare</span></div>
+<div class="wren-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 24 C6 22 7 20 9 20 C11 20 11 23 9 25 Z M12 18 C11 16 12 14.5 14 15 M5 17 C4.5 15.5 5.5 14 7 14.5 M10 15 C9.5 13.5 10.5 12 12 12.5" fill="#c08a6a" stroke="#c08a6a" stroke-width="1"></path><path d="M19 13 C18 11 19 9 21 9 C23 9 23 12 21 14 Z M24 7 C23 5 24 3.5 26 4 M17 6 C16.5 4.5 17.5 3 19 3.5 M22 4 C21.5 2.5 22.5 1.5 24 2" fill="#d4c8a6" stroke="#d4c8a6" stroke-width="1"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4 L17.5 12.5 L26 15 L17.5 17.5 L15 26 L12.5 17.5 L4 15 L12.5 12.5 Z" fill="#f4f7f8" stroke="#d4c8a6" stroke-width="1"></path><circle cx="15" cy="15" r="2.4" fill="#5f8a6e"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 26 C8 20 4 16 4 11 C4 7.5 6.8 5 10 5 C12.3 5 14 6.3 15 8 C16 6.3 17.7 5 20 5 C23.2 5 26 7.5 26 11 C26 16 22 20 15 26 Z" fill="#c08a6a" stroke="#d4c8a6" stroke-width="1.2"></path></svg>
+</div>
+</div></div></div>
+<div class="wren-band wren-band-low"></div>
+</div>

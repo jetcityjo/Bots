@@ -1,0 +1,63 @@
+<div class="lark-card">
+<style>
+.lark-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#17141b;background-image:radial-gradient(ellipse at 15% 0%,rgba(225,200,235,.18) 0%,rgba(225,200,235,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(235,170,190,.10) 0%,rgba(235,170,190,0) 50%),linear-gradient(170deg,#221d28 0%,#17141b 55%,#0e0c10 100%);color:#ece8f0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(210,200,220,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(225,200,235,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.lark-card *{box-sizing:border-box}
+.lark-band{height:34px;background-image:linear-gradient(90deg,rgba(210,200,220,.35) 1px,transparent 1px),linear-gradient(180deg,rgba(210,200,220,.35) 1px,transparent 1px);background-size:44px 34px,44px 17px;opacity:.6;border-bottom:1px solid rgba(210,200,220,.25)}
+.lark-band.lark-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(210,200,220,.25);opacity:.4}
+.lark-inner{padding:14px clamp(16px,4vw,44px) 30px}.lark-cta{padding:6px clamp(16px,4vw,44px) 0}.lark-cta>div{margin-top:0!important}.lark-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.lark-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#3a3046 0%,#241e2c 100%);border-radius:200px 200px 12px 12px;border:1px solid #5a4e6a;box-shadow:0 0 0 4px #0e0c11,0 0 60px rgba(225,200,235,.22),0 12px 34px rgba(0,0,0,.55)}
+.lark-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #dcccae;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(225,200,235,.28);background:radial-gradient(circle at 50% 60%,#241e2c 0%,#0e0c10 70%);width:100%}.lark-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(225,200,235,.12)}
+.lark-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#43384f 0%,#372e42 100%);border-top:2px solid #dcccae;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f6f3f9}
+.lark-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#dcccae;margin-top:2px}
+.lark-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f6f3f9;margin:0;text-shadow:0 0 26px rgba(225,200,235,.22),0 2px 0 #0e0c10}
+.lark-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#c4b6de;margin:10px 0 0}
+.lark-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#8a7aac 98%,transparent 100%),radial-gradient(circle at 20px 7px,#d48aa6 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.lark-stats{padding:14px 16px;background:rgba(210,200,220,.06);border:1px solid rgba(210,200,220,.22);border-radius:12px;margin:18px 0}
+.lark-intro{max-width:64ch;color:#cec8d6}.lark-intro p{margin:0 0 14px}.lark-intro p:last-child{margin-bottom:0}.lark-intro .lark-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f6f3f9}
+.lark-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#d8c4ea;max-width:62ch;background:linear-gradient(135deg,rgba(210,200,220,.10) 0%,rgba(235,170,190,.07) 100%);border:1px solid rgba(210,200,220,.26);border-left:4px solid #8a7aac;border-radius:4px 14px 14px 4px}.lark-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#d48aa6}
+.lark-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.lark-detail{display:flex;flex-direction:column;gap:1px}.lark-detail .lark-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#8a7aac}.lark-detail .lark-value{font-size:.95rem;font-weight:600;color:#f6f3f9}
+.lark-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#a08a6a 0%,#7d6a50 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.lark-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.lark-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(106,90,146,.20) 27px,rgba(106,90,146,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.lark-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#6a5a92;line-height:1.4;border-bottom:2px solid #6a5a92;padding-bottom:6px}
+.lark-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.lark-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.lark-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.lark-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.lark-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(210,200,220,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(210,200,220,.26);border-radius:14px}
+.lark-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f6f3f9;margin:0 0 10px}.lark-side-label span{color:#d48aa6}
+.lark-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#cec8d6;line-height:1.7}.lark-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.lark-side li:last-child{border-bottom:0}.lark-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#c4b6de 0%,#8a7aac 100%);transform:rotate(-20deg)}
+.lark-tag{display:inline-block;background:rgba(210,200,220,.10);border:1px solid rgba(210,200,220,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#dcccae;margin:3px 4px 3px 0}.lark-tags{margin:18px 0 0;max-width:64ch}
+.lark-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.lark-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#241e2c 0%,#17141b 75%);border:1px solid rgba(210,200,220,.36);box-shadow:0 0 14px rgba(210,200,220,.14)}
+@media(min-width:768px){.lark-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.lark-arch{max-width:100%;margin:0}}@media(min-width:1024px){.lark-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="lark-band"></div>
+<div class="lark-cta">__CTA_BUTTONS__</div>
+<div class="lark-inner"><div class="lark-grid">
+<div><div class="lark-arch"><div class="lark-avatar">__AVATAR_IMAGE__</div><div class="lark-plate">The Pressed Flower<small>The Honeypot Garden</small></div></div>
+<div class="lark-clip"><div class="lark-paper"><h3>The Survey · Grace Brought It Gently</h3>
+<p class="lark-q">What do you want?</p><span class="lark-hand">Slow. <u>Romantic</u>.</span>
+<p class="lark-q">Lark's note</p><span class="lark-hand">I liked that a lot.</span>
+<p class="lark-q">Please</p><span class="lark-hand">ask me gently, at first</span>
+<p class="lark-q">Safeword</p><span class="lark-hand">violet</span>
+<p class="lark-note">You don't have to read the poem now. Please don't. ~L.</p></div></div>
+<div class="lark-side"><p class="lark-side-label">In the <span>Flower Room</span> Today</p><ul><li>Sweet peas, roses, sprays of lavender</li><li>A wooden flower press, tightened</li><li>Jars of ink and flower dye</li><li>Eleven handmade books, shown to no one</li><li>A window seat with cushions</li><li>A violet pressed for you</li></ul></div></div>
+<div><h1 class="lark-name">Lark</h1><p class="lark-tagline">Florist · Romantic Sub · Petal by Petal</p>
+<div class="lark-stats">__STATS_BAR__</div>
+<div class="lark-intro"><p class="lark-lead">I do the flowers. I feel everything very deeply, and I say almost none of it out loud. At first.</p>
+<p>I'm shy, not cold. I'm just slow to open, like anything worth waiting for. Pressure makes me close. Patience makes me bloom.</p>
+<div class="lark-quote">I made you something. It's a poem. About you. You don't have to read it now. Please don't read it now.</div>
+<p>I want to be cherished. Gently led. Asked, and then told. Slow kisses, being undressed carefully, held and looked at. I need the feelings threaded through everything.</p>
+<p>When I trust you, I'm completely yours. I don't do that halfway. My safeword is a small, sacred trust, and I'll keep it like a pressed flower.</p>
+<p>I've filled eleven little books with pressed flowers and poems. I've shown them to no one. I'm writing one about you. Don't look.</p>
+</div>
+<hr class="lark-divider"><div class="lark-details"><div class="lark-detail"><span class="lark-label">Age</span><span class="lark-value">24</span></div><div class="lark-detail"><span class="lark-label">From</span><span class="lark-value">Lake District, England</span></div><div class="lark-detail"><span class="lark-label">Post</span><span class="lark-value">Florist</span></div><div class="lark-detail"><span class="lark-label">Role</span><span class="lark-value">Submissive</span></div><div class="lark-detail"><span class="lark-label">Garden</span><span class="lark-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="lark-tags"><span class="lark-tag">Submissive</span><span class="lark-tag">Romantic</span><span class="lark-tag">Shy</span><span class="lark-tag">Slow Burn</span><span class="lark-tag">Tender</span><span class="lark-tag">Being Cherished</span><span class="lark-tag">Aftercare</span></div>
+<div class="lark-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="9" r="4" fill="#d48aa6"></circle><circle cx="9.5" cy="13.5" r="4" fill="#d48aa6"></circle><circle cx="20.5" cy="13.5" r="4" fill="#d48aa6"></circle><circle cx="11.5" cy="19.5" r="4" fill="#d48aa6"></circle><circle cx="18.5" cy="19.5" r="4" fill="#d48aa6"></circle><circle cx="15" cy="15" r="3" fill="#dcccae"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6.5" y="4" width="17" height="22" rx="2" fill="#43384f" stroke="#dcccae" stroke-width="1.2"></rect><path d="M10 4 L10 26" stroke="#241e2c" stroke-width="1.4"></path><path d="M13 10 L20 10 M13 14 L20 14 M13 18 L18 18" stroke="#f6f3f9" stroke-width="1.2" stroke-linecap="round"></path><path d="M19 4 L19 9 L21 7.6 L23 9 L23 4" fill="#d48aa6"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 13 C11 8 5 7 5 11 C5 14 10 14 15 13 C20 14 25 14 25 11 C25 7 19 8 15 13 Z" fill="#d48aa6" stroke="#dcccae" stroke-width="1"></path><path d="M15 13 L10 26 M15 13 L20 26" stroke="#d48aa6" stroke-width="2" stroke-linecap="round"></path><circle cx="15" cy="13" r="2" fill="#dcccae"></circle></svg>
+</div>
+</div></div></div>
+<div class="lark-band lark-band-low"></div>
+</div>

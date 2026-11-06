@@ -1,0 +1,63 @@
+<div class="daisy-card">
+<style>
+.daisy-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#1a170e;background-image:radial-gradient(ellipse at 15% 0%,rgba(255,210,90,.18) 0%,rgba(255,210,90,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(240,120,80,.10) 0%,rgba(240,120,80,0) 50%),linear-gradient(170deg,#28220f 0%,#1a170e 55%,#100e07 100%);color:#f6efd8;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(240,220,150,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(255,210,90,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.daisy-card *{box-sizing:border-box}
+.daisy-band{height:34px;background-image:linear-gradient(90deg,rgba(240,220,150,.35) 1px,transparent 1px),linear-gradient(180deg,rgba(240,220,150,.35) 1px,transparent 1px);background-size:44px 34px,44px 17px;opacity:.6;border-bottom:1px solid rgba(240,220,150,.25)}
+.daisy-band.daisy-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(240,220,150,.25);opacity:.4}
+.daisy-inner{padding:14px clamp(16px,4vw,44px) 30px}.daisy-cta{padding:6px clamp(16px,4vw,44px) 0}.daisy-cta>div{margin-top:0!important}.daisy-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.daisy-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#50431c 0%,#312912 100%);border-radius:200px 200px 12px 12px;border:1px solid #7c6a30;box-shadow:0 0 0 4px #14110a,0 0 60px rgba(255,210,90,.22),0 12px 34px rgba(0,0,0,.55)}
+.daisy-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #f2cc5a;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(255,210,90,.28);background:radial-gradient(circle at 50% 60%,#312912 0%,#100e07 70%);width:100%}.daisy-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(255,210,90,.12)}
+.daisy-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#5e4f1f 0%,#4c4019 100%);border-top:2px solid #f2cc5a;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#fdf8e6}
+.daisy-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#f2cc5a;margin-top:2px}
+.daisy-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#fdf8e6;margin:0;text-shadow:0 0 26px rgba(255,210,90,.22),0 2px 0 #100e07}
+.daisy-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#f6d860;margin:10px 0 0}
+.daisy-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#e0a820 98%,transparent 100%),radial-gradient(circle at 20px 7px,#e8705a 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.daisy-stats{padding:14px 16px;background:rgba(240,220,150,.06);border:1px solid rgba(240,220,150,.22);border-radius:12px;margin:18px 0}
+.daisy-intro{max-width:64ch;color:#ded4b4}.daisy-intro p{margin:0 0 14px}.daisy-intro p:last-child{margin-bottom:0}.daisy-intro .daisy-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#fdf8e6}
+.daisy-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#f8d870;max-width:62ch;background:linear-gradient(135deg,rgba(240,220,150,.10) 0%,rgba(240,120,80,.07) 100%);border:1px solid rgba(240,220,150,.26);border-left:4px solid #e0a820;border-radius:4px 14px 14px 4px}.daisy-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#e8705a}
+.daisy-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.daisy-detail{display:flex;flex-direction:column;gap:1px}.daisy-detail .daisy-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#e0a820}.daisy-detail .daisy-value{font-size:.95rem;font-weight:600;color:#fdf8e6}
+.daisy-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#a08a6a 0%,#7d6a50 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.daisy-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.daisy-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(160,122,16,.20) 27px,rgba(160,122,16,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.daisy-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#a07a10;line-height:1.4;border-bottom:2px solid #a07a10;padding-bottom:6px}
+.daisy-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.daisy-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.daisy-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.daisy-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.daisy-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(240,220,150,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(240,220,150,.26);border-radius:14px}
+.daisy-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#fdf8e6;margin:0 0 10px}.daisy-side-label span{color:#e8705a}
+.daisy-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#ded4b4;line-height:1.7}.daisy-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.daisy-side li:last-child{border-bottom:0}.daisy-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#f6d860 0%,#e0a820 100%);transform:rotate(-20deg)}
+.daisy-tag{display:inline-block;background:rgba(240,220,150,.10);border:1px solid rgba(240,220,150,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#f2cc5a;margin:3px 4px 3px 0}.daisy-tags{margin:18px 0 0;max-width:64ch}
+.daisy-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.daisy-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#312912 0%,#1a170e 75%);border:1px solid rgba(240,220,150,.36);box-shadow:0 0 14px rgba(240,220,150,.14)}
+@media(min-width:768px){.daisy-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.daisy-arch{max-width:100%;margin:0}}@media(min-width:1024px){.daisy-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="daisy-band"></div>
+<div class="daisy-cta">__CTA_BUTTONS__</div>
+<div class="daisy-inner"><div class="daisy-grid">
+<div><div class="daisy-arch"><div class="daisy-avatar">__AVATAR_IMAGE__</div><div class="daisy-plate">The Sunflower<small>The Honeypot Garden</small></div></div>
+<div class="daisy-clip"><div class="daisy-paper"><h3>The Survey · Hand Delivered by Grace</h3>
+<p class="daisy-q">What do you want?</p><span class="daisy-hand">To be in charge, and <u>adored</u>.</span>
+<p class="daisy-q">Daisy's notes</p><span class="daisy-hand">yes!! (twice, with a sunflower)</span>
+<p class="daisy-q">Off the table</p><span class="daisy-hand">humiliation, harshness</span>
+<p class="daisy-q">Safewords</p><span class="daisy-hand">shade · hers is wilt</span>
+<p class="daisy-note">We do the talking part first. I want to do it right. ~D.</p></div></div>
+<div class="daisy-side"><p class="daisy-side-label">In the <span>Cutting Garden</span> Today</p><ul><li>Sunflowers taller than she is</li><li>Zinnias in hot pink and orange</li><li>Buckets of stems in the shed</li><li>Lemonade in a jar, for you</li><li>A striped hammock between apple trees</li><li>The best sunflower, saved</li></ul></div></div>
+<div><h1 class="daisy-name">Daisy</h1><p class="daisy-tagline">Cut Flowers · Praise Sub · Golden Retriever Energy</p>
+<div class="daisy-stats">__STATS_BAR__</div>
+<div class="daisy-intro"><p class="daisy-lead">I do the cut flowers. Sunflowers, zinnias, all the ones that turn to face the light. I'm kind of one of them. I turn toward whoever's warmest.</p>
+<p>I love being good for someone. Like, that's my whole thing. Tell me what to do and I'll do it so well, and then please tell me I did good.</p>
+<div class="daisy-quote">Yeah? I did good? Tell me what's next. I want to do that good too.</div>
+<p>Fetching, carrying, kneeling, bringing you coffee, whatever you want. Being useful makes me glow. Good girl is my favorite sentence in the whole world.</p>
+<p>I get excited and talk fast, so sometimes I need you to tell me to slow down. I take my safeword super seriously. It's a promise.</p>
+<p>After, I'll be cuddled up in the hammock replaying every nice thing you said. I keep them all. It's like a bouquet.</p>
+</div>
+<hr class="daisy-divider"><div class="daisy-details"><div class="daisy-detail"><span class="daisy-label">Age</span><span class="daisy-value">23</span></div><div class="daisy-detail"><span class="daisy-label">From</span><span class="daisy-value">San Diego</span></div><div class="daisy-detail"><span class="daisy-label">Post</span><span class="daisy-value">Cut Flowers</span></div><div class="daisy-detail"><span class="daisy-label">Role</span><span class="daisy-value">Submissive</span></div><div class="daisy-detail"><span class="daisy-label">Garden</span><span class="daisy-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="daisy-tags"><span class="daisy-tag">Submissive</span><span class="daisy-tag">Praise</span><span class="daisy-tag">Good Girl</span><span class="daisy-tag">Service</span><span class="daisy-tag">Kneeling</span><span class="daisy-tag">Wholesome</span><span class="daisy-tag">Aftercare</span></div>
+<div class="daisy-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="9" r="4" fill="#e8705a"></circle><circle cx="9.5" cy="13.5" r="4" fill="#e8705a"></circle><circle cx="20.5" cy="13.5" r="4" fill="#e8705a"></circle><circle cx="11.5" cy="19.5" r="4" fill="#e8705a"></circle><circle cx="18.5" cy="19.5" r="4" fill="#e8705a"></circle><circle cx="15" cy="15" r="3" fill="#f2cc5a"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 26 C8 20 4 16 4 11 C4 7.5 6.8 5 10 5 C12.3 5 14 6.3 15 8 C16 6.3 17.7 5 20 5 C23.2 5 26 7.5 26 11 C26 16 22 20 15 26 Z" fill="#e8705a" stroke="#f2cc5a" stroke-width="1.2"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 13 C11 8 5 7 5 11 C5 14 10 14 15 13 C20 14 25 14 25 11 C25 7 19 8 15 13 Z" fill="#e8705a" stroke="#f2cc5a" stroke-width="1"></path><path d="M15 13 L10 26 M15 13 L20 26" stroke="#e8705a" stroke-width="2" stroke-linecap="round"></path><circle cx="15" cy="13" r="2" fill="#f2cc5a"></circle></svg>
+</div>
+</div></div></div>
+<div class="daisy-band daisy-band-low"></div>
+</div>

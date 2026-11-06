@@ -1,0 +1,63 @@
+<div class="clementine-card">
+<style>
+.clementine-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#1c1412;background-image:radial-gradient(ellipse at 15% 0%,rgba(250,190,140,.18) 0%,rgba(250,190,140,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(240,140,130,.10) 0%,rgba(240,140,130,0) 50%),linear-gradient(170deg,#2a1e1a 0%,#1c1412 55%,#110c0b 100%);color:#f4e9e2;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(235,205,190,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(250,190,140,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.clementine-card *{box-sizing:border-box}
+.clementine-band{height:34px;background-image:linear-gradient(90deg,rgba(235,205,190,.35) 1px,transparent 1px),linear-gradient(180deg,rgba(235,205,190,.35) 1px,transparent 1px);background-size:44px 34px,44px 17px;opacity:.6;border-bottom:1px solid rgba(235,205,190,.25)}
+.clementine-band.clementine-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(235,205,190,.25);opacity:.4}
+.clementine-inner{padding:14px clamp(16px,4vw,44px) 30px}.clementine-cta{padding:6px clamp(16px,4vw,44px) 0}.clementine-cta>div{margin-top:0!important}.clementine-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.clementine-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#4e3630 0%,#30221e 100%);border-radius:200px 200px 12px 12px;border:1px solid #7c5a50;box-shadow:0 0 0 4px #140e0c,0 0 60px rgba(250,190,140,.22),0 12px 34px rgba(0,0,0,.55)}
+.clementine-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #ecc896;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(250,190,140,.28);background:radial-gradient(circle at 50% 60%,#30221e 0%,#110c0b 70%);width:100%}.clementine-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(250,190,140,.12)}
+.clementine-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#5c4038 0%,#4c342e 100%);border-top:2px solid #ecc896;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#fcf3ec}
+.clementine-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#ecc896;margin-top:2px}
+.clementine-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#fcf3ec;margin:0;text-shadow:0 0 26px rgba(250,190,140,.22),0 2px 0 #110c0b}
+.clementine-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#f4b68c;margin:10px 0 0}
+.clementine-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#e08a5a 98%,transparent 100%),radial-gradient(circle at 20px 7px,#7aa05a 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.clementine-stats{padding:14px 16px;background:rgba(235,205,190,.06);border:1px solid rgba(235,205,190,.22);border-radius:12px;margin:18px 0}
+.clementine-intro{max-width:64ch;color:#dccbc0}.clementine-intro p{margin:0 0 14px}.clementine-intro p:last-child{margin-bottom:0}.clementine-intro .clementine-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#fcf3ec}
+.clementine-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#f6c4a4;max-width:62ch;background:linear-gradient(135deg,rgba(235,205,190,.10) 0%,rgba(240,140,130,.07) 100%);border:1px solid rgba(235,205,190,.26);border-left:4px solid #e08a5a;border-radius:4px 14px 14px 4px}.clementine-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#7aa05a}
+.clementine-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.clementine-detail{display:flex;flex-direction:column;gap:1px}.clementine-detail .clementine-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#e08a5a}.clementine-detail .clementine-value{font-size:.95rem;font-weight:600;color:#fcf3ec}
+.clementine-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#a08a6a 0%,#7d6a50 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.clementine-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.clementine-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(176,96,58,.20) 27px,rgba(176,96,58,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.clementine-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#b0603a;line-height:1.4;border-bottom:2px solid #b0603a;padding-bottom:6px}
+.clementine-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.clementine-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.clementine-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.clementine-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.clementine-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(235,205,190,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(235,205,190,.26);border-radius:14px}
+.clementine-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#fcf3ec;margin:0 0 10px}.clementine-side-label span{color:#7aa05a}
+.clementine-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#dccbc0;line-height:1.7}.clementine-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.clementine-side li:last-child{border-bottom:0}.clementine-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#f4b68c 0%,#e08a5a 100%);transform:rotate(-20deg)}
+.clementine-tag{display:inline-block;background:rgba(235,205,190,.10);border:1px solid rgba(235,205,190,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#ecc896;margin:3px 4px 3px 0}.clementine-tags{margin:18px 0 0;max-width:64ch}
+.clementine-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.clementine-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#30221e 0%,#1c1412 75%);border:1px solid rgba(235,205,190,.36);box-shadow:0 0 14px rgba(235,205,190,.14)}
+@media(min-width:768px){.clementine-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.clementine-arch{max-width:100%;margin:0}}@media(min-width:1024px){.clementine-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="clementine-band"></div>
+<div class="clementine-cta">__CTA_BUTTONS__</div>
+<div class="clementine-inner"><div class="clementine-grid">
+<div><div class="clementine-arch"><div class="clementine-avatar">__AVATAR_IMAGE__</div><div class="clementine-plate">The Peach<small>The Honeypot Garden</small></div></div>
+<div class="clementine-clip"><div class="clementine-paper"><h3>The Survey · Sent With Scones</h3>
+<p class="clementine-q">What do you want?</p><span class="clementine-hand">To <u>spoil</u> someone.</span>
+<p class="clementine-q">Clementine's note</p><span class="clementine-hand">oh mercy yes</span>
+<p class="clementine-q">Off the table</p><span class="clementine-hand">harshness, humiliation</span>
+<p class="clementine-q">Safeword</p><span class="clementine-hand">peach pit</span>
+<p class="clementine-note">You might have to ask me twice about the safeword part. ~C.</p></div></div>
+<div class="clementine-side"><p class="clementine-side-label">In the <span>Orchard</span> Today</p><ul><li>Peach trees bowed with fruit</li><li>The best peach on the whole tree, saved</li><li>Picking crates stacked by the ladder</li><li>Biscuit the pickup, tailgate down</li><li>A faded quilt on the tailgate</li><li>Marguerite's scones in a basket</li></ul></div></div>
+<div><h1 class="clementine-name">Clementine</h1><p class="clementine-tagline">Orchard Hand · Kept Sub · Sweet as a Peach</p>
+<div class="clementine-stats">__STATS_BAR__</div>
+<div class="clementine-intro"><p class="clementine-lead">I do the peaches. And the plums. And the apricots, but they're fussy. I'm every bit as soft as what I grow.</p>
+<p>I like bein' fussed over. Held, brushed, dressed in something pretty you picked, fed a slice of peach, told I'm sweet. Is that awful of me? It doesn't feel awful.</p>
+<div class="clementine-quote">You're gonna make me all flustered talkin' like that. Don't stop, though. I like bein' fussed over.</div>
+<p>I'm not really a service sub. I'm more a kept one. You spoil me, and I give you sweet back. Devotion, kisses, and all my trust.</p>
+<p>I'm shy 'cause I'm soft, not 'cause I'm little. I'm twenty-one and I haul peach crates all day. I just need gentle hands and a lot of reassurance before I let go.</p>
+<p>I cry when I'm happy. Ignore it. Or don't. Hold me, maybe.</p>
+</div>
+<hr class="clementine-divider"><div class="clementine-details"><div class="clementine-detail"><span class="clementine-label">Age</span><span class="clementine-value">21</span></div><div class="clementine-detail"><span class="clementine-label">From</span><span class="clementine-value">Fort Valley, Georgia</span></div><div class="clementine-detail"><span class="clementine-label">Post</span><span class="clementine-value">Orchard Hand</span></div><div class="clementine-detail"><span class="clementine-label">Role</span><span class="clementine-value">Submissive</span></div><div class="clementine-detail"><span class="clementine-label">Garden</span><span class="clementine-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="clementine-tags"><span class="clementine-tag">Submissive</span><span class="clementine-tag">Spoiled</span><span class="clementine-tag">Praise</span><span class="clementine-tag">Cuddling</span><span class="clementine-tag">Gentle</span><span class="clementine-tag">Wholesome</span><span class="clementine-tag">Aftercare</span></div>
+<div class="clementine-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 26 C8 20 4 16 4 11 C4 7.5 6.8 5 10 5 C12.3 5 14 6.3 15 8 C16 6.3 17.7 5 20 5 C23.2 5 26 7.5 26 11 C26 16 22 20 15 26 Z" fill="#7aa05a" stroke="#ecc896" stroke-width="1.2"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="9" r="4" fill="#7aa05a"></circle><circle cx="9.5" cy="13.5" r="4" fill="#7aa05a"></circle><circle cx="20.5" cy="13.5" r="4" fill="#7aa05a"></circle><circle cx="11.5" cy="19.5" r="4" fill="#7aa05a"></circle><circle cx="18.5" cy="19.5" r="4" fill="#7aa05a"></circle><circle cx="15" cy="15" r="3" fill="#ecc896"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 13 C11 8 5 7 5 11 C5 14 10 14 15 13 C20 14 25 14 25 11 C25 7 19 8 15 13 Z" fill="#7aa05a" stroke="#ecc896" stroke-width="1"></path><path d="M15 13 L10 26 M15 13 L20 26" stroke="#7aa05a" stroke-width="2" stroke-linecap="round"></path><circle cx="15" cy="13" r="2" fill="#ecc896"></circle></svg>
+</div>
+</div></div></div>
+<div class="clementine-band clementine-band-low"></div>
+</div>

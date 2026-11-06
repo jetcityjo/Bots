@@ -1,0 +1,63 @@
+<div class="sable-card">
+<style>
+.sable-card{width:100%;box-sizing:border-box;margin:0;padding:0;position:relative;background:#121112;background-image:radial-gradient(ellipse at 15% 0%,rgba(220,170,110,.18) 0%,rgba(220,170,110,0) 45%),radial-gradient(ellipse at 100% 100%,rgba(150,150,190,.10) 0%,rgba(150,150,190,0) 50%),linear-gradient(170deg,#1b191c 0%,#121112 55%,#09090a 100%);color:#e8e6ea;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.65;border:1px solid rgba(190,185,195,.26);border-radius:18px;overflow:hidden;box-shadow:0 0 60px rgba(220,170,110,.10),inset 0 1px 0 rgba(255,255,255,.05)}
+.sable-card *{box-sizing:border-box}
+.sable-band{height:34px;background-image:radial-gradient(circle at 22px 17px,rgba(200,194,204,.22) 2px,transparent 3px);background-size:44px 34px;opacity:.6;border-bottom:1px solid rgba(190,185,195,.25)}
+.sable-band.sable-band-low{height:22px;border-bottom:0;border-top:1px solid rgba(190,185,195,.25);opacity:.4}
+.sable-inner{padding:14px clamp(16px,4vw,44px) 30px}.sable-cta{padding:6px clamp(16px,4vw,44px) 0}.sable-cta>div{margin-top:0!important}.sable-grid{display:grid;grid-template-columns:1fr;gap:30px}
+.sable-arch{position:relative;width:100%;max-width:390px;margin:0 auto;padding:16px 14px 0;background:linear-gradient(180deg,#2c2a30 0%,#1b1a1e 100%);border-radius:200px 200px 12px 12px;border:1px solid #4a4650;box-shadow:0 0 0 4px #0a090b,0 0 60px rgba(220,170,110,.22),0 12px 34px rgba(0,0,0,.55)}
+.sable-avatar{position:relative;aspect-ratio:64/75;border-radius:184px 184px 8px 8px;overflow:hidden;border:3px solid #c8c2cc;box-shadow:0 0 0 1px rgba(0,0,0,.6),0 0 24px rgba(220,170,110,.28);background:radial-gradient(circle at 50% 60%,#1b1a1e 0%,#09090a 70%);width:100%}.sable-avatar:after{content:'';position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 50px rgba(0,0,0,.45),inset 0 -30px 50px rgba(220,170,110,.12)}
+.sable-plate{margin:12px -14px 0;padding:9px 10px 10px;background:linear-gradient(180deg,#343138 0%,#2a282e 100%);border-top:2px solid #c8c2cc;border-radius:0 0 12px 12px;text-align:center;font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:.82rem;letter-spacing:.28em;text-transform:uppercase;color:#f4f2f6}
+.sable-plate small{display:block;font-family:'Courier New',monospace;font-weight:400;font-size:.62rem;letter-spacing:.24em;color:#c8c2cc;margin-top:2px}
+.sable-name{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:clamp(3rem,12vw,4.8rem);line-height:.95;letter-spacing:.06em;text-transform:uppercase;color:#f4f2f6;margin:0;text-shadow:0 0 26px rgba(220,170,110,.22),0 2px 0 #09090a}
+.sable-tagline{font-family:'Courier New',monospace;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:#c2bcd8;margin:10px 0 0}
+.sable-divider{height:14px;border:0;margin:24px 0;background-image:radial-gradient(ellipse 5px 3px at 8px 7px,#8a82a8 98%,transparent 100%),radial-gradient(circle at 20px 7px,#d8a060 2.2px,transparent 2.8px);background-size:28px 14px;background-repeat:repeat-x;background-position:center;opacity:.7}
+.sable-stats{padding:14px 16px;background:rgba(190,185,195,.06);border:1px solid rgba(190,185,195,.22);border-radius:12px;margin:18px 0}
+.sable-intro{max-width:64ch;color:#c6c2ca}.sable-intro p{margin:0 0 14px}.sable-intro p:last-child{margin-bottom:0}.sable-intro .sable-lead{font-family:Georgia,'Times New Roman',serif;font-size:1.13rem;line-height:1.55;color:#f4f2f6}
+.sable-quote{position:relative;padding:16px 18px 16px 50px;margin:24px 0;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:1.06rem;line-height:1.55;color:#d6c8e8;max-width:62ch;background:linear-gradient(135deg,rgba(190,185,195,.10) 0%,rgba(150,150,190,.07) 100%);border:1px solid rgba(190,185,195,.26);border-left:4px solid #8a82a8;border-radius:4px 14px 14px 4px}.sable-quote:before{content:'\201C';position:absolute;left:14px;top:4px;font-size:3.2rem;line-height:1;color:#d8a060}
+.sable-details{display:flex;flex-wrap:wrap;gap:12px 26px;margin:20px 0 0}.sable-detail{display:flex;flex-direction:column;gap:1px}.sable-detail .sable-label{font-family:'Courier New',monospace;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:#8a82a8}.sable-detail .sable-value{font-size:.95rem;font-weight:600;color:#f4f2f6}
+.sable-clip{position:relative;margin:30px 0 0;padding:26px 12px 12px;background:linear-gradient(160deg,#6a6670 0%,#4e4a54 100%);border-radius:12px;border:1px solid rgba(0,0,0,.5);box-shadow:0 10px 26px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)}
+.sable-clip:before{content:'';position:absolute;top:-10px;left:50%;width:92px;height:26px;margin-left:-46px;background:linear-gradient(180deg,#d9d4cb 0%,#9a958c 55%,#c9c4bb 100%);border-radius:7px 7px 4px 4px;box-shadow:0 2px 4px rgba(0,0,0,.5),inset 0 -2px 0 rgba(0,0,0,.2)}
+.sable-paper{background:#f3eee2;background-image:repeating-linear-gradient(180deg,transparent 0,transparent 27px,rgba(90,84,112,.20) 27px,rgba(90,84,112,.20) 28px);color:#2b2a22;border-radius:4px;padding:16px 16px 14px;box-shadow:0 2px 6px rgba(0,0,0,.35);line-height:28px}
+.sable-paper h3{margin:0 0 6px;font-family:'Courier New',monospace;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:#5a5470;line-height:1.4;border-bottom:2px solid #5a5470;padding-bottom:6px}
+.sable-q{font-family:'Courier New',monospace;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:#5c5a4a;margin:4px 0 0}
+.sable-hand{display:block;font-family:'Bradley Hand','Segoe Print','Comic Sans MS','Chalkboard SE',cursive;font-size:1.05rem;letter-spacing:0;text-transform:none;color:#2c4a7a;line-height:26px}
+.sable-hand u{text-decoration-color:#a33b3b;text-decoration-thickness:2px}
+.sable-note{margin:8px 0 0;font-family:Georgia,serif;font-style:italic;font-size:.86rem;color:#6a4f32;line-height:1.5}
+.sable-side{position:relative;margin:22px 0 0;padding:20px 20px 18px;background:linear-gradient(180deg,rgba(190,185,195,.08) 0%,rgba(0,0,0,.3) 100%);border:1px solid rgba(190,185,195,.26);border-radius:14px}
+.sable-side-label{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:1.1rem;letter-spacing:.08em;text-transform:uppercase;color:#f4f2f6;margin:0 0 10px}.sable-side-label span{color:#d8a060}
+.sable-side ul{list-style:none;margin:0;padding:0;font-size:.92rem;color:#c6c2ca;line-height:1.7}.sable-side li{padding:5px 0 5px 24px;position:relative;border-bottom:1px dashed rgba(255,255,255,.12)}.sable-side li:last-child{border-bottom:0}.sable-side li:before{content:'';position:absolute;left:3px;top:12px;width:11px;height:7px;border-radius:0 100% 0 100%;background:linear-gradient(135deg,#c2bcd8 0%,#8a82a8 100%);transform:rotate(-20deg)}
+.sable-tag{display:inline-block;background:rgba(190,185,195,.10);border:1px solid rgba(190,185,195,.38);border-radius:999px;padding:4px 12px;font-family:'Courier New',monospace;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#c8c2cc;margin:3px 4px 3px 0}.sable-tags{margin:18px 0 0;max-width:64ch}
+.sable-icons{display:flex;gap:14px;align-items:center;margin:20px 0 0}.sable-icons svg{display:block;width:46px;height:46px;padding:8px;border-radius:50%;background:radial-gradient(circle at 50% 45%,#1b1a1e 0%,#121112 75%);border:1px solid rgba(190,185,195,.36);box-shadow:0 0 14px rgba(190,185,195,.14)}
+@media(min-width:768px){.sable-grid{grid-template-columns:minmax(0,340px) 1fr;gap:36px;align-items:start}.sable-arch{max-width:100%;margin:0}}@media(min-width:1024px){.sable-grid{grid-template-columns:minmax(0,380px) 1fr;gap:44px}}
+</style>
+<div class="sable-band"></div>
+<div class="sable-cta">__CTA_BUTTONS__</div>
+<div class="sable-inner"><div class="sable-grid">
+<div><div class="sable-arch"><div class="sable-avatar">__AVATAR_IMAGE__</div><div class="sable-plate">The Night Moth<small>The Honeypot Garden</small></div></div>
+<div class="sable-clip"><div class="sable-paper"><h3>Sable's Terms · Exact Words</h3>
+<p class="sable-q">Restraint</p><span class="sable-hand">Wrists, not ankles.</span>
+<p class="sable-q">Order</p><span class="sable-hand">Blindfold first, then headphones.</span>
+<p class="sable-q">Not tonight</p><span class="sable-hand">gag</span>
+<p class="sable-q">Safeword · Signal</p><span class="sable-hand">moth · two squeezes</span>
+<p class="sable-note">That's the most I'll say all night. Use it well. ~S.</p></div></div>
+<div class="sable-side"><p class="sable-side-label">In the <span>Shade House</span> Tonight</p><ul><li>One amber lamp, turned low</li><li>Black hellebores and hanging ferns</li><li>A heavy black blindfold</li><li>Leather cuffs in the low cabinet</li><li>Headphones, for the silence</li><li>A black blanket, for after</li></ul></div></div>
+<div><h1 class="sable-name">Sable</h1><p class="sable-tagline">Shade Gardener · Sub · Hold On While It's Dark</p>
+<div class="sable-stats">__STATS_BAR__</div>
+<div class="sable-intro"><p class="sable-lead">I keep the shade house. The plants nobody else wants, in the dim and the quiet. I'm drawn to the same things I grow.</p>
+<p>I'm so tired of looking at everything. Of being looked at. Of choosing. The dark is where I finally get to stop performing.</p>
+<div class="sable-quote">Take it all away for a while. I'm so tired of looking at everything. Just hold onto me while it's dark.</div>
+<p>Blindfold, headphones, my wrists bound so I can't reach for anything. Take my sight away and I feel everything. That's the trade. I go very still. That's me trusting you.</p>
+<p>My limits are exact and I'll tell you in very few words. My safeword is absolute. Two squeezes if I can't talk.</p>
+<p>Coming back is slow. The world's too loud for a minute. Don't turn the lamp up yet. Just stay.</p>
+</div>
+<hr class="sable-divider"><div class="sable-details"><div class="sable-detail"><span class="sable-label">Age</span><span class="sable-value">25</span></div><div class="sable-detail"><span class="sable-label">From</span><span class="sable-value">Portland, Maine</span></div><div class="sable-detail"><span class="sable-label">Post</span><span class="sable-value">Shade Gardener</span></div><div class="sable-detail"><span class="sable-label">Role</span><span class="sable-value">Submissive</span></div><div class="sable-detail"><span class="sable-label">Garden</span><span class="sable-value">Batch 2 · Switches &amp; Subs</span></div></div>
+<div class="sable-tags"><span class="sable-tag">Submissive</span><span class="sable-tag">Sensory Deprivation</span><span class="sable-tag">Blindfold</span><span class="sable-tag">Bondage</span><span class="sable-tag">Stillness</span><span class="sable-tag">Goth</span><span class="sable-tag">Aftercare</span></div>
+<div class="sable-icons">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 4 C14 5 10 10 10 16 C10 21 14 26 20 26 C15 28 6 24 6 15 C6 8 12 3 20 4 Z" fill="#c8c2cc"></path><circle cx="22" cy="11" r="1" fill="#f4f2f6"></circle><circle cx="25" cy="17" r="0.8" fill="#f4f2f6"></circle></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 13 C9 10 21 10 27 13 L27 17 C21 20 9 20 3 17 Z" fill="#d8a060" stroke="#c8c2cc" stroke-width="1"></path><path d="M3 15 L1 22 M27 15 L29 22" stroke="#d8a060" stroke-width="1.6" stroke-linecap="round"></path></svg>
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="5" stroke="#d8a060" stroke-width="2.2"></circle><circle cx="19" cy="11" r="5" stroke="#d8a060" stroke-width="2.2"></circle><path d="M11 16 L8 26 M19 16 L22 26" stroke="#d8a060" stroke-width="2.2" stroke-linecap="round"></path><circle cx="15" cy="13" r="1.6" fill="#c8c2cc"></circle></svg>
+</div>
+</div></div></div>
+<div class="sable-band sable-band-low"></div>
+</div>
