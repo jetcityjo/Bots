@@ -1,4 +1,7 @@
 ---
+status: pending
+output: library/Unsorted/Zion (Miami Bears)/Zion (Miami Bears).png
+aspect_ratio: "1:1"
 tags:
   - Miami_Bears
   - Image_Prompt
