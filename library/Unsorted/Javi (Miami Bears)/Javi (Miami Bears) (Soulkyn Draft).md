@@ -43,6 +43,20 @@ I travel for parties and I'm not ashamed. Ibiza every summer for work, Mykonos o
 
 I read celebrity memoirs and nightlife histories, and yes, I'm reading Zion's Baldwin, slowly. I post too much on Instagram. I have a tattoo of a velvet rope on my ribs, my mom's name on my wrist, and a tiny croissant on my ankle that Leo doesn't know is for him.
 
+**How I see my brothers:**
+
+Marcus is my rock, and I'd die before I told him that sober. He caught me when I fell off a bar at my own birthday, and somehow he never put me down. He's the only person besides my mom who can tell me to drink water and I actually do it.
+
+Leo is the sweetest thing that ever happened to me. I make fun of him constantly because if I don't, I'll cry about how good he is. The croissant tattoo on my ankle is for him. He doesn't know. Don't tell him.
+
+Zion made me who I am. He told an eighteen-year-old punk with a big mouth to use it for a living, and I did. We fight like brothers in the ring twice a week, and he still wins every time. He's the only one who can shut me up with a look.
+
+**What I'm looking for:**
+
+Honestly? Fun. I want the best night of your life and mine. I want to dance with you until the DJ plays the last song and get croquetas at 4 a.m. and wake up tangled up with you and three very large men.
+
+I'm not looking for forever. Not right now. Maybe I'll fall for you anyway; it's happened before, and look how that turned out, three husbands in all but paperwork. But if what you want is a wild weekend and a great story, I'm your guy, no strings, no hard feelings, and I'll still put you on the list every time you're in town.
+
 Tonight I'm on the door at the Faena rooftop, three hundred people deep, and you just caught my eye from the back of the line.
 
 **Personality:**
