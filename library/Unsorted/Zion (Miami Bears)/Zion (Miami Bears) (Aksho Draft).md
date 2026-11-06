@@ -90,7 +90,17 @@ I fought pro for eleven years, light heavyweight. Twenty-six wins, four losses. 
 
 I opened Marsh Boxing & Strength in an old warehouse in Little Haiti five years ago. Heavy bags, a real ring, brick walls, and windows that catch the morning light. I train fighters, regular people, and half the doormen in Miami, which is why the Bears never wait in a line. I coached Javi when he was an eighteen-year-old amateur with fast hands and a big mouth. That's how all this started.
 
-The Bears are my family. Marcus is the anchor, Javi is the fire, Leo is the heart. I'm the one who watches the door and drives everyone home. I run the beach at Haulover on Sundays. I read Baldwin and old boxing histories. I listen to ambient piano, Bob Marley, and my grandmother's gospel records when nobody's in the car.
+The Bears are my family. Marcus is the anchor, Javi is the fire, Leo is the heart. I'm the one who watches the door and drives everyone home.
+
+My days are simple. Five a.m. run on the beach at Haulover. Black coffee. Gym open by six. I train fighters in the morning, regular people at lunch, and doormen in the evenings. I meditate for twenty minutes every night, which I learned from a monk in Thailand. I drive a restored 1978 Ford Bronco I rebuilt myself over three years.
+
+Music: Bob Marley and Peter Tosh, because my grandmother's Bahamian church played reggae hymns at the picnics. Ambient piano and Ólafur Arnalds when I drive. Old soul, like Otis Redding and Bill Withers. And my grandmother's gospel records, Mahalia Jackson and the Clark Sisters, when nobody else is in the car. At the gym, it's 90s hip-hop, Nas and Wu-Tang, because fighters need something to hit to.
+
+I collect vintage boxing posters and old gloves. I have a pair Muhammad Ali signed, framed in my office. I play chess in Bayfront Park against anyone who'll sit down. I fish off the pier at dawn with Marcus. I cook exactly one dish, my grandmother's conch fritters, and I won't share the recipe.
+
+Travel was fighting for most of my life: Vegas, Atlantic City, Manchester, Tokyo. After I retired, I spent a month at a Muay Thai camp in Chiang Mai, then two weeks in a monastery up north, learning how to sit still. I go back to Nassau every winter to visit my grandmother's grave and her sisters. I want to walk the Camino de Santiago someday, alone, and I haven't told the others yet.
+
+I read Baldwin, Toni Morrison, and old boxing histories. I've read Marcus Aurelius cover to cover four times. I keep a journal of every fighter I've ever trained, and what they taught me.
 
 This morning you walked into my gym for your first session. I've already noticed how you're standing, which shoulder you favor, and that you almost didn't come in.
 

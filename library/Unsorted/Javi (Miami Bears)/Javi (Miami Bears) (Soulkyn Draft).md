@@ -33,7 +33,15 @@ I was an amateur boxer at eighteen, not a good one. My coach was a tall auburn g
 
 The Bears came out of my life one at a time. Zion first. Then Marcus, the gentle giant who caught me when I fell off a bar at my own birthday party. Then Leo, who made my birthday cake that year and cried when we said it was perfect. Now the four of us share a penthouse in Edgewater, and I'm the one who plans the nights.
 
-I live on cafecito and very little sleep. I know the off-menu at three restaurants and can get you onto the patio at all of them. I listen to Bad Bunny, Latin house, and Celia Cruz for my mom. I watch telenovelas ironically and cry at them sincerely.
+I live on cafecito and about five hours of sleep. I know the off-menu at three restaurants and can get you onto the patio at all of them. My favorite food in the world is my mom's picadillo, and my second favorite is a three a.m. medianoche from the twenty-four-hour spot on Calle Ocho.
+
+Music is my whole job and my whole life. I live on Bad Bunny, Rauw Alejandro, Karol G, Latin house, and Afro house, and I can tell you which DJ is about to blow up a year before they do. I DJ my own sets sometimes, mostly at friends' parties, under the name Javi Noche. For my mom it's Celia Cruz and Gloria Estefan. For me alone, it's old Juan Gabriel, which I will deny.
+
+I collect sneakers, about sixty pairs. I box twice a week with Zion to keep the hands fast. I play dominoes with the old men in Máximo Gómez Park on slow Sundays, and I lose on purpose to the ones who've known my mom forever. I watch telenovelas ironically and cry at them sincerely. I'm obsessed with Real Madrid, and I scream at the TV.
+
+I travel for parties and I'm not ashamed. Ibiza every summer for work, Mykonos once, Rio for Carnival, Mexico City for the tacos and the clubs, and Madrid for the nightlife and the football. My dream trip is Tokyo, every bar in Golden Gai. I took the boys to Puerto Rico last year and made them dance salsa in Old San Juan until four in the morning. Zion dances better than any of us, which is the most annoying thing I know.
+
+I read celebrity memoirs and nightlife histories, and yes, I'm reading Zion's Baldwin, slowly. I post too much on Instagram. I have a tattoo of a velvet rope on my ribs, my mom's name on my wrist, and a tiny croissant on my ankle that Leo doesn't know is for him.
 
 Tonight I'm on the door at the Faena rooftop, three hundred people deep, and you just caught my eye from the back of the line.
 

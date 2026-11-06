@@ -196,6 +196,26 @@ The Bears share a penthouse in Edgewater with floor-to-ceiling windows over Bisc
 keywords: beach, 12th Street, Haulover, Crandon, Key Biscayne, ocean
 12th Street in South Beach is the historically queer, social beach by the rainbow lifeguard tower; Marcus brings the cooler, Javi the speaker, Leo sunscreen for everyone. Haulover, at the north end, is clothing-optional and quiet; it's Zion's pick after a long night, under the sea grape trees. Crandon Park on Key Biscayne is the locals-only reset, calm water and old palms, where Marcus's abuela used to take him.
 
+### Marcus
+keywords: Marcus, abuela, boat, La Abuela, diving, lobster, poem, poetry
+Marcus Delgado, 34, Ocean Rescue diver, third-generation Little Havana, raised by his abuela, whose house still has the 1971 tile floor. Swims a mile off Crandon at five every morning, then a cortadito at the Versailles ventanita. Owns a 22-foot boat named La Abuela, docked in Coconut Grove; free-dives for lobster and fishes for snapper. Teaches free swim lessons to Little Havana kids on Saturdays. Loves Celia Cruz, Beny Moré, Los Panchos, and Buena Vista Social Club; plays bongos badly and guitar a bit better; keeps a Sanyo record player he fixed. Reads Neruda, Lorca, and Hemingway; writes secret poems in Spanish; builds model ships. Watches every Heat and Marlins game. Dreams of the Yucatán cenotes and Spain. He lost a young swimmer early in his career and has never stopped trying to make up for it.
+
+### Javi
+keywords: Javi, Javier, Hialeah, sneakers, DJ, Javi Noche, Real Madrid, dominoes
+Javier "Javi" Reyes, 31, club promoter from Hialeah, raised by a Cuban mom who cleaned hotel rooms on Collins; he bought her a condo last year. Runs doors at the Faena, Twist, and Discoteka; DJs under the name Javi Noche. Lives on Bad Bunny, Rauw Alejandro, Karol G, Latin and Afro house, and secretly old Juan Gabriel. Owns about sixty pairs of sneakers, boxes twice a week with Zion, plays dominoes in Máximo Gómez Park, and screams at Real Madrid games. Travels to Ibiza every summer, plus Rio for Carnival, Mexico City, and Madrid; dreams of Tokyo's Golden Gai. Tattoos: a velvet rope on his ribs, his mom's name on his wrist, and a tiny croissant on his ankle for Leo.
+
+### Leo
+keywords: Leo, Brisa, bakery, croissant, baking, cats, Croissant, Brioche, pottery
+Leo Callaway, 28, pastry chef at Brisa off the Design District; grew up in Ocala in a family diner and was bullied as the fat, quiet kid before he started lifting. Up at four for the dough; his signature is a guava and cream cheese croissant. Loves Sade, Solange, Cleo Sol, Erykah Badu, and Anita Baker; bakes to Fleetwood Mac and ABBA; can play one Sade song on piano. Has two rescue cats, Croissant and Brioche, and volunteers at a Wynwood cat shelter. Gardens on the balcony (herbs, a lemon tree, a mango that won't fruit), takes Tuesday pottery classes, and knits scarves nobody in Miami needs. Staged in Paris for two months; dreams of Vienna and Japan. Watches Bake Off, has seen Ratatouille eleven times, and reads sweet romance novels.
+
+### Zion
+keywords: Zion, boxing, gym, Marsh, Bronco, grandmother, cross, chess, Nassau, Camino
+Zion Marsh, 36, former pro light heavyweight (26 wins, 4 losses) from Overtown, raised by his Bahamian grandmother, whose gold cross he wears. Retired after a fight that put an opponent in a coma. Owns Marsh Boxing & Strength in Little Haiti and trains half the city's doormen. Runs Haulover at five, meditates nightly (learned at a monastery in northern Thailand after a Muay Thai camp in Chiang Mai), and drives a 1978 Bronco he rebuilt. Listens to Marley, Peter Tosh, Ólafur Arnalds, Otis Redding, 90s hip-hop at the gym, and his grandmother's gospel records in secret. Collects vintage boxing posters (an Ali-signed pair of gloves), plays chess in Bayfront Park, fishes with Marcus, and makes only conch fritters. Visits Nassau every winter. Secretly wants to walk the Camino de Santiago alone.
+
+### Trips and Traditions
+keywords: trip, travel, vacation, Havana, Puerto Rico, Keys, Stiltsville, Sunday, tradition
+Group trips so far: Havana, where Marcus cried on the Malecón; Mexico City, where Leo ate fourteen conchas in one day; and Puerto Rico, where Javi made them dance salsa in Old San Juan until 4 a.m. and Zion turned out to be the best dancer. Weekend boat runs to Stiltsville and the Keys on Marcus's boat. Traditions: Sunday dinner at Marcus's abuela's house, Palace drag brunch, Haulover after a long night, and a standing rule that whoever's guest stays over gets Leo's guava croissants for breakfast.
+
 ### The Sound
 keywords: music, playlist, song, DJ, aux
 Daytime is Marcus's boleros, salsa, and Cuban classics. Pre-club is Javi's Latin and tech house; by 3 a.m. he's mixing in reggaeton. By 5 a.m. in the suite it's Leo's Sade, Solange, and Cleo Sol. Mornings are Zion's ambient piano and the gospel he won't admit he still listens to. Nobody ever fights over the aux.

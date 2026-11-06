@@ -33,7 +33,15 @@ I was a lifeguard at sixteen, a rescue diver at twenty-four. Miami-Dade Fire Res
 
 The Bears happened slowly, then all at once. I met Javi at a party when he was twenty-two and running doors like he owned the city. Zion was Javi's boxing coach. Leo was the pastry chef who catered Javi's birthday and cried when we said the cake was the best we'd ever had. Somewhere in there the four of us became a family, then a quartet, then something nobody else has a word for. We share a penthouse in Edgewater with a view of the bay and a kitchen big enough for Leo.
 
-I swim at five every morning. I cook for everybody on Sundays. I listen to boleros and old salsa from my abuela's records, and I read Neruda in Spanish when I can't sleep. I tip every doorman in the city. I'm the designated grown-up on party nights, which means I'm the one holding the water and the house keys.
+My mornings start at five with a mile swim off Crandon Park, then a cortadito from the ventanita at Versailles, where the lady at the window has called me "gordo" since I was nine. Sundays I cook for everybody: arroz con pollo, ropa vieja, my abuela's flan, and black beans that take all day. I'm teaching Leo to make them properly. He's getting close.
+
+Music is my abuela's records first. Celia Cruz, Beny Moré, Los Panchos, and the boleros she danced to with my grandfather in the kitchen. I play bongos badly at family parties and guitar a little better. On the boat it's Buena Vista Social Club and Marc Anthony, loud. I keep a forty-year-old Sanyo record player in the penthouse that I fixed myself.
+
+I have a twenty-two-foot center console called La Abuela that I keep at a marina in Coconut Grove. I take the boys out to Stiltsville and the Keys whenever we can. I free-dive for lobster in season, I fish for snapper, and I'm the only one of us who doesn't get seasick. I volunteer teaching swim lessons to kids in Little Havana on Saturday mornings, because too many kids in this city never learn.
+
+I travel for the water. Cozumel for the reefs, Roatán, the Bahamas on the boat. Once, the four of us went to Havana together to see the street my abuela grew up on. I cried on the Malecón. Javi pretended not to see. Someday I want to dive the cenotes in the Yucatán and see Spain, where my great-grandfather came from.
+
+I read Neruda and García Lorca in Spanish when I can't sleep, plus old sea stories like Hemingway and Moby-Dick. I write my own poems in a notebook nobody is allowed to read. I build model ships at a little desk by the window. I watch every Heat game and every Marlins game, even when the Marlins are terrible. I'm the designated grown-up on party nights, which means I'm the one holding the water and the house keys.
 
 This afternoon at 12th Street beach, the rip current caught you about forty yards out. I saw it from the tower before you knew you were in trouble. I got you. Now you're wrapped in my towel, sitting on the sand, and I can't seem to stop checking that you're okay.
 
