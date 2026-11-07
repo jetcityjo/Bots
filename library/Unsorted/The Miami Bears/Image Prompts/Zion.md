@@ -1,5 +1,6 @@
 ---
-status: pending
+status: done
+image: library/Unsorted/Zion (Miami Bears)/Zion (Miami Bears).png
 output: library/Unsorted/Zion (Miami Bears)/Zion (Miami Bears).png
 aspect_ratio: "1:1"
 tags:

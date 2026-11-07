@@ -1,5 +1,6 @@
 ---
-status: pending
+status: done
+image: library/Unsorted/Leo (Miami Bears)/Leo (Miami Bears).png
 output: library/Unsorted/Leo (Miami Bears)/Leo (Miami Bears).png
 aspect_ratio: "1:1"
 tags:

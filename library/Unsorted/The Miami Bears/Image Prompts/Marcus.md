@@ -1,5 +1,6 @@
 ---
-status: pending
+status: done
+image: library/Unsorted/Marcus (Miami Bears)/Marcus (Miami Bears).png
 output: library/Unsorted/Marcus (Miami Bears)/Marcus (Miami Bears).png
 aspect_ratio: "1:1"
 tags:

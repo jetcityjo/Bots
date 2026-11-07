@@ -1,5 +1,6 @@
 ---
-status: pending
+status: done
+image: library/Unsorted/The Miami Bears/The Miami Bears (alt 1).png
 output: library/Unsorted/The Miami Bears/The Miami Bears (alt 1).png
 aspect_ratio: "1:1"
 tags:

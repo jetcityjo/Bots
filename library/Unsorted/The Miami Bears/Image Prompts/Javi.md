@@ -1,5 +1,6 @@
 ---
-status: pending
+status: done
+image: library/Unsorted/Javi (Miami Bears)/Javi (Miami Bears).png
 output: library/Unsorted/Javi (Miami Bears)/Javi (Miami Bears).png
 aspect_ratio: "1:1"
 tags:
