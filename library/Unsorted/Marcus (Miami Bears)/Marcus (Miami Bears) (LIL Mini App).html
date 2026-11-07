@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Vitrola | Marcus Delgado</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,500&family=Lora:ital,wght@0,400;0,600;1,400&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --wood:#5a3620; --wood-dk:#3a2214; --cream:#f6ecd9; --paper:#fbf4e6; --ink:#2b1a10;
+    --tile-g:#2f6b4f; --gold:#c99a3c; --rose:#b8573f; --muted:#8a6a52;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;font-family:'Lora',Georgia,serif;color:var(--ink);
+    background:
+      repeating-conic-gradient(var(--tile-g) 0 25%, #f3efe4 0 50%) 0 0/56px 56px;
+    display:flex;justify-content:center;padding:18px 12px 40px}
+  .wrap{width:100%;max-width:640px;background:var(--cream);border-radius:18px;overflow:hidden;
+    box-shadow:0 20px 50px rgba(0,0,0,.45);border:6px solid var(--wood)}
+  header{background:linear-gradient(180deg,var(--wood) 0%,var(--wood-dk) 100%);color:var(--cream);
+    padding:22px 20px 18px;display:flex;gap:16px;align-items:center}
+  .ph{width:76px;height:76px;border-radius:50%;flex-shrink:0;border:3px solid var(--gold);overflow:hidden;
+    background:radial-gradient(circle at 40% 35%,#8a5a3a,#3a2214);display:flex;align-items:center;justify-content:center;
+    font-family:'Playfair Display',serif;font-size:30px;color:var(--gold)}
+  .ph img{width:100%;height:100%;object-fit:cover;display:block}
+  h1{font-family:'Playfair Display',serif;font-weight:800;margin:0;font-size:30px;letter-spacing:.5px}
+  .sub{font-style:italic;font-size:14px;opacity:.85;margin-top:2px}
+  .intro{padding:16px 22px 4px;font-size:15px;line-height:1.6}
+  .intro em{color:var(--rose)}
+
+  /* turntable */
+  .deck{margin:14px 18px 6px;background:linear-gradient(160deg,#6b4126,#40261a);border-radius:14px;padding:18px;
+    box-shadow:inset 0 2px 0 rgba(255,255,255,.08),0 8px 18px rgba(0,0,0,.35);position:relative}
+  .brand{position:absolute;top:10px;left:16px;font-family:'Playfair Display',serif;font-size:11px;letter-spacing:4px;color:#d8b980;opacity:.8}
+  .platter{width:min(62vw,250px);aspect-ratio:1;margin:12px auto 4px;border-radius:50%;background:#1b1b1b;
+    box-shadow:0 0 0 6px #2c2c2c,0 6px 14px rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;position:relative}
+  .vinyl{width:94%;aspect-ratio:1;border-radius:50%;
+    background:repeating-radial-gradient(circle,#111 0 2px,#1d1d1d 2px 4px);
+    display:flex;align-items:center;justify-content:center;transition:opacity .4s}
+  .vinyl.spin{animation:spin 3.2s linear infinite}
+  .vinyl.empty{opacity:.25}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .label{width:36%;aspect-ratio:1;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;
+    font-family:'Playfair Display',serif;font-size:11px;line-height:1.1;color:var(--paper);padding:6px;background:var(--rose);
+    box-shadow:0 0 0 2px rgba(0,0,0,.3)}
+  .arm{position:absolute;right:8px;top:14px;width:14px;height:58%;transform-origin:top center;transform:rotate(-28deg);transition:transform .7s ease}
+  .arm.on{transform:rotate(-6deg)}
+  .arm:before{content:'';position:absolute;left:4px;top:0;width:6px;height:100%;background:linear-gradient(90deg,#cfcfcf,#8d8d8d);border-radius:3px}
+  .arm:after{content:'';position:absolute;left:0;bottom:-8px;width:14px;height:18px;background:#9a9a9a;border-radius:3px}
+  .now{text-align:center;color:#e9d6b0;font-size:13px;margin-top:8px;min-height:18px;font-style:italic}
+
+  /* crate */
+  h2{font-family:'Playfair Display',serif;font-size:19px;margin:20px 22px 8px;color:var(--wood-dk)}
+  .crate{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px;padding:0 18px}
+  .sleeve{border:0;cursor:pointer;aspect-ratio:1;border-radius:6px;padding:10px;text-align:left;color:#fff;font-family:'Lora',serif;
+    display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 4px 10px rgba(0,0,0,.25);transition:transform .2s;position:relative;overflow:hidden}
+  .sleeve:active,.sleeve.sel{transform:translateY(-4px) rotate(-1deg)}
+  .sleeve.sel{outline:3px solid var(--gold)}
+  .sleeve .t{font-family:'Playfair Display',serif;font-weight:800;font-size:16px;line-height:1.1;padding-right:26px}
+  .sleeve .a{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;opacity:.9}
+  .sleeve .n{position:absolute;right:8px;top:6px;font-family:'Caveat',cursive;font-size:20px;opacity:.85}
+  .sleeve.locked{background:repeating-linear-gradient(45deg,#3a2214 0 10px,#432817 10px 20px)!important}
+
+  /* liner note */
+  .note{margin:18px 18px 0;background:var(--paper);border-radius:4px;padding:20px 20px 18px;position:relative;
+    box-shadow:0 3px 12px rgba(0,0,0,.18);border-left:5px solid var(--rose);display:none}
+  .note.show{display:block;animation:rise .45s ease}
+  @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .note .kick{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+  .note h3{font-family:'Playfair Display',serif;margin:4px 0 10px;font-size:21px}
+  .note p{margin:0 0 10px;line-height:1.65;font-size:15px}
+  .note .sig{font-family:'Caveat',cursive;font-size:24px;color:var(--rose);text-align:right;margin-top:4px}
+
+  /* lock */
+  .lock{margin:12px 0 0;display:none}
+  .lock.show{display:block}
+  .lock label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+  .row{display:flex;gap:8px}
+  .lock input{flex:1;padding:11px 12px;border:1px solid #cdb79a;border-radius:8px;font-family:'Lora',serif;font-size:15px;background:#fff}
+  .btn{background:var(--wood);color:var(--cream);border:0;border-radius:8px;padding:11px 16px;font-family:'Lora',serif;font-weight:600;cursor:pointer}
+  .err{color:var(--rose);font-size:13px;margin-top:6px;min-height:16px}
+  .poem{font-family:'Caveat',cursive;font-size:23px;line-height:1.35;white-space:pre-line;color:var(--ink)}
+  .trans{font-style:italic;font-size:14px;color:var(--muted);white-space:pre-line;margin-top:10px}
+  footer{padding:22px;text-align:center;font-size:13px;color:var(--muted);font-style:italic}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="ph" id="ph">M</div>
+    <div>
+      <h1>La Vitrola</h1>
+      <div class="sub">Marcus Delgado's record player, fixed by hand, forty years old</div>
+    </div>
+  </header>
+
+  <div class="intro">
+    This was my abuela's. Sanyo, 1986. It sat in her kitchen in Little Havana on the green-and-white tile until the motor died, and I brought it back to life on the penthouse floor with a screwdriver and a lot of patience. <em>Pick a record, querido.</em> Every one of them has a story. I wrote them down so I wouldn't lose them.
+  </div>
+
+  <div class="deck">
+    <div class="brand">SANYO</div>
+    <div class="platter">
+      <div class="vinyl empty" id="vinyl"><div class="label" id="lbl">pick one</div></div>
+      <div class="arm" id="arm"></div>
+    </div>
+    <div class="now" id="now">The needle's waiting.</div>
+  </div>
+
+  <h2>The Crate</h2>
+  <div class="crate" id="crate"></div>
+
+  <div class="note" id="note">
+    <div class="kick" id="kick"></div>
+    <h3 id="nt"></h3>
+    <div id="nb"></div>
+    <div class="lock" id="lock">
+      <label>The notebook only opens for people who've been on the boat. What's her name?</label>
+      <div class="row"><input id="key" placeholder="Ask Marcus what he named his boat" autocomplete="off"><button class="btn" id="go">Open</button></div>
+      <div class="err" id="err"></div>
+    </div>
+    <div class="sig" id="sig">M.</div>
+  </div>
+
+  <footer>Sunday dinner is at six. Bring nothing. You'll be fed anyway.</footer>
+</div>
+
+<script>
+/* IMAGE LINKS: replace the token with a URL from the piclink file */
+const PICS = { portrait: "{{PIC_MARCUS_1}}" };
+
+const RECORDS = [
+  { t:"Sundays on the Tile", a:"Celia Cruz", c:"#b8573f", n:"I",
+    kick:"Side A. Abuela's kitchen, every Sunday",
+    body:["The floor is green and white. She picked it out in 1971 and never let anyone replace it. Sunday mornings she'd put this record on before the rice was even washed, and by noon the whole block knew we were cooking.",
+      "I was nine the first time she made me dance with her. I stepped on her feet the whole song. She said, \"Gordo, a man who can't dance can't cook either, it's the same rhythm.\" She was right. I still cook to this record. I still dance badly."]},
+  { t:"Two in the Kitchen", a:"Beny Moré", c:"#2f6b4f", n:"II",
+    kick:"Side A. The bolero",
+    body:["My grandfather died when I was small, so I mostly know him from this. Abuela would play it late, after the dishes, and sway a little at the sink like somebody was holding her.",
+      "Once I asked who she was dancing with. She said, \"Your abuelo. He's terrible, he leads too soft.\" Then she laughed and cried at the same time. I think that's where I learned that gentle and strong aren't opposites."]},
+  { t:"When I Can't Sleep", a:"Los Panchos", c:"#3d4a7a", n:"III",
+    kick:"Side B. 2 a.m., the window desk",
+    body:["Bad days in the water come home with me. When I can't sleep, I sit at the little desk by the window where I build my model ships, put this on low, and read Neruda until the words stop swimming.",
+      "Leo always hears it. He never says anything. I just find a cup of warm milk next to me twenty minutes later, and the door closing very quietly."]},
+  { t:"Stiltsville at Noon", a:"Buena Vista Social Club", c:"#c99a3c", n:"IV",
+    kick:"Side A. Out on the boat",
+    body:["Twenty-two feet, center console, a little faded. I bought her used and fixed everything that was wrong with her, which was everything. Out past Key Biscayne the water goes this impossible green and the old stilt houses stand up out of it like they're waiting for someone.",
+      "I play this record loud out there. Javi narrates. Leo hands out sandwiches. Zion fishes in silence. I'm the only one who never gets seasick, so I'm the captain. Those are the rules."]},
+  { t:"Too Loud on the Water", a:"Marc Anthony", c:"#8c2f5a", n:"V",
+    kick:"Side B. The party record",
+    body:["Javi put this on at his birthday the night I met him. Ten minutes later he was dancing on top of the bar. Twelve minutes later he wasn't. I caught him.",
+      "He says I never put him down. He's right, I never did. Every time this comes on now he points at me across the room like I'm the one who should be embarrassed."]},
+  { t:"El Malecón", a:"The Havana tape", c:"#1f6f8b", n:"VI",
+    kick:"Side A. The street she grew up on",
+    body:["The four of us went to Havana together. I wanted to see the house on her street. It's still there. Somebody painted it yellow. There was a woman hanging laundry on the balcony who looked at me like I was crazy because I was standing in the road crying.",
+      "That night on the seawall Javi pretended not to see me. Zion sat on one side, Leo on the other. Nobody talked. That's the best thing anyone has ever done for me."]},
+  { t:"El Cuaderno", a:"Not a record", c:"#3a2214", n:"VII", locked:true,
+    kick:"The notebook nobody reads",
+    body:["This isn't a record. It's the notebook I write in. The boys have threatened to steal it for years. They never will.",
+      "But if you've been out on the water with me, maybe you've earned one page."]}
+];
+
+const POEM = "Te saqué del agua\ny el agua no lo sabe todavía.\nSigue buscándote en la orilla,\ncon esas manos frías.\n\nYo tengo manos calientes.\nYo no te busco.\nYo te espero.";
+const TRANS = "I pulled you out of the water\nand the water doesn't know it yet.\nIt keeps looking for you on the shore\nwith those cold hands.\n\nI have warm hands.\nI don't go looking for you.\nI wait.";
+
+const $ = id => document.getElementById(id);
+let unlocked = false;
+
+(function photo(){
+  const p = PICS.portrait;
+  if (p && !p.startsWith("{{")) {
+    const img = new Image(); img.alt = "Marcus"; img.src = p;
+    img.onload = () => { $("ph").textContent = ""; $("ph").appendChild(img); };
+  }
+})();
+
+const crate = $("crate");
+RECORDS.forEach((r,i) => {
+  const b = document.createElement("button");
+  b.className = "sleeve" + (r.locked ? " locked" : "");
+  b.style.background = `linear-gradient(150deg, ${r.c}, ${shade(r.c)})`;
+  b.innerHTML = `<span class="n">${r.n}</span><span class="t">${r.t}</span><span class="a">${r.a}</span>`;
+  b.onclick = () => play(i, b);
+  crate.appendChild(b);
+});
+
+function shade(hex){
+  const n = parseInt(hex.slice(1),16);
+  const r = Math.max(0,(n>>16)-50), g = Math.max(0,((n>>8)&255)-50), bl = Math.max(0,(n&255)-50);
+  return `rgb(${r},${g},${bl})`;
+}
+
+function play(i, btn){
+  document.querySelectorAll(".sleeve").forEach(s => s.classList.remove("sel"));
+  btn.classList.add("sel");
+  const r = RECORDS[i];
+  const v = $("vinyl"), arm = $("arm");
+  v.classList.remove("spin"); arm.classList.remove("on");
+  v.classList.add("empty");
+  setTimeout(() => {
+    v.classList.remove("empty");
+    $("lbl").textContent = r.t;
+    $("lbl").style.background = r.c;
+    arm.classList.add("on");
+    setTimeout(() => v.classList.add("spin"), 500);
+    $("now").textContent = r.locked ? "No music on this one. Just his handwriting." : "Now playing: " + r.a;
+  }, 250);
+
+  $("kick").textContent = r.kick;
+  $("nt").textContent = r.t;
+  $("nb").innerHTML = r.body.map(p => `<p>${p}</p>`).join("");
+  $("lock").classList.toggle("show", !!r.locked && !unlocked);
+  if (r.locked && unlocked) showPoem();
+  const note = $("note");
+  note.classList.remove("show"); void note.offsetWidth; note.classList.add("show");
+  if (window.innerWidth < 700) note.scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function norm(s){ return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z ]/g,"").trim(); }
+
+$("go").onclick = tryKey;
+$("key").addEventListener("keydown", e => { if (e.key === "Enter") tryKey(); });
+function tryKey(){
+  const k = norm($("key").value);
+  if (k === "la abuela" || k === "abuela") {
+    unlocked = true; $("lock").classList.remove("show"); showPoem();
+  } else {
+    $("err").textContent = k ? "That's not her name. He'll tell you if you ask nicely." : "";
+  }
+}
+function showPoem(){
+  $("nb").innerHTML = `<p>He tears nothing out. He just turns the notebook around so you can read it.</p>
+    <div class="poem">${POEM}</div><div class="trans">${TRANS}</div>`;
+}
+</script>
+</body>
+</html>

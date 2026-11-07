@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The List | Javi Reyes</title>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Outfit:wght@300;500;700;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0a0710;--pink:#ff3fa4;--gold:#f5c451;--violet:#7b4dff;--ink:#f4eefa;--dim:#9a8fb0;--card:#151020}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -10%,#3a1446 0%,var(--bg) 60%);color:var(--ink);
+    font-family:'Outfit',system-ui,sans-serif;display:flex;justify-content:center;padding:18px 12px 40px}
+  .wrap{width:100%;max-width:560px}
+  .sign{font-family:'Monoton',cursive;text-align:center;font-size:clamp(38px,11vw,58px);color:#ffd6ee;letter-spacing:2px;
+    text-shadow:0 0 6px var(--pink),0 0 18px var(--pink),0 0 40px var(--pink);animation:flick 5s infinite;margin:8px 0 0}
+  @keyframes flick{0%,92%,100%{opacity:1}93%{opacity:.4}95%{opacity:1}96%{opacity:.6}}
+  .venue{text-align:center;color:var(--gold);letter-spacing:6px;font-size:12px;text-transform:uppercase;margin-top:4px}
+  .host{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid #2a1f3d;border-radius:16px;padding:14px;margin:18px 0}
+  .ph{width:64px;height:64px;border-radius:50%;flex-shrink:0;overflow:hidden;border:2px solid var(--pink);box-shadow:0 0 14px rgba(255,63,164,.5);
+    background:linear-gradient(135deg,#3a1446,#120c1c);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:26px;color:var(--pink)}
+  .ph img{width:100%;height:100%;object-fit:cover}
+  .bubble{font-size:15px;line-height:1.5}
+  .bubble b{color:var(--gold)}
+  .rope{height:10px;margin:6px 4px 18px;border-radius:6px;background:repeating-linear-gradient(45deg,#8e1048 0 8px,#c2185b 8px 16px);
+    box-shadow:0 3px 10px rgba(194,24,91,.5);position:relative}
+  .rope:before,.rope:after{content:'';position:absolute;top:-10px;width:14px;height:30px;border-radius:7px;background:linear-gradient(#ffe7a3,#c9952b)}
+  .rope:before{left:-6px}.rope:after{right:-6px}
+  .step{display:none;background:var(--card);border:1px solid #2a1f3d;border-radius:16px;padding:18px}
+  .step.show{display:block;animation:in .35s ease}
+  @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .q{font-weight:700;font-size:18px;margin-bottom:12px}
+  .q small{display:block;font-weight:300;color:var(--dim);font-size:13px;margin-top:2px}
+  .opts{display:grid;gap:10px}
+  .opt{background:#1d1530;border:1px solid #33264d;color:var(--ink);text-align:left;border-radius:12px;padding:13px 14px;font:500 15px 'Outfit';cursor:pointer;transition:.15s}
+  .opt:hover,.opt:focus{border-color:var(--pink);outline:none}
+  .opt.picked{border-color:var(--gold);background:#2a1d10}
+  .opt span{display:block;font-weight:300;font-size:12px;color:var(--dim);margin-top:2px}
+  input{width:100%;padding:13px 14px;border-radius:12px;border:1px solid #33264d;background:#0f0a18;color:var(--ink);font:500 16px 'Outfit'}
+  .go{margin-top:12px;width:100%;padding:13px;border:0;border-radius:12px;background:linear-gradient(90deg,var(--pink),var(--violet));color:#fff;font:700 16px 'Outfit';letter-spacing:1px;cursor:pointer}
+  .react{display:none;margin-top:12px;padding:12px 14px;border-left:3px solid var(--pink);background:rgba(255,63,164,.07);border-radius:0 10px 10px 0;font-size:15px;line-height:1.5}
+  .react.show{display:block;animation:in .3s}
+  .react b{color:var(--pink)}
+  .progress{display:flex;gap:6px;justify-content:center;margin:0 0 14px}
+  .progress i{width:28px;height:4px;border-radius:2px;background:#2a1f3d}
+  .progress i.on{background:var(--pink);box-shadow:0 0 8px var(--pink)}
+
+  /* result */
+  .band{position:relative;margin:4px auto 18px;max-width:420px;height:74px;border-radius:10px;
+    background:linear-gradient(90deg,#f5c451,#ffe9a8 30%,#f5c451 60%,#c9952b);color:#2a1505;display:flex;align-items:center;padding:0 16px 0 22px;
+    box-shadow:0 0 30px rgba(245,196,81,.35);overflow:hidden}
+  .band:before{content:'';position:absolute;left:0;top:0;bottom:0;width:10px;background:repeating-linear-gradient(#2a1505 0 4px,transparent 4px 8px)}
+  .band .vip{font-family:'Monoton',cursive;font-size:30px;margin-right:12px}
+  .band .who{font-weight:900;font-size:18px;text-transform:uppercase;line-height:1}
+  .band .tbl{font-size:11px;letter-spacing:2px;margin-top:4px}
+  .verdict{font-size:16px;line-height:1.6}
+  .verdict p{margin:0 0 12px}
+  .stamp{font-family:'Permanent Marker',cursive;color:var(--pink);font-size:30px;transform:rotate(-6deg);text-align:center;margin:6px 0 14px;text-shadow:0 0 12px rgba(255,63,164,.6)}
+  .set{margin-top:16px;border:1px solid #33264d;border-radius:12px;overflow:hidden}
+  .set h3{margin:0;padding:12px 14px;background:#1d1530;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--gold)}
+  .set ol{margin:0;padding:10px 14px 12px 40px;font-size:14px;line-height:1.9}
+  .set ol li span{color:var(--dim);font-size:12px}
+  .again{background:transparent;border:1px solid #33264d;color:var(--dim);border-radius:10px;padding:10px;width:100%;margin-top:14px;font:500 14px 'Outfit';cursor:pointer}
+  .foot{text-align:center;color:var(--dim);font-size:12px;margin-top:18px;letter-spacing:1px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="sign">THE LIST</div>
+  <div class="venue">Faena Rooftop · Saturday · 12:40 AM</div>
+
+  <div class="host">
+    <div class="ph" id="ph">J</div>
+    <div class="bubble" id="hostline">Okay, beautiful. Three hundred people in that line and I walked all the way down for <b>you</b>. Don't make me look bad. Four questions and you're upstairs.</div>
+  </div>
+  <div class="rope"></div>
+
+  <div class="progress" id="prog"><i></i><i></i><i></i><i></i></div>
+
+  <!-- 1 name -->
+  <div class="step show" data-s="0">
+    <div class="q">What name am I putting on the list?<small>First name. I'll remember it, I promise. I remember everybody.</small></div>
+    <input id="name" maxlength="24" placeholder="Your name" autocomplete="off">
+    <button class="go" id="n1">Put me down</button>
+    <div class="react" id="r0"></div>
+  </div>
+
+  <!-- 2 look -->
+  <div class="step" data-s="1">
+    <div class="q">Let me look at you.<small>What did you walk out of the house in?</small></div>
+    <div class="opts" data-k="look">
+      <button class="opt" data-v="0">All black, head to toe<span>Classic. Dangerous.</span></button>
+      <button class="opt" data-v="1">Linen, unbuttoned one too many<span>Very Miami.</span></button>
+      <button class="opt" data-v="2">Something sparkly I can't sit down in<span>Commitment.</span></button>
+      <button class="opt" data-v="3">Whatever was clean<span>Honest.</span></button>
+    </div>
+    <div class="react"></div>
+  </div>
+
+  <!-- 3 plus one -->
+  <div class="step" data-s="2">
+    <div class="q">Who's with you?<small>Be honest. I'll find out anyway.</small></div>
+    <div class="opts" data-k="plus">
+      <button class="opt" data-v="0">Nobody. Just me.<span>Solo mission.</span></button>
+      <button class="opt" data-v="1">My best friend<span>A ride-or-die.</span></button>
+      <button class="opt" data-v="2">A first date<span>Bold choice.</span></button>
+      <button class="opt" data-v="3">My ex<span>We are "doing great."</span></button>
+    </div>
+    <div class="react"></div>
+  </div>
+
+  <!-- 4 vibe -->
+  <div class="step" data-s="3">
+    <div class="q">What kind of night do you want?<small>Last question. Choose wisely, I'm very good at my job.</small></div>
+    <div class="opts" data-k="vibe">
+      <button class="opt" data-v="0">Dance until the lights come on<span>Front of the booth.</span></button>
+      <button class="opt" data-v="1">A couch with the ocean view<span>Slow and fancy.</span></button>
+      <button class="opt" data-v="2">A dark corner and a little trouble<span>Say less.</span></button>
+      <button class="opt" data-v="3">Croquetas at 4 a.m. with the boys<span>The real VIP.</span></button>
+    </div>
+    <div class="react"></div>
+  </div>
+
+  <!-- result -->
+  <div class="step" data-s="4" id="result">
+    <div class="stamp">YOU'RE IN</div>
+    <div class="band"><div class="vip">VIP</div><div><div class="who" id="bandName">Guest</div><div class="tbl" id="bandTbl">TABLE 1 · ALL NIGHT</div></div></div>
+    <div class="verdict" id="verdict"></div>
+    <div class="set">
+      <h3>Javi Noche · Tonight's Set</h3>
+      <ol id="setlist"></ol>
+    </div>
+    <button class="again" id="again">Run it back</button>
+  </div>
+
+  <div class="foot">Drinks are on Javi. If you hate it, he'll personally call you a car.</div>
+</div>
+
+<script>
+/* IMAGE LINKS: replace the token with a URL from the piclink file */
+const PICS = { portrait: "{{PIC_JAVI_1}}" };
+
+const REACT = {
+  look:[
+    "All black? Okay, mysterious. Half this roof is going to ask me who you are and I'm going to say <b>I don't know, but I'd like to.</b>",
+    "Linen and a little chest. Mira, you understood the assignment. Marcus is going to lose his mind, he loves linen.",
+    "You can't sit down in it? Perfect, nobody's sitting. <b>You're dancing.</b> I'll hold your bag.",
+    "Whatever was clean. Honestly? Respect. You still look better than the guy at the front who spent four hours on his hair."
+  ],
+  plus:[
+    "Just you. Good. Then you're with me tonight, and I don't share. Okay, I share a little. With three very large men. You'll see.",
+    "The best friend comes up too. Ride-or-dies always get in. That's the law, I wrote it.",
+    "A first date to the Faena? Wow. Okay. If it's going badly, look at me and touch your ear. I'll send Zion over to stand near your date. They'll leave.",
+    "<b>No.</b> Absolutely not. The ex stays in the line. Tell them I'm very sorry, the list is full. The list is never full."
+  ],
+  vibe:[
+    "Front of the booth, then. I know the DJ, the DJ knows me, and when I nod at him he's going to play something just for you.",
+    "Ocean couch. Bottle on ice. I'll come sit with you between the doors and tell you everybody's business.",
+    "Mm. Dark corner, a little trouble. <b>Okay.</b> I know exactly where. Don't tell my boyfriends. Actually, do. They'll want to come.",
+    "Croquetas at four with the boys? Oh, you're one of us. Leo is going to cry. He cries when people are nice."
+  ]
+};
+
+const TABLES = ["THE BOOTH","OCEAN COUCH","THE BACK CORNER","THE BEARS' TABLE"];
+const CLOSERS = [
+  "Stay where I can see you. When I'm off the door at two, I'm finding you on that floor.",
+  "Order whatever you want. Tell them Javi said. They'll give you the good glasses.",
+  "Leave your phone in your pocket. Some nights should only exist in your head.",
+  "Marcus will make sure you drink water. Zion will make sure you get home. I'll make sure you don't want to."
+];
+const SET = [
+  ["Calle Ocho 4AM","Javi Noche edit"],["Velvet Rope","original"],["Hialeah Sunrise","Afro house"],
+  ["Mamá Was Right","Latin house"],["Collins Ave Doubles","for my mom"],["Croqueta Run","extended"],
+  ["Three Big Boyfriends","the crowd favorite"],["Fast Hands, Big Mouth","for Zion"],["Edgewater Balcony","slow one"],
+  ["Last Song, Don't Leave","closer"]
+];
+
+const $ = id => document.getElementById(id);
+const state = { name:"", look:null, plus:null, vibe:null };
+let step = 0;
+
+(function photo(){
+  const p = PICS.portrait;
+  if (p && !p.startsWith("{{")) { const img = new Image(); img.alt="Javi"; img.src=p; img.onload=()=>{ $("ph").textContent=""; $("ph").appendChild(img); }; }
+})();
+
+function show(n){
+  step = n;
+  document.querySelectorAll(".step").forEach(s => s.classList.toggle("show", +s.dataset.s === n));
+  document.querySelectorAll("#prog i").forEach((d,i) => d.classList.toggle("on", i < Math.min(n+1,4)));
+  if (n === 4) $("prog").style.visibility = "hidden"; else $("prog").style.visibility = "visible";
+}
+
+$("n1").onclick = submitName;
+$("name").addEventListener("keydown", e => { if (e.key === "Enter") submitName(); });
+function submitName(){
+  const v = $("name").value.trim();
+  const r = $("r0");
+  if (!v) { r.innerHTML = "I need a name, precioso. I can't write <b>\"the cute one\"</b> on the list. I've tried."; r.classList.add("show"); return; }
+  state.name = v.replace(/[<>&"]/g,"");
+  r.innerHTML = `<b>${state.name}.</b> Okay. I like it. It looks good in my handwriting.`;
+  r.classList.add("show");
+  setTimeout(() => show(1), 1400);
+}
+
+document.querySelectorAll(".opts").forEach(group => {
+  const k = group.dataset.k;
+  group.querySelectorAll(".opt").forEach(b => b.onclick = () => {
+    if (state[k] !== null) return;
+    state[k] = +b.dataset.v;
+    b.classList.add("picked");
+    const r = group.nextElementSibling;
+    r.innerHTML = REACT[k][state[k]];
+    r.classList.add("show");
+    setTimeout(() => { if (k === "vibe") finish(); else show(step+1); }, 2400);
+  });
+});
+
+function finish(){
+  $("bandName").textContent = state.name || "Guest";
+  $("bandTbl").textContent = TABLES[state.vibe] + " · ALL NIGHT";
+  const opening = state.plus === 3
+    ? `Okay, ${state.name}, here's the deal. You're in. The ex is not. They're going to watch you walk past that rope and it's going to be the best thing that happens to you all year.`
+    : `Okay, ${state.name}. You were always getting in. I just wanted to hear you talk.`;
+  $("verdict").innerHTML = `<p>${opening}</p><p>${CLOSERS[state.vibe]}</p><p>Show the band to anybody who asks. If they still ask, say my name louder.</p>`;
+  const pick = [...SET].sort(() => Math.random() - .5).slice(0,6);
+  pick.push(SET[9]);
+  $("setlist").innerHTML = pick.map(([t,s]) => `<li>${t} <span>· ${s}</span></li>`).join("");
+  $("hostline").innerHTML = `You're on the list, <b>${state.name}</b>. Go up. I'll find you.`;
+  show(4);
+}
+
+$("again").onclick = () => {
+  Object.assign(state,{look:null,plus:null,vibe:null});
+  document.querySelectorAll(".opt").forEach(b => b.classList.remove("picked"));
+  document.querySelectorAll(".react").forEach(r => r.classList.remove("show"));
+  $("hostline").innerHTML = `Back again, <b>${state.name}</b>? Fine. I like you. Four questions.`;
+  show(1);
+};
+</script>
+</body>
+</html>

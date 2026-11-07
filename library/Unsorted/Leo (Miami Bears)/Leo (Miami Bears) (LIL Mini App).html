@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leo's Bake Book</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,800;1,9..144,400&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--terra:#c8693f;--terra-dk:#9c4a27;--paper:#fffaf0;--line:#e9dcc6;--ink:#3b2a1e;--pencil:#6f6157;--guava:#e0607e;--leaf:#5f8f5a;--butter:#f3d27a}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;font-family:'Nunito',system-ui,sans-serif;color:var(--ink);
+    background:linear-gradient(45deg,#b85d36 25%,transparent 25%,transparent 75%,#b85d36 75%),linear-gradient(45deg,#b85d36 25%,#c8693f 25%,#c8693f 75%,#b85d36 75%);
+    background-size:60px 60px;background-position:0 0,30px 30px;display:flex;justify-content:center;padding:18px 10px 40px}
+  .book{width:100%;max-width:620px;background:var(--paper);border-radius:6px 14px 14px 6px;position:relative;
+    box-shadow:0 18px 45px rgba(0,0,0,.4), inset 18px 0 0 #efe2c8, inset 20px 0 0 #d9c8a8;padding:22px 18px 26px 34px}
+  .cover{display:flex;gap:16px;align-items:center;margin-bottom:12px}
+  .polaroid{background:#fff;padding:6px 6px 22px;box-shadow:0 4px 10px rgba(0,0,0,.2);transform:rotate(-4deg);flex-shrink:0;position:relative}
+  .polaroid:before{content:'';position:absolute;top:-9px;left:50%;transform:translateX(-50%) rotate(3deg);width:46px;height:16px;background:rgba(243,210,122,.75)}
+  .polaroid .ph{width:78px;height:78px;background:linear-gradient(135deg,#f3d27a,#e0607e);display:flex;align-items:center;justify-content:center;font-family:'Fraunces';font-weight:800;font-size:30px;color:#fff;overflow:hidden}
+  .polaroid .ph img{width:100%;height:100%;object-fit:cover}
+  .polaroid .cap{font-family:'Caveat';font-size:15px;text-align:center;margin-top:3px;color:var(--pencil)}
+  h1{font-family:'Fraunces',serif;font-weight:800;font-size:30px;margin:0;line-height:1.05}
+  .sub{font-family:'Caveat',cursive;font-size:21px;color:var(--terra-dk);margin-top:2px}
+  .note{font-size:14.5px;line-height:1.6;color:var(--pencil);margin:8px 0 14px}
+
+  .tabs{display:flex;gap:6px;overflow-x:auto;padding:4px 2px 0;scrollbar-width:none;margin:0 -4px}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{flex-shrink:0;border:0;border-radius:10px 10px 0 0;padding:9px 13px 8px;font:700 13px 'Nunito';cursor:pointer;color:#fff;opacity:.72;transform:translateY(4px);transition:.15s}
+  .tab.on{opacity:1;transform:none;box-shadow:0 -2px 6px rgba(0,0,0,.12)}
+  .card{background:#fff;border-radius:0 8px 8px 8px;padding:20px 18px 18px;position:relative;min-height:320px;
+    background-image:repeating-linear-gradient(transparent 0 27px,var(--line) 27px 28px);background-position:0 54px;
+    box-shadow:0 4px 14px rgba(0,0,0,.12);border-top:6px solid var(--terra)}
+  .card h2{font-family:'Fraunces',serif;font-size:23px;margin:0 0 2px;line-height:1.15;padding-right:78px}
+  .for{font-family:'Caveat',cursive;font-size:20px;color:var(--terra-dk);margin-bottom:12px}
+  .cols{display:grid;grid-template-columns:1fr;gap:6px 20px}
+  @media(min-width:560px){.cols{grid-template-columns:.85fr 1.15fr}}
+  h4{margin:6px 0 4px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--pencil)}
+  ul,ol{margin:0;padding-left:18px;font-size:14px;line-height:1.75}
+  .margin{font-family:'Caveat',cursive;font-size:21px;line-height:1.25;color:#2f5f8a;margin-top:14px;padding:8px 12px;background:rgba(47,95,138,.06);border-radius:8px;transform:rotate(-.6deg)}
+  .playlist{display:inline-flex;gap:8px;align-items:center;margin-top:12px;padding:7px 12px;border-radius:30px;background:#1f1b18;color:#f3eadc;font-size:12.5px}
+  .playlist b{color:var(--butter);font-weight:800}
+  .disc{width:16px;height:16px;border-radius:50%;background:radial-gradient(circle,#e0607e 0 3px,#111 3px)}
+  .doodle{position:absolute;right:12px;top:12px;font-family:'Caveat';color:#b9a58a;font-size:16px;text-align:center;line-height:1}
+  .doodle svg{display:block;margin:0 auto 2px}
+
+  /* yours */
+  .build label{display:block;font-weight:800;font-size:13px;margin:12px 0 6px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{border:1.5px solid var(--line);background:var(--paper);border-radius:30px;padding:7px 12px;font:600 13px 'Nunito';cursor:pointer;color:var(--ink)}
+  .chip.on{background:var(--terra);border-color:var(--terra);color:#fff}
+  .build input{width:100%;padding:10px 12px;border-radius:10px;border:1.5px solid var(--line);font:600 15px 'Nunito';background:#fff}
+  .bake{margin-top:16px;width:100%;padding:12px;border:0;border-radius:12px;background:var(--terra);color:#fff;font:800 15px 'Nunito';cursor:pointer;letter-spacing:.5px}
+  .bake:disabled{opacity:.45;cursor:default}
+  .oven{display:none;text-align:center;font-family:'Caveat';font-size:22px;color:var(--terra-dk);padding:20px 0}
+  .oven.show{display:block}
+  .oven .bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden;margin:10px auto 0;max-width:260px}
+  .oven .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--butter),var(--terra));transition:width 2.2s ease}
+  .done{display:none}
+  .done.show{display:block;animation:pop .4s ease}
+  @keyframes pop{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
+  .foot{text-align:center;font-family:'Caveat';font-size:19px;color:var(--pencil);margin-top:16px}
+</style>
+</head>
+<body>
+<div class="book">
+  <div class="cover">
+    <div class="polaroid"><div class="ph" id="ph">L</div><div class="cap">me + flour</div></div>
+    <div>
+      <h1>Leo's Bake Book</h1>
+      <div class="sub">Brisa · Design District · since 4 a.m.</div>
+    </div>
+  </div>
+  <div class="note">Everyone I love gets a card. Grandma started this book in the diner in Ocala and I just kept going. Some of these are real recipes. Some of them are mostly feelings. Please don't tell Zion his is in here.</div>
+
+  <div class="tabs" id="tabs"></div>
+  <div class="card" id="card"></div>
+
+  <div class="foot">Croissant and Brioche say hi. (They're cats. They're not allowed in the kitchen. They're in the kitchen.)</div>
+</div>
+
+<script>
+/* IMAGE LINKS: replace the token with a URL from the piclink file */
+const PICS = { portrait: "{{PIC_LEO_1}}" };
+
+const CARDS = [
+  { tab:"Guava Croissant", color:"#e0607e", title:"Guava & Cream Cheese Croissants", for:"for whoever's first in line",
+    ing:["Croissant dough, laminated (3 folds, overnight)","Guava paste, sliced thin","Cream cheese, softened with a spoon of sugar","1 egg + a splash of milk","Turbinado sugar"],
+    steps:["Roll the dough to a long rectangle and cut tall triangles.","Spoon cream cheese at the wide end, lay guava on top.","Roll up loose. They need room to breathe, like people.","Proof somewhere warm until they jiggle (2 hrs-ish).","Egg wash, sugar, 400°F for 18 to 20 minutes, until deep gold."],
+    margin:"Lamination is just patience with butter. I was bad at it for two years. Now there's a line out the door by seven and I still can't believe it.",
+    playlist:"Croissant Lamination But Make It Sade" },
+  { tab:"Marcus", color:"#c8693f", title:"Sunday Tres Leches", for:"for Marcus, every Sunday",
+    ing:["5 eggs, separated","1 cup sugar","1 cup flour + 1½ tsp baking powder","⅓ cup milk, vanilla","Three milks: 12 oz evaporated, 14 oz condensed, ½ cup whole","Whipped cream, cinnamon"],
+    steps:["Whip whites to soft peaks, then the yolks with sugar until pale.","Fold it all together with the flour and milk. Gentle!","Bake at 350°F about 25 minutes. Let it cool.","Poke holes everywhere. Pour the three milks slowly. Wait overnight.","Whipped cream, a little cinnamon, one slice already cut for him."],
+    margin:"He pulls people out of the ocean all week and never lets anybody take care of him. So every Sunday I make this. It's the only thank-you big enough.",
+    playlist:"Marcus Feeling Sad About the Marlins" },
+  { tab:"Javi", color:"#9a5cc6", title:"Pastelitos de Guayaba", for:"for Javi, who says he's on a diet",
+    ing:["2 sheets puff pastry, cold","Guava paste","Cream cheese (optional, but he wants it)","1 egg","Simple syrup"],
+    steps:["Cut squares. Guava (and cheese) in the middle.","Top with a second square, press the edges with a fork.","Egg wash. 400°F for 20 to 25 minutes, until puffed and golden.","Brush with syrup the second they come out so they shine."],
+    margin:"He eats four and says \"I'm not hungry.\" He has a croissant tattoo on his ankle. He thinks I don't know. I know. I've known since Puerto Rico.",
+    playlist:"Javi Is Not Allowed to Choose the Music" },
+  { tab:"Zion", color:"#5f8f5a", title:"Dense Rye, No Nonsense", for:"for Zion (he pretends he doesn't like it)",
+    ing:["300 g dark rye + 200 g bread flour","1 tbsp caraway, toasted","1 tbsp molasses","Sourdough starter, salt, warm water"],
+    steps:["Mix it all into a sticky paste. Rye doesn't knead, it just sits there being stubborn.","Long cold rise overnight.","Bake hot at 450°F, then lower to 400°F for an hour.","Wait a full day before cutting. Yes, a full day. Discipline."],
+    margin:"He never says \"I love this bread.\" He just leaves one slice and the knife clean on the board, and that's how I know. Also he said \"good work\" once and I thought about it for a week.",
+    playlist:"Zion Said Good Work (Repeat x7)" },
+  { tab:"Grandma", color:"#d49a2a", title:"Sweet Potato Bread", for:"Grandma's card, from the diner off the highway",
+    ing:["2 cups mashed roasted sweet potato","2 cups flour, 1 tsp soda, salt","1 cup brown sugar, ½ cup oil, 2 eggs","Cinnamon, nutmeg, a little ginger","Pecans if you have them"],
+    steps:["Roast the potatoes until the sugar weeps out of the skins.","Whisk wet, then dry, then fold. Don't overmix.","Loaf pan, 350°F for about an hour.","Butter on the warm slice. That's not optional."],
+    margin:"I was too small to see over the counter. She put me on a milk crate and handed me a whisk. I was a big quiet kid and that kitchen was the only place I felt brave.",
+    playlist:"Ocala, 6 a.m., Fleetwood Mac Loud" },
+  { tab:"Paris", color:"#3f6fa6", title:"Pain au Chocolat (the one that made me cry)", for:"two months, one tiny bakery, Paris",
+    ing:["Croissant dough","Two batons of dark chocolate per piece","Egg wash","Homesickness, a little"],
+    steps:["Cut rectangles. Chocolate at the edge, roll once, chocolate again, roll.","Seam side down. Proof until puffy.","Egg wash, 390°F, 16 minutes.","Eat one standing at the window at 5 a.m. while the street is still blue."],
+    margin:"The chef never smiled. On my last day he ate one of mine and said \"bon.\" Just that. I cried in the walk-in. Someday Marcus is taking me back. He promised.",
+    playlist:"Leo Learns French (Badly)" },
+  { tab:"Yours ✦", color:"#1f1b18", yours:true }
+];
+
+const FLAVORS = ["Guava","Key lime","Dulce de leche","Mango","Dark chocolate + sea salt","Coconut","Strawberry"];
+const TEXTURES = ["Flaky","Soft and warm","Crunchy outside, gooey inside","Light as air"];
+const TIMES = ["6 a.m., first customer","2 a.m., after the club","Sunday afternoon","In bed, crumbs everywhere"];
+const SHAPES = { "Flaky":"Croissant", "Soft and warm":"Morning Bun", "Crunchy outside, gooey inside":"Cookie", "Light as air":"Cloud Cake" };
+const MOODS = {
+  "6 a.m., first customer":"I'd keep it in the case until you walked in. Then I'd pretend it was a coincidence.",
+  "2 a.m., after the club":"I'd wrap it in a napkin and put it in your hand on the sidewalk while Javi calls the car.",
+  "Sunday afternoon":"I'd bring it out on the balcony with the lemon tree and we wouldn't have to talk at all.",
+  "In bed, crumbs everywhere":"I'd bring it on a plate and then forget the plate entirely. Sorry. Not sorry."
+};
+const PL_FOR = [
+  "Songs That Sound Like You Laughing","Brought You a Snack (Again)","Please Stay for Breakfast","The Kitchen Light Is Still On","You, Probably, Sade Agrees"
+];
+
+const $ = id => document.getElementById(id);
+const tabs = $("tabs"), card = $("card");
+let pick = { name:"", flavor:null, texture:null, time:null };
+
+(function photo(){
+  const p = PICS.portrait;
+  if (p && !p.startsWith("{{")) { const img = new Image(); img.alt="Leo"; img.src=p; img.onload=()=>{ $("ph").textContent=""; $("ph").appendChild(img); }; }
+})();
+
+const PAW = `<svg width="26" height="22" viewBox="0 0 26 22"><g fill="#c9b597"><ellipse cx="13" cy="15" rx="6" ry="5"/><circle cx="5" cy="8" r="2.6"/><circle cx="10" cy="4" r="2.6"/><circle cx="16" cy="4" r="2.6"/><circle cx="21" cy="8" r="2.6"/></g></svg>`;
+
+CARDS.forEach((c,i) => {
+  const t = document.createElement("button");
+  t.className = "tab"; t.textContent = c.tab; t.style.background = c.color;
+  t.onclick = () => open(i);
+  tabs.appendChild(t);
+});
+
+function open(i){
+  [...tabs.children].forEach((t,j) => t.classList.toggle("on", i===j));
+  const c = CARDS[i];
+  card.style.borderTopColor = c.color;
+  if (c.yours) return openYours();
+  card.innerHTML = `
+    <div class="doodle">${PAW}${i%2?"Brioche":"Croissant"} approved</div>
+    <h2>${c.title}</h2><div class="for">${c.for}</div>
+    <div class="cols">
+      <div><h4>You need</h4><ul>${c.ing.map(x=>`<li>${x}</li>`).join("")}</ul></div>
+      <div><h4>Then</h4><ol>${c.steps.map(x=>`<li>${x}</li>`).join("")}</ol></div>
+    </div>
+    <div class="margin">${c.margin}</div>
+    <div class="playlist"><span class="disc"></span>Playlist: <b>${c.playlist}</b></div>`;
+}
+
+function chips(arr, key){
+  return `<div class="chips" data-k="${key}">${arr.map(v=>`<button class="chip${pick[key]===v?" on":""}" data-v="${v}">${v}</button>`).join("")}</div>`;
+}
+
+function openYours(){
+  card.innerHTML = `
+    <div id="blankHead"><h2>This card is blank.</h2>
+    <div class="for">It's for you. Help me fill it in?</div></div>
+    <div class="build">
+      <label>What should I write at the top?</label>
+      <input id="yn" maxlength="22" placeholder="Your name" value="${pick.name}">
+      <label>Pick a flavor</label>${chips(FLAVORS,"flavor")}
+      <label>How should it feel?</label>${chips(TEXTURES,"texture")}
+      <label>When are you eating it?</label>${chips(TIMES,"time")}
+      <button class="bake" id="bake" disabled>Bake it</button>
+    </div>
+    <div class="oven" id="oven">Okay, it's in the oven... don't open the door...<div class="bar"><i id="bar"></i></div></div>
+    <div class="done" id="done"></div>`;
+  $("yn").oninput = e => { pick.name = e.target.value.replace(/[<>&"]/g,""); check(); };
+  card.querySelectorAll(".chips").forEach(g => g.querySelectorAll(".chip").forEach(b => b.onclick = () => {
+    pick[g.dataset.k] = b.dataset.v;
+    g.querySelectorAll(".chip").forEach(x => x.classList.toggle("on", x===b));
+    check();
+  }));
+  $("bake").onclick = bake;
+  check();
+}
+function check(){ const b = $("bake"); if (b) b.disabled = !(pick.name.trim() && pick.flavor && pick.texture && pick.time); }
+
+function bake(){
+  card.querySelector(".build").style.display = "none";
+  $("blankHead").style.display = "none";
+  $("oven").classList.add("show");
+  requestAnimationFrame(() => requestAnimationFrame(() => $("bar").style.width = "100%"));
+  setTimeout(() => {
+    $("oven").classList.remove("show");
+    const n = pick.name.trim();
+    const shape = SHAPES[pick.texture];
+    const title = `The ${n} ${pick.flavor} ${shape}`;
+    const pl = PL_FOR[(n.length + pick.flavor.length) % PL_FOR.length];
+    $("done").innerHTML = `
+      <div class="doodle">${PAW}both cats approved</div>
+      <h2>${title}</h2><div class="for">for ${n}, ${pick.time.toLowerCase()}</div>
+      <div class="cols">
+        <div><h4>You need</h4><ul>
+          <li>${pick.flavor}, more than you think</li>
+          <li>Butter, the good kind</li>
+          <li>${pick.texture.toLowerCase()} on purpose</li>
+          <li>One very large pastry chef</li></ul></div>
+        <div><h4>Then</h4><ol>
+          <li>Make it slowly. You were worth the extra hour.</li>
+          <li>${MOODS[pick.time]}</li>
+          <li>Watch your face when you take the first bite. That's the real recipe.</li></ol></div>
+      </div>
+      <div class="margin">I knew it was going to be ${pick.flavor.toLowerCase()}. I don't know how. Sometimes I just look at somebody and I know what they taste like. Um. I mean what they'd LIKE. That's what I meant. (It's in the book now, ${n}. Pen, not pencil.)</div>
+      <div class="playlist"><span class="disc"></span>Playlist: <b>${pl}</b></div>
+      <button class="bake" id="redo" style="background:#1f1b18">Bake a different one</button>`;
+    $("done").classList.add("show");
+    $("redo").onclick = () => { pick.flavor = pick.texture = pick.time = null; openYours(); };
+  }, 2500);
+}
+
+open(0);
+</script>
+</body>
+</html>

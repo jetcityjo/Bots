@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Corner | Zion Marsh</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;600&family=Kalam:wght@400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--brick:#6e3527;--brick-dk:#4d231a;--board:#20262a;--chalk:#eef0ea;--dust:#9aa39c;--red:#d2412f;--gold:#c9a24a;--canvas:#e7dfcf}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;font-family:'Inter',system-ui,sans-serif;color:var(--chalk);
+    background-color:var(--brick);
+    background-image:linear-gradient(335deg,rgba(0,0,0,.22) 23px,transparent 23px),linear-gradient(155deg,rgba(0,0,0,.22) 23px,transparent 23px),linear-gradient(335deg,rgba(0,0,0,.22) 23px,transparent 23px),linear-gradient(155deg,rgba(0,0,0,.22) 23px,transparent 23px);
+    background-size:58px 58px;background-position:0 2px,4px 35px,29px 31px,34px 6px;
+    display:flex;justify-content:center;padding:18px 12px 40px}
+  .wrap{width:100%;max-width:600px}
+  .board{background:var(--board);border:10px solid #6b5338;border-radius:6px;padding:18px 16px;box-shadow:0 14px 34px rgba(0,0,0,.5);
+    background-image:radial-gradient(ellipse at 30% 20%,rgba(255,255,255,.05),transparent 60%)}
+  .top{display:flex;gap:14px;align-items:center}
+  .ph{width:70px;height:70px;border-radius:6px;flex-shrink:0;overflow:hidden;border:2px solid var(--chalk);background:linear-gradient(135deg,#8a4b2e,#2b2f33);
+    display:flex;align-items:center;justify-content:center;font-family:'Anton';font-size:32px;color:var(--chalk)}
+  .ph img{width:100%;height:100%;object-fit:cover;filter:grayscale(.15)}
+  h1{font-family:'Anton',sans-serif;font-weight:400;margin:0;font-size:31px;letter-spacing:1px;line-height:1}
+  .sub{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:2px;color:var(--dust);margin-top:5px;text-transform:uppercase}
+  .chalk{font-family:'Kalam',cursive;color:var(--chalk);font-size:17px;line-height:1.45;margin:14px 0 4px}
+  .sec{margin-top:16px;background:rgba(255,255,255,.035);border:1px dashed rgba(238,240,234,.25);border-radius:8px;padding:14px}
+  h2{font-family:'Anton';font-weight:400;letter-spacing:2px;font-size:19px;margin:0 0 10px;color:var(--gold)}
+  /* timer */
+  .clock{font-family:'IBM Plex Mono',monospace;font-size:clamp(52px,17vw,78px);text-align:center;font-weight:600;letter-spacing:2px;line-height:1}
+  .phase{text-align:center;font-family:'IBM Plex Mono';font-size:12px;letter-spacing:4px;color:var(--dust);margin-top:4px}
+  .phase.fight{color:var(--red)}
+  .ctrl{display:flex;gap:8px;justify-content:center;margin-top:12px}
+  .b{border:1px solid var(--chalk);background:transparent;color:var(--chalk);font:600 13px 'IBM Plex Mono';letter-spacing:2px;padding:10px 16px;border-radius:4px;cursor:pointer;text-transform:uppercase}
+  .b.red{background:var(--red);border-color:var(--red)}
+  .coach{font-family:'Kalam',cursive;text-align:center;font-size:17px;margin-top:12px;min-height:26px;color:#f1e3b8}
+  /* checklist */
+  .check{list-style:none;margin:0;padding:0}
+  .check li{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px dashed rgba(238,240,234,.15);cursor:pointer}
+  .check li:last-child{border-bottom:0}
+  .box{width:20px;height:20px;border:2px solid var(--chalk);border-radius:3px;flex-shrink:0;margin-top:2px;position:relative}
+  .check li.done .box:after{content:'✕';position:absolute;inset:-6px 0 0 1px;font-family:'Kalam';font-size:22px;color:var(--red)}
+  .check li.done .what{text-decoration:line-through;text-decoration-color:var(--red);opacity:.6}
+  .what{font-family:'Kalam';font-size:17px;line-height:1.3}
+  .what small{display:block;font-family:'Inter';font-size:12px;color:var(--dust);margin-top:2px}
+  .good{display:none;font-family:'Kalam';font-size:22px;text-align:center;color:var(--gold);margin-top:8px}
+  .good.show{display:block}
+  /* record */
+  .rec{display:flex;gap:12px;align-items:baseline;justify-content:center;font-family:'Anton';letter-spacing:2px}
+  .rec .w{font-size:44px;color:var(--chalk)}.rec .l{font-size:44px;color:var(--dust)}.rec span.d{font-size:14px;color:var(--dust)}
+  .posters{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}
+  .poster{background:var(--canvas);color:#1d1d1d;border:0;border-radius:2px;padding:10px 8px;text-align:center;cursor:pointer;font-family:'Anton';letter-spacing:1px;box-shadow:0 3px 8px rgba(0,0,0,.35);transform:rotate(var(--r,0deg))}
+  .poster .city{font-size:20px;line-height:1}.poster .yr{font-family:'IBM Plex Mono';font-size:10px;margin-top:4px;letter-spacing:2px}
+  .poster.last{background:#2b2b2b;color:var(--canvas);outline:2px solid var(--red)}
+  .memo{display:none;margin-top:12px;font-family:'Kalam';font-size:17px;line-height:1.45;border-left:3px solid var(--gold);padding-left:12px}
+  .memo.show{display:block}
+  /* chess */
+  .cb{display:grid;grid-template-columns:repeat(8,1fr);width:100%;max-width:340px;margin:6px auto 0;border:4px solid #6b5338;aspect-ratio:1}
+  .sq{display:flex;align-items:center;justify-content:center;font-size:clamp(22px,7vw,34px);cursor:pointer;user-select:none;position:relative;line-height:1}
+  .sq.l{background:#d9cfb7}.sq.d{background:#7b6a4f}
+  .sq.sel{box-shadow:inset 0 0 0 3px var(--red)}
+  .sq.hint:after{content:'';width:22%;height:22%;border-radius:50%;background:rgba(210,65,47,.55);position:absolute}
+  .pw{color:#fff;text-shadow:0 0 2px #000,0 0 1px #000}.pb{color:#111}
+  .files{display:flex;max-width:340px;margin:2px auto 0;font-family:'IBM Plex Mono';font-size:10px;color:var(--dust)}
+  .files span{flex:1;text-align:center}
+  .say{font-family:'Kalam';font-size:17px;text-align:center;margin-top:10px;min-height:26px;color:#f1e3b8}
+  .recipe{display:none;margin-top:14px;background:#f6f0e2;color:#2a2117;border-radius:3px;padding:18px 16px;transform:rotate(-.8deg);box-shadow:0 6px 16px rgba(0,0,0,.4)}
+  .recipe.show{display:block;animation:in .5s ease}
+  @keyframes in{from{opacity:0;transform:translateY(8px) rotate(-.8deg)}to{opacity:1}}
+  .recipe h3{font-family:'Kalam';font-weight:700;font-size:25px;margin:0 0 2px}
+  .recipe .by{font-family:'Kalam';color:#8a6a40;margin-bottom:10px}
+  .recipe ul,.recipe ol{font-family:'Kalam';font-size:16.5px;line-height:1.45;padding-left:20px;margin:6px 0}
+  .recipe .ps{font-family:'Kalam';font-size:17px;margin-top:10px;color:#6a3a22}
+  .foot{text-align:center;color:#e9d9c9;font-size:12px;margin-top:16px;font-family:'IBM Plex Mono';letter-spacing:1px}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="board">
+  <div class="top">
+    <div class="ph" id="ph">Z</div>
+    <div><h1>THE CORNER</h1><div class="sub">Marsh Boxing &amp; Strength · Little Haiti · open 6 a.m.</div></div>
+  </div>
+  <div class="chalk">You came in. That's round one. Rest of it's on this board.<br>– Z.</div>
+
+  <div class="sec">
+    <h2>THE CLOCK</h2>
+    <div class="clock" id="clock">3:00</div>
+    <div class="phase" id="phase">ROUND 1 OF 3 · READY</div>
+    <div class="ctrl"><button class="b red" id="start">Start</button><button class="b" id="reset">Reset</button></div>
+    <div class="coach" id="coach">Breathe out on every punch.</div>
+  </div>
+
+  <div class="sec">
+    <h2>TODAY'S CARD</h2>
+    <ul class="check" id="card"></ul>
+    <div class="good" id="good">Good work.</div>
+  </div>
+
+  <div class="sec">
+    <h2>THE RECORD</h2>
+    <div class="rec"><span class="w">26</span><span class="d">WINS</span><span class="l">4</span><span class="d">LOSSES</span></div>
+    <div class="posters" id="posters"></div>
+    <div class="memo" id="memo"></div>
+  </div>
+
+  <div class="sec">
+    <h2>BAYFRONT PARK · WHITE TO MOVE</h2>
+    <div class="chalk" style="margin-top:0;font-size:16px">One move. Checkmate. You find it, I'll give you the one thing I don't give anybody.</div>
+    <div class="cb" id="cb"></div>
+    <div class="files"><span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span></div>
+    <div class="say" id="say">Tap your piece. Then tap where it goes.</div>
+    <div class="recipe" id="recipe">
+      <h3>Grandmother's Conch Fritters</h3>
+      <div class="by">Nassau, by way of Overtown. Don't show Javi.</div>
+      <ul>
+        <li>1 lb conch, cleaned, pounded, chopped fine</li>
+        <li>1 cup flour, 1 tsp baking powder, pinch of salt</li>
+        <li>1 egg, about ½ cup milk</li>
+        <li>Half an onion, half a green pepper, a stalk of celery, all small</li>
+        <li>A little scotch bonnet. Respect it.</li>
+        <li>Thyme, black pepper</li>
+      </ul>
+      <ol>
+        <li>Mix it thick. Thick enough to hold on a spoon.</li>
+        <li>Let it rest 20 minutes. Everything's better rested.</li>
+        <li>Oil to 350°F. Drop spoonfuls. Don't crowd the pan.</li>
+        <li>Turn once. Golden. Drain.</li>
+        <li>Dip: mayo, lime, ketchup, hot sauce. She never measured. Neither do I.</li>
+      </ol>
+      <div class="ps">She made these at every church picnic. Reggae hymns on a radio. I was eight, standing by the pot, waiting for the broken ones. You're the first person I've written it down for.</div>
+    </div>
+  </div>
+
+  <div class="foot">Somebody has to drive everyone home. Usually it's me.</div>
+</div></div>
+
+<script>
+/* IMAGE LINKS: replace the token with a URL from the piclink file */
+const PICS = { portrait: "{{PIC_ZION_1}}" };
+const $ = id => document.getElementById(id);
+
+(function photo(){
+  const p = PICS.portrait;
+  if (p && !p.startsWith("{{")) { const img = new Image(); img.alt="Zion"; img.src=p; img.onload=()=>{ $("ph").textContent=""; $("ph").appendChild(img); }; }
+})();
+
+/* ---------- round timer ---------- */
+const ROUND = 180, REST = 60, ROUNDS = 3;
+const LINES_FIGHT = ["Breathe out on every punch.","Hands up. Chin down.","Don't chase. Let it come to you.","Feet under you.","Thirty seconds. Finish honest.","Good. Again.","Turn the hip. The power's there."];
+const LINES_REST = ["Sit. Water. Small sips.","Shake it out.","You're doing fine. I'm watching.","Breathe through the nose."];
+let t = ROUND, round = 1, resting = false, timer = null, ac = null;
+
+function bell(times){
+  try{
+    ac = ac || new (window.AudioContext || window.webkitAudioContext)();
+    for (let i=0;i<times;i++){
+      const o = ac.createOscillator(), g = ac.createGain();
+      o.type="triangle"; o.frequency.value = 880;
+      const at = ac.currentTime + i*0.35;
+      g.gain.setValueAtTime(0.001,at); g.gain.exponentialRampToValueAtTime(0.35,at+0.01); g.gain.exponentialRampToValueAtTime(0.001,at+0.9);
+      o.connect(g).connect(ac.destination); o.start(at); o.stop(at+1);
+    }
+  }catch(e){}
+}
+function fmt(s){ return Math.floor(s/60)+":"+String(s%60).padStart(2,"0"); }
+function draw(){
+  $("clock").textContent = fmt(t);
+  const ph = $("phase");
+  ph.textContent = resting ? `REST · ROUND ${round+1} NEXT` : `ROUND ${round} OF ${ROUNDS} · ${timer ? "WORK" : "READY"}`;
+  ph.classList.toggle("fight", !resting && !!timer);
+}
+function tick(){
+  t--;
+  if (!resting && t % 30 === 0 && t > 0) $("coach").textContent = LINES_FIGHT[Math.floor(Math.random()*LINES_FIGHT.length)];
+  if (t <= 0){
+    if (!resting){
+      bell(1);
+      if (round >= ROUNDS){ stop(); $("coach").textContent = "That's three. You didn't quit. Remember that."; t = 0; draw(); return; }
+      resting = true; t = REST; $("coach").textContent = LINES_REST[Math.floor(Math.random()*LINES_REST.length)];
+    } else {
+      bell(3); resting = false; round++; t = ROUND; $("coach").textContent = "Touch gloves. Go.";
+    }
+  }
+  draw();
+}
+function stop(){ clearInterval(timer); timer = null; $("start").textContent = "Start"; }
+$("start").onclick = () => {
+  if (timer){ stop(); $("coach").textContent = "Paused. Breathe."; draw(); return; }
+  if (round >= ROUNDS && t === 0){ reset(); }
+  bell(1); timer = setInterval(tick, 1000); $("start").textContent = "Pause"; draw();
+};
+function reset(){ stop(); t = ROUND; round = 1; resting = false; $("coach").textContent = "Breathe out on every punch."; draw(); }
+$("reset").onclick = reset;
+draw();
+
+/* ---------- today's card ---------- */
+const CARD = [
+  ["Eat the banana","On the bench. I saw you skip breakfast."],
+  ["Jump rope, 3 rounds","Light on your feet. It's not punishment, it's rhythm."],
+  ["Shadowbox, 2 rounds","Watch yourself in the mirror. Don't flinch at what you see."],
+  ["Heavy bag, 3 rounds","Jab, cross. Nothing fancy. Make it honest."],
+  ["Plank, 3 x 45 sec","Shaking is fine. Quitting isn't."],
+  ["Stretch the left shoulder","You've been carrying something on that side. Let it go a little."]
+];
+const ul = $("card");
+CARD.forEach(([w,s]) => {
+  const li = document.createElement("li");
+  li.innerHTML = `<span class="box"></span><span class="what">${w}<small>${s}</small></span>`;
+  li.onclick = () => { li.classList.toggle("done"); $("good").classList.toggle("show", [...ul.children].every(x => x.classList.contains("done"))); };
+  ul.appendChild(li);
+});
+
+/* ---------- record ---------- */
+const FIGHTS = [
+  { city:"LAS VEGAS", yr:"FIRST TITLE SHOT", r:"-2deg", memo:"Lost on points. Cried in the shower where nobody could see. Came home and my grandmother made conch fritters like I'd won. I don't know how she knew." },
+  { city:"MANCHESTER", yr:"KO · ROUND 6", r:"1.5deg", memo:"Rained every day. I ran in it anyway. The crowd booed me the whole fight and clapped at the end. That's the best kind of respect." },
+  { city:"TOKYO", yr:"W · DECISION", r:"1deg", memo:"Quietest crowd I ever fought in front of. You could hear the gloves land. I liked it. I've liked quiet ever since." },
+  { city:"ATLANTIC CITY", yr:"LAST FIGHT", r:"-1deg", last:true, memo:"Eighth round. I hit a kid named Danny Ruiz too hard. Three weeks in a coma. He recovered. I didn't, not the same way. I retired that month. Everything in this gym is me learning to use these hands for something else." },
+  { city:"THE GLOVES", yr:"FRAMED · OFFICE", r:"-1.5deg", memo:"Signed by Muhammad Ali. Bought them at an estate sale in Louisville for more than my truck was worth. I don't look at them for the name. I look at them because he talked and still meant every word. I'm still working on that." },
+  { city:"CHIANG MAI", yr:"AFTER", r:"2deg", memo:"A month of Muay Thai, then two weeks in a monastery up north. A monk taught me to sit still for twenty minutes. Hardest fight I ever had. I still do it every night." }
+];
+const po = $("posters");
+FIGHTS.forEach(f => {
+  const b = document.createElement("button");
+  b.className = "poster" + (f.last ? " last" : ""); b.style.setProperty("--r", f.r);
+  b.innerHTML = `<div class="city">${f.city}</div><div class="yr">${f.yr}</div>`;
+  b.onclick = () => { const m = $("memo"); m.textContent = f.memo; m.classList.remove("show"); void m.offsetWidth; m.classList.add("show"); };
+  po.appendChild(b);
+});
+
+/* ---------- chess: mate in one (Rd1-d8#) ---------- */
+const START = {
+  g8:"♚", f7:"♟", g7:"♟", h7:"♟", b6:"♟", a5:"♞",
+  g1:"♔", f2:"♙", g2:"♙", h2:"♙", d1:"♖", c1:"♗", a2:"♙"
+};
+const WHITE = new Set(["♔","♕","♖","♗","♘","♙"]);
+let pos = {...START}, sel = null, solved = false;
+const files = "abcdefgh";
+const WRONG = ["No. Look at his back rank.","Close. What's he got behind those pawns?","He's got nowhere to run. Make him notice.","Patient. Look again."];
+let wrongN = 0;
+
+function rookTargets(from){
+  const f = files.indexOf(from[0]), r = +from[1], out = [];
+  [[1,0],[-1,0],[0,1],[0,-1]].forEach(([df,dr]) => {
+    let x=f+df, y=r+dr;
+    while (x>=0 && x<8 && y>=1 && y<=8){
+      const sq = files[x]+y;
+      if (pos[sq]){ if (!WHITE.has(pos[sq])) out.push(sq); break; }
+      out.push(sq); x+=df; y+=dr;
+    }
+  });
+  return out;
+}
+function renderBoard(){
+  const cb = $("cb"); cb.innerHTML = "";
+  const hints = sel && pos[sel] === "♖" ? rookTargets(sel) : [];
+  for (let r=8;r>=1;r--) for (let f=0;f<8;f++){
+    const sq = files[f]+r, d = document.createElement("div");
+    d.className = "sq " + ((f+r)%2 ? "l" : "d") + (sel===sq ? " sel" : "") + (hints.includes(sq) ? " hint" : "");
+    if (pos[sq]){ d.textContent = pos[sq]; d.classList.add(WHITE.has(pos[sq]) ? "pw" : "pb"); }
+    d.onclick = () => clickSq(sq);
+    cb.appendChild(d);
+  }
+}
+function clickSq(sq){
+  if (solved) return;
+  if (pos[sq] && WHITE.has(pos[sq])){ sel = sq; renderBoard(); $("say").textContent = pos[sq]==="♖" ? "The rook. Where does it go?" : "Maybe. Is that the piece that ends it?"; return; }
+  if (!sel) { $("say").textContent = "Your pieces are the white ones."; return; }
+  if (sel === "d1" && sq === "d8"){
+    pos.d8 = "♖"; delete pos.d1; sel = null; solved = true; renderBoard();
+    $("say").textContent = "Back rank. Checkmate. ...Huh. Okay. You earned it.";
+    setTimeout(() => $("recipe").classList.add("show"), 700);
+    return;
+  }
+  $("say").textContent = WRONG[wrongN++ % WRONG.length];
+  sel = null; renderBoard();
+}
+renderBoard();
+</script>
+</body>
+</html>
