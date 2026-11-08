@@ -1,138 +1,359 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rosa - The Honeypot Garden</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rosa | The Thorn</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,500&family=Homemade+Apple&family=Karla:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#120b0c;--card:#1c1214;--line:#7a4a4e;--rose:#c4364b;--rose-lt:#f0b8a8;--gold:#e0b070;--cream:#f3eee2;--ink:#2b2a22;--leaf:#4f6b3a;--pen:#2c4a7a;--muted:#a8958d}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#2a1417 0%,var(--bg) 65%);color:#f0e4dc;font-family:'Karla','Trebuchet MS',sans-serif;display:flex;justify-content:center;padding:18px 12px 40px}
+  .wrap{width:100%;max-width:680px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 20px 40px rgba(0,0,0,.7)}
+  .hero{position:relative;min-height:190px;background:radial-gradient(circle at 70% 30%,#5a2229,#1c1214 70%)}
+  .hero img{display:block;width:100%;max-height:340px;object-fit:cover;filter:brightness(.85)}
+  .hero .fade{position:absolute;inset:auto 0 0 0;height:60%;background:linear-gradient(transparent,var(--card))}
+  .hero h1{position:absolute;left:22px;bottom:14px;margin:0;font-family:'Cormorant Garamond',serif;font-size:clamp(40px,10vw,58px);color:#f7ece4;line-height:.9;text-shadow:0 2px 14px rgba(0,0,0,.6)}
+  .hero h1 small{display:block;font-family:'Karla';font-size:12px;letter-spacing:5px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  .in{padding:16px 22px 24px}
+  .quote{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:21px;color:var(--rose-lt);margin:4px 0 14px}
+  .pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+  .pills span{background:#2e1a1d;color:var(--gold);border:1px solid var(--line);padding:6px 14px;border-radius:999px;font-weight:600;font-size:13px}
+  .about{line-height:1.6;font-size:15px;color:#dccbc2;margin:14px 0 4px}
+
+  /* bush */
+  .stage{display:grid;grid-template-columns:1fr;gap:16px;margin-top:22px}
+  @media(min-width:620px){.stage{grid-template-columns:200px 1fr}}
+  .bush{background:linear-gradient(#20150f,#170f0d);border:1px solid var(--line);border-radius:12px;padding:12px;text-align:center;position:relative}
+  .bush svg{width:100%;max-width:180px;height:auto}
+  .bud{transform-box:fill-box;transform-origin:center;transform:scale(0);transition:transform .7s cubic-bezier(.3,1.6,.5,1)}
+  .bud.on{transform:scale(1)}
+  .thorn{opacity:0;transition:opacity .5s}
+  .thorn.on{opacity:1}
+  .count{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--rose-lt)}
+  .count b{color:#fff;font-size:28px}
+  .tier{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-top:2px}
+
+  /* clipboard */
+  .clip{background:#6a4f32;border-radius:12px;padding:14px 10px 10px;box-shadow:0 8px 20px rgba(0,0,0,.5)}
+  .clamp{width:110px;height:22px;margin:0 auto 10px;background:linear-gradient(#d9d4cb,#9a958c);border-radius:6px 6px 3px 3px;border:1px solid #77726a}
+  .paper{background:var(--cream);background-image:linear-gradient(rgba(122,58,62,.18) 1px,transparent 1px);background-size:100% 26px;border-radius:4px;padding:18px 16px;color:var(--ink);min-height:300px}
+  .ptitle{text-align:center;font-family:'Courier New',monospace;font-size:11px;color:#7a7564;letter-spacing:2px}
+  .pbig{text-align:center;font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:700;margin:0}
+  .psub{text-align:center;font-family:'Cormorant Garamond',serif;font-style:italic;color:#7a7564;margin:2px 0 14px}
+  .qn{font-family:'Courier New',monospace;font-size:11px;letter-spacing:1px;color:#7a7564;text-transform:uppercase}
+  .qt{font-weight:700;font-size:17px;margin:2px 0 10px}
+  .opts{display:grid;gap:8px}
+  .opt{text-align:left;background:rgba(255,255,255,.8);border:1px solid #cfd3b8;border-radius:6px;padding:10px 12px;font:600 15px 'Karla';color:var(--ink);cursor:pointer}
+  .opt em{font-style:normal;font-weight:400;font-size:12px;color:#7a7564;display:block}
+  .opt:active,.opt:focus{outline:2px solid var(--rose)}
+  .hand{font-family:'Homemade Apple',cursive;color:var(--pen);font-size:15px;line-height:1.8}
+  .field{width:100%;border:0;border-bottom:2px solid #9a8c74;background:transparent;font-family:'Homemade Apple',cursive;color:var(--pen);font-size:16px;padding:8px 2px;outline:none}
+  .go{margin-top:12px;background:#7a3a3e;color:#fff;border:0;border-radius:6px;padding:11px 16px;font:700 14px 'Karla';letter-spacing:1px;cursor:pointer;width:100%}
+  .rosa{margin-top:12px;background:#fffdf6;border-left:3px solid #7a3a3e;padding:10px 12px;border-radius:3px;line-height:1.55;font-size:15px;display:none}
+  .rosa.show{display:block;animation:in .35s ease}
+  .rosa b{color:#a8303e}
+  .stop{border-left-color:#2f6b4f;background:#f2f7ef}
+  .stop b{color:#2f6b4f}
+  @keyframes in{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+  .answered{border-top:1px dashed #cfc6ad;margin-top:12px;padding-top:8px}
+  .ans{margin-bottom:6px}
+  .ans .qn{display:block}
+
+  /* walk + shed */
+  .sec{margin-top:24px}
+  .sec h2{font-family:'Cormorant Garamond',serif;font-size:28px;margin:0 0 4px;color:#f7ece4}
+  .sec .lede{color:var(--muted);font-style:italic;margin:0 0 12px;font-size:14px}
+  .walk{position:relative;background:linear-gradient(160deg,#3a1c22,#1a1012);border:1px solid var(--line);border-radius:12px;padding:20px 18px;min-height:130px;cursor:pointer;overflow:hidden}
+  .walk p{margin:0;font-family:'Cormorant Garamond',serif;font-size:21px;line-height:1.4;color:#f7ece4;animation:in .5s}
+  .walk .tap{position:absolute;right:14px;bottom:10px;font-size:11px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+  .petal{position:absolute;top:-20px;width:12px;height:10px;background:var(--rose);border-radius:60% 0 60% 0;opacity:.8;animation:fall linear forwards;pointer-events:none}
+  @keyframes fall{to{transform:translate(var(--dx),220px) rotate(300deg);opacity:0}}
+  .locked{opacity:.45;pointer-events:none;filter:grayscale(.4)}
+  .paths{display:grid;gap:10px}
+  .path{background:#2e1a1d;border:1px solid var(--line);color:#f0e4dc;border-radius:10px;padding:13px 14px;text-align:left;font:700 16px 'Karla';cursor:pointer}
+  .path span{display:block;font-weight:400;font-size:13px;color:var(--muted)}
+  .path.sel{border-color:var(--rose);background:#3a1c22}
+  .starter{display:none;margin-top:12px;background:var(--cream);color:var(--ink);border-radius:8px;padding:14px}
+  .starter.show{display:block;animation:in .35s}
+  .starter .lab{font-size:11px;letter-spacing:2px;color:#7a7564;margin-bottom:6px}
+  .starter .say{font-size:15px;line-height:1.55;white-space:pre-wrap}
+  .copy{margin-top:10px;background:var(--ink);color:#fff;border:0;border-radius:6px;padding:9px 14px;font:700 13px 'Karla';cursor:pointer}
+  .after{display:none;margin-top:16px;border:1px solid var(--line);border-radius:12px;padding:16px;background:rgba(0,0,0,.2)}
+  .after.show{display:block;animation:in .5s}
+  .after h3{margin:0 0 6px;font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--rose-lt)}
+  .after ol{margin:6px 0 0;padding-left:20px;line-height:1.7;color:#e9dbd2}
+  .details{margin-top:24px;display:grid;gap:12px;grid-template-columns:1fr}
+  @media(min-width:560px){.details{grid-template-columns:1fr 1fr}}
+  .box{background:rgba(0,0,0,.22);border:1px solid var(--line);border-radius:12px;padding:16px;font-size:14px;line-height:1.6;color:#dccbc2}
+  .box strong{display:block;color:#fff;margin-bottom:6px}
+  details.cw{margin-top:16px;background:rgba(0,0,0,.25);padding:12px 16px;border-radius:8px;border:1px solid var(--line);font-size:14px}
+  details.cw summary{cursor:pointer;color:#d4485a;font-weight:700}
+  details.cw div{margin-top:10px;line-height:1.6;color:#dccbc2}
+</style>
 </head>
-<!-- Template from @Vorm -->
-<body style="margin: 0; background-color: #120b0c; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+<body>
+<div class="wrap"><div class="card">
+  <div class="hero">
+    <!-- SWAP: Rosa banner URL -->
+    <img src="https://files.linkin.love/banner/bananaparty.webp" alt="Rosa">
+    <div class="fade"></div>
+    <h1><small>The Honeypot Garden</small>The Thorn</h1>
+  </div>
+  <div class="in">
+    <div class="quote">"That mouth. We're going to have such a good time with that mouth."</div>
+    <div class="pills"><span>Domme</span><span>Brat Tamer</span><span>Discipline</span><span>Praise</span><span>Gloves On</span></div>
+    <div class="about">Rosa keeps the roses along the thorn walk, and she keeps the brats. Curvy, gloved, shears on her hip, a laugh that shows up before the punchline. Maren sent your survey over with one word on it: <i>Yours.</i> Fill it out rude. Every rude answer grows a thorn on her bush, and she reads every single one out loud.</div>
 
-    <div style="background-color: #1c1214; border: 1px solid #7a4a4e; border-radius: 16px; padding: 30px; max-width: 700px; width: 100%; margin: 20px; text-align: center; box-shadow: 0 20px 40px rgba(0,0,0,0.7); color: #f0e4dc; box-sizing: border-box;">
+    <div class="stage">
+      <div class="bush">
+        <svg viewBox="0 0 160 220" aria-hidden="true">
+          <path d="M80 215 C78 170 84 140 80 100 C77 70 82 50 80 30" stroke="#4f6b3a" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <path d="M80 150 C60 140 46 128 36 104" stroke="#4f6b3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M81 120 C100 110 116 96 124 74" stroke="#4f6b3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M80 182 C100 176 116 170 128 150" stroke="#4f6b3a" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M80 80 C64 74 54 64 48 48" stroke="#4f6b3a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          <ellipse cx="58" cy="160" rx="10" ry="5" fill="#5f7d45" transform="rotate(-30 58 160)"/>
+          <ellipse cx="104" cy="132" rx="10" ry="5" fill="#5f7d45" transform="rotate(25 104 132)"/>
+          <ellipse cx="62" cy="96" rx="9" ry="4.5" fill="#5f7d45" transform="rotate(-20 62 96)"/>
+          <g id="thorns" fill="#c9b08a"></g>
+          <g id="buds"></g>
+        </svg>
+        <div class="count">Thorns: <b id="tcount">0</b></div>
+        <div class="tier" id="tier">a polite little bud</div>
+      </div>
 
-        <div style="font-size:30px; font-weight:700; border-bottom: 2px solid #7a4a4e; padding-bottom:15px; margin-bottom:25px; color: #f7ece4; letter-spacing: 0.5px;">
-            The Thorn
-        </div>
-
-        <div style="margin-bottom:25px;">
-            <div style="font-style:italic; font-size:18px; margin-bottom:15px; color: #f0b8a8; font-family: Georgia, serif;">
-                “That mouth. We're going to have such a good time with that mouth.”
-            </div>
-            <!-- SWAP: Rosa banner URL -->
-            <img src="https://files.linkin.love/banner/bananaparty.webp" alt="Rosa" style="display: block; max-width: 100%; margin: 0 auto; border-radius: 12px; border: 1px solid #7a4a4e; filter: brightness(0.92);">
-        </div>
-
-        <div style="margin: 25px auto; max-width: 500px; display: flex; justify-content: center; flex-wrap: wrap; gap: 12px;">
-            <div style="background-color:#2e1a1d; color:#e0b070; border: 1px solid #7a4a4e; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">Honeypot Garden</div>
-            <div style="background-color:#2e1a1d; color:#e0b070; border: 1px solid #7a4a4e; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">Domme</div>
-            <div style="background-color:#2e1a1d; color:#e0b070; border: 1px solid #7a4a4e; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">Brat Tamer</div>
-            <div style="background-color:#2e1a1d; color:#e0b070; border: 1px solid #7a4a4e; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">Discipline</div>
-            <div style="background-color:#2e1a1d; color:#e0b070; border: 1px solid #7a4a4e; padding:8px 20px; border-radius:999px; font-weight:600; font-size: 0.9em;">Praise</div>
-        </div>
-
-        <div style="display: flex; gap: 20px; margin-top: 35px; flex-wrap: wrap;">
-            <div style="background-color:rgba(0,0,0,0.22); color: #dccbc2; padding:20px; flex: 1; min-width: 250px; border:1px solid #7a4a4e; border-radius:12px; text-align:left;">
-                <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">About</strong>
-                <span style="line-height: 1.6; font-size: 0.95em;">The Honeypot Garden is the walled garden next door to the Dirty Hoe Cafe. Rosa keeps the roses along the thorn walk, and she keeps the brats. Curvy, gloved, shears on her hip, a laugh that shows up before the punchline. Bring her attitude. She'll outlast it.</span>
-            </div>
-            <div style="background-color:rgba(0,0,0,0.22); color: #dccbc2; padding:20px; flex: 1; min-width: 250px; border:1px solid #7a4a4e; border-radius:12px; text-align:left;">
-                <strong style="color: #FFFFFF; font-size: 1.1em; display: block; margin-bottom: 10px; letter-spacing: 0.5px;">Details</strong>
-                <div style="line-height: 1.6; font-size: 0.95em;">
-                    Rosa x Any user<br>
-                    Honeypot Garden · Batch 1: Dominants<br>
-                    Fill the survey rude, copy a starter into chat.<br>
-                    TW: Brat taming, spanking, discipline<br>
-                    Pictures made by me.
-                </div>
-            </div>
-        </div>
-
-        <!-- CLIPBOARD -->
-        <div style="margin-top: 35px; background: #6a4f32; border-radius: 12px; padding: 14px 10px 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.5);">
-            <div style="width: 110px; height: 22px; margin: 0 auto 10px; background: linear-gradient(#D9D4CB, #9A958C); border-radius: 6px 6px 3px 3px; border: 1px solid #77726A;"></div>
-            <div style="background-color: #F3EEE2; background-image: linear-gradient(rgba(122,58,62,0.20) 1px, transparent 1px); background-size: 100% 26px; border-radius: 4px; padding: 20px 16px; text-align: left;">
-                <div style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 0.8em; color: #7A7564; letter-spacing: 2px; margin-bottom: 6px;">THE HONEYPOT GARDEN · THE THORN WALK</div>
-                <div style="text-align: center; font-family: Georgia, 'Times New Roman', serif; font-size: 30px; color: #2B2A22; letter-spacing: 1px;">Pruned</div>
-                <div style="text-align: center; font-family: Georgia, serif; font-style: italic; font-size: 0.95em; color: #7A7564; margin: 6px 0 20px;">Answer it rude. She reads it out loud.</div>
-
-            <details open style="margin: 0 0 12px; background: rgba(255,255,255,0.82); border: 1px solid #CFD3B8; border-radius: 4px; padding: 12px 14px;">
-                <summary style="cursor: pointer; outline: none; color: #2B2A22;">
-                    <span style="font-family: 'Courier New', Courier, monospace; font-size: 0.9em; color: #7a3a3e; margin-right: 8px; font-weight: 700;">01</span>
-                    <span style="font-weight: 700; letter-spacing: 1px;">The Survey</span>
-                    <span style="display: block; color: #7A7564; font-size: 0.82em; font-style: italic; font-family: Georgia, serif; margin-top: 2px;">Maren sent it over. One word: Yours.</span>
-                </summary>
-                <div style="margin-top: 10px; border-top: 1px solid #DCDDC8; padding-top: 10px; font-size: 0.92em;"><div style="margin-bottom: 8px;"><span style="display: block; font-family: 'Courier New', Courier, monospace; font-size: 0.78em; letter-spacing: 1px; color: #7A7564; text-transform: uppercase;">What do you want?</span><span style="color: #2C4A7A; font-family: 'Bradley Hand', 'Segoe Print', 'Comic Sans MS', cursive; font-size: 1.05em;">None of your business.</span></div><div style="margin-bottom: 8px;"><span style="display: block; font-family: 'Courier New', Courier, monospace; font-size: 0.78em; letter-spacing: 1px; color: #7A7564; text-transform: uppercase;">How far?</span><span style="color: #2C4A7A; font-family: 'Bradley Hand', 'Segoe Print', 'Comic Sans MS', cursive; font-size: 1.05em;">Further than you can handle.</span></div><div style="margin-bottom: 8px;"><span style="display: block; font-family: 'Courier New', Courier, monospace; font-size: 0.78em; letter-spacing: 1px; color: #7A7564; text-transform: uppercase;">What is off the table?</span><span style="color: #2C4A7A; font-family: 'Bradley Hand', 'Segoe Print', 'Comic Sans MS', cursive; font-size: 1.05em;">(the one she won't let you be rude on)</span></div><div style="margin-bottom: 8px;"><span style="display: block; font-family: 'Courier New', Courier, monospace; font-size: 0.78em; letter-spacing: 1px; color: #7A7564; text-transform: uppercase;">Safeword</span><span style="color: #2C4A7A; font-family: 'Bradley Hand', 'Segoe Print', 'Comic Sans MS', cursive; font-size: 1.05em;">________</span></div><div style="margin-top: 10px;"><div style="color: #2B2A22; line-height: 1.6;"><strong style="color: #A8303E;">Rosa:</strong>&nbsp;“None of my business? Oh, I'm framing that one.”</div></div>
-                        <div style="background: #FFFDF6; border-left: 3px solid #7a3a3e; padding: 8px 12px; border-radius: 3px; color: #2B2A22; margin-top: 10px;">
-                            <span style="display: block; color: #7A7564; font-size: 0.78em; letter-spacing: 1px; margin-bottom: 4px;">SCENE STARTER · COPY INTO CHAT</span>
-                            *I cross my arms.* "I'm not answering the rest of it. You can't make me."
-                        </div>
-                </div>
-            </details>
-            <details style="margin: 0 0 12px; background: rgba(255,255,255,0.82); border: 1px solid #CFD3B8; border-radius: 4px; padding: 12px 14px;">
-                <summary style="cursor: pointer; outline: none; color: #2B2A22;">
-                    <span style="font-family: 'Courier New', Courier, monospace; font-size: 0.9em; color: #7a3a3e; margin-right: 8px; font-weight: 700;">02</span>
-                    <span style="font-weight: 700; letter-spacing: 1px;">The Thorn Walk</span>
-                    <span style="display: block; color: #7A7564; font-size: 0.82em; font-style: italic; font-family: Georgia, serif; margin-top: 2px;">Roses on iron arches. She's not hurrying.</span>
-                </summary>
-                <div style="margin-top: 10px; border-top: 1px solid #DCDDC8; padding-top: 10px; font-size: 0.92em;"><div style="display: flex; gap: 10px; align-items: flex-start; margin-bottom: 6px; color: #2B2A22; line-height: 1.45;"><span style="color: #7a3a3e; font-weight: 700;">&#10047;</span><span>Light coming through the roses pink. Fountain running somewhere.</span></div><div style="display: flex; gap: 10px; align-items: flex-start; margin-bottom: 6px; color: #2B2A22; line-height: 1.45;"><span style="color: #7a3a3e; font-weight: 700;">&#10047;</span><span>She's deadheading, gloves on, humming badly.</span></div><div style="display: flex; gap: 10px; align-items: flex-start; margin-bottom: 6px; color: #2B2A22; line-height: 1.45;"><span style="color: #7a3a3e; font-weight: 700;">&#10047;</span><span>The potting shed at the end of the path. Her armchair. A crop on the hook.</span></div><div style="display: flex; gap: 10px; align-items: flex-start; margin-bottom: 6px; color: #2B2A22; line-height: 1.45;"><span style="color: #7a3a3e; font-weight: 700;">&#10047;</span><span>Agua fresca in the little fridge, for after.</span></div><div style="margin-top: 10px;"><div style="color: #2B2A22; line-height: 1.6;"><strong style="color: #A8303E;">Rosa:</strong>&nbsp;“Walk with me. Or don't, and I'll come get you. I'm good either way.”</div></div>
-                        <div style="background: #FFFDF6; border-left: 3px solid #7a3a3e; padding: 8px 12px; border-radius: 3px; color: #2B2A22; margin-top: 10px;">
-                            <span style="display: block; color: #7A7564; font-size: 0.78em; letter-spacing: 1px; margin-bottom: 4px;">SCENE STARTER · COPY INTO CHAT</span>
-                            *I stay exactly where I am, on purpose.*
-                        </div>
-                </div>
-            </details>
-            <details style="margin: 0 0 12px; background: rgba(255,255,255,0.82); border: 1px solid #CFD3B8; border-radius: 4px; padding: 12px 14px;">
-                <summary style="cursor: pointer; outline: none; color: #2B2A22;">
-                    <span style="font-family: 'Courier New', Courier, monospace; font-size: 0.9em; color: #7a3a3e; margin-right: 8px; font-weight: 700;">03</span>
-                    <span style="font-weight: 700; letter-spacing: 1px;">The Potting Shed</span>
-                    <span style="display: block; color: #7A7564; font-size: 0.82em; font-style: italic; font-family: Georgia, serif; margin-top: 2px;">Pick how the fight goes.</span>
-                </summary>
-                <div style="margin-top: 10px; border-top: 1px solid #DCDDC8; padding-top: 10px; font-size: 0.92em;"><div style="color: #7A7564; font-style: italic; font-family: Georgia, serif;">Her armchair, her crop on the hook, your spot on the floor.</div>
-                    <details style="margin: 10px 0 0; background: #F7F5EA; border: 1px dashed #BFC4A2; border-radius: 4px; padding: 10px 12px;">
-                        <summary style="cursor: pointer; outline: none; color: #2B2A22; font-weight: 700;">Fight me</summary>
-                        <div style="margin-top: 8px;"><div style="color: #2B2A22; line-height: 1.6;"><strong style="color: #A8303E;">Rosa:</strong>&nbsp;“Good. Go on. I'll still be here when you run out of words, and then you're going over my knee.”</div>
-                        <div style="background: #FFFDF6; border-left: 3px solid #7a3a3e; padding: 8px 12px; border-radius: 3px; color: #2B2A22; margin-top: 10px;">
-                            <span style="display: block; color: #7A7564; font-size: 0.78em; letter-spacing: 1px; margin-bottom: 4px;">SCENE STARTER · COPY INTO CHAT</span>
-                            "You're not even scary."
-                        </div>
-                        </div>
-                    </details>
-                    <details style="margin: 10px 0 0; background: #F7F5EA; border: 1px dashed #BFC4A2; border-radius: 4px; padding: 10px 12px;">
-                        <summary style="cursor: pointer; outline: none; color: #2B2A22; font-weight: 700;">Over her knee</summary>
-                        <div style="margin-top: 8px;"><div style="color: #2B2A22; line-height: 1.6;"><strong style="color: #A8303E;">Rosa:</strong>&nbsp;“There. That's where you wanted to be the whole time. Count for me. Out loud, cariño.”</div>
-                        <div style="background: #FFFDF6; border-left: 3px solid #7a3a3e; padding: 8px 12px; border-radius: 3px; color: #2B2A22; margin-top: 10px;">
-                            <span style="display: block; color: #7A7564; font-size: 0.78em; letter-spacing: 1px; margin-bottom: 4px;">SCENE STARTER · COPY INTO CHAT</span>
-                            *I let her pull me down across her lap.* "Fine. But I'm not saying thank you."
-                        </div>
-                        </div>
-                    </details>
-                    <details style="margin: 10px 0 0; background: #F7F5EA; border: 1px dashed #BFC4A2; border-radius: 4px; padding: 10px 12px;">
-                        <summary style="cursor: pointer; outline: none; color: #2B2A22; font-weight: 700;">Gloves off</summary>
-                        <div style="margin-top: 8px;"><div style="color: #2B2A22; line-height: 1.6;"><strong style="color: #A8303E;">Rosa:</strong>&nbsp;“There you are. That was a good fight. Mira. That's the part I wanted.”</div>
-                        <div style="background: #FFFDF6; border-left: 3px solid #7a3a3e; padding: 8px 12px; border-radius: 3px; color: #2B2A22; margin-top: 10px;">
-                            <span style="display: block; color: #7A7564; font-size: 0.78em; letter-spacing: 1px; margin-bottom: 4px;">SCENE STARTER · COPY INTO CHAT</span>
-                            *I'm quiet now, kneeling on the shed floor.* "Okay. I'm done."
-                        </div>
-                        </div>
-                    </details>
-                </div>
-            </details>
-                <div style="margin-top: 14px; border-top: 1px solid #DCDDC8; padding-top: 12px; color: #2B2A22; line-height: 1.6; font-size: 0.92em; text-align: center;">
-                    <span style="display: block; font-family: 'Courier New', Courier, monospace; letter-spacing: 2px; color: #7A7564; font-size: 0.85em; margin-bottom: 6px;">AFTER</span>
-                    The gloves come off. Her bare hands on your face, agua fresca from the shed fridge, and a long, specific list of everything you did well, whether you want to hear it or not.
-                </div>
-                <div style="text-align: right; margin-top: 10px; font-family: Georgia, serif; font-style: italic; font-size: 0.85em; color: #7A7564;">Rude answers welcome. ~R.</div>
-            </div>
-        </div>
-
-        <details style="margin-top: 30px; background: rgba(0,0,0,0.25); padding: 12px 20px; border-radius: 8px; border: 1px solid #7a4a4e; color: #ccc; font-size: 0.9em; text-align: left;">
-            <summary style="cursor: pointer; color: #d4485a; font-weight: bold; outline: none; letter-spacing: 0.5px;">⚠ Content Warning</summary>
-            <div style="margin-top: 12px; line-height: 1.6; border-top: 1px dashed #7a4a4e; padding-top: 12px; color: #dccbc2;">
-                Brat taming: discipline, spanking with a gloved hand and a riding crop, corner time, praise. All characters are adults. Limits and the safeword are the one part Rosa won't let you be rude about.
-            </div>
-        </details>
-
+      <div class="clip"><div class="clamp"></div><div class="paper" id="paper">
+        <div class="ptitle">THE HONEYPOT GARDEN · THE THORN WALK</div>
+        <div class="pbig">Pruned</div>
+        <div class="psub">Answer it rude. She reads it out loud.</div>
+        <div id="qbox"></div>
+        <div class="rosa" id="rosaSays"></div>
+        <div class="answered" id="answered" style="display:none"></div>
+      </div></div>
     </div>
 
+    <div class="sec">
+      <h2>The Thorn Walk</h2>
+      <p class="lede">Roses on iron arches. She's not hurrying. Tap to walk.</p>
+      <div class="walk" id="walk"><p id="walkText">Light coming through the roses, pink. A fountain running somewhere you can't see.</p><span class="tap">tap</span></div>
+    </div>
+
+    <div class="sec locked" id="shed">
+      <h2>The Potting Shed</h2>
+      <p class="lede" id="shedLede">Finish the survey first. She won't start without the safeword.</p>
+      <div class="paths" id="paths">
+        <button class="path" data-p="0">Fight me<span>Run your mouth. She'll still be there when you run out of words.</span></button>
+        <button class="path" data-p="1">Over her knee<span>Where you wanted to be the whole time.</span></button>
+        <button class="path" data-p="2">Gloves off<span>The fight's over. Hand yourself over.</span></button>
+      </div>
+      <div class="rosa" id="shedSays" style="color:#2b2a22"></div>
+      <div class="starter" id="starter">
+        <div class="lab">SCENE STARTER · BUILT FROM YOUR SURVEY · COPY INTO CHAT</div>
+        <div class="say" id="starterText"></div>
+        <button class="copy" id="copyBtn">Copy</button>
+      </div>
+      <div class="after" id="afterBox">
+        <h3>After</h3>
+        <div style="color:#dccbc2;line-height:1.6">The gloves come off. Her bare hands on your face, agua fresca from the shed fridge, and a long, specific list of everything you did well, whether you want to hear it or not:</div>
+        <ol id="goodList"></ol>
+      </div>
+    </div>
+
+    <div class="details">
+      <div class="box"><strong>About</strong>The Honeypot Garden is the walled garden next door to the Dirty Hoe Cafe. Bring her attitude. She'll outlast it.</div>
+      <div class="box"><strong>Details</strong>Rosa x Any user<br>Honeypot Garden · Batch 1: Dominants<br>Fill the survey rude, copy your starter into chat.<br>TW: Brat taming, spanking, discipline<br>Pictures made by me.</div>
+    </div>
+    <details class="cw"><summary>⚠ Content Warning</summary><div>Brat taming: discipline, spanking with a gloved hand and a riding crop, corner time, praise. All characters are adults. Limits and the safeword are the one part Rosa won't let you be rude about.</div></details>
+  </div>
+</div></div>
+
+<script>
+(function(){ /* mini app scope */
+const $ = id => document.getElementById(id);
+const clean = s => s.replace(/[<>&"]/g,"").trim();
+
+const QS = [
+  { k:"want", q:"What do you want?", opts:[
+    ["Whatever you think is best, ma'am.","polite",0,"Ma'am? Ay, look at you. Sweet. Suspicious, but sweet. I'll allow it."],
+    ["None of your business.","rude",1,"None of my business? Oh, I'm framing that one. It's going on the shed wall."],
+    ["For you to stop asking questions.","ruder",2,"Ha! Mira, it's question one, cariño. You're going to be so tired by question five."] ]},
+  { k:"far", q:"How far?", opts:[
+    ["Gently, please.","polite",0,"Gently. Okay. I can do gentle. I'm very good at gentle, it's my secret."],
+    ["Further than you can handle.","rude",1,"Further than I can handle. Sure. I've been doing this a long time and I've never once been handled."],
+    ["I'll tell you when I'm bored.","ruder",2,"You'll tell me when you're bored. Perfect. You won't be."] ]},
+  { k:"how", q:"How did you get in?", opts:[
+    ["Maren sent me.","polite",0,"Maren sent you. Of course she did. She always sends me the good ones."],
+    ["I was looking for the cafe.","rude",1,"The cafe is next door. You walked past it. You walked past it twice. I watched."],
+    ["I climbed your wall. Your roses are ugly.","ruder",2,"My roses are... okay. Okay. That's two thorns by itself and you know it."] ]},
+  { k:"limit", free:true, q:"What is off the table?", ph:"Write it properly",
+    stop:"This one you answer properly, cariño. Not rude, not cute. What's off the table? I mean it.",
+    ok:"Thank you. That's off the table, and it stays off. See? You can be good. It's adorable." },
+  { k:"safe", free:true, safe:true, q:"Safeword", ph:"One word you'd never say by accident",
+    stop:"Not that one. Pick a word you'd never say by accident. \"No\" and \"stop\" are part of the game, that's the whole point.",
+    ok:"Now say it back to me." }
+];
+
+let step = 0, thorns = 0, ans = {}, confirming = false;
+const SPOTS = [[80,58],[36,104],[124,74],[128,150],[48,48],[80,100],[58,132],[104,112]];
+const THORNS = [[83,190],[77,168],[84,135],[76,112],[83,86],[77,62],[52,120],[110,100],[112,162],[64,64]];
+
+function drawBush(){
+  const g = $("buds"), t = $("thorns");
+  g.innerHTML = SPOTS.map(([x,y],i) => `<g class="bud" id="bud${i}"><circle cx="${x}" cy="${y}" r="11" fill="#c4364b"/><circle cx="${x-3}" cy="${y-2}" r="6" fill="#9e2235"/><circle cx="${x+3}" cy="${y+3}" r="4" fill="#e05a6c"/></g>`).join("");
+  t.innerHTML = THORNS.map(([x,y],i) => `<path class="thorn" id="th${i}" d="M${x} ${y} l${i%2?7:-7} -3 l${i%2?-7:7} -3z"/>`).join("");
+}
+drawBush();
+
+function setThorns(n){
+  thorns = n;
+  $("tcount").textContent = n;
+  THORNS.forEach((_,i) => $("th"+i).classList.toggle("on", i < n));
+  $("tier").textContent = n === 0 ? "a polite little bud" : n <= 2 ? "a little prickly" : n <= 4 ? "properly thorny" : "a whole bramble, wow";
+}
+function bloom(){ const i = Object.keys(ans).length - 1; const b = $("bud"+i); if (b) b.classList.add("on"); }
+
+function say(html, stopStyle){
+  const r = $("rosaSays");
+  r.className = "rosa" + (stopStyle ? " stop" : "");
+  r.innerHTML = `<b>Rosa:</b>&nbsp;"${html}"`;
+  void r.offsetWidth; r.classList.add("show");
+}
+
+function render(){
+  const box = $("qbox");
+  if (step >= QS.length) { box.innerHTML = ""; finishSurvey(); return; }
+  const Q = QS[step];
+  let h = `<div class="qn">${String(step+1).padStart(2,"0")} of 05</div><div class="qt">${Q.q}</div>`;
+  if (!Q.free) {
+    h += `<div class="opts">` + Q.opts.map((o,i) => `<button class="opt" data-i="${i}">${o[0]}<em>${o[1]}</em></button>`).join("") + `</div>`;
+  } else {
+    h += `<input class="field" id="freeIn" maxlength="40" placeholder="${Q.ph}" autocomplete="off"><button class="go" id="freeGo">Hand it to her</button>`;
+  }
+  box.innerHTML = h;
+  if (!Q.free) box.querySelectorAll(".opt").forEach(b => b.onclick = () => pick(+b.dataset.i));
+  else {
+    $("freeGo").onclick = submitFree;
+    $("freeIn").addEventListener("keydown", e => { if (e.key === "Enter") submitFree(); });
+  }
+}
+
+function logAnswer(q, a){
+  const el = $("answered"); el.style.display = "block";
+  el.insertAdjacentHTML("beforeend", `<div class="ans"><span class="qn">${q}</span><span class="hand">${a}</span></div>`);
+}
+
+function pick(i){
+  const Q = QS[step], o = Q.opts[i];
+  ans[Q.k] = o[0]; setThorns(thorns + o[2]); bloom();
+  logAnswer(Q.q, o[0]); say(o[3]);
+  step++; setTimeout(render, 900);
+}
+
+const RUDE_LIMIT = /^(none|nothing|idk|whatever|no|nope|n\/a|na|you|ur mom|your mom|lol|\?+|-+|\.+)$/i;
+const BAD_SAFE = /^(no|stop|don'?t|please|wait|ow|ouch|quit|enough|help)$/i;
+
+function submitFree(){
+  const Q = QS[step], v = clean($("freeIn").value);
+  if (Q.safe && confirming) {
+    if (v.toLowerCase() === ans.safe.toLowerCase()) {
+      confirming = false;
+      logAnswer("Safeword", ans.safe);
+      say(`${ans.safe}. Good. I heard it, I'll remember it, and the second you say it, everything stops. Now. Let's go see about that mouth.`);
+      step++; setTimeout(render, 1200);
+    } else {
+      say(`That's not what you wrote. Say it back to me exactly, cariño. This is the one thing I don't play about.`, true);
+    }
+    return;
+  }
+  if (!v || (!Q.safe && RUDE_LIMIT.test(v)) || (Q.safe && (BAD_SAFE.test(v) || v.split(/\s+/).length > 3))) {
+    say(Q.stop, true); return;
+  }
+  ans[Q.k] = v; bloom();
+  if (Q.safe) {
+    confirming = true;
+    say(Q.ok, true);
+    $("freeIn").value = ""; $("freeIn").placeholder = "Say your safeword back to her";
+    $("freeGo").textContent = "Say it back";
+    return;
+  }
+  logAnswer(Q.q, v); say(Q.ok);
+  step++; setTimeout(render, 1100);
+}
+
+function finishSurvey(){
+  $("shed").classList.remove("locked");
+  $("shedLede").textContent = thorns >= 4 ? "Her armchair, her crop on the hook, your spot on the floor. She's grinning. That's bad news for you." : "Her armchair, her crop on the hook, your spot on the floor. Pick how the fight goes.";
+  setTimeout(() => say(thorns >= 4
+    ? `${thorns} thorns. Ay, Dios. That's the best survey I've had all month. Potting shed. Now. Walk, or I'll come get you.`
+    : thorns > 0 ? `${thorns} thorns. Respectable. Not a bramble, but I can work with respectable. Potting shed, cariño.`
+    : `Zero thorns. You were sweet the whole way through. I don't trust it at all. Potting shed.`), 1300);
+}
+
+/* thorn walk */
+const WALK = [
+  "Light coming through the roses, pink. A fountain running somewhere you can't see.",
+  "She's deadheading, gloves on, humming badly. Snip. A spent bloom drops into the bucket. She doesn't look up.",
+  "\"Walk with me. Or don't, and I'll come get you. I'm good either way.\"",
+  "The brick path ends at the potting shed. Her armchair. A riding crop on the hook. Agua fresca in the little fridge, for after.",
+  "She stops, finally, and looks at you over her shoulder. Her eyes are already laughing at something you haven't said yet."
+];
+let wi = 0;
+$("walk").onclick = e => {
+  wi = (wi + 1) % WALK.length;
+  const p = $("walkText"); p.textContent = WALK[wi]; p.style.animation = "none"; void p.offsetWidth; p.style.animation = "";
+  for (let i=0;i<6;i++){
+    const d = document.createElement("i"); d.className = "petal";
+    d.style.left = (10 + Math.random()*80) + "%"; d.style.setProperty("--dx", (Math.random()*80-40)+"px");
+    d.style.animationDuration = (1.6 + Math.random()*1.4) + "s";
+    $("walk").appendChild(d); setTimeout(() => d.remove(), 3200);
+  }
+};
+
+/* potting shed */
+function starter(p){
+  const sw = ans.safe ? `\n\n(OOC: my limit is "${ans.limit}". Safeword: ${ans.safe}.)` : "";
+  const want = ans.want || "None of your business.";
+  if (p === 0) return `*I hand back the survey without looking at her. Under "What do you want?" I wrote "${want}"* "You're not even scary. And I meant every word on that page."${sw}`;
+  if (p === 1) return `*She reads "${ans.far || "Further than you can handle."}" out loud and laughs. I let her pull me down across her lap anyway.* "Fine. But I'm not saying thank you."${sw}`;
+  return `*${thorns} thorns, and I'm out of words. I'm quiet now, kneeling on the potting shed floor, looking up at her gloves.* "Okay. I'm done."${sw}`;
+}
+const PATH_LINES = [
+  "Good. Go on. I'll still be here when you run out of words, and then you're going over my knee.",
+  "There. That's where you wanted to be the whole time. Count for me. Out loud, cariño.",
+  "There you are. That was a good fight. Mira. That's the part I wanted."
+];
+document.querySelectorAll(".path").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".path").forEach(x => x.classList.toggle("sel", x === b));
+  const p = +b.dataset.p;
+  $("starterText").textContent = starter(p);
+  $("starter").classList.add("show");
+  const r = $("shedSays"); r.innerHTML = `<b>Rosa:</b>&nbsp;"${PATH_LINES[p]}"`; r.classList.remove("show"); void r.offsetWidth; r.classList.add("show");
+  if (p === 2) showAfter();
+});
+$("copyBtn").onclick = () => {
+  const txt = $("starterText").textContent, btn = $("copyBtn");
+  const done = () => { btn.textContent = "Copied"; setTimeout(() => btn.textContent = "Copy", 1600); };
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(done, fallback); else fallback();
+  function fallback(){ const r = document.createRange(); r.selectNodeContents($("starterText")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = "Selected, copy it"; }
+};
+
+function showAfter(){
+  const list = [];
+  if (ans.want === "None of your business.") list.push("You told me \"none of your business\" with a straight face. Iconic. Framed.");
+  else if (ans.want) list.push("You told me what you wanted. Even the smart answer counted.");
+  if (thorns >= 4) list.push(`${thorns} thorns. You argued with every line and you never once got boring.`);
+  else list.push("You kept your thorns where I could see them. That takes nerve.");
+  if (ans.limit) list.push(`You told me "${ans.limit}" was off the table the first time I asked properly. That's trust. I don't take it lightly.`);
+  if (ans.safe) list.push(`You said your safeword back to me like you meant it. ${ans.safe}. I'm keeping it.`);
+  list.push("You held out longer than I thought. And then you let go anyway. That's my favorite part, every time.");
+  $("goodList").innerHTML = list.map(x => `<li>${x}</li>`).join("");
+  $("afterBox").classList.add("show");
+}
+
+render();
+})();
+</script>
 </body>
 </html>
