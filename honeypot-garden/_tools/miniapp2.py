@@ -1,0 +1,451 @@
+"""Honeypot Garden LIL mini app engine, v2.
+
+Each bot gets a config dict (see configs_*.py). build(cfg) writes "<Name> (LIL Mini App).html"
+into the bot folder, moving the previous version to older/ once. The generated file carries the
+marker hg-miniapp-v2 so hg.py will not overwrite it.
+
+Section types: survey, actions, hold, pick, slider, hunt, coin, ending.
+"""
+import json, os, re, shutil
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BANNER = "https://files.linkin.love/banner/bananaparty.webp"
+BANNED = r"testament to|tapestry|electric|palpable|something shifts|the air thick|a dance of|smirk|a beat\b|voice drops|corner of h(is|er) mouth"
+
+FONTS = {
+    "cormorant": ("Cormorant+Garamond:ital,wght@0,600;0,700;1,500", "'Cormorant Garamond',Georgia,serif"),
+    "playfair": ("Playfair+Display:ital,wght@0,700;1,500", "'Playfair Display',Georgia,serif"),
+    "fraunces": ("Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500", "'Fraunces',Georgia,serif"),
+    "cinzel": ("Cinzel:wght@600;700", "'Cinzel',Georgia,serif"),
+    "abril": ("Abril+Fatface", "'Abril Fatface',Georgia,serif"),
+    "bebas": ("Bebas+Neue", "'Bebas Neue',Impact,sans-serif"),
+    "marcellus": ("Marcellus", "'Marcellus',Georgia,serif"),
+}
+
+TEMPLATE = r"""<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>__NAME__ | __TITLE__</title>
+<!-- hg-miniapp-v2 -->
+<link href="https://fonts.googleapis.com/css2?family=__FONTQ__&family=Caveat:wght@500;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{__VARS__}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font-family:'Lato',system-ui,sans-serif;display:flex;justify-content:center;padding:18px 12px 40px}
+  .hgw{width:100%;max-width:680px}
+  .hgc{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 18px 40px var(--shadow)}
+  .hero{position:relative;min-height:190px;background:var(--hero)}
+  .hero img{display:block;width:100%;max-height:340px;object-fit:cover}
+  .hero .fade{position:absolute;inset:auto 0 0 0;height:60%;background:linear-gradient(transparent,var(--card))}
+  .hero h1{position:absolute;left:22px;right:16px;bottom:12px;margin:0;font-family:__HFONT__;font-size:clamp(36px,9vw,54px);line-height:.95;color:var(--head);text-shadow:var(--hshadow)}
+  .hero h1 small{display:block;font-family:'Lato';font-size:11px;letter-spacing:5px;text-transform:uppercase;color:var(--acc);margin-bottom:6px;text-shadow:none}
+  .in{padding:14px 22px 26px}
+  .quote{font-family:__HFONT__;font-style:italic;font-size:21px;color:var(--acc);margin:2px 0 12px;line-height:1.3}
+  .pills{display:flex;flex-wrap:wrap;gap:8px}
+  .pills span{background:var(--soft);color:var(--acc);border:1px solid var(--line);padding:6px 14px;border-radius:999px;font-weight:700;font-size:12.5px}
+  .about{line-height:1.65;font-size:15px;margin:14px 0 0}
+  .sec{margin-top:26px;transition:opacity .4s}
+  .sec.lock{opacity:.4;pointer-events:none;filter:grayscale(.3)}
+  .sec h2{font-family:__HFONT__;font-size:28px;margin:0 0 2px;color:var(--head)}
+  .lede{color:var(--muted);font-style:italic;margin:0 0 12px;font-size:14px;line-height:1.5}
+  .pane{background:var(--pane);border:1px solid var(--line);border-radius:14px;padding:16px;position:relative;overflow:hidden}
+  .paper{background:var(--paper);color:#2b2a22;background-image:linear-gradient(var(--rule) 1px,transparent 1px);background-size:100% 26px}
+  .qn{font-family:'Courier New',monospace;font-size:11px;letter-spacing:1px;text-transform:uppercase;opacity:.7}
+  .qt{font-weight:700;font-size:17px;margin:2px 0 10px}
+  .opts{display:grid;gap:8px}
+  .opt{text-align:left;background:var(--btn);border:1px solid var(--line);border-radius:10px;padding:11px 13px;font:700 14.5px 'Lato';color:var(--btnink);cursor:pointer;transition:background .2s,transform .1s}
+  .opt:active{transform:scale(.99);background:var(--soft)}
+  .opt em{display:block;font-style:normal;font-weight:400;font-size:12.5px;opacity:.7;margin-top:2px}
+  .opt.sel{border-color:var(--acc);background:var(--soft)}
+  .opt.gone{display:none}
+  .field{width:100%;border:0;border-bottom:2px solid var(--acc);background:transparent;font-family:'Caveat',cursive;color:#2c4a7a;font-size:22px;padding:6px 2px;outline:none}
+  .go{margin-top:12px;background:var(--acc);color:var(--accink);border:0;border-radius:10px;padding:12px 16px;font:700 14px 'Lato';letter-spacing:.5px;cursor:pointer;width:100%}
+  .go:disabled{opacity:.4}
+  .say{margin-top:12px;background:var(--saybg);color:var(--sayink);border-left:3px solid var(--acc);border-radius:4px;padding:11px 13px;line-height:1.6;font-size:15.5px;display:none}
+  .say.on{display:block;animation:hgin .4s ease}
+  .say.firm{border-left-color:var(--firm)}
+  .say b{color:var(--acc2)}
+  .say i{opacity:.85}
+  @keyframes hgin{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .log{margin-top:12px;border-top:1px dashed rgba(0,0,0,.18);padding-top:8px}
+  .log div{margin-bottom:5px}
+  .log span{display:block}
+  .hand{font-family:'Caveat',cursive;color:#2c4a7a;font-size:19px;line-height:1.2}
+  .meters{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:6px}
+  .meter{display:flex;flex-direction:column;gap:3px}
+  .meter .lbl{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+  .icons{font-size:22px;letter-spacing:3px;line-height:1}
+  .icons .off{opacity:.18;filter:grayscale(1)}
+  .icons .pop{display:inline-block;animation:hgpop .5s cubic-bezier(.3,1.6,.5,1)}
+  @keyframes hgpop{from{transform:scale(.2)}to{transform:scale(1)}}
+  .status{font-family:'Caveat',cursive;font-size:22px;color:var(--acc)}
+  .holdbox{text-align:center;padding:6px 0}
+  .ring{width:130px;height:130px;margin:6px auto 10px;border-radius:50%;background:conic-gradient(var(--acc) calc(var(--p,0)*1%),var(--soft) 0);display:flex;align-items:center;justify-content:center;user-select:none;-webkit-user-select:none;touch-action:none;cursor:pointer;transition:transform .2s}
+  .ring.down{transform:scale(.96)}
+  .ring span{width:106px;height:106px;border-radius:50%;background:var(--pane);display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Caveat',cursive;font-size:21px;line-height:1.05;color:var(--acc);padding:6px}
+  .holdline{font-family:__HFONT__;font-style:italic;font-size:19px;min-height:52px;line-height:1.35}
+  .range{width:100%;accent-color:var(--acc);margin:10px 0 4px}
+  .readout{display:flex;justify-content:space-between;align-items:baseline}
+  .readout b{font-family:__HFONT__;font-size:38px;color:var(--head)}
+  .readout span{font-size:13px;color:var(--muted);text-align:right;max-width:60%}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  @media(min-width:520px){.grid.g3{grid-template-columns:repeat(3,1fr)}}
+  .spot{background:var(--btn);color:var(--btnink);border:1px solid var(--line);border-radius:12px;padding:14px 10px;text-align:center;cursor:pointer;font:700 14px 'Lato';min-height:74px}
+  .spot .em{display:block;font-size:24px;margin-bottom:4px}
+  .spot.miss{opacity:.4}
+  .spot.hit{border-color:var(--acc);background:var(--soft)}
+  .coin{width:110px;height:110px;margin:6px auto 12px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff3c4,#d9a93a 60%,#9c7419);display:flex;align-items:center;justify-content:center;font-family:__HFONT__;font-size:34px;color:#5a3d06;box-shadow:0 6px 16px rgba(0,0,0,.3);cursor:pointer}
+  .coin.flip{animation:hgflip 1.4s ease-out}
+  @keyframes hgflip{0%{transform:rotateY(0) translateY(0)}40%{transform:rotateY(900deg) translateY(-50px)}100%{transform:rotateY(1800deg) translateY(0)}}
+  .starter{display:none;margin-top:14px;background:var(--paper);color:#2b2a22;border-radius:10px;padding:14px;border:1px solid var(--line)}
+  .starter.on{display:block;animation:hgin .4s}
+  .starter .lab{font-size:11px;letter-spacing:2px;color:#7a7564;margin-bottom:6px}
+  .starter .txt{font-size:15px;line-height:1.55;white-space:pre-wrap}
+  .copy{margin-top:10px;background:#2b2a22;color:#fff;border:0;border-radius:8px;padding:9px 14px;font:700 13px 'Lato';cursor:pointer}
+  .after{display:none;margin-top:14px;border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--pane)}
+  .after.on{display:block;animation:hgin .5s}
+  .after h3{margin:0 0 6px;font-family:__HFONT__;font-size:23px;color:var(--acc)}
+  .after p{margin:0;line-height:1.6}
+  .after ol{margin:8px 0 0;padding-left:20px;line-height:1.65}
+  .sign{text-align:right;font-family:'Caveat',cursive;font-size:22px;color:var(--acc);margin-top:8px}
+  .details{margin-top:26px;display:grid;gap:12px}
+  @media(min-width:560px){.details{grid-template-columns:1fr 1fr}}
+  .box{background:var(--pane);border:1px solid var(--line);border-radius:12px;padding:16px;font-size:14px;line-height:1.6}
+  .box strong{display:block;margin-bottom:6px;color:var(--acc)}
+  details.cw{margin-top:14px;background:var(--pane);border:1px solid var(--line);border-radius:8px;padding:12px 16px;font-size:14px}
+  details.cw summary{cursor:pointer;color:var(--firm);font-weight:700}
+  details.cw div{margin-top:10px;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="hgw"><div class="hgc">
+  <div class="hero">
+    <!-- SWAP: __NAME__ banner URL -->
+    <img src="__BANNER__" alt="__NAME__">
+    <div class="fade"></div>
+    <h1><small>The Honeypot Garden</small>__TITLE__</h1>
+  </div>
+  <div class="in">
+    <div class="quote">__QUOTE__</div>
+    <div class="pills">__PILLS__</div>
+    <div class="about">__ABOUT__</div>
+    <div id="hgSections"></div>
+    <div class="details">
+      <div class="box"><strong>About</strong>The Honeypot Garden is the walled garden next door to the Dirty Hoe Cafe. __ABOUT2__</div>
+      <div class="box"><strong>Details</strong>__DETAILS__</div>
+    </div>
+    <details class="cw"><summary>⚠ Content Warning</summary><div>__CW__</div></details>
+  </div>
+</div></div>
+<script>
+(function(){ /* mini app scope */
+const C = __CONFIG__;
+const root = document.getElementById("hgSections");
+const st = { ans:{}, phrases:[], meters:{}, flags:{}, misses:0 };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fill = s => String(s).replace(/\{(\w+)\}/g, (m,k) => k in st.ans ? esc(st.ans[k]) : (k in st.meters ? st.meters[k] : m));
+const el = (tag, cls, html) => { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; };
+const secs = [];
+
+function say(box, html, firm){
+  box.className = "say" + (firm ? " firm" : "");
+  box.innerHTML = `<b>${esc(C.speaker || C.name)}:</b> ` + fill(html);
+  void box.offsetWidth; box.classList.add("on");
+}
+function unlock(i){ if (secs[i]) secs[i].classList.remove("lock"); }
+function addPhrase(p){ if (!p) return; const f = fill(p); if (!st.phrases.includes(f)) st.phrases.push(f); }
+const bare = v => String(v).replace(/\.$/,"");
+
+/* ---------- survey ---------- */
+function survey(S, sec, done){
+  const pane = el("div","pane paper"), box = el("div"), sb = el("div","say"), log = el("div","log");
+  log.style.display = "none";
+  pane.append(box, sb, log); sec.append(pane);
+  let qi = 0, confirming = false;
+  const BAD = new RegExp(S.badSafe || "^(no|stop|don'?t|please|wait|ow|ouch|quit|enough|help|safeword)$","i");
+  const LAZY = /^(none|nothing|idk|whatever|no|nope|n\/a|na|lol|\?+|-+|\.+)$/i;
+  const total = S.qs.length;
+  function logA(q,a){ log.style.display = "block"; log.insertAdjacentHTML("beforeend", `<div><span class="qn">${esc(q)}</span><span class="hand">${esc(a)}</span></div>`); }
+  function next(){
+    if (qi >= total){ box.innerHTML = ""; done(); return; }
+    const Q = S.qs[qi];
+    let h = `<div class="qn">${String(qi+1).padStart(2,"0")} of ${String(total).padStart(2,"0")}</div><div class="qt">${esc(Q.q)}</div>`;
+    if (Q.opts) h += `<div class="opts">` + Q.opts.map((o,i) => `<button class="opt" data-i="${i}">${esc(o[0])}${o[3] ? `<em>${esc(o[3])}</em>` : ""}</button>`).join("") + `</div>`;
+    else h += `<input class="field" maxlength="40" placeholder="${esc(Q.ph || "")}" autocomplete="off"><button class="go">${esc(Q.btn || "Hand it to her")}</button>`;
+    box.innerHTML = h;
+    if (Q.opts) box.querySelectorAll(".opt").forEach(b => b.onclick = () => {
+      const o = Q.opts[+b.dataset.i];
+      if (Q.key) st.ans[Q.key] = bare(o[0]);
+      if (o[2]) addPhrase(o[2]);
+      logA(Q.q, o[0]); say(sb, o[1]); qi++; setTimeout(next, 1000);
+    });
+    else {
+      const f = box.querySelector(".field"), g = box.querySelector(".go");
+      const sub = () => {
+        const v = f.value.replace(/[<>&"]/g,"").trim();
+        if (Q.safe && confirming){
+          if (v.toLowerCase() === String(st.ans[Q.key]).toLowerCase()){
+            confirming = false; logA(Q.q, st.ans[Q.key]); say(sb, Q.ok2 || "Good. I'll remember it."); qi++; setTimeout(next, 1300);
+          } else say(sb, Q.again || "That's not what you wrote. Say it back exactly. This is the one thing nobody plays with.", true);
+          return;
+        }
+        if (!v || (Q.safe ? (BAD.test(v) || v.split(/\s+/).length > 3) : LAZY.test(v))){ say(sb, Q.stop, true); return; }
+        st.ans[Q.key] = v;
+        if (Q.safe){ confirming = true; say(sb, Q.ok, true); f.value = ""; f.placeholder = "Say it back to her"; g.textContent = "Say it back"; return; }
+        logA(Q.q, v); say(sb, Q.ok); qi++; setTimeout(next, 1100);
+      };
+      g.onclick = sub; f.addEventListener("keydown", e => { if (e.key === "Enter") sub(); });
+    }
+  }
+  next();
+}
+
+/* ---------- actions (meters) ---------- */
+function actions(S, sec, done){
+  const pane = el("div","pane"), mbox = el("div","meters"), status = el("div","status"), sb = el("div","say"), list = el("div","opts");
+  list.style.marginTop = "12px";
+  pane.append(mbox, status, sb, list); sec.append(pane);
+  S.meters.forEach(m => st.meters[m.key] = m.start || 0);
+  let finished = false, turns = 0;
+  function draw(pop){
+    mbox.innerHTML = S.meters.map(m => `<div class="meter"><span class="lbl">${esc(m.label)}</span><span class="icons">${Array.from({length:m.max},(_,i)=>`<span class="${i < st.meters[m.key] ? (pop===m.key && i===st.meters[m.key]-1 ? "pop" : "") : "off"}">${m.icon}</span>`).join("")}</span></div>`).join("");
+    if (S.status){ const m = S.meters[0]; status.textContent = S.status[Math.min(S.status.length-1, st.meters[m.key])]; }
+  }
+  function render(){
+    list.innerHTML = "";
+    S.acts.forEach((a,i) => {
+      if (a.used) return;
+      const b = el("button","opt", esc(a.t) + (a.sub ? `<em>${esc(a.sub)}</em>` : ""));
+      b.onclick = () => act(i); list.appendChild(b);
+    });
+  }
+  function act(i){
+    if (finished) return;
+    const a = S.acts[i];
+    const m0 = S.meters[0].key;
+    if (a.need && st.meters[m0] < a.need){ say(sb, a.early, true); if (a.penalty !== false){ st.meters[m0] = Math.max(0, st.meters[m0]-1); st.misses++; } draw(); return; }
+    if (!a.repeat) a.used = true;
+    turns++;
+    let popKey = null;
+    Object.entries(a.d || {}).forEach(([k,v]) => { const m = S.meters.find(x => x.key === k); st.meters[k] = Math.max(0, Math.min(m.max, st.meters[k] + v)); if (v > 0) popKey = k; if (v < 0) st.misses++; });
+    say(sb, a.r, a.firm);
+    if (a.s) addPhrase(a.s);
+    draw(popKey); render();
+    const full = S.meters.find(m => st.meters[m.key] >= m.max);
+    if (full || (S.anyDone && turns >= S.anyDone)){
+      finished = true;
+      setTimeout(() => {
+        const key = full ? full.key : S.meters.slice().sort((x,y) => st.meters[y.key] - st.meters[x.key])[0].key;
+        st.ans.winner = (S.meters.find(m => m.key === key) || {}).label || "";
+        say(sb, (S.full && (S.full[key] || S.full.any)) || "That's enough. You did well.");
+        list.innerHTML = ""; done();
+      }, 1400);
+    }
+  }
+  if (S.open) say(sb, S.open);
+  draw(); render();
+}
+
+/* ---------- hold ---------- */
+function hold(S, sec, done){
+  const pane = el("div","pane holdbox"), ring = el("div","ring", `<span>${esc(S.btn || "hold")}</span>`), line = el("div","holdline", esc(S.prompt || "Press and hold.")), sb = el("div","say");
+  pane.append(ring, line, sb); sec.append(pane);
+  let p = 0, t = null, finished = false, tries = 0;
+  const secs = S.seconds || 8, step = 100 / (secs * 10);
+  const lines = S.lines || [];
+  function set(){ ring.style.setProperty("--p", p); const L = lines.filter(x => p >= x[0]).pop(); if (L) line.innerHTML = fill(L[1]); }
+  function start(e){ if (finished) return; e.preventDefault(); ring.classList.add("down"); clearInterval(t); t = setInterval(() => { p = Math.min(100, p + step); set(); if (p >= 100){ clearInterval(t); finished = true; ring.classList.remove("down"); ring.querySelector("span").textContent = S.doneBtn || "done"; say(sb, S.done); addPhrase(S.s); setTimeout(done, 900); } }, 100); }
+  function stop(){ if (finished || !t) return; clearInterval(t); t = null; ring.classList.remove("down"); if (p > 3){ tries++; st.misses++; say(sb, (S.early && S.early[Math.min(tries-1, S.early.length-1)]) || "Not yet.", true); } p = S.keep ? p * .5 : 0; set(); }
+  ring.addEventListener("pointerdown", start); ring.addEventListener("pointerup", stop); ring.addEventListener("pointerleave", stop); ring.addEventListener("pointercancel", stop);
+  ring.addEventListener("contextmenu", e => e.preventDefault());
+  if (S.open) say(sb, S.open);
+}
+
+/* ---------- pick N ---------- */
+function pick(S, sec, done){
+  const pane = el("div","pane"), grid = el("div","grid" + (S.opts.length % 3 === 0 ? " g3" : "")), sb = el("div","say"), go = el("button","go", esc(S.btn || "Done"));
+  go.disabled = true; go.style.display = S.n > 1 ? "" : "none";
+  pane.append(grid, go, sb); sec.append(pane);
+  const chosen = [];
+  S.opts.forEach((o,i) => {
+    const b = el("button","spot", (o.em ? `<span class="em">${o.em}</span>` : "") + esc(o.t) + (o.sub ? `<em style="display:block;font-weight:400;font-size:12px;opacity:.7;margin-top:3px;font-style:normal">${esc(o.sub)}</em>` : ""));
+    b.onclick = () => {
+      if (go.dataset.done) return;
+      const at = chosen.indexOf(i);
+      if (at >= 0){ chosen.splice(at,1); b.classList.remove("hit"); }
+      else { if (chosen.length >= S.n) return; chosen.push(i); b.classList.add("hit"); if (o.r) say(sb, o.r); }
+      go.disabled = chosen.length !== S.n;
+      if (S.n === 1 && chosen.length === 1) finish();
+    };
+    grid.appendChild(b);
+  });
+  function finish(){
+    go.dataset.done = 1; go.style.display = "none";
+    const names = chosen.map(i => S.opts[i].t);
+    st.ans[S.key || "picked"] = names.join(", ").toLowerCase();
+    const extra = chosen.map(i => S.opts[i].after).filter(Boolean).join(" ");
+    say(sb, (extra ? extra + " " : "") + fill(S.result || ""));
+    if (S.s) addPhrase(S.s);
+    setTimeout(done, 1000);
+  }
+  go.onclick = finish;
+  if (S.open) say(sb, S.open);
+}
+
+/* ---------- slider ---------- */
+function slider(S, sec, done){
+  const pane = el("div","pane"), ro = el("div","readout"), rng = el("input","range"), sb = el("div","say"), go = el("button","go", esc(S.btn || "Set it"));
+  rng.type = "range"; rng.min = S.min; rng.max = S.max; rng.step = S.step || 1; rng.value = S.start;
+  pane.append(ro, rng, go, sb); sec.append(pane);
+  const band = v => S.bands.find(b => v <= b.upto) || S.bands[S.bands.length-1];
+  function draw(){ const v = +rng.value, b = band(v); ro.innerHTML = `<b>${v}${esc(S.unit || "")}</b><span>${esc(b.label)}</span>`; }
+  rng.oninput = draw; draw();
+  go.onclick = () => {
+    const v = +rng.value, b = band(v);
+    st.ans[S.key || "level"] = v + (S.unit || "");
+    st.ans[(S.key || "level") + "Label"] = b.label.toLowerCase();
+    say(sb, b.r, b.firm);
+    if (b.retry){ return; }
+    rng.disabled = true; go.style.display = "none";
+    addPhrase(b.s || S.s);
+    setTimeout(done, 1000);
+  };
+  if (S.open) say(sb, S.open);
+}
+
+/* ---------- hunt ---------- */
+function hunt(S, sec, done){
+  const pane = el("div","pane"), grid = el("div","grid" + (S.spots.length % 3 === 0 ? " g3" : "")), sb = el("div","say");
+  pane.append(grid, sb); sec.append(pane);
+  const target = S.mode === "seek" ? Math.floor(Math.random() * S.spots.length) : -1;
+  let over = false, n = 0;
+  S.spots.forEach((o,i) => {
+    const b = el("button","spot", (o.em ? `<span class="em">${o.em}</span>` : "") + esc(o.t));
+    b.onclick = () => {
+      if (over || b.classList.contains("miss")) return;
+      if (S.mode === "hide"){
+        over = true; b.classList.add("hit"); st.ans.spot = o.t.toLowerCase();
+        say(sb, o.r); addPhrase(o.s); setTimeout(() => { if (S.caught) say(sb, S.caught); done(); }, 2200);
+        return;
+      }
+      n++;
+      if (i === target){ over = true; b.classList.add("hit"); st.ans.spot = o.t.toLowerCase(); say(sb, S.found.replace("{tries}", n)); addPhrase(S.s); setTimeout(done, 1200); }
+      else { b.classList.add("miss"); const d = Math.abs(i - target); say(sb, (d <= 1 ? S.warm : S.cold)[Math.floor(Math.random()*(d <= 1 ? S.warm : S.cold).length)]); }
+    };
+    grid.appendChild(b);
+  });
+  if (S.open) say(sb, S.open);
+}
+
+/* ---------- coin ---------- */
+function coin(S, sec, done){
+  const pane = el("div","pane"), c = el("div","coin", "?"), hint = el("div","lede", esc(S.prompt || "Tap the coin.")), sb = el("div","say");
+  hint.style.textAlign = "center";
+  pane.append(c, hint, sb); sec.append(pane);
+  let used = false;
+  c.onclick = () => {
+    if (used) return; used = true;
+    const side = Math.random() < .5 ? "heads" : "tails", R = S[side];
+    c.classList.add("flip"); c.textContent = "";
+    setTimeout(() => { c.textContent = R.face || (side === "heads" ? "H" : "T"); st.ans.coin = side; st.ans.coinLabel = bare(R.label); hint.textContent = R.label; say(sb, R.r); addPhrase(R.s); setTimeout(done, 1100); }, 1400);
+  };
+  if (S.open) say(sb, S.open);
+}
+
+/* ---------- ending ---------- */
+function ending(S, sec){
+  const pane = el("div","pane"), list = el("div","opts"), sb = el("div","say"), stbox = el("div","starter"), after = el("div","after");
+  stbox.innerHTML = `<div class="lab">SCENE STARTER · BUILT FROM YOUR VISIT · COPY INTO CHAT</div><div class="txt"></div><button class="copy">Copy</button>`;
+  pane.append(list, sb); sec.append(pane, stbox, after);
+  S.paths.forEach((p,i) => {
+    const b = el("button","opt", esc(p.t) + (p.sub ? `<em>${esc(p.sub)}</em>` : ""));
+    b.onclick = () => {
+      list.querySelectorAll(".opt").forEach(x => x.classList.toggle("sel", x === b));
+      say(sb, p.r);
+      const lead = st.phrases.length ? `*${st.phrases.slice(-3).join(" ")}*\n\n` : "";
+      const ooc = C.ooc ? "\n\n" + fill(C.ooc) : "";
+      stbox.querySelector(".txt").textContent = (lead + fill(p.s) + ooc).replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&lt;/g,"<").replace(/&gt;/g,">");
+      stbox.classList.add("on");
+      if (p.after !== false) showAfter();
+    };
+    list.appendChild(b);
+  });
+  stbox.querySelector(".copy").onclick = () => {
+    const btn = stbox.querySelector(".copy"), node = stbox.querySelector(".txt"), txt = node.textContent;
+    const ok = () => { btn.textContent = "Copied"; setTimeout(() => btn.textContent = "Copy", 1600); };
+    const fb = () => { const r = document.createRange(); r.selectNodeContents(node); const s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = "Selected, copy it"; };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(ok, fb); else fb();
+  };
+  function showAfter(){
+    const items = (S.list || []).filter(x => (!x.need || x.need.every(k => k in st.ans)) && (!x.misses || st.misses >= x.misses) && (!x.clean || st.misses === 0)).map(x => { const t = fill(x.t); return `<li>${t.charAt(0).toUpperCase() + t.slice(1)}</li>`; }).join("");
+    after.innerHTML = `<h3>After</h3><p>${fill(S.after)}</p>${items ? `<ol>${items}</ol>` : ""}<div class="sign">${esc(C.sign)}</div>`;
+    after.classList.add("on");
+  }
+  if (S.open) say(sb, S.open);
+}
+
+const RUN = { survey, actions, hold, pick, slider, hunt, coin, ending };
+C.sections.forEach((S,i) => {
+  const sec = el("div","sec" + (i ? " lock" : "")); sec.dataset.t = S.type;
+  sec.innerHTML = `<h2>${esc(S.title)}</h2><p class="lede">${esc(S.lede || "")}</p>`;
+  root.appendChild(sec); secs.push(sec);
+});
+let started = new Set();
+function begin(i){
+  if (i >= C.sections.length || started.has(i)) return;
+  started.add(i); unlock(i);
+  const S = C.sections[i];
+  RUN[S.type](S, secs[i], () => { begin(i+1); });
+}
+begin(0);
+})();
+</script>
+</body>
+</html>
+"""
+
+def vars_css(p):
+    keys = ["bg","card","ink","head","acc","acc2","accink","soft","line","muted","pane","paper","rule","btn","btnink","saybg","sayink","firm","shadow","hero","hshadow"]
+    return ";".join(f"--{k}:{p[k]}" for k in keys)
+
+LIGHT = dict(card="#fbf8f3", ink="#2f2a26", head="#2f2a26", accink="#fff", line="#e3d9cc", muted="#857a70", pane="#fffdf8",
+             paper="#f3eee2", rule="rgba(110,90,70,.14)", btn="#fff", btnink="#2f2a26", saybg="#fffdf6", sayink="#2f2a26",
+             firm="#b0506a", shadow="rgba(60,40,30,.18)", hshadow="0 2px 10px rgba(255,255,255,.4)")
+DARK = dict(card="#1b1416", ink="#efe4dc", head="#f7ece4", accink="#1b1416", line="#5e3f42", muted="#a8958d", pane="#241a1c",
+            paper="#f3eee2", rule="rgba(122,58,62,.18)", btn="#2e2023", btnink="#efe4dc", saybg="#fffdf6", sayink="#2b2a22",
+            firm="#d4485a", shadow="rgba(0,0,0,.6)", hshadow="0 2px 14px rgba(0,0,0,.6)")
+
+def esc(s):
+    return str(s).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
+
+def check_text(cfg):
+    blob = json.dumps(cfg, ensure_ascii=False)
+    probs = []
+    if "—" in blob or "–" in blob: probs.append("dash")
+    m = re.search(BANNED, blob, re.I)
+    if m: probs.append("banned:" + m.group(0))
+    return probs
+
+def build(cfg):
+    folder = os.path.join(ROOT, cfg["folder"])
+    name = cfg["name"]
+    out = os.path.join(folder, f"{name} (LIL Mini App).html")
+    if os.path.exists(out) and "hg-miniapp-v2" not in open(out, encoding="utf-8").read():
+        os.makedirs(os.path.join(folder, "older"), exist_ok=True)
+        dest = os.path.join(folder, "older", f"{name} (LIL Mini App) v1.html")
+        if not os.path.exists(dest): shutil.copy(out, dest)
+    p = dict(DARK if cfg.get("dark") else LIGHT); p.update(cfg["palette"])
+    p.setdefault("acc2", p["acc"])
+    fq, ff = FONTS[cfg.get("font", "cormorant")]
+    js = {k: cfg[k] for k in ("name","speaker","sections","ooc","sign") if k in cfg}
+    cj = json.dumps(js, ensure_ascii=False).replace("</", "<\\/")
+    html = (TEMPLATE.replace("__FONTQ__", fq).replace("__HFONT__", ff).replace("__VARS__", vars_css(p))
+            .replace("__NAME__", esc(name)).replace("__TITLE__", esc(cfg["title"])).replace("__BANNER__", cfg.get("banner", BANNER))
+            .replace("__QUOTE__", esc(cfg["quote"])).replace("__PILLS__", "".join(f"<span>{esc(x)}</span>" for x in cfg["pills"]))
+            .replace("__ABOUT__", esc(cfg["about"])).replace("__ABOUT2__", esc(cfg["about2"]))
+            .replace("__DETAILS__", "<br>".join(esc(x) for x in cfg["details"])).replace("__CW__", esc(cfg["cw"]))
+            .replace("__CONFIG__", cj))
+    open(out, "w", encoding="utf-8").write(html)
+    return out, check_text(cfg)

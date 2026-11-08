@@ -146,6 +146,9 @@ page = f'''<!DOCTYPE html>
 </html>
 '''
 out = "Maren (LIL Mini App).html"
+import os
+if os.path.exists(out) and "hg-miniapp-v2" in open(out, encoding="utf-8").read():
+    raise SystemExit("Maren mini app is a v2 build (_tools/configs_a.py); not overwriting.")
 open(out, "w", encoding="utf-8").write(page)
 print("dashes:", page.count("—") + page.count("–"), "| style:", page.count("<style"),
       "| script:", page.count("<script"), "| chars:", len(page))

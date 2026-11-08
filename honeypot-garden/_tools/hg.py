@@ -366,6 +366,8 @@ def mini(s, folder):
 </html>
 '''
     out = os.path.join(folder, f"{n} (LIL Mini App).html")
+    if os.path.exists(out) and "hg-miniapp-v2" in open(out, encoding="utf-8").read():
+        return out, len(page), True  # v2 app built by miniapp2.py; leave it alone
     open(out, "w", encoding="utf-8").write(page)
     ok = page.count("<style") == 0 and page.count("<script") == 0 and page.count("<details") == 4 + sum(len(x.get("choices", [])) for x in m["sections"])
     return out, len(page), ok
