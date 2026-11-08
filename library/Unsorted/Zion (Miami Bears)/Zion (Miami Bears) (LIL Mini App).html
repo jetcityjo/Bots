@@ -85,7 +85,7 @@
     <h2>THE CLOCK</h2>
     <div class="clock" id="clock">3:00</div>
     <div class="phase" id="phase">ROUND 1 OF 3 · READY</div>
-    <div class="ctrl"><button class="b red" id="start">Start</button><button class="b" id="reset">Reset</button></div>
+    <div class="ctrl"><button class="b red" id="start">Start</button><button class="b" id="resetBtn">Reset</button></div>
     <div class="coach" id="coach">Breathe out on every punch.</div>
   </div>
 
@@ -189,7 +189,7 @@ $("start").onclick = () => {
   bell(1); timer = setInterval(tick, 1000); $("start").textContent = "Pause"; draw();
 };
 function reset(){ stop(); t = ROUND; round = 1; resting = false; $("coach").textContent = "Breathe out on every punch."; draw(); }
-$("reset").onclick = reset;
+$("resetBtn").onclick = reset;
 draw();
 
 /* ---------- today's card ---------- */

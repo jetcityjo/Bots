@@ -79,7 +79,7 @@
   <!-- 1 name -->
   <div class="step show" data-s="0">
     <div class="q">What name am I putting on the list?<small>First name. I'll remember it, I promise. I remember everybody.</small></div>
-    <input id="name" maxlength="24" placeholder="Your name" autocomplete="off">
+    <input id="guestName" maxlength="24" placeholder="Your name" autocomplete="off">
     <button class="go" id="n1">Put me down</button>
     <div class="react" id="r0"></div>
   </div>
@@ -191,9 +191,9 @@ function show(n){
 }
 
 $("n1").onclick = submitName;
-$("name").addEventListener("keydown", e => { if (e.key === "Enter") submitName(); });
+$("guestName").addEventListener("keydown", e => { if (e.key === "Enter") submitName(); });
 function submitName(){
-  const v = $("name").value.trim();
+  const v = $("guestName").value.trim();
   const r = $("r0");
   if (!v) { r.innerHTML = "I need a name, precioso. I can't write <b>\"the cute one\"</b> on the list. I've tried."; r.classList.add("show"); return; }
   state.name = v.replace(/[<>&"]/g,"");
