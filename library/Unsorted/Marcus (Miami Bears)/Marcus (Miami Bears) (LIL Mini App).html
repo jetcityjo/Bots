@@ -57,7 +57,7 @@
   .sleeve:active,.sleeve.sel{transform:translateY(-4px) rotate(-1deg)}
   .sleeve.sel{outline:3px solid var(--gold)}
   .sleeve .t{font-family:'Playfair Display',serif;font-weight:800;font-size:16px;line-height:1.1;padding-right:26px}
-  .sleeve .a{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;opacity:.9}
+  .sleeve .a{font-size:10px;letter-spacing:1px;text-transform:uppercase;opacity:.9;line-height:1.3}
   .sleeve .n{position:absolute;right:8px;top:6px;font-family:'Caveat',cursive;font-size:20px;opacity:.85}
   .sleeve.locked{background:repeating-linear-gradient(45deg,#3a2214 0 10px,#432817 10px 20px)!important}
 
@@ -131,30 +131,30 @@
 const PICS = { portrait: "{{PIC_MARCUS_1}}" };
 
 const RECORDS = [
-  { t:"Sundays on the Tile", a:"Celia Cruz", c:"#b8573f", n:"I",
+  { t:"Quimbara", a:"Celia Cruz & Johnny Pacheco · Celia & Johnny, 1974", c:"#b8573f", n:"I",
     kick:"Side A. Abuela's kitchen, every Sunday",
-    body:["The floor is green and white. She picked it out in 1971 and never let anyone replace it. Sunday mornings she'd put this record on before the rice was even washed, and by noon the whole block knew we were cooking.",
+    body:["The floor is green and white. She picked it out in 1971 and never let anyone replace it. Sunday mornings she'd drop the needle on Quimbara before the rice was even washed, and by noon the whole block knew we were cooking.",
       "I was nine the first time she made me dance with her. I stepped on her feet the whole song. She said, \"Gordo, a man who can't dance can't cook either, it's the same rhythm.\" She was right. I still cook to this record. I still dance badly."]},
-  { t:"Two in the Kitchen", a:"Beny Moré", c:"#2f6b4f", n:"II",
+  { t:"Cómo Fue", a:"Beny Moré y su Banda Gigante", c:"#2f6b4f", n:"II",
     kick:"Side A. The bolero",
-    body:["My grandfather died when I was small, so I mostly know him from this. Abuela would play it late, after the dishes, and sway a little at the sink like somebody was holding her.",
+    body:["My grandfather died when I was small, so I mostly know him from this. Abuela would play Cómo Fue late, after the dishes, and sway a little at the sink like somebody was holding her.",
       "Once I asked who she was dancing with. She said, \"Your abuelo. He's terrible, he leads too soft.\" Then she laughed and cried at the same time. I think that's where I learned that gentle and strong aren't opposites."]},
-  { t:"When I Can't Sleep", a:"Los Panchos", c:"#3d4a7a", n:"III",
+  { t:"Sin Ti", a:"Trío Los Panchos", c:"#3d4a7a", n:"III",
     kick:"Side B. 2 a.m., the window desk",
-    body:["Bad days in the water come home with me. When I can't sleep, I sit at the little desk by the window where I build my model ships, put this on low, and read Neruda until the words stop swimming.",
+    body:["Bad days in the water come home with me. When I can't sleep, I sit at the little desk by the window where I build my model ships, put Sin Ti on low, and read Neruda until the words stop swimming.",
       "Leo always hears it. He never says anything. I just find a cup of warm milk next to me twenty minutes later, and the door closing very quietly."]},
-  { t:"Stiltsville at Noon", a:"Buena Vista Social Club", c:"#c99a3c", n:"IV",
+  { t:"Chan Chan", a:"Buena Vista Social Club · 1997", c:"#c99a3c", n:"IV",
     kick:"Side A. Out on the boat",
     body:["Twenty-two feet, center console, a little faded. I bought her used and fixed everything that was wrong with her, which was everything. Out past Key Biscayne the water goes this impossible green and the old stilt houses stand up out of it like they're waiting for someone.",
-      "I play this record loud out there. Javi narrates. Leo hands out sandwiches. Zion fishes in silence. I'm the only one who never gets seasick, so I'm the captain. Those are the rules."]},
-  { t:"Too Loud on the Water", a:"Marc Anthony", c:"#8c2f5a", n:"V",
+      "I play Chan Chan loud out there, that guitar line over the water. Javi narrates. Leo hands out sandwiches. Zion fishes in silence. I'm the only one who never gets seasick, so I'm the captain. Those are the rules."]},
+  { t:"Vivir Mi Vida", a:"Marc Anthony · 3.0, 2013", c:"#8c2f5a", n:"V",
     kick:"Side B. The party record",
-    body:["Javi put this on at his birthday the night I met him. Ten minutes later he was dancing on top of the bar. Twelve minutes later he wasn't. I caught him.",
-      "He says I never put him down. He's right, I never did. Every time this comes on now he points at me across the room like I'm the one who should be embarrassed."]},
-  { t:"El Malecón", a:"The Havana tape", c:"#1f6f8b", n:"VI",
-    kick:"Side A. The street she grew up on",
+    body:["Javi made the DJ play Vivir Mi Vida at his birthday the night I met him. Ten minutes later he was dancing on top of the bar. Twelve minutes later he wasn't. I caught him.",
+      "He says I never put him down. He's right, I never did. Every time it comes on now he points at me across the room like I'm the one who should be embarrassed."]},
+  { t:"Veinte Años", a:"Omara Portuondo · Buena Vista Social Club Presents Omara Portuondo, 2000", c:"#1f6f8b", n:"VI",
+    kick:"Side B. The street she grew up on",
     body:["The four of us went to Havana together. I wanted to see the house on her street. It's still there. Somebody painted it yellow. There was a woman hanging laundry on the balcony who looked at me like I was crazy because I was standing in the road crying.",
-      "That night on the seawall Javi pretended not to see me. Zion sat on one side, Leo on the other. Nobody talked. That's the best thing anyone has ever done for me."]},
+      "We bought this record in a shop off Obispo the next day. That night on the seawall Javi pretended not to see me. Zion sat on one side, Leo on the other. Nobody talked. That's the best thing anyone has ever done for me."]},
   { t:"El Cuaderno", a:"Not a record", c:"#3a2214", n:"VII", locked:true,
     kick:"The notebook nobody reads",
     body:["This isn't a record. It's the notebook I write in. The boys have threatened to steal it for years. They never will.",
