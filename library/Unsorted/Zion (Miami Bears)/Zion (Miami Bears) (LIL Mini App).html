@@ -134,6 +134,7 @@
 </div></div>
 
 <script>
+(function(){ /* mini app scope */
 /* IMAGE LINKS: replace the token with a URL from the piclink file */
 const PICS = { portrait: "{{PIC_ZION_1}}" };
 const $ = id => document.getElementById(id);
@@ -275,6 +276,7 @@ function clickSq(sq){
   sel = null; renderBoard();
 }
 renderBoard();
+})();
 </script>
 </body>
 </html>

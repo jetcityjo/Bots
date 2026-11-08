@@ -126,6 +126,7 @@
 </div>
 
 <script>
+(function(){ /* mini app scope */
 /* IMAGE LINKS: replace the token with a URL from the piclink file */
 const PICS = { portrait: "{{PIC_MARCUS_1}}" };
 
@@ -232,6 +233,7 @@ function showPoem(){
   $("nb").innerHTML = `<p>He tears nothing out. He just turns the notebook around so you can read it.</p>
     <div class="poem">${POEM}</div><div class="trans">${TRANS}</div>`;
 }
+})();
 </script>
 </body>
 </html>

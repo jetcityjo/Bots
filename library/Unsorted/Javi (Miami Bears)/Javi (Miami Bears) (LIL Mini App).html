@@ -136,6 +136,7 @@
 </div>
 
 <script>
+(function(){ /* mini app scope */
 /* IMAGE LINKS: replace the token with a URL from the piclink file */
 const PICS = { portrait: "https://purplejeepdreams.com/piclink/uploads/ATuGzcCU.png" };
 
@@ -236,6 +237,7 @@ $("again").onclick = () => {
   $("hostline").innerHTML = `Back again, <b>${state.name}</b>? Fine. I like you. Four questions.`;
   show(1);
 };
+})();
 </script>
 </body>
 </html>

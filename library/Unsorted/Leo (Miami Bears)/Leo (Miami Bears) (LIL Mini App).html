@@ -79,6 +79,7 @@
 </div>
 
 <script>
+(function(){ /* mini app scope */
 /* IMAGE LINKS: replace the token with a URL from the piclink file */
 const PICS = { portrait: "https://purplejeepdreams.com/piclink/uploads/ZQOzqgW2.png" };
 
@@ -144,11 +145,11 @@ const PAW = `<svg width="26" height="22" viewBox="0 0 26 22"><g fill="#c9b597"><
 CARDS.forEach((c,i) => {
   const t = document.createElement("button");
   t.className = "tab"; t.textContent = c.tab; t.style.background = c.color;
-  t.onclick = () => open(i);
+  t.onclick = () => openCard(i);
   tabs.appendChild(t);
 });
 
-function open(i){
+function openCard(i){
   [...tabs.children].forEach((t,j) => t.classList.toggle("on", i===j));
   const c = CARDS[i];
   card.style.borderTopColor = c.color;
@@ -226,7 +227,8 @@ function bake(){
   }, 2500);
 }
 
-open(0);
+openCard(0);
+})();
 </script>
 </body>
 </html>
